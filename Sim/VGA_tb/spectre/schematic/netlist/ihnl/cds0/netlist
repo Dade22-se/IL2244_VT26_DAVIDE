@@ -1,0 +1,11 @@
+
+// Library name: VGA
+// Cell name: VGA_tb
+// View name: schematic
+V9 (vinn 0) vsource dc=900m type=dc
+V8 (bias 0) vsource dc=1.65 type=dc
+V5 (en 0) vsource dc=3.3 type=dc
+V2 (vctrl 0) vsource dc=3.0 type=dc
+V0 (vdda 0) vsource dc=3.3 type=dc
+R0 (vout 0) resistor r=10K
+V7 (vinp 0) vsource dc=900m mag=1 type=sine sinedc=900m ampl=10u freq=10K

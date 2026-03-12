@@ -1,0 +1,18 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "VGA_tb_new"
+  repList "veriloga spectre cmos_sch schematic"
+  stopList "spectre"
+  globalList "gnd!"
+  hierDelim "."
+  netlistDir "/home/davidevi/Desktop/myproject/Sim/VGA_tb_new/spectre/schematic/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "VGA/VGA_tb_new/schematic" "VGA_tb_new" )
+ )
+( "VGA_tb_new" "ihnl/cds0/map" )
+ )

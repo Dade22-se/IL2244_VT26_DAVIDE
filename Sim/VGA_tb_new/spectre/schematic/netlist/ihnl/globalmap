@@ -1,0 +1,10 @@
+CADENCE IHNL11140
+$model
+VGA/VGA_tb_new/schematic VGA_tb_new
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+T T
+$endparam

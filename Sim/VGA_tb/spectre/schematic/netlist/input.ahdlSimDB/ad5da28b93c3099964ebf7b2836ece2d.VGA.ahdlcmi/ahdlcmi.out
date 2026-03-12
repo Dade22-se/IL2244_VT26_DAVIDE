@@ -1,0 +1,104 @@
+ahdlcmicompile: Compiling ahdlcmi in ./input.ahdlSimDB//ad5da28b93c3099964ebf7b2836ece2d.VGA.ahdlcmi/Linux-64/ for Linux-64 with optimize using gcc on Wed Feb 25 10:36:50 UTC 2026 [5.0]
+ahdlcmicompile: Generating makefile
+PATH:  /opt/tools/cadence/installs/SPECTRE241/bin:/opt/tools/cadence/installs/SPECTRE241/tools/bin/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/bin:/opt/tools/cadence/installs/IC618/bin:/opt/tools/cadence/installs/IC618/tools/bin/64bit:/opt/tools/cadence/installs/IC618/tools/bin:/opt/pdk/ams/410/cds/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/home/davidevi/bin:/usr/local/sbin:/usr/sbin:/opt/tools/cadence/installs/IC618/tools/dfII/bin:/opt/tools/cadence/installs/ASSURA41_618/tools/bin:/opt/tools/cadence/installs/ASSURA41_618/tools/assura/bin:/opt/tools/cadence/installs/QUANTUS241/tools/bin:/opt/tools/cadence/installs/XCELIUM2409/tools/bin/64bit:/opt/tools/cadence/installs/XCELIUM2409/tools/bin:/opt/tools/cadence/installs/DDI231/GENUS231/tools.lnx86/bin:/opt/tools/cadence/installs/DDI231/INNOVUS231/tools/bin/64bit:/opt/tools/cadence/installs/DDI231/INNOVUS231/tools/bin:/opt/tools/mentor/CALIBRE_2022.4_16/aoi_cal_2022.4_16.8/bin:/bin
+LD_LIBRARY_PATH:  /opt/tools/cadence/installs/SPECTRE241/tools/TPtools/libstdc++6/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/TPtools/cuda/lib64:/opt/tools/cadence/installs/SPECTRE241/tools/giganta/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/mdl/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/mmsim/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/hdf/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/python/64bit/lib:/opt/tools/cadence/installs/SPECTRE241/tools/inca/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/awrmwo/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/spectre/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/dfII/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/TPtools/libstdc++/lib64:/opt/tools/cadence/installs/SPECTRE241/tools/TPtools/zlib/lib64:/opt/tools/cadence/installs/SPECTRE241/tools/TPtools/abseil/lib64:/opt/tools/cadence/installs/SPECTRE241/tools/TPtools/grpc/lib64:/opt/tools/cadence/installs/SPECTRE241/tools/TPtools/protobuf/lib64:/opt/tools/cadence/installs/SPECTRE241/tools/TPtools/libffi/lib64:/opt/tools/cadence/installs/SPECTRE241/tools/ithaca/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/fmc/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/lib:/opt/tools/cadence/installs/SPECTRE241/tools/lib/64bit/RHEL/RHEL8:/opt/tools/cadence/installs/IC618/share/oa/lib/lnx86/opt:/opt/tools/cadence/installs/IC618/tools/dfII/lib/64bit:/opt/tools/cadence/installs/IC618/tools/sev/lib/64bit:/opt/tools/cadence/installs/IC618/tools/lib/64bit:/opt/tools/cadence/installs/IC618/tools/lib:/opt/tools/cadence/installs/IC618/tools/hdf5/lib/64bit:/opt/tools/cadence/installs/IC618/tools/lz4/lib/64bit:/opt/tools/cadence/installs/IC618/tools/python/64bit/lib:/opt/tools/cadence/installs/XCELIUM2409/tools.lnx86/lib/64bit:/opt/tools/cadence/installs/IC618/tools/TPtools/grpc/lib64:/opt/tools/cadence/installs/IC618/tools/TPtools/grpc/lib:/opt/tools/cadence/installs/IC618/tools/Qt/v5/64bit/lib
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/bin/gnumake -j8 -f GNUmakefile
+Cleaning ./obj/optimize/5.0
+rm -f -rf ./obj/optimize/5.0
+Compiling C file VGA.c (optimize)
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cdsgcc/gcc/12.3/bin/gcc  -ffast-math  -fno-unsafe-math-optimizations -Wno-error=int-conversion -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include -c VGA.c -o obj/optimize/5.0/VGA.o || rm -f -f obj/optimize/5.0/VGA.o
+<stdin>: In function 'VGA_DcFuncDerLoad':
+<stdin>:208:113: warning: passing argument 1 of 'aslDevInterAddStaticElement' makes pointer from integer without a cast [-Wint-conversion]
+In file included from <stdin>:24:
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2300:62: note: expected 'void *' but argument is of type 'long int'
+ 2300 | ASL_FUNC_DECL_START extern long aslDevInterAddStaticElement( void *, double, struct ahdlFuncModeParam * );
+      |                                                              ^~~~~~
+<stdin>:234:49: warning: passing argument 1 of 'aslDevInterAddStaticElement' makes pointer from integer without a cast [-Wint-conversion]
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2300:62: note: expected 'void *' but argument is of type 'long int'
+ 2300 | ASL_FUNC_DECL_START extern long aslDevInterAddStaticElement( void *, double, struct ahdlFuncModeParam * );
+      |                                                              ^~~~~~
+<stdin>:236:49: warning: passing argument 1 of 'aslDevInterAddStaticElement' makes pointer from integer without a cast [-Wint-conversion]
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2300:62: note: expected 'void *' but argument is of type 'long int'
+ 2300 | ASL_FUNC_DECL_START extern long aslDevInterAddStaticElement( void *, double, struct ahdlFuncModeParam * );
+      |                                                              ^~~~~~
+<stdin>: In function 'VGA_DcFuncLoad':
+<stdin>:329:113: warning: passing argument 1 of 'aslDevInterAddStaticElement' makes pointer from integer without a cast [-Wint-conversion]
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2300:62: note: expected 'void *' but argument is of type 'long int'
+ 2300 | ASL_FUNC_DECL_START extern long aslDevInterAddStaticElement( void *, double, struct ahdlFuncModeParam * );
+      |                                                              ^~~~~~
+<stdin>: In function 'VGA_TranFuncDerLoad':
+<stdin>:662:113: warning: passing argument 1 of 'aslDevInterAddStaticElement' makes pointer from integer without a cast [-Wint-conversion]
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2300:62: note: expected 'void *' but argument is of type 'long int'
+ 2300 | ASL_FUNC_DECL_START extern long aslDevInterAddStaticElement( void *, double, struct ahdlFuncModeParam * );
+      |                                                              ^~~~~~
+<stdin>:688:49: warning: passing argument 1 of 'aslDevInterAddStaticElement' makes pointer from integer without a cast [-Wint-conversion]
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2300:62: note: expected 'void *' but argument is of type 'long int'
+ 2300 | ASL_FUNC_DECL_START extern long aslDevInterAddStaticElement( void *, double, struct ahdlFuncModeParam * );
+      |                                                              ^~~~~~
+<stdin>:690:49: warning: passing argument 1 of 'aslDevInterAddStaticElement' makes pointer from integer without a cast [-Wint-conversion]
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2300:62: note: expected 'void *' but argument is of type 'long int'
+ 2300 | ASL_FUNC_DECL_START extern long aslDevInterAddStaticElement( void *, double, struct ahdlFuncModeParam * );
+      |                                                              ^~~~~~
+<stdin>: In function 'VGA_TranFuncLoad':
+<stdin>:789:113: warning: passing argument 1 of 'aslDevInterAddStaticElement' makes pointer from integer without a cast [-Wint-conversion]
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2300:62: note: expected 'void *' but argument is of type 'long int'
+ 2300 | ASL_FUNC_DECL_START extern long aslDevInterAddStaticElement( void *, double, struct ahdlFuncModeParam * );
+      |                                                              ^~~~~~
+<stdin>: In function 'VGA_pPrintDescription':
+<stdin>:1942:3: warning: implicit declaration of function 'msgWrite' [-Wimplicit-function-declaration]
+<stdin>:1944:67: warning: implicit declaration of function 'devGetRFinFreqDomain' [-Wimplicit-function-declaration]
+<stdin>: In function 'VGA_pGetInstanceParams':
+<stdin>:2173:41: warning: implicit declaration of function 'devGetInstKnotStatus'; did you mean 'devGetInstState'? [-Wimplicit-function-declaration]
+<stdin>: In function 'VGA_pDC_Load':
+<stdin>:2459:41: warning: passing argument 1 of 'aslDevFillZeorDiagonalElemet' makes pointer from integer without a cast [-Wint-conversion]
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2884:63: note: expected 'void *' but argument is of type 'long int'
+ 2884 | ASL_FUNC_DECL_START extern void aslDevFillZeorDiagonalElemet( void *, int, unsigned int, struct ahdlFuncModeParam * );
+      |                                                               ^~~~~~
+<stdin>: In function 'VGA_pCompare':
+<stdin>:3068:3: warning: implicit declaration of function 'spReplaceMatrixPointer'; did you mean 'aslDevLaplaceGetMatrixPointer'? [-Wimplicit-function-declaration]
+<stdin>:3074:37: warning: assignment to 'long int' from 'long int *' makes integer from pointer without a cast [-Wint-conversion]
+<stdin>:3075:23: warning: passing argument 1 of 'memcpy' makes pointer from integer without a cast [-Wint-conversion]
+In file included from /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlPiCmi.h:5,
+                 from /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:80:
+/usr/include/string.h:43:39: note: expected 'void * restrict' but argument is of type 'long int'
+   43 | extern void *memcpy (void *__restrict __dest, const void *__restrict __src,
+      |                      ~~~~~~~~~~~~~~~~~^~~~~~
+<stdin>:3075:58: warning: passing argument 2 of 'memcpy' makes pointer from integer without a cast [-Wint-conversion]
+/usr/include/string.h:43:70: note: expected 'const void * restrict' but argument is of type 'long int'
+   43 | extern void *memcpy (void *__restrict __dest, const void *__restrict __src,
+      |                                               ~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+<stdin>:3077:37: warning: assignment to 'long int' from 'void *' makes integer from pointer without a cast [-Wint-conversion]
+<stdin>: In function 'VGA_pMapSignals':
+<stdin>:3137:26: warning: comparison between pointer and integer
+<stdin>: In function 'VGA_pGetMatrixPointers':
+<stdin>:3235:4: warning: implicit declaration of function 'spGetMatrixPointer'; did you mean 'VGA_GetMatrixPointers'? [-Wimplicit-function-declaration]
+<stdin>:3258:34: warning: assignment to 'long int' from 'void *' makes integer from pointer without a cast [-Wint-conversion]
+<stdin>: In function 'VGA_pAnalTranLoad':
+<stdin>:4088:8: warning: implicit declaration of function 'isBeamsFlow' [-Wimplicit-function-declaration]
+<stdin>:4116:42: warning: passing argument 1 of 'aslDevFillZeorDiagonalElemet' makes pointer from integer without a cast [-Wint-conversion]
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2884:63: note: expected 'void *' but argument is of type 'long int'
+ 2884 | ASL_FUNC_DECL_START extern void aslDevFillZeorDiagonalElemet( void *, int, unsigned int, struct ahdlFuncModeParam * );
+      |                                                               ^~~~~~
+<stdin>: In function 'VGA_pSaveRestart':
+<stdin>:4377:13: warning: implicit declaration of function 'mmsThreshSR' [-Wimplicit-function-declaration]
+<stdin>:4384:4: warning: implicit declaration of function 'pklAccessDouble' [-Wimplicit-function-declaration]
+<stdin>:4385:29: warning: passing argument 2 of 'aslDevAvarSR' from incompatible pointer type [-Wincompatible-pointer-types]
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1230:58: note: expected 'struct ahdlAnalogVar *' but argument is of type 'char *'
+ 1230 | ASL_FUNC_DECL_START extern PklError_e aslDevAvarSR( int, struct ahdlAnalogVar *, char *, char *, char *, PklJar_t * );
+      |                                                          ^~~~~~~~~~~~~~~~~~~~~~
+<stdin>: In function 'VGA_pSaveRestartInst':
+<stdin>:4458:27: warning: passing argument 2 of 'aslDevAvarSR' from incompatible pointer type [-Wincompatible-pointer-types]
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1230:58: note: expected 'struct ahdlAnalogVar *' but argument is of type 'char *'
+ 1230 | ASL_FUNC_DECL_START extern PklError_e aslDevAvarSR( int, struct ahdlAnalogVar *, char *, char *, char *, PklJar_t * );
+      |                                                          ^~~~~~~~~~~~~~~~~~~~~~
+<stdin>: In function 'ahdlVGADescInstall':
+<stdin>:4609:2: warning: implicit declaration of function 'descSetDeviceType'; did you mean 'descSetDelete'? [-Wimplicit-function-declaration]
+<stdin>:4611:2: warning: implicit declaration of function 'descSetSetContrInfoPtr'; did you mean 'VGA_pSetContrInfoPtr'? [-Wimplicit-function-declaration]
+<stdin>:4619:2: warning: implicit declaration of function 'descSetCopySignals'; did you mean 'descSetMapSignals'? [-Wimplicit-function-declaration]
+<stdin>:4649:2: warning: implicit declaration of function 'descSetPrintDescription'; did you mean 'VGA_pPrintDescription'? [-Wimplicit-function-declaration]
+<stdin>:4651:2: warning: implicit declaration of function 'descSetVATermInfo'; did you mean 'descSetGetInfo'? [-Wimplicit-function-declaration]
+<stdin>:4652:2: warning: implicit declaration of function 'descSetGetNodeNamesForBranch'; did you mean 'VGA_pGetNodeNamesForBranch'? [-Wimplicit-function-declaration]
+<stdin>:4653:2: warning: implicit declaration of function 'descSetGetLinearityFactor'; did you mean 'VGA_pGetLinearityFactor'? [-Wimplicit-function-declaration]
+rm -f -rf VGA.c
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cdsgcc/gcc/12.3/bin/gcc -shared -O3 -m64 -fPIC -o obj/optimize/5.0/libahdlcmi_VGA.so ./obj/optimize/5.0/VGA.o  -Wl,-rpath,/usr/lib -Wl,-rpath,/lib -lm -s 
+rm -f -f ./obj/optimize/5.0/VGA.o 

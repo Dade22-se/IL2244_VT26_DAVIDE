@@ -1,0 +1,13 @@
+HEADER
+"PSFversion" "1.00"
+"VINPv" "\:VINPv"
+"VINNv" "\:VINNv"
+"VOUTv" "\:VOUTv"
+"VDDAv" "\:VDDAv"
+"GNDAv" "\:GNDAv"
+"ENv" "\:ENv"
+"IBIASv" "\:IBIASv"
+"VCTRL<3>v" ":VCTRL\\[3\\]v"
+"VCTRL<2>v" ":VCTRL\\[2\\]v"
+"VCTRL<1>v" ":VCTRL\\[1\\]v"
+"VCTRL<0>v" ":VCTRL\\[0\\]v"
