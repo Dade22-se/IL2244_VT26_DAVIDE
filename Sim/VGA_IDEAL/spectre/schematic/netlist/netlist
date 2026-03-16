@@ -1,0 +1,17 @@
+
+// Library name: VGA
+// Cell name: VGA_IDEAL
+// View name: schematic
+I7 (net4 net1) isource dc=1 type=sine
+MP2 (net4 0 net3 VDD) modp w=10u l=4u as=5.7e-12 ad=5e-12 ps=3.14u pd=1u \
+        nrd=0.05 nrs=0.05 ng=10
+MP1 (net1 vin net3 VDD) modp w=10u l=4u as=5.7e-12 ad=5e-12 ps=3.14u pd=1u \
+        nrd=0.05 nrs=0.05 ng=10
+C2 (vin out) capacitor c=500f
+C1 (vin 0) capacitor c=39.5p
+C0 (out 0) capacitor c=150f
+V1 (vin 0) vsource dc=0 mag=1 type=pulse val0=0 val1=3.3 period=1u delay=0 \
+        rise=1n fall=1n width=500.0n
+MN3 (out net3 0 0) modn w=5u l=1u as=4.25e-12 ad=2.5e-12 ps=6.7u pd=1u \
+        nrd=0.1 nrs=0.1 ng=2
+V0 (VDD 0) vsource dc=3.3 type=dc

@@ -3,7 +3,6 @@ hnlLastStopCellInfo = '(
                           ( "analogLib" "vdc" "spectre" "33" "1725416589" )
                           ( "analogLib" "vsin" "spectre" "35" "1725416589" )
                           ( "analogLib" "idc" "spectre" "33" "1725416589" )
-                          ( "analogLib" "vpulse" "spectre" "34" "1725416589" )
                           ( "VGA" "FILTER_V2" "veriloga" "100" "1773224978" )
                        )
 hnlLastTopViewWasConfig = 0
@@ -1734,6 +1733,4 @@ hnlLastConstants = '(
                       "M_PI_4"
                       "M_LN2"
                     )
-hnlLastDesignVars = '(
-                      "T"
-                    )
+hnlLastDesignVars = '( )

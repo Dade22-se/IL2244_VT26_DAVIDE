@@ -1,0 +1,34 @@
+
+Warning from spectre during AHDL compile.
+    WARNING (VACOMP-2435): The environment variable CDS_AHDLCMI_ENABLE is no
+        longer supported. Therefore, the simulator will use the default
+        compiled C code flow.
+
+Reading file: 
+        /home/davidevi/Desktop/myproject/VGA/FILTER/veriloga/veriloga.va
+Reading file: 
+        /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/constants.vams
+Reading file: 
+        /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/disciplines.vams
+
+Warning from spectre during AHDL compile.
+    WARNING (VACOMP-1139):
+        "/home/davidevi/Desktop/myproject/VGA/FILTER/veriloga/veriloga.va",
+        line 19: (Archaic Syntax) Does not comply with the Accellera
+        Verilog-AMS 2.0 Standard and beyond. To comply with the current
+        standard, delete the null statement. You may use null statements (also
+        known as empty statements and coded as just `;') only in case or event
+        control statements.
+Error found by spectre during AHDL compile.
+    ERROR (VACOMP-1166): "{2*`M_PI*filter_freq, 1})<<--? ; "
+        "/home/davidevi/Desktop/myproject/VGA/FILTER/veriloga/veriloga.va",
+        line 23: Argument #2 must be an array variable or a constant array
+        expression. It cannot be an array expression containing non-constant
+        expressions. If you need the argument to be variable, use an array
+        variable instead.
+    ERROR (VACOMP-1166):
+        "/home/davidevi/Desktop/myproject/VGA/FILTER/veriloga/veriloga.va",
+        line 23: Argument #3 must be an array variable or a constant array
+        expression. It cannot be an array expression containing non-constant
+        expressions. If you need the argument to be variable, use an array
+        variable instead.

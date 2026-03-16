@@ -1,0 +1,80 @@
+    MN9 (net15 BIAS net43 GNDA) modn w=10u l=8u as=8.5e-12 ad=5e-12 \
+        ps=11.7u pd=1u nrd=0.05 nrs=0.05 ng=2
+    MN7 (net43 net14 GNDA GNDA) modn w=10u l=12u as=8.5e-12 ad=5e-12 \
+        ps=11.7u pd=1u nrd=0.05 nrs=0.05 ng=2
+    MN17 (VOUT net41 GNDA GNDA) modn w=10u l=1u as=8.5e-12 ad=5e-12 \
+        ps=11.7u pd=1u nrd=0.05 nrs=0.05 ng=2
+    MN16 (net39 net39 GNDA GNDA) modn w=10u l=8u as=6.75e-12 ad=5e-12 \
+        ps=6.35u pd=1u nrd=0.05 nrs=0.05 ng=4
+    MN15 (net41 net39 GNDA GNDA) modn w=10u l=8u as=6.75e-12 ad=5e-12 \
+        ps=6.35u pd=1u nrd=0.05 nrs=0.05 ng=4
+    MN8 (BIAS BIAS net14 GNDA) modn w=10u l=8u as=8.5e-12 ad=5e-12 \
+        ps=11.7u pd=1u nrd=0.05 nrs=0.05 ng=2
+    MN4 (net14 net14 GNDA GNDA) modn w=10u l=12u as=8.5e-12 ad=5e-12 \
+        ps=11.7u pd=1u nrd=0.05 nrs=0.05 ng=2
+    R0 (net41 net1) resistor r=200k
+    C8\<0\> (net7 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C8\<1\> (net7 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C8\<2\> (net7 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C8\<3\> (net7 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C8\<4\> (net7 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C8\<5\> (net7 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C8\<6\> (net7 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C8\<7\> (net7 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C6\<0\> (net9 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C6\<1\> (net9 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C9\<0\> (VOUT net1 GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C9\<1\> (VOUT net1 GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C9\<2\> (VOUT net1 GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C7\<0\> (net8 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C7\<1\> (net8 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C7\<2\> (net8 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C7\<3\> (net8 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C4 (VOUT B GNDA) cpolyc m=1 pcap=170.625f area=1.23n perimeter=140u \
+        mmw=0
+    C5 (GNDA B GNDA) cpolyc m=1 pcap=170.625f area=1.23n perimeter=140u \
+        mmw=0
+    MP7 (net2 net2 VOUT VOUT) modp w=1u l=0.35u as=8.5e-13 ad=8.5e-13 \
+        ps=2.7u pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MP5 (GNDA B net4 net4) modp w=6.25u l=0.35u as=3.671875e-12 \
+        ad=3.125e-12 ps=2.7375u pd=1u nrd=0.08 nrs=0.08 ng=8
+    MP3 (net4 net15 VDDA VDDA) modp w=10u l=12u as=8.5e-12 ad=8.5e-12 \
+        ps=11.7u pd=11.7u nrd=0.05 nrs=0.05 ng=1
+    MP1 (B B net44 net44) modp w=1u l=0.35u as=8.5e-13 ad=8.5e-13 ps=2.7u \
+        pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MP0 (net44 net44 net5 net5) modp w=1u l=0.35u as=8.5e-13 ad=8.5e-13 \
+        ps=2.7u pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MP2 (net5 net5 net2 net2) modp w=1u l=0.35u as=8.5e-13 ad=8.5e-13 \
+        ps=2.7u pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MP4 (net15 net15 VDDA VDDA) modp w=10u l=12u as=8.5e-12 ad=5e-12 \
+        ps=11.7u pd=1u nrd=0.05 nrs=0.05 ng=2
+    MP13 (net33 net15 VDDA VDDA) modp w=10u l=12u as=5.7e-12 ad=5e-12 \
+        ps=3.14u pd=1u nrd=0.05 nrs=0.05 ng=10
+    MP12 (VOUT net15 VDDA VDDA) modp w=10u l=12u as=5.7e-12 ad=5e-12 \
+        ps=3.14u pd=1u nrd=0.05 nrs=0.05 ng=10
+    MP10 (net41 VIN net33 net33) modp w=10u l=4u as=5.7e-12 ad=5e-12 \
+        ps=3.14u pd=1u nrd=0.05 nrs=0.05 ng=10
+    MP9 (net39 B net33 net33) modp w=10u l=4u as=5.7e-12 ad=5e-12 ps=3.14u \
+        pd=1u nrd=0.05 nrs=0.05 ng=10
+    I0 (net4 GNDA net9 GNDA S\<0\> VDDA) mux21
+    I1 (net4 GNDA net8 GNDA S\<1\> VDDA) mux21
+    I2 (net4 GNDA net7 GNDA S\<2\> VDDA) mux21
+ends ecg_vga3
+// End of subcircuit definition.

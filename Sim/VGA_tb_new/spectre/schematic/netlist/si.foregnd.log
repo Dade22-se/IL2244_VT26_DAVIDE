@@ -510,108 +510,13 @@ hnlPrintTopCellHeader hnlPrintTopCellFooter hnlPrintPorts hnlPrintDeviceHeader
 hnlPrintDeviceFooter hnlPrintInst) .
 Loading the file
 '/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/etc/skill/hnl/spectre.ile'.Loading the file
-'/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/etc/skill/hnl/driver.ile'.Begin Incremental Netlisting Mar 11 10:47:32 2026
-ERROR (OSSHNL-116): Unable to descend into any of the views defined in the view
-list, 'spectre cmos_sch schematic', for the
-instance 'I0' in cell 'VGA_tb_new'.
-Add one of these views to the cell 'VGA' in the
-library 'VGA', or modify the
-view list so that it contains an existing view.
+'/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/etc/skill/hnl/driver.ile'.Begin Incremental Netlisting Mar 12 10:51:06 2026
+WARNING (OSSHNL-225): The design variable 'T', used in the last netlisting
+session in the current
+run directory is not used in this netlisting session. The
+netlist(s) generated
+in the last netlisting session cannot be reused for
+incremental netlisting.
+Therefore re-netlisting the design.
 
-End netlisting Mar 11 10:47:32 2026
-Begin Incremental Netlisting Mar 11 10:47:43 2026
-ERROR (OSSHNL-116): Unable to descend into any of the views defined in the view
-list, 'spectre cmos_sch schematic', for the
-instance 'I0' in cell 'VGA_tb_new'.
-Add one of these views to the cell 'VGA' in the
-library 'VGA', or modify the
-view list so that it contains an existing view.
-
-End netlisting Mar 11 10:47:43 2026
-Begin Incremental Netlisting Mar 11 10:47:44 2026
-ERROR (OSSHNL-116): Unable to descend into any of the views defined in the view
-list, 'spectre cmos_sch schematic', for the
-instance 'I0' in cell 'VGA_tb_new'.
-Add one of these views to the cell 'VGA' in the
-library 'VGA', or modify the
-view list so that it contains an existing view.
-
-End netlisting Mar 11 10:47:44 2026
-Begin Incremental Netlisting Mar 11 10:48:28 2026
-ERROR (OSSHNL-116): Unable to descend into any of the views defined in the view
-list, 'spectre cmos_sch schematic', for the
-instance 'I0' in cell 'VGA_tb_new'.
-Add one of these views to the cell 'VGA' in the
-library 'VGA', or modify the
-view list so that it contains an existing view.
-
-End netlisting Mar 11 10:48:28 2026
-Begin Incremental Netlisting Mar 11 10:54:48 2026
-ERROR (OSSHNL-116): Unable to descend into any of the views defined in the view
-list, 'spectre cmos_sch schematic', for the
-instance 'I0' in cell 'VGA_tb_new'.
-Add one of these views to the cell 'VGA' in the
-library 'VGA', or modify the
-view list so that it contains an existing view.
-
-End netlisting Mar 11 10:54:48 2026
-Begin Incremental Netlisting Mar 11 10:54:56 2026
-ERROR (OSSHNL-116): Unable to descend into any of the views defined in the view
-list, 'spectre cmos_sch schematic', for the
-instance 'I0' in cell 'VGA_tb_new'.
-Add one of these views to the cell 'VGA' in the
-library 'VGA', or modify the
-view list so that it contains an existing view.
-
-End netlisting Mar 11 10:54:56 2026
-Begin Incremental Netlisting Mar 11 10:54:59 2026
-ERROR (OSSHNL-116): Unable to descend into any of the views defined in the view
-list, 'spectre cmos_sch schematic', for the
-instance 'I0' in cell 'VGA_tb_new'.
-Add one of these views to the cell 'VGA' in the
-library 'VGA', or modify the
-view list so that it contains an existing view.
-
-End netlisting Mar 11 10:54:59 2026
-Begin Incremental Netlisting Mar 11 10:56:29 2026
-WARNING (OSSHNL-160): The primitive, 'VGA/FILTER_V2/veriloga', was not used in
-the last netlisting session in this
-current run directory. Therefore,
-re-netlisting all cell views where this
-primitive is instantiated.
-
-End netlisting Mar 11 10:56:29 2026
-Begin Incremental Netlisting Mar 11 10:57:28 2026
-End netlisting Mar 11 10:57:28 2026
-Begin Incremental Netlisting Mar 11 10:58:34 2026
-End netlisting Mar 11 10:58:34 2026
-Begin Incremental Netlisting Mar 11 10:59:39 2026
-End netlisting Mar 11 10:59:39 2026
-Begin Incremental Netlisting Mar 11 12:45:20 2026
-End netlisting Mar 11 12:45:20 2026
-Begin Incremental Netlisting Mar 11 12:47:10 2026
-WARNING (OSSHNL-159): The primitive, 'VGA/VGA/veriloga', has been updated since
-the last netlisting session
-in this current run directory. Therefore,
-re-netlisting all cell views where
-this primitive is instantiated.
-
-End netlisting Mar 11 12:47:10 2026
-Begin Incremental Netlisting Mar 11 12:49:45 2026
-End netlisting Mar 11 12:49:45 2026
-Begin Incremental Netlisting Mar 11 12:50:54 2026
-End netlisting Mar 11 12:50:54 2026
-Begin Incremental Netlisting Mar 11 12:53:09 2026
-WARNING (OSSHNL-159): The primitive, 'VGA/VGA/veriloga', has been updated since
-the last netlisting session
-in this current run directory. Therefore,
-re-netlisting all cell views where
-this primitive is instantiated.
-
-End netlisting Mar 11 12:53:09 2026
-Begin Incremental Netlisting Mar 11 12:56:44 2026
-End netlisting Mar 11 12:56:44 2026
-Begin Incremental Netlisting Mar 11 13:00:55 2026
-End netlisting Mar 11 13:00:55 2026
-Begin Incremental Netlisting Mar 11 13:01:25 2026
-End netlisting Mar 11 13:01:25 2026
+End netlisting Mar 12 10:51:06 2026

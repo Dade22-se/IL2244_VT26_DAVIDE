@@ -6,23 +6,15 @@ I0 (vinp vinn vout vdda 0 en ibias vctrl\<3\> vctrl\<2\> vctrl\<1\> \
         vctrl\<0\>) VGA C1=3.95e-11 C2=2.07895e-12 C3=1.0128e-12 \
         C4=6.695e-13 C5=5e-13 vth=0.5 rout=1e+06
 V11 (vctrl_filter\<0\> 0) vsource dc=3.3 type=dc
-V10 (vctrl\<3\> 0) vsource dc=3.3 type=dc
+V12 (vctrl_filter\<1\> 0) vsource dc=3.3 type=dc
+V16 (vctrl\<0\> 0) vsource dc=3.3 type=dc
+V15 (vctrl\<1\> 0) vsource dc=3.3 type=dc
 V4 (vinn 0) vsource dc=900m type=dc
+V13 (vctrl\<3\> 0) vsource dc=3.3 type=dc
 V2 (en 0) vsource dc=3.3 type=dc
+V14 (vctrl\<2\> 0) vsource dc=3.3 type=dc
 V0 (vdda 0) vsource dc=3.3 type=dc
 V5 (vinp 0) vsource dc=900m mag=1 type=sine sinedc=900m ampl=10u freq=10
 I4 (0 ibias) isource dc=1 type=dc
-V9 (net7 0) vsource type=pulse val0=0 val1=3.3 period=2u delay=0 rise=1n \
-        fall=1n width=T/2
-V8 (net6 0) vsource type=pulse val0=0 val1=3.3 period=1u delay=0 rise=1n \
-        fall=1n width=T/2
-V7 (net4 0) vsource type=pulse val0=0 val1=3.3 period=1u delay=0 rise=1n \
-        fall=1n width=T/2
-V6 (net3 0) vsource type=pulse val0=0 val1=3.3 period=4u delay=0 rise=1n \
-        fall=1n width=T/2
-V1 (net2 0) vsource type=pulse val0=0 val1=3.3 period=1u delay=0 rise=1n \
-        fall=1n width=T/2
-V3 (net1 0) vsource type=pulse val0=0 val1=3.3 period=2u delay=0 rise=1n \
-        fall=1n width=T/2
 I6 (vdda 0 vout vout_filter en ibias vctrl_filter\<1\> vctrl_filter\<0\>) \
         filter freq_ecg=150 freq_emg=1500

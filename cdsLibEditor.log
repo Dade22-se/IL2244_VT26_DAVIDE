@@ -1,0 +1,32 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.8 - CAT37 04/25/2024 14:36 (csvcm36c-7) $
+\o Sub version:		sub-version  s364 
+\o Arguments:		-cdslib /home/davidevi/Desktop/myproject/cds.lib -mpssession virtuoso408318 -mpshost il2244vt26_davidevi -mpsversion 6.18 
+\o Working Directory:	il2244vt26_davidevi:/home/davidevi/Desktop/myproject
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		5.9.1
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(cdsLibEditor list(598 294 500 400))
+\a nrListItemAction(cdsLibEditor->mainTable 39 0)
+\o Active cell: 39 0 ""
+\a nrListItemRename(cdsLibEditor->mainTable, 39 0 "CHARACTERIZATION")
+\a nrListItemAction(cdsLibEditor->mainTable 39 1)
+\o Active cell: 39 1 ""
+\a nrListItemAction(cdsLibEditor->mainTable 37 1)
+\o Active cell: 37 1 "ECG_IA"
+\a nrListItemAction(cdsLibEditor->mainTable 38 1)
+\o Active cell: 38 1 "ecg_ia_tb"
+\a nrListItemAction(cdsLibEditor->mainTable 39 1)
+\o Active cell: 39 1 ""
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemRename(cdsLibEditor->mainTable, 39 1 "/home/davidevi/Desktop/myproject/CHARACTERIZATION")
+\a nrListItemAction(cdsLibEditor->mainTable 40 0)
+\o Active cell: 40 0 ""
+\a cdsLibEditor->fileSaveButton->value = t
+\a nrSetWindowVisibility(cdsLibEditor "hide")
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrSetWindowVisibility(cdsLibEditor "hide")
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\a nrSetCurrentWindow(cdsLibEditor)
+\a exit(0)

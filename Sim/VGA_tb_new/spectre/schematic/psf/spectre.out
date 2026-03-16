@@ -5,29 +5,29 @@ Copyright (C) 1989-2025 Cadence Design Systems, Inc. All rights reserved worldwi
 
 Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
 
-User: davidevi   Host: il2244vt26_davidevi   HostID: 11AC2C00   PID: 248493
-Memory  available: 3.0835 TB  physical: 3.2467 TB
+User: davidevi   Host: il2244vt26_davidevi   HostID: 11AC2C00   PID: 400084
+Memory  available: 3.0847 TB  physical: 3.2467 TB
 Linux   : Rocky Linux release 8.10 (Green Obsidian)
 CPU Type: Intel(R) Xeon(R) CPU E7-8857 v2 @ 3.00GHz
         Socket: Processors [Frequency]
-        0:       0 [2999.9],  1 [3600.0],  2 [1200.0],  3 [2999.9],  4 [1200.0]
-                 5 [1200.0],  6 [1200.0],  7 [2800.0],  8 [1200.0],  9 [1200.0]
-                10 [1200.0], 11 [2800.0]
-        1:      12 [2999.9], 13 [1700.0], 14 [2097.2], 15 [1200.0], 16 [1200.0]
-                17 [2999.9], 18 [1200.0], 19 [1700.0], 20 [1200.0], 21 [2800.0]
-                22 [3600.0], 23 [2999.9]
-        2:      24 [1400.0], 25 [2999.9], 26 [1700.0], 27 [1200.0], 28 [2999.9]
-                29 [1300.0], 30 [1200.0], 31 [1200.0], 32 [1400.0], 33 [1200.0]
+        0:       0 [2999.9],  1 [1200.0],  2 [1200.0],  3 [1200.0],  4 [1200.0]
+                 5 [1200.0],  6 [1200.0],  7 [1200.0],  8 [1200.0],  9 [1200.0]
+                10 [2999.9], 11 [1300.0]
+        1:      12 [1700.0], 13 [1200.0], 14 [1300.0], 15 [1200.0], 16 [3600.0]
+                17 [1200.0], 18 [1200.0], 19 [2300.0], 20 [1200.0], 21 [1200.0]
+                22 [1863.9], 23 [1200.0]
+        2:      24 [1200.0], 25 [1200.0], 26 [1200.0], 27 [1200.0], 28 [2999.9]
+                29 [1200.0], 30 [1200.0], 31 [1200.0], 32 [1200.0], 33 [1200.0]
                 34 [1200.0], 35 [1200.0]
-        3:      36 [2999.9], 37 [2300.0], 38 [2999.7], 39 [1200.0], 40 [1200.0]
-                41 [1200.0], 42 [2300.0], 43 [1200.0], 44 [1200.0], 45 [2800.0]
-                46 [1200.0], 47 [2900.0]
+        3:      36 [1400.0], 37 [2874.7], 38 [1200.0], 39 [1200.0], 40 [2800.0]
+                41 [2600.0], 42 [2300.0], 43 [1200.0], 44 [2500.0], 45 [1200.0]
+                46 [3600.0], 47 [1200.0]
         
-System load averages (1min, 5min, 15min) : 17.6 %, 13.7 %, 13.0 %
+System load averages (1min, 5min, 15min) : 11.8 %, 11.5 %, 12.0 %
 HPC is enabled
 
 
-Simulating `input.scs' on il2244vt26_davidevi at 1:01:25 PM, Wed Mar 11, 2026 (process id: 248493).
+Simulating `input.scs' on il2244vt26_davidevi at 10:51:07 AM, Thur Mar 12, 2026 (process id: 400084).
 Current working directory: /home/davidevi/Desktop/myproject/Sim/VGA_tb_new/spectre/schematic/netlist
 Command line:
     /opt/tools/cadence/installs/SPECTRE241/tools/bin/spectre -64  \
@@ -37,10 +37,10 @@ Command line:
         +adespetkn=adespe
 
 Licensing Information:
-[13:01:26.121706] Configured Lic search path (24.01-s002): 3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
+[10:51:07.121714] Configured Lic search path (24.01-s002): 3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
 
 Licensing Information:
-[13:01:26.169059] Periodic Lic check successful
+[10:51:07.462936] Periodic Lic check successful
 
 Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
 Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libphilips_I_sh.so ...
@@ -84,16 +84,16 @@ Reading file:  /opt/pdk/ams/410/spectre/c35/soac/ind.scs
 Reading file:  /opt/pdk/ams/410/spectre/c35/soac/esddiode.scs
 Reading file:  /home/davidevi/Desktop/myproject/VGA/VGA/veriloga/veriloga.va
 Reading file:  /home/davidevi/Desktop/myproject/VGA/FILTER_V2/veriloga/veriloga.va
-Time for NDB Parsing: CPU = 161.308 ms, elapsed = 366.921 ms.
-Time accumulated: CPU = 322.122 ms, elapsed = 366.924 ms.
+Time for NDB Parsing: CPU = 165.534 ms, elapsed = 348.232 ms.
+Time accumulated: CPU = 363.028 ms, elapsed = 348.236 ms.
 Peak resident memory used = 175 Mbytes.
 
 Existing shared object for module VGA is up to date.
 Installed compiled interface for VGA.
 Existing shared object for module filter is up to date.
 Installed compiled interface for filter.
-Time for Elaboration: CPU = 30.097 ms, elapsed = 30.9439 ms.
-Time accumulated: CPU = 352.354 ms, elapsed = 398.003 ms.
+Time for Elaboration: CPU = 30.217 ms, elapsed = 32.289 ms.
+Time accumulated: CPU = 393.382 ms, elapsed = 380.661 ms.
 Peak resident memory used = 185 Mbytes.
 
 
@@ -110,29 +110,8 @@ Notice from spectre during hierarchy flattening.
 *****************************************************************************************
 
 
-
-Warning from spectre during hierarchy flattening.
-    WARNING (SPECTRE-8527): There are some nodes and instances removed from the netlist topology check. Check the circuit and correct the topology. Or use preserve_inst to keep them if necessary.
-
-***********************************************
-  Total removed instances 3 ( dangling 3, terminals connected together 0)  
-
-Warning from spectre during hierarchy flattening.
-    WARNING (SPECTRE-8529): Dangling instance. V3_turbo_m2 is removed.
-    WARNING (SPECTRE-8529): Dangling instance. V7_turbo_m3 is removed.
-    WARNING (SPECTRE-8529): Dangling instance. V6 is removed.
-
-
-  Total removed nodes 3 ( dangling nodes 3, floating nodes 0 )
-
-Warning from spectre during hierarchy flattening.
-    WARNING (SPECTRE-8530): Dangling node. net7 is removed.
-    WARNING (SPECTRE-8530): Dangling node. net6 is removed.
-    WARNING (SPECTRE-8530): Dangling node. net3 is removed.
-
-***********************************************
-Time for EDB Visiting: CPU = 3.251 ms, elapsed = 3.25108 ms.
-Time accumulated: CPU = 355.752 ms, elapsed = 401.4 ms.
+Time for EDB Visiting: CPU = 3.15 ms, elapsed = 3.15022 ms.
+Time accumulated: CPU = 396.685 ms, elapsed = 383.964 ms.
 Peak resident memory used = 186 Mbytes.
 
 Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/mdl/lib/64bit/libSpectreEH_sh.so ...
@@ -153,20 +132,9 @@ Warning from spectre during initial setup.
 Notice from spectre during initial setup.
     Ignorevaref=yes is ignored since all nodes are connected to Verilog-A modules.
 Notice from spectre during topology check.
-    Only one connection to the following 5 nodes:
-        vctrl<2>
-        vctrl<1>
-        vctrl<0>
-        vout_filter
-        vctrl_filter<1>
-        Further occurrences of this notice will be suppressed.
+    Only one connection to node `vout_filter'.
 Warning from spectre during topology check.
     WARNING (SPECTRE-690): No DC path from current source node `ibias' to ground. Gmin is installed to provide path, however this can lead to high voltage situation. Ensure to check the circuit for any design issues.
-Notice from spectre during topology check.
-    No DC path from node `vctrl<2>' to ground, Gmin installed to provide path.
-    No DC path from node `vctrl<1>' to ground, Gmin installed to provide path.
-    No DC path from node `vctrl<0>' to ground, Gmin installed to provide path.
-    No DC path from node `vctrl_filter<1>' to ground, Gmin installed to provide path.
 Notice from spectre during initial setup.
     Multithreading is disabled due to the size of the design being too small.
 
@@ -203,11 +171,11 @@ Global user options:
 Scoped user options:
 
 Circuit inventory:
-              nodes 19
+              nodes 13
              filter 1     
             isource 1     
                 VGA 1     
-            vsource 12    
+            vsource 10    
 
 Analysis and control statement inventory:
                  ac 1     
@@ -229,8 +197,8 @@ Notice from spectre during initial setup.
     APS enabled.
     72 warnings suppressed.
 
-Time for parsing: CPU = 12.279 ms, elapsed = 534.144 ms.
-Time accumulated: CPU = 368.152 ms, elapsed = 935.664 ms.
+Time for parsing: CPU = 12.808 ms, elapsed = 583.816 ms.
+Time accumulated: CPU = 409.613 ms, elapsed = 967.9 ms.
 Peak resident memory used = 193 Mbytes.
 
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -268,9 +236,9 @@ Maximum value achieved for any signal of each quantity:
 V: V(ibias) = 1 TV
 I: I(V11:p) = 0 A
 Convergence achieved in 12 iterations.
-DC simulation time: CPU = 3.788 ms, elapsed = 5.46789 ms.
-Total time required for dc analysis `dcOp': CPU = 3.9 ms, elapsed = 5.56993 ms, util. = 70%.
-Time accumulated: CPU = 395.17 ms, elapsed = 965.217 ms.
+DC simulation time: CPU = 3.88 ms, elapsed = 5.59711 ms.
+Total time required for dc analysis `dcOp': CPU = 3.974 ms, elapsed = 5.68199 ms, util. = 69.9%.
+Time accumulated: CPU = 436.863 ms, elapsed = 997.995 ms.
 Peak resident memory used = 197 Mbytes.
 
 dcOpInfo: writing operating point information to rawfile.
@@ -287,7 +255,7 @@ Notice from spectre during IC analysis, during transient analysis `tran'.
         Use the `gmin_check' option to eliminate or expand this report.
 
 Convergence achieved in 2 iterations.
-DC simulation time: CPU = 239 us, elapsed = 240.088 us.
+DC simulation time: CPU = 259 us, elapsed = 259.161 us.
 
 Opening the PSF file ../psf/tran.tran.tran ...
 Important parameter values:
@@ -319,7 +287,7 @@ Notice from spectre during transient analysis `tran'.
 
 
 Output and IC/nodeset summary:
-                 save   6       (current)
+                 save   10      (current)
                  save   13      (voltage)
 
     tran: time = 5 us         (2.5 %), step = 2 us            (1 %)
@@ -348,7 +316,7 @@ Maximum value achieved for any signal of each quantity:
 V: V(ibias) = 1 TV
 I: I(V11:p) = 0 A
 Maximum value of each quantity, excluding dangling current sources:
-V: V(vctrl_filter<0>) = 3.3 V
+V: V(vctrl_filter<1>) = 3.3 V
 I: I(V11:p) = 0 A
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -364,23 +332,24 @@ Post-Transient Simulation Summary
 
 
 During simulation, the CPU load for active processors is :
-         0 (3.3 %)       1 (8.7 %)       2 (2.2 %)       3 (100.0 %)
-         4 (3.3 %)       5 (4.4 %)       6 (4.5 %)       7 (6.5 %)
-         8 (9.9 %)       9 (6.5 %)      10 (3.3 %)      11 (6.7 %)
-        12 (100.0 %)    13 (3.3 %)      14 (2.2 %)      15 (7.6 %)
-        16 (9.8 %)      17 (5.5 %)      18 (4.3 %)      19 (17.6 %)
-        20 (1.1 %)      21 (4.3 %)      22 (17.2 %)     23 (6.5 %)
-        24 (1.1 %)      25 (100.0 %)    26 (1.1 %)      28 (100.0 %)
-        29 (2.2 %)      34 (2.2 %)      35 (2.2 %)      36 (100.0 %)
-        37 (27.0 %)     38 (3.3 %)      39 (3.3 %)      40 (8.7 %)
-        41 (7.6 %)      42 (4.4 %)      43 (44.0 %)     44 (12.2 %)
-        45 (5.5 %)      46 (3.3 %)      47 (7.7 %)      
-        Total: 774.3%
-Initial condition solution time: CPU = 270 us, elapsed = 272.989 us.
-Intrinsic tran analysis time:    CPU = 10.348 ms, elapsed = 11.795 ms.
-Total time required for tran analysis `tran': CPU = 11.914 ms, elapsed = 13.6271 ms, util. = 87.4%.
-Time accumulated: CPU = 409.292 ms, elapsed = 983.176 ms.
-Peak resident memory used = 198 Mbytes.
+         0 (100.0 %)     1 (1.1 %)       2 (3.2 %)       3 (2.1 %)
+         6 (7.6 %)       7 (1.1 %)       8 (1.1 %)       9 (3.1 %)
+        10 (100.0 %)    11 (1.1 %)      12 (13.7 %)     13 (2.2 %)
+        14 (1.1 %)      15 (10.6 %)     16 (23.2 %)     17 (12.8 %)
+        18 (25.3 %)     19 (4.3 %)      20 (17.0 %)     21 (4.2 %)
+        22 (5.3 %)      23 (20.4 %)     24 (11.6 %)     25 (3.2 %)
+        26 (3.1 %)      27 (4.3 %)      28 (100.0 %)    29 (4.2 %)
+        30 (3.2 %)      31 (2.1 %)      32 (2.2 %)      33 (3.2 %)
+        35 (3.2 %)      36 (2.2 %)      37 (22.3 %)     38 (40.4 %)
+        39 (5.2 %)      40 (7.3 %)      41 (3.2 %)      42 (9.5 %)
+        43 (2.1 %)      44 (6.5 %)      45 (4.3 %)      46 (12.8 %)
+        47 (4.3 %)      
+        Total: 620.4%
+Initial condition solution time: CPU = 292 us, elapsed = 293.97 us.
+Intrinsic tran analysis time:    CPU = 11.006 ms, elapsed = 13.0911 ms.
+Total time required for tran analysis `tran': CPU = 12.676 ms, elapsed = 15.1038 ms, util. = 83.9%.
+Time accumulated: CPU = 451.979 ms, elapsed = 1.01865 s.
+Peak resident memory used = 199 Mbytes.
 
 finalTimeOP: writing operating point information to rawfile.
 
@@ -396,7 +365,7 @@ Notice from spectre during DC analysis, during AC analysis `ac'.
         Use the `gmin_check' option to eliminate or expand this report.
 
 Convergence achieved in 12 iterations.
-DC simulation time: CPU = 322 us, elapsed = 322.104 us.
+DC simulation time: CPU = 324 us, elapsed = 322.819 us.
 
 Opening the PSF file ../psf/ac.ac ...
     ac: freq = 30.2 mHz       (4 %), step = 12.82 mHz       (2 %)
@@ -448,11 +417,11 @@ Opening the PSF file ../psf/ac.ac ...
     ac: freq = 3.311 GHz     (96 %), step = 1.406 GHz       (2 %)
     ac: freq = 5.754 GHz     (98 %), step = 2.443 GHz       (2 %)
     ac: freq = 10 GHz       (100 %), step = 4.246 GHz       (2 %)
-Accumulated DC solution time =            366.211 us.
-Intrinsic ac analysis time =              4.83179 ms.
-Total time required for ac analysis `ac': CPU = 4.637 ms, elapsed = 5.23806 ms, util. = 88.5%.
-Time accumulated: CPU = 415.357 ms, elapsed = 991.348 ms.
-Peak resident memory used = 198 Mbytes.
+Accumulated DC solution time =            360.966 us.
+Intrinsic ac analysis time =              5.0931 ms.
+Total time required for ac analysis `ac': CPU = 4.993 ms, elapsed = 5.49293 ms, util. = 90.9%.
+Time accumulated: CPU = 458.446 ms, elapsed = 1.02781 s.
+Peak resident memory used = 199 Mbytes.
 
 modelParameter: writing model parameter values to rawfile.
 
@@ -474,14 +443,14 @@ subckts: writing subcircuits to rawfile.
 Opening the PSFASCII file ../psf/subckts.info.subckts ...
 Licensing Information:
 Lic Summary:
-[13:01:26.421474] Cdslmd servers:3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
-[13:01:26.945801] Feature usage summary:
-[13:01:26.945802] Virtuoso_Multi_mode_Simulation
+[10:51:08.315504] Cdslmd servers:3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
+[10:51:08.315547] Feature usage summary:
+[10:51:08.315547] Virtuoso_Multi_mode_Simulation
 
 
-Aggregate audit (1:01:26 PM, Wed Mar 11, 2026):
-Time used: CPU = 430 ms, elapsed = 1.01 s, util. = 42.5%.
-Time spent in licensing: elapsed = 188 ms, percentage of total = 18.6%.
+Aggregate audit (10:51:08 AM, Thur Mar 12, 2026):
+Time used: CPU = 473 ms, elapsed = 1.05 s, util. = 45.2%.
+Time spent in licensing: elapsed = 48.8 ms.
 Peak memory used = 200 Mbytes.
-Simulation started at: 1:01:25 PM, Wed Mar 11, 2026, ended at: 1:01:26 PM, Wed Mar 11, 2026, with elapsed time (wall clock): 1.01 s.
-spectre completes with 0 errors, 25 warnings, and 16 notices.
+Simulation started at: 10:51:07 AM, Thur Mar 12, 2026, ended at: 10:51:08 AM, Thur Mar 12, 2026, with elapsed time (wall clock): 1.05 s.
+spectre completes with 0 errors, 18 warnings, and 12 notices.

@@ -2,7 +2,7 @@ HEADER
 "PSFversion" "1.00"
 "simulator" "spectre"
 "version" "24.1.0.288.isr5"
-"date" "1:01:26 PM, Wed Mar 11, 2026"
+"date" "10:51:08 AM, Thur Mar 12, 2026"
 "design" "// Generated for: spectre"
 "analysis type" "info"
 "analysis name" "designParamVals"
@@ -15,7 +15,6 @@ TYPE
 "tnom" FLOAT DOUBLE
 "temper" FLOAT DOUBLE
 "time" FLOAT DOUBLE
-"T" FLOAT DOUBLE
 "cj1" FLOAT DOUBLE
 "cjsw1" FLOAT DOUBLE
 "nsub1" FLOAT DOUBLE
@@ -917,7 +916,6 @@ VALUE
 2.700000000000000e+01
 2.700000000000000e+01
 0.000000000000000e+00
-1.000000000000000e-06
 9.395000000000000e-04
 2.500000000000000e-10
 2.808000000000000e+17

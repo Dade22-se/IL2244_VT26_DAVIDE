@@ -39,6 +39,3 @@ DEFINE PACKAGES   $AMS_DIR/cds/HK_ALL/PACKAGES
 DEFINE BORDERS   $AMS_DIR/cds/HK_ALL/BORDERS
 DEFINE sbaLib    $CDSDIR/tools/dfII/etc/cdslib/artist/sbaLib
 INCLUDE  $IUSDIR/tools/inca/files/cds.lib
-DEFINE SFCLIB_C35B4C3 $AMS_DIR/cds/HK_C35/SFCLIB_C35B4C3
-DEFINE VGA /home/davidevi/Desktop/myproject/VGA
-DEFINE avTech /opt/tools/cadence/installs/ASSURA41_618/tools.lnx86/assura/etc/avtech/avTech

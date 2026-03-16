@@ -1,0 +1,2 @@
+parameters W1=1e-05 L1=4e-06 NF1=10 VDS2=1.5 VDS1=1.5 IDS2=5e-07 \
+    IDS1=1e-06 W2=1e-05 L2=4e-06 NF2=10

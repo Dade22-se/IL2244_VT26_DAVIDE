@@ -6,11 +6,11 @@
 LockStakeVersion               1.1
 LoginName                      davidevi
 HostName                       il2244vt26_davidevi
-ProcessIdentifier              117306
-ProcessCreationTime_UTC        1773225251
-ProcessCreationTime_Readable   Wed Mar 11 10:34:11 2026 UTC
+ProcessIdentifier              408578
+ProcessCreationTime_UTC        1773395861
+ProcessCreationTime_Readable   Fri Mar 13 09:57:41 2026 UTC
 AppIdentifier                  /opt/tools/cadence/installs/IC618/tools/dfII/bin/64bit/libManager
 OSType                         lnx86
 ReasonForPlacingEditLock       log file
 FilePathUsedToEditLock         /home/davidevi/Desktop/myproject/libManager.log
-TimeEditLocked                 Wed Mar 11 10:34:11 2026 UTC
+TimeEditLocked                 Fri Mar 13 09:57:41 2026 UTC

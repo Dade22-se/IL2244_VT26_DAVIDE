@@ -1,0 +1,88 @@
+ahdlcmicompile: Compiling ahdlcmi in ./input.ahdlSimDB//3c9333c892e7ca8b855fbd0eadea8b27.modn_ahdl.ahdlcmi/Linux-64/ for Linux-64 with optimize using gcc on Fri Mar 13 09:48:11 UTC 2026 [5.0]
+ahdlcmicompile: Generating makefile
+PATH:  /opt/tools/cadence/installs/SPECTRE241/bin:/opt/tools/cadence/installs/SPECTRE241/tools/bin/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/bin:/opt/tools/cadence/installs/IC618/bin:/opt/tools/cadence/installs/IC618/tools/bin/64bit:/opt/tools/cadence/installs/IC618/tools/bin:/opt/pdk/ams/410/cds/bin:/opt/pdk/ams/410/cds/bin:/opt/pdk/ams/410/cds/bin:/opt/pdk/ams/410/cds/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/davidevi/bin:/opt/tools/cadence/installs/IC618/tools/dfII/bin:/opt/tools/cadence/installs/ASSURA41_618/tools/bin:/opt/tools/cadence/installs/ASSURA41_618/tools/assura/bin:/opt/tools/cadence/installs/QUANTUS241/tools/bin:/opt/tools/cadence/installs/XCELIUM2409/tools/bin/64bit:/opt/tools/cadence/installs/XCELIUM2409/tools/bin:/opt/tools/cadence/installs/DDI231/GENUS231/tools.lnx86/bin:/opt/tools/cadence/installs/DDI231/INNOVUS231/tools/bin/64bit:/opt/tools/cadence/installs/DDI231/INNOVUS231/tools/bin:/opt/tools/mentor/CALIBRE_2024.4/aok_cal_2024.4_12.9/bin:/opt/tools/cadence/installs/IC618/tools/dfII/bin:/opt/tools/cadence/installs/ASSURA41_618/tools/bin:/opt/tools/cadence/installs/ASSURA41_618/tools/assura/bin:/opt/tools/cadence/installs/QUANTUS241/tools/bin:/opt/tools/cadence/installs/XCELIUM2409/tools/bin/64bit:/opt/tools/cadence/installs/XCELIUM2409/tools/bin:/opt/tools/cadence/installs/DDI231/GENUS231/tools.lnx86/bin:/opt/tools/cadence/installs/DDI231/INNOVUS231/tools/bin/64bit:/opt/tools/cadence/installs/DDI231/INNOVUS231/tools/bin:/opt/tools/mentor/CALIBRE_2024.4/aok_cal_2024.4_12.9/bin:/opt/tools/cadence/installs/IC618/tools/dfII/bin:/opt/tools/cadence/installs/ASSURA41_618/tools/bin:/opt/tools/cadence/installs/ASSURA41_618/tools/assura/bin:/opt/tools/cadence/installs/QUANTUS241/tools/bin:/opt/tools/cadence/installs/XCELIUM2409/tools/bin/64bit:/opt/tools/cadence/installs/XCELIUM2409/tools/bin:/opt/tools/cadence/installs/DDI231/GENUS231/tools.lnx86/bin:/opt/tools/cadence/installs/DDI231/INNOVUS231/tools/bin/64bit:/opt/tools/cadence/installs/DDI231/INNOVUS231/tools/bin:/opt/tools/mentor/CALIBRE_2022.4_16/aoi_cal_2022.4_16.8/bin:/opt/tools/cadence/installs/IC618/tools/dfII/bin:/opt/tools/cadence/installs/ASSURA41_618/tools/bin:/opt/tools/cadence/installs/ASSURA41_618/tools/assura/bin:/opt/tools/cadence/installs/QUANTUS241/tools/bin:/opt/tools/cadence/installs/XCELIUM2409/tools/bin/64bit:/opt/tools/cadence/installs/XCELIUM2409/tools/bin:/opt/tools/cadence/installs/DDI231/GENUS231/tools.lnx86/bin:/opt/tools/cadence/installs/DDI231/INNOVUS231/tools/bin/64bit:/opt/tools/cadence/installs/DDI231/INNOVUS231/tools/bin:/opt/tools/mentor/CALIBRE_2022.4_16/aoi_cal_2022.4_16.8/bin:/bin
+LD_LIBRARY_PATH:  /opt/tools/cadence/installs/SPECTRE241/tools/TPtools/libstdc++6/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/TPtools/cuda/lib64:/opt/tools/cadence/installs/SPECTRE241/tools/giganta/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/mdl/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/mmsim/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/hdf/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/python/64bit/lib:/opt/tools/cadence/installs/SPECTRE241/tools/inca/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/awrmwo/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/spectre/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/dfII/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/TPtools/libstdc++/lib64:/opt/tools/cadence/installs/SPECTRE241/tools/TPtools/zlib/lib64:/opt/tools/cadence/installs/SPECTRE241/tools/TPtools/abseil/lib64:/opt/tools/cadence/installs/SPECTRE241/tools/TPtools/grpc/lib64:/opt/tools/cadence/installs/SPECTRE241/tools/TPtools/protobuf/lib64:/opt/tools/cadence/installs/SPECTRE241/tools/TPtools/libffi/lib64:/opt/tools/cadence/installs/SPECTRE241/tools/ithaca/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/fmc/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/lib/64bit:/opt/tools/cadence/installs/SPECTRE241/tools/lib:/opt/tools/cadence/installs/SPECTRE241/tools/lib/64bit/RHEL/RHEL8:/opt/tools/cadence/installs/IC618/share/oa/lib/lnx86/opt:/opt/tools/cadence/installs/IC618/tools/dfII/lib/64bit:/opt/tools/cadence/installs/IC618/tools/sev/lib/64bit:/opt/tools/cadence/installs/IC618/tools/lib/64bit:/opt/tools/cadence/installs/IC618/tools/lib:/opt/tools/cadence/installs/IC618/tools/hdf5/lib/64bit:/opt/tools/cadence/installs/IC618/tools/lz4/lib/64bit:/opt/tools/cadence/installs/IC618/tools/python/64bit/lib:/opt/tools/cadence/installs/XCELIUM2409/tools.lnx86/lib/64bit:/opt/tools/cadence/installs/IC618/tools/TPtools/grpc/lib64:/opt/tools/cadence/installs/IC618/tools/TPtools/grpc/lib:/opt/tools/cadence/installs/IC618/tools/Qt/v5/64bit/lib
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/bin/gnumake -j8 -f GNUmakefile
+Cleaning ./obj/optimize/5.0
+rm -f -rf ./obj/optimize/5.0
+Compiling C file modn_ahdl_func.c (optimize)
+Compiling C file modn_ahdl_DcFuncDerLoad.c (optimize)
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cdsgcc/gcc/12.3/bin/gcc  -ffast-math  -fno-unsafe-math-optimizations -Wno-error=int-conversion -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include -c modn_ahdl_func.c -o obj/optimize/5.0/modn_ahdl_func.o || rm -f -f obj/optimize/5.0/modn_ahdl_func.o
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cdsgcc/gcc/12.3/bin/gcc  -ffast-math  -fno-unsafe-math-optimizations -Wno-error=int-conversion -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include -c modn_ahdl_DcFuncDerLoad.c -o obj/optimize/5.0/modn_ahdl_DcFuncDerLoad.o || rm -f -f obj/optimize/5.0/modn_ahdl_DcFuncDerLoad.o
+Compiling C file modn_ahdl_DcFuncLoad.c (optimize)
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cdsgcc/gcc/12.3/bin/gcc  -ffast-math  -fno-unsafe-math-optimizations -Wno-error=int-conversion -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include -c modn_ahdl_DcFuncLoad.c -o obj/optimize/5.0/modn_ahdl_DcFuncLoad.o || rm -f -f obj/optimize/5.0/modn_ahdl_DcFuncLoad.o
+Compiling C file modn_ahdl_TranFuncDerLoad.c (optimize)
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cdsgcc/gcc/12.3/bin/gcc  -ffast-math  -fno-unsafe-math-optimizations -Wno-error=int-conversion -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include -c modn_ahdl_TranFuncDerLoad.c -o obj/optimize/5.0/modn_ahdl_TranFuncDerLoad.o || rm -f -f obj/optimize/5.0/modn_ahdl_TranFuncDerLoad.o
+Compiling C file modn_ahdl_TranFuncLoad.c (optimize)
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cdsgcc/gcc/12.3/bin/gcc  -ffast-math  -fno-unsafe-math-optimizations -Wno-error=int-conversion -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include -c modn_ahdl_TranFuncLoad.c -o obj/optimize/5.0/modn_ahdl_TranFuncLoad.o || rm -f -f obj/optimize/5.0/modn_ahdl_TranFuncLoad.o
+Compiling C file modn_ahdl_OpPointCalc.c (optimize)
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cdsgcc/gcc/12.3/bin/gcc  -ffast-math  -fno-unsafe-math-optimizations -Wno-error=int-conversion -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include -c modn_ahdl_OpPointCalc.c -o obj/optimize/5.0/modn_ahdl_OpPointCalc.o || rm -f -f obj/optimize/5.0/modn_ahdl_OpPointCalc.o
+Compiling C file modn_ahdl_cmi_c.c (optimize)
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cdsgcc/gcc/12.3/bin/gcc  -ffast-math  -fno-unsafe-math-optimizations -Wno-error=int-conversion -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include -I/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/include -c modn_ahdl_cmi_c.c -o obj/optimize/5.0/modn_ahdl_cmi_c.o || rm -f -f obj/optimize/5.0/modn_ahdl_cmi_c.o
+<stdin>: In function 'modn_ahdl_pPrintDescription':
+<stdin>:1085:3: warning: implicit declaration of function 'msgWrite' [-Wimplicit-function-declaration]
+<stdin>:1087:67: warning: implicit declaration of function 'devGetRFinFreqDomain' [-Wimplicit-function-declaration]
+<stdin>: In function 'modn_ahdl_pGetInstanceParams':
+<stdin>:1316:41: warning: implicit declaration of function 'devGetInstKnotStatus'; did you mean 'devGetInstState'? [-Wimplicit-function-declaration]
+<stdin>: In function 'modn_ahdl_pDC_Load':
+<stdin>:1601:41: warning: passing argument 1 of 'aslDevFillZeorDiagonalElemet' makes pointer from integer without a cast [-Wint-conversion]
+In file included from <stdin>:24:
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2884:63: note: expected 'void *' but argument is of type 'long int'
+ 2884 | ASL_FUNC_DECL_START extern void aslDevFillZeorDiagonalElemet( void *, int, unsigned int, struct ahdlFuncModeParam * );
+      |                                                               ^~~~~~
+<stdin>: In function 'modn_ahdl_pCompare':
+<stdin>:2234:3: warning: implicit declaration of function 'spReplaceMatrixPointer'; did you mean 'aslDevLaplaceGetMatrixPointer'? [-Wimplicit-function-declaration]
+<stdin>:2243:38: warning: assignment to 'long int' from 'long int *' makes integer from pointer without a cast [-Wint-conversion]
+<stdin>:2244:23: warning: passing argument 1 of 'memcpy' makes pointer from integer without a cast [-Wint-conversion]
+In file included from /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlPiCmi.h:5,
+                 from /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:80:
+/usr/include/string.h:43:39: note: expected 'void * restrict' but argument is of type 'long int'
+   43 | extern void *memcpy (void *__restrict __dest, const void *__restrict __src,
+      |                      ~~~~~~~~~~~~~~~~~^~~~~~
+<stdin>:2244:59: warning: passing argument 2 of 'memcpy' makes pointer from integer without a cast [-Wint-conversion]
+/usr/include/string.h:43:70: note: expected 'const void * restrict' but argument is of type 'long int'
+   43 | extern void *memcpy (void *__restrict __dest, const void *__restrict __src,
+      |                                               ~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+<stdin>:2246:38: warning: assignment to 'long int' from 'void *' makes integer from pointer without a cast [-Wint-conversion]
+<stdin>: In function 'modn_ahdl_pGetMatrixPointers':
+<stdin>:2414:35: warning: assignment to 'long int' from 'void *' makes integer from pointer without a cast [-Wint-conversion]
+<stdin>:2416:38: warning: assignment to 'long int' from 'void *' makes integer from pointer without a cast [-Wint-conversion]
+<stdin>: In function 'modn_ahdl_pAnalTranLoad':
+<stdin>:3274:8: warning: implicit declaration of function 'isBeamsFlow' [-Wimplicit-function-declaration]
+<stdin>:3302:42: warning: passing argument 1 of 'aslDevFillZeorDiagonalElemet' makes pointer from integer without a cast [-Wint-conversion]
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2884:63: note: expected 'void *' but argument is of type 'long int'
+ 2884 | ASL_FUNC_DECL_START extern void aslDevFillZeorDiagonalElemet( void *, int, unsigned int, struct ahdlFuncModeParam * );
+      |                                                               ^~~~~~
+<stdin>:3304:39: warning: passing argument 1 of 'aslDevFillZeroDiagQuartet' makes pointer from integer without a cast [-Wint-conversion]
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2886:60: note: expected 'void *' but argument is of type 'long int'
+ 2886 | ASL_FUNC_DECL_START extern void aslDevFillZeroDiagQuartet( void *, int, unsigned int, struct ahdlFuncModeParam * );
+      |                                                            ^~~~~~
+<stdin>: In function 'modn_ahdl_pSaveRestart':
+<stdin>:3566:13: warning: implicit declaration of function 'mmsThreshSR' [-Wimplicit-function-declaration]
+<stdin>:3576:4: warning: implicit declaration of function 'pklAccessDouble' [-Wimplicit-function-declaration]
+<stdin>:3577:30: warning: passing argument 2 of 'aslDevAvarSR' from incompatible pointer type [-Wincompatible-pointer-types]
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1230:58: note: expected 'struct ahdlAnalogVar *' but argument is of type 'char *'
+ 1230 | ASL_FUNC_DECL_START extern PklError_e aslDevAvarSR( int, struct ahdlAnalogVar *, char *, char *, char *, PklJar_t * );
+      |                                                          ^~~~~~~~~~~~~~~~~~~~~~
+<stdin>: In function 'modn_ahdl_pSaveRestartInst':
+<stdin>:3653:28: warning: passing argument 2 of 'aslDevAvarSR' from incompatible pointer type [-Wincompatible-pointer-types]
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1230:58: note: expected 'struct ahdlAnalogVar *' but argument is of type 'char *'
+ 1230 | ASL_FUNC_DECL_START extern PklError_e aslDevAvarSR( int, struct ahdlAnalogVar *, char *, char *, char *, PklJar_t * );
+      |                                                          ^~~~~~~~~~~~~~~~~~~~~~
+<stdin>: In function 'ahdlmodn_ahdlDescInstall':
+<stdin>:3826:2: warning: implicit declaration of function 'descSetDeviceType'; did you mean 'descSetDelete'? [-Wimplicit-function-declaration]
+<stdin>:3828:2: warning: implicit declaration of function 'descSetSetContrInfoPtr' [-Wimplicit-function-declaration]
+<stdin>:3836:2: warning: implicit declaration of function 'descSetCopySignals'; did you mean 'descSetMapSignals'? [-Wimplicit-function-declaration]
+<stdin>:3866:2: warning: implicit declaration of function 'descSetPrintDescription' [-Wimplicit-function-declaration]
+<stdin>:3868:2: warning: implicit declaration of function 'descSetVATermInfo'; did you mean 'descSetGetInfo'? [-Wimplicit-function-declaration]
+<stdin>:3869:2: warning: implicit declaration of function 'descSetGetNodeNamesForBranch'; did you mean 'modn_ahdl_pGetNodeNamesForBranch'? [-Wimplicit-function-declaration]
+<stdin>:3870:2: warning: implicit declaration of function 'descSetGetLinearityFactor'; did you mean 'modn_ahdl_pGetLinearityFactor'? [-Wimplicit-function-declaration]
+rm -f -rf modn_ahdl_DcFuncLoad.c
+rm -f -rf modn_ahdl_DcFuncDerLoad.c
+rm -f -rf modn_ahdl_OpPointCalc.c
+rm -f -rf modn_ahdl_TranFuncLoad.c
+rm -f -rf modn_ahdl_TranFuncDerLoad.c
+rm -f -rf modn_ahdl_func.c
+rm -f -rf modn_ahdl_cmi_c.c
+/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cdsgcc/gcc/12.3/bin/gcc -shared -O3 -m64 -fPIC -o obj/optimize/5.0/libahdlcmi_modn_ahdl.so ./obj/optimize/5.0/modn_ahdl_func.o ./obj/optimize/5.0/modn_ahdl_DcFuncDerLoad.o ./obj/optimize/5.0/modn_ahdl_DcFuncLoad.o ./obj/optimize/5.0/modn_ahdl_TranFuncDerLoad.o ./obj/optimize/5.0/modn_ahdl_TranFuncLoad.o ./obj/optimize/5.0/modn_ahdl_OpPointCalc.o ./obj/optimize/5.0/modn_ahdl_cmi_c.o  -Wl,-rpath,/usr/lib -Wl,-rpath,/lib -lm -s 
+rm -f -f ./obj/optimize/5.0/modn_ahdl_func.o ./obj/optimize/5.0/modn_ahdl_DcFuncDerLoad.o ./obj/optimize/5.0/modn_ahdl_DcFuncLoad.o ./obj/optimize/5.0/modn_ahdl_TranFuncDerLoad.o ./obj/optimize/5.0/modn_ahdl_TranFuncLoad.o ./obj/optimize/5.0/modn_ahdl_OpPointCalc.o ./obj/optimize/5.0/modn_ahdl_cmi_c.o 

@@ -1,0 +1,15 @@
+
+// Library name: CHARACTERIZATION
+// Cell name: SELF_CMOS
+// View name: schematic
+MN0 (net2 net3 0 0) modn w=W1 l=L1 as=8.5e-12 ad=8.5e-12 ps=11.7u pd=11.7u \
+        nrd=0.05 nrs=0.05 ng=NF1
+V2 (net4 0) vsource dc=3.3 type=dc
+V1 (net4 net7) vsource dc=VDS2 type=dc
+V0 (net1 0) vsource dc=VDS1 type=dc
+E1 (net4 net6 net7 net5) vcvs gain=1000 min=0 max=3.3
+E0 (net3 0 net2 net1) vcvs gain=1000 min=0 max=3.3
+I2 (net5 net4) isource dc=IDS2 type=dc
+I1 (0 net2) isource dc=IDS1 type=dc
+MP0 (net5 net6 net4 net4) modp w=W2 l=L2 as=1.1e-11 ad=1.1e-11 ps=12.2u \
+        pd=12.2u nrd=0.06 nrs=0.06 ng=NF2

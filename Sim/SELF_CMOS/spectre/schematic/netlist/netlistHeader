@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Mar 13 13:53:21 2026
+// Design library name: CHARACTERIZATION
+// Design cell name: SELF_CMOS
+// Design view name: schematic
+simulator lang=spectre
+global 0

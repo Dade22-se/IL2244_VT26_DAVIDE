@@ -1,0 +1,19 @@
+CADENCE IHNL11140
+$model
+CHARACTERIZATION/SELF_CMOS/schematic SELF_CMOS
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+L1 L1
+IDS2 IDS2
+W1 W1
+VDS2 VDS2
+NF2 NF2
+W2 W2
+NF1 NF1
+VDS1 VDS1
+IDS1 IDS1
+L2 L2
+$endparam

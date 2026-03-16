@@ -1,0 +1,5 @@
+CADENCE IHNL11143
+
+PRIMLIB cpolyc schematic cds0
+ECG_IA ecg_vga1 schematic cds1
+ECG_IA ecg_vga_tb schematic cds2
