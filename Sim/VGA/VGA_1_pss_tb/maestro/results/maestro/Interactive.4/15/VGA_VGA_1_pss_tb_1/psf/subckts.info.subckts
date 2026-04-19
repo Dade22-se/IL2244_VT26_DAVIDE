@@ -1,0 +1,874 @@
+HEADER
+"PSFversion" "1.00"
+"simulator" "spectre"
+"version" "24.1.0.288.isr5"
+"date" "12:39:54 PM, Wed Apr 15, 2026"
+"design" "// Point Netlist Generated on: Apr 15 12:39:49 2026"
+"analysis type" "info.subckts"
+"analysis name" "subckts"
+"analysis description" "Circuit Information"
+"xVecSorted" "unknown"
+"tolerance.relative" 1.000000000000000e-03
+TYPE
+"subckt" STRUCT(
+"subckt_file" STRING *
+"subckt_params" STRING *
+"subckt_terminals" STRING *
+"subckt_instances" STRING *
+) PROP(
+"key" "sub"
+)
+VALUE
+"SP045C200C" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 467"
+""
+""
+""
+)
+"esdpd30" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/esddiode.scs 513"
+""
+""
+""
+)
+"SP014S300C" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 25"
+""
+""
+""
+)
+"SP090S155C" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 671"
+""
+""
+""
+)
+"modn18t" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 14941"
+""
+""
+""
+)
+"MUX" "subckt" (
+"netlist 6"
+""
+"A0 AI C GNDA S VDDA"
+"I0.I3 I0.I2 I0.I1 I0.I5"
+)
+"rdiffn" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/res.scs 106"
+""
+""
+""
+)
+"modp" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 14236"
+"ls ng dumat ad nrs as pd w ws dvthmat ps shk l nrd"
+"d g s b"
+"I0.MP11 I0.MP10 I0.MP9 I0.MP8 I0.MP7 I0.MP5 I0.MP4 I0.MP3 I0.MP2 I0.MP6 I0.MP1 I0.MP0 I0.I3.MP0 I0.I2.MP0 I0.I1.MP0 I0.I5.MP0"
+)
+"pmosw_3n" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 16225"
+""
+""
+""
+)
+"SY017C165C" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 909"
+""
+""
+""
+)
+"SP049S300T" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 1555"
+""
+""
+""
+)
+"esdfdn5" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/esddiode.scs 37"
+""
+""
+""
+)
+"SP060S300T" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 1589"
+""
+""
+""
+)
+"rdiffp3" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/res.scs 66"
+""
+""
+""
+)
+"SP026S200C" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 195"
+""
+""
+""
+)
+"rpolyhrf" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/res.scs 469"
+""
+""
+""
+)
+"cpolyc" "subckt" (
+"netlist 21"
+"mmw perimeter area pcap"
+"MINUS PLUS SUB"
+"I0.C11 I0.C10 I0.C3 I0.C7<0>_turbo_m2 I0.C9<0>_turbo_m8 I0.C8<0>_turbo_m4"
+)
+"DI50PT" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 2067"
+""
+""
+""
+)
+"modnl" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 13839"
+""
+""
+""
+)
+"modpm" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 14018"
+""
+""
+""
+)
+"modpl" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 14326"
+""
+""
+""
+)
+"SP025C200C" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 161"
+""
+""
+""
+)
+"modn30mnwd" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 14915"
+""
+""
+""
+)
+"SY019C180C" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 943"
+""
+""
+""
+)
+"modnmh" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 14454"
+""
+""
+""
+)
+"modnrf" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 16677"
+""
+""
+""
+)
+"SP020S180D" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 1045"
+""
+""
+""
+)
+"SP047S180D" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 1147"
+""
+""
+""
+)
+"SY028C160C" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 977"
+""
+""
+""
+)
+"SP051C300C" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 569"
+""
+""
+""
+)
+"DI15PT" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 1724"
+""
+""
+""
+)
+"pmosw_2n" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 16135"
+""
+""
+""
+)
+"rpoly2ph" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/res.scs 316"
+""
+""
+""
+)
+"SP014S300D" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 1011"
+""
+""
+""
+)
+"SP050S155C" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 535"
+""
+""
+""
+)
+"SP023S200C" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 127"
+""
+""
+""
+)
+"modprf" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 16795"
+""
+""
+""
+)
+"phdnwb850" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/res.scs 611"
+""
+""
+""
+)
+"SP031S250T" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 1419"
+""
+""
+""
+)
+"padvss" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cap.scs 907"
+""
+""
+""
+)
+"modn30mjfet2" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 14901"
+""
+""
+""
+)
+"SY015C200C" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 841"
+""
+""
+""
+)
+"pd" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 14421"
+""
+""
+""
+)
+"SP090C200C" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 637"
+""
+""
+""
+)
+"zd2sm24" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/res.scs 746"
+""
+""
+""
+)
+"modn30mjfet1" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 14889"
+""
+""
+""
+)
+"ngatecap" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cap.scs 710"
+""
+""
+""
+)
+"nmosw_2n" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 15595"
+""
+""
+""
+)
+"esdgcn5" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/esddiode.scs 206"
+""
+""
+""
+)
+"nmosmw_3n" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 15955"
+""
+""
+""
+)
+"rnwell" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/res.scs 204"
+""
+""
+""
+)
+"VGA_1" "subckt" (
+"netlist 44"
+""
+"EN GNDA IBIAS S<3> S<2> S<1> S<0> VDDA VIN VOUT"
+"I0"
+)
+"modp30mpd" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 15543"
+""
+""
+""
+)
+"SP030C200C" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 297"
+""
+""
+""
+)
+"pmosmw_3n" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 16495"
+""
+""
+""
+)
+"SP100S250T" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 1657"
+""
+""
+""
+)
+"rpoly2" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/res.scs 244"
+""
+""
+""
+)
+"DI25PT" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 1822"
+""
+""
+""
+)
+"SP021S200T" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 1351"
+""
+""
+""
+)
+"SP037S180D" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 1113"
+""
+""
+""
+)
+"cmim" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cap.scs 555"
+""
+""
+""
+)
+"SP037S250T" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 1487"
+""
+""
+""
+)
+"cvar" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cap.scs 738"
+""
+""
+""
+)
+"DI60PT" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 2165"
+""
+""
+""
+)
+"SP200C200C" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 773"
+""
+""
+""
+)
+"SP028C200C" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 229"
+""
+""
+""
+)
+"vert10" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/bip.scs 118"
+""
+""
+""
+)
+"rdiffp" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/res.scs 137"
+""
+""
+""
+)
+"cmimrf" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cap.scs 632"
+""
+""
+""
+)
+"modpd30mpd" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 15282"
+""
+""
+""
+)
+"modnhl" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 14721"
+""
+""
+""
+)
+"modp30m" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 15339"
+""
+""
+""
+)
+"rpolyh" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/res.scs 353"
+"par lsc mmw wsc w dmat l vcr2"
+"n1 n2"
+"I0.R2.R1 I0.R2.R2"
+)
+"esdpd18" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/esddiode.scs 375"
+""
+""
+""
+)
+"nmosw_4n" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 15775"
+""
+""
+""
+)
+"SP040C200C" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 399"
+""
+""
+""
+)
+"SY016C180C" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 875"
+""
+""
+""
+)
+"modpml" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 14108"
+""
+""
+""
+)
+"sbd5" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/res.scs 662"
+""
+""
+""
+)
+"SP018S300C" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 59"
+""
+""
+""
+)
+"esdgcp5" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/esddiode.scs 275"
+""
+""
+""
+)
+"nwd" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/res.scs 517"
+""
+""
+""
+)
+"esdpd26" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/esddiode.scs 444"
+""
+""
+""
+)
+"cpolyrf" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cap.scs 670"
+""
+""
+""
+)
+"lat2" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/bip.scs 31"
+""
+""
+""
+)
+"rpoly1" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/res.scs 168"
+""
+""
+""
+)
+"SP068C300C" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 603"
+""
+""
+""
+)
+"DI45PT" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 2018"
+""
+""
+""
+)
+"modn18tjfet1" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 15020"
+""
+""
+""
+)
+"DI30PT" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 1871"
+""
+""
+""
+)
+"modnh" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 14632"
+""
+""
+""
+)
+"rpolyhc" "subckt" (
+"netlist 31"
+"mult mmw w cap l"
+"PLUS MINUS REF"
+"I0.R2"
+)
+"phdnwa850" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/res.scs 554"
+""
+""
+""
+)
+"SP140C200C" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 739"
+""
+""
+""
+)
+"DI40PT" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 1969"
+""
+""
+""
+)
+"pmosmw_2n" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 16405"
+""
+""
+""
+)
+"SP037S180C" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 331"
+""
+""
+""
+)
+"rpoly2p" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/res.scs 280"
+""
+""
+""
+)
+"SP050S155D" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 1181"
+""
+""
+""
+)
+"modnml" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 13929"
+""
+""
+""
+)
+"SP015S250T" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 1283"
+""
+""
+""
+)
+"cpoly" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cap.scs 518"
+"mmw shkp perimeter area dmat shk"
+"n1 n2"
+"I0.C11.C0 I0.C10.C0 I0.C3.C0 I0.C7<0>_turbo_m2.C0 I0.C9<0>_turbo_m8.C0 I0.C8<0>_turbo_m4.C0"
+)
+"modp30mnwd" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 15564"
+""
+""
+""
+)
+"SP026S200D" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 1079"
+""
+""
+""
+)
+"modpd30m" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 15078"
+""
+""
+""
+)
+"SP133S300T" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 1691"
+""
+""
+""
+)
+"modn18tjfet2" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 15032"
+""
+""
+""
+)
+"SP033S150T" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 1453"
+""
+""
+""
+)
+"SP047S180C" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 501"
+""
+""
+""
+)
+"SP112C300C" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 705"
+""
+""
+""
+)
+"nmosmw_2n" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 15865"
+""
+""
+""
+)
+"nmosmw_4n" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 16045"
+""
+""
+""
+)
+"SP011S200T" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 1249"
+""
+""
+""
+)
+"modn" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 13660"
+"ls ng dumat ad nrs as pd w ws dvthmat ps shk l nrd"
+"d g s b"
+"I0.MN6 I0.MN5 I0.MN4 I0.MN3 I0.MN2 I0.MN1 I0.MN0 I0.I3.MN2 I0.I3.MN1 I0.I3.MN0 I0.I2.MN2 I0.I2.MN1 I0.I2.MN0 I0.I1.MN2 I0.I1.MN1 I0.I1.MN0 I0.I5.MN2 I0.I5.MN1 I0.I5.MN0"
+)
+"SP040C300C" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 433"
+""
+""
+""
+)
+"modn18tnwd" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 15046"
+""
+""
+""
+)
+"SP038S300C" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 365"
+""
+""
+""
+)
+"SP090S155D" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 1215"
+""
+""
+""
+)
+"pmosmw_4n" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 16585"
+""
+""
+""
+)
+"rpoly2rf" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/res.scs 425"
+""
+""
+""
+)
+"DI35PT" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 1920"
+""
+""
+""
+)
+"SP047S250T" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 1521"
+""
+""
+""
+)
+"rpolyz" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/res.scs 390"
+""
+""
+""
+)
+"nd" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 14203"
+""
+""
+""
+)
+"SY014C165C" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 807"
+""
+""
+""
+)
+"cpmim" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cap.scs 594"
+""
+""
+""
+)
+"SP020S180C" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 93"
+""
+""
+""
+)
+"esdfdp5" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/esddiode.scs 106"
+""
+""
+""
+)
+"modn30m" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 14810"
+""
+""
+""
+)
+"DI55PT" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 2116"
+""
+""
+""
+)
+"rdiffn3" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/res.scs 26"
+""
+""
+""
+)
+"modnm" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 13749"
+""
+""
+""
+)
+"SP028S300C" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 263"
+""
+""
+""
+)
+"DI20PT" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 1773"
+""
+""
+""
+)
+"nmosw_3n" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 15685"
+""
+""
+""
+)
+"modnmhl" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 14543"
+""
+""
+""
+)
+"pmosw_4n" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 16315"
+""
+""
+""
+)
+"modpd30mnwd" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cmos53.scs 15303"
+""
+""
+""
+)
+"SP020S250T" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 1317"
+""
+""
+""
+)
+"SP073S250T" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 1623"
+""
+""
+""
+)
+"padvdd" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/cap.scs 859"
+""
+""
+""
+)
+"SP024S250T" "subckt" (
+"/opt/pdk/ams/410/spectre/c35/ind.scs 1385"
+""
+""
+""
+)
+END

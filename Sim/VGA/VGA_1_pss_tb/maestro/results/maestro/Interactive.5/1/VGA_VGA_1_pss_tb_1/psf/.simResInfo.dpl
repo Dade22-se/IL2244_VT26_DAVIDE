@@ -1,0 +1,9 @@
+nodes=33
+jobId=445
+idInRun=1
+host=il2244vt26_davidevi
+jobLog=logs0/Job445.log
+Memory=220 M
+startTime=1:19:56 PM, Wed Apr 15, 2026
+endTime=1:19:59 PM, Wed Apr 15, 2026
+elapsedTime=2.48 s

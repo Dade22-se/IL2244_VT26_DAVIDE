@@ -1,0 +1,10 @@
+"serviceLog=logs0/Service406.log"
+nodes=33
+jobId=415
+idInRun=31
+host=il2244vt26_davidevi
+jobLog=logs0/Job415.log
+Memory=218 M
+startTime=12:40:01 PM, Wed Apr 15, 2026
+endTime=12:40:04 PM, Wed Apr 15, 2026
+elapsedTime=2.62 s

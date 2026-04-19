@@ -1,0 +1,1169 @@
+\# Program start time:     UTC 2026.04.16 10:27:02.532
+\# Local time: UTC (UTC+00:00) 2026.04.16 10:27:02.532
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 09/03/2024 19:11 (sjfhw316) $
+\o Hierarchy:		/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.36  (64-bit addresses)
+\# Command line:	/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost il2244vt26_davidevi -beanport 11300 -beanbinlog  -beanLogFile /home/davidevi/Desktop/myproject/logs_davidevi/logs0/amps_Service510.log -mpssession virtuoso483270 -mpshost il2244vt26_davidevi -davinciService DaVinciService_483270_1773683810 -scopedPid 483270 -axlSession fnxSession25 -axlServiceIdFlag 510 -uuid 887b26b9-b317-4c5e-a639-5f91b57a6b52 -heartbeat /dev/shm/swift-heartbeat.lapawZ5DM1 -log /home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D74EF9D178A6FD82860E590078A72887903B69319D236867C66E38F1FFC06BC4D66E38F1FFC06BC4D0F03366B4572D5AD00001DE6 -interactive -offlineExprEval -fenixMode assembler -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
+\# Host name (type):	il2244vt26_davidevi (x86_64)
+\# Operating system:	Linux 5.15.0-164-generic #174-Ubuntu SMP Fri Nov 14 20:25:16 UTC 2025
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:5278 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        753 MB
+\# Available memory:	  2,388,110 MB
+\# System memory:	  3,104,512 MB
+\# Maximum memory size:	  3,103,880 MB
+\# Max mem available:	  2,388,231 MB
+\# Initial memory used:	        121 MB
+\#        process size:	      1,677 MB
+\# Thread usage limits (effective/default):	maxthreads 4294967295/4294967295 maxload 48.00/48.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		davidevi
+\o Working Directory:	il2244vt26_davidevi:/home/davidevi/Desktop/myproject
+\# Process Id:		1093930
+\o 
+\o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\w Qt Warning: setNativeLocks failed: "Resource temporarily unavailable"
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\# Memory report: using         231 MB, process size 1,873 MB at UTC 2026.04.16 10:27:04.415
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso483270, host=il2244vt26_davidevi). Connection mode is LSCS. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 1093930 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\# [10:27:02.445282] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
+\o ......................................................................................
+\o            ams AG HIT-Kit v.ams_4.10
+\o ......................................................................................
+\o COPYRIGHT (c) 2012 Full Service Foundry @ ams AG.  ALL RIGHTS RESERVED
+\o This HIT-Kit and attached documentation are confidential information and may 
+\o only be used as authorized by the HIT-Kit license agreement.
+\o ......................................................................................
+\# Current Window: window(2)
+\o Loading simulator default settings.
+\o Loading simulator default settings.
+\p hitkit: ams_4.10  Tech: c35b4c3  User: davidevi 
+\w *WARNING* could not load font "-*-courier-medium-r-*-*-12-*", using font "fixed"
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 1093930' to open it when Virtuoso freezes.
+\# (PerfDiag): Use backtrace from GLIBC.
+\w *WARNING* _perfPstackCheck: Cannot find pstack/gstack. Please setup PATH environment variable to pstack/gstack executable.
+\i _axlRunServices()
+\o Loading simui.cxt 
+\o [2026-04-16 10:27:06.917 Z] [PROCESS] [cadence.virtuoso.ade.services] - Netlist Service has successfully started. Waiting for incoming messages ... {"hostname": "il2244vt26_davidevi", "processid": 1093930, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log"}
+\# Available memory:      2,387,725 MB at UTC 2026.04.16 10:27:14.968
+\# Memory report: Maximum memory size now 2,388,036 MB at UTC 2026.04.16 10:27:14.968
+\# Thread usage report: 54 active threads, active load 1.40 at UTC 2026.04.16 10:27:14.968
+\o [2026-04-16 10:27:19.640 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 0, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log", "logFileSize": "5993"}
+\o [2026-04-16 10:27:19.641 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started preparing netlist {"point": 0, "testname": "VGA_VGA_1_pss_tb_1", "testnameKey": "VGA_VGA_1_pss_tb_1"}
+\o Loading vqp.cxt 
+\o Loading vdsil.cxt 
+\o *Warning* AXL Context Manager : job 510 is already registered. 
+\o 
+\o Loading hdlPkg.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = VGA
+\o 	Cell         = VGA_1_pss_tb
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = Interactive.8
+\o 	Results DB   = /home/davidevi/Desktop/myproject/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8.rdb
+\o 	Results Dir  = /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/1/VGA_VGA_1_pss_tb_1
+\o 	Results Loc  = /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro
+\o 	Project Dir  = /home/davidevi/Desktop/myproject/Sim
+\o 	Setup DB loc = /home/davidevi/Desktop/myproject/VGA/VGA_1_pss_tb/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading viva.cxt 
+\o Loading spectrei.cxt 
+\# Memory report: using         363 MB, process size 2,122 MB at UTC 2026.04.16 10:27:21.387
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Loading elec.cxt 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var S0 = "3.3"
+\o Setting var S1 = "3.3"
+\o Setting var S2 = "3.3"
+\o Setting var S3 = "3.3"
+\o Setting var VDD = "3.3"
+\o Setting var V_AMP = "20m"
+\o Setting var V_FREQ = "50"
+\o Loading monte.cxt 
+\o Reusing AHDL Data dir
+\o 
+\o *Info*    Data Directory    =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/psf/VGA_VGA_1_pss_tb_1
+\o 
+\o generate netlist...
+\o Loading hnlInit.cxt 
+\o Loading seCore.cxt 
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\# [10:27:23.146154] Periodic Lic check successful
+\# [10:27:23.146160] Feature usage summary:
+\o Begin Incremental Netlisting Apr 16 10:27:23 2026
+\o WARNING (OSSHNL-225): The design variable 'temperature', used in the last netlisting session in the current
+\o run directory is not used in this netlisting session. The netlist(s) generated
+\o in the last netlisting session cannot be reused for incremental netlisting.
+\o Therefore re-netlisting the design.
+\o 
+\o Loading json.cxt 
+\o End netlisting Apr 16 10:27:23 2026
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   61
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-04-16 10:27:24.393 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished preparing netlist {"point": 0, "testname": "VGA_VGA_1_pss_tb_1", "testnameKey": "VGA_VGA_1_pss_tb_1"}
+\o [2026-04-16 10:27:25.398 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 1, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log", "logFileSize": "7916"}
+\o [2026-04-16 10:27:25.398 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 1, "testname": "VGA_VGA_1_pss_tb_1"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o *Warning* AXL Context Manager : job 510 is already registered. 
+\o 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = VGA
+\o 	Cell         = VGA_1_pss_tb
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = Interactive.8
+\o 	Results DB   = /home/davidevi/Desktop/myproject/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8.rdb
+\o 	Results Dir  = /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/1/VGA_VGA_1_pss_tb_1
+\o 	Results Loc  = /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro
+\o 	Project Dir  = /home/davidevi/Desktop/myproject/Sim
+\o 	Setup DB loc = /home/davidevi/Desktop/myproject/VGA/VGA_1_pss_tb/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var S0 = "3.3"
+\o Setting var S1 = "3.3"
+\o Setting var S2 = "3.3"
+\o Setting var S3 = "3.3"
+\o Setting var VDD = "3.3"
+\o Setting var V_AMP = "20m"
+\o Setting var V_FREQ = "50"
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/1/VGA_VGA_1_pss_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/1/VGA_VGA_1_pss_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-04-16 10:27:27.792 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 724.2500 MBytes, peak memory used: 724.2500 MBytes {"hostname": "il2244vt26_davidevi", "processid": 1093930, "testname": "VGA_VGA_1_pss_tb_1", "point": 1, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log"}
+\o [2026-04-16 10:27:27.793 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 1, "testname": "VGA_VGA_1_pss_tb_1"}
+\o [2026-04-16 10:27:27.795 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 2, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log", "logFileSize": "12818"}
+\o [2026-04-16 10:27:27.795 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 2, "testname": "VGA_VGA_1_pss_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDD = "2.97"
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/2/VGA_VGA_1_pss_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/2/VGA_VGA_1_pss_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-04-16 10:27:28.447 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 724.2500 MBytes, peak memory used: 724.2500 MBytes {"hostname": "il2244vt26_davidevi", "processid": 1093930, "testname": "VGA_VGA_1_pss_tb_1", "point": 2, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log"}
+\o [2026-04-16 10:27:28.448 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 2, "testname": "VGA_VGA_1_pss_tb_1"}
+\o [2026-04-16 10:27:28.451 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 3, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log", "logFileSize": "14865"}
+\o [2026-04-16 10:27:28.451 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 3, "testname": "VGA_VGA_1_pss_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/3/VGA_VGA_1_pss_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/3/VGA_VGA_1_pss_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-04-16 10:27:29.095 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 724.2539 MBytes, peak memory used: 724.2539 MBytes {"hostname": "il2244vt26_davidevi", "processid": 1093930, "testname": "VGA_VGA_1_pss_tb_1", "point": 3, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log"}
+\o [2026-04-16 10:27:29.096 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 3, "testname": "VGA_VGA_1_pss_tb_1"}
+\o [2026-04-16 10:27:29.099 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 4, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log", "logFileSize": "16882"}
+\o [2026-04-16 10:27:29.099 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 4, "testname": "VGA_VGA_1_pss_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDD = "3.63"
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/4/VGA_VGA_1_pss_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/4/VGA_VGA_1_pss_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-04-16 10:27:29.700 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 724.2539 MBytes, peak memory used: 724.2539 MBytes {"hostname": "il2244vt26_davidevi", "processid": 1093930, "testname": "VGA_VGA_1_pss_tb_1", "point": 4, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log"}
+\o [2026-04-16 10:27:29.701 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 4, "testname": "VGA_VGA_1_pss_tb_1"}
+\o [2026-04-16 10:27:29.703 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 5, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log", "logFileSize": "18929"}
+\o [2026-04-16 10:27:29.704 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 5, "testname": "VGA_VGA_1_pss_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/5/VGA_VGA_1_pss_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/5/VGA_VGA_1_pss_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-04-16 10:27:30.500 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 724.2539 MBytes, peak memory used: 724.2539 MBytes {"hostname": "il2244vt26_davidevi", "processid": 1093930, "testname": "VGA_VGA_1_pss_tb_1", "point": 5, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log"}
+\o [2026-04-16 10:27:30.501 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 5, "testname": "VGA_VGA_1_pss_tb_1"}
+\o [2026-04-16 10:27:30.503 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 6, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log", "logFileSize": "20946"}
+\o [2026-04-16 10:27:30.503 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 6, "testname": "VGA_VGA_1_pss_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDD = "2.97"
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/6/VGA_VGA_1_pss_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/6/VGA_VGA_1_pss_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-04-16 10:27:31.117 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 724.2539 MBytes, peak memory used: 724.2539 MBytes {"hostname": "il2244vt26_davidevi", "processid": 1093930, "testname": "VGA_VGA_1_pss_tb_1", "point": 6, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log"}
+\o [2026-04-16 10:27:31.118 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 6, "testname": "VGA_VGA_1_pss_tb_1"}
+\o [2026-04-16 10:27:31.120 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 7, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log", "logFileSize": "22993"}
+\o [2026-04-16 10:27:31.121 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 7, "testname": "VGA_VGA_1_pss_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/7/VGA_VGA_1_pss_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/7/VGA_VGA_1_pss_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-04-16 10:27:31.662 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 724.2539 MBytes, peak memory used: 724.2539 MBytes {"hostname": "il2244vt26_davidevi", "processid": 1093930, "testname": "VGA_VGA_1_pss_tb_1", "point": 7, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log"}
+\o [2026-04-16 10:27:31.662 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 7, "testname": "VGA_VGA_1_pss_tb_1"}
+\o [2026-04-16 10:27:31.664 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 8, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log", "logFileSize": "25010"}
+\o [2026-04-16 10:27:31.664 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 8, "testname": "VGA_VGA_1_pss_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDD = "3.63"
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/8/VGA_VGA_1_pss_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/8/VGA_VGA_1_pss_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-04-16 10:27:32.243 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 724.2539 MBytes, peak memory used: 724.2539 MBytes {"hostname": "il2244vt26_davidevi", "processid": 1093930, "testname": "VGA_VGA_1_pss_tb_1", "point": 8, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log"}
+\o [2026-04-16 10:27:32.243 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 8, "testname": "VGA_VGA_1_pss_tb_1"}
+\o [2026-04-16 10:27:32.245 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 9, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log", "logFileSize": "27057"}
+\o [2026-04-16 10:27:32.246 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 9, "testname": "VGA_VGA_1_pss_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/9/VGA_VGA_1_pss_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/9/VGA_VGA_1_pss_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-04-16 10:27:32.941 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 724.2539 MBytes, peak memory used: 724.2539 MBytes {"hostname": "il2244vt26_davidevi", "processid": 1093930, "testname": "VGA_VGA_1_pss_tb_1", "point": 9, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log"}
+\o [2026-04-16 10:27:32.942 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 9, "testname": "VGA_VGA_1_pss_tb_1"}
+\o [2026-04-16 10:27:32.944 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 10, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log", "logFileSize": "29074"}
+\o [2026-04-16 10:27:32.944 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 10, "testname": "VGA_VGA_1_pss_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDD = "2.97"
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/10/VGA_VGA_1_pss_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/10/VGA_VGA_1_pss_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-04-16 10:27:33.552 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 724.2539 MBytes, peak memory used: 724.2539 MBytes {"hostname": "il2244vt26_davidevi", "processid": 1093930, "testname": "VGA_VGA_1_pss_tb_1", "point": 10, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log"}
+\o [2026-04-16 10:27:33.553 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 10, "testname": "VGA_VGA_1_pss_tb_1"}
+\o [2026-04-16 10:27:33.555 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 11, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log", "logFileSize": "31127"}
+\o [2026-04-16 10:27:33.555 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 11, "testname": "VGA_VGA_1_pss_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/11/VGA_VGA_1_pss_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/11/VGA_VGA_1_pss_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-04-16 10:27:34.112 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 724.2539 MBytes, peak memory used: 724.2539 MBytes {"hostname": "il2244vt26_davidevi", "processid": 1093930, "testname": "VGA_VGA_1_pss_tb_1", "point": 11, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log"}
+\o [2026-04-16 10:27:34.113 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 11, "testname": "VGA_VGA_1_pss_tb_1"}
+\o [2026-04-16 10:27:34.115 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 12, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log", "logFileSize": "33150"}
+\o [2026-04-16 10:27:34.115 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 12, "testname": "VGA_VGA_1_pss_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDD = "3.63"
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/12/VGA_VGA_1_pss_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/12/VGA_VGA_1_pss_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-04-16 10:27:34.655 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 724.2539 MBytes, peak memory used: 724.2539 MBytes {"hostname": "il2244vt26_davidevi", "processid": 1093930, "testname": "VGA_VGA_1_pss_tb_1", "point": 12, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log"}
+\o [2026-04-16 10:27:34.656 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 12, "testname": "VGA_VGA_1_pss_tb_1"}
+\o [2026-04-16 10:27:34.657 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 13, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log", "logFileSize": "35203"}
+\o [2026-04-16 10:27:34.658 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 13, "testname": "VGA_VGA_1_pss_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/13/VGA_VGA_1_pss_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/13/VGA_VGA_1_pss_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-04-16 10:27:36.232 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 724.2539 MBytes, peak memory used: 724.2539 MBytes {"hostname": "il2244vt26_davidevi", "processid": 1093930, "testname": "VGA_VGA_1_pss_tb_1", "point": 13, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log"}
+\o [2026-04-16 10:27:36.233 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 13, "testname": "VGA_VGA_1_pss_tb_1"}
+\o [2026-04-16 10:27:36.234 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 14, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log", "logFileSize": "37226"}
+\o [2026-04-16 10:27:36.235 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 14, "testname": "VGA_VGA_1_pss_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDD = "2.97"
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/14/VGA_VGA_1_pss_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/14/VGA_VGA_1_pss_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-04-16 10:27:36.859 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 724.2539 MBytes, peak memory used: 724.2539 MBytes {"hostname": "il2244vt26_davidevi", "processid": 1093930, "testname": "VGA_VGA_1_pss_tb_1", "point": 14, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log"}
+\o [2026-04-16 10:27:36.860 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 14, "testname": "VGA_VGA_1_pss_tb_1"}
+\o [2026-04-16 10:27:36.861 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 15, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log", "logFileSize": "39279"}
+\o [2026-04-16 10:27:36.862 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 15, "testname": "VGA_VGA_1_pss_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/15/VGA_VGA_1_pss_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/15/VGA_VGA_1_pss_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-04-16 10:27:37.457 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 724.2539 MBytes, peak memory used: 724.2539 MBytes {"hostname": "il2244vt26_davidevi", "processid": 1093930, "testname": "VGA_VGA_1_pss_tb_1", "point": 15, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log"}
+\o [2026-04-16 10:27:37.458 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 15, "testname": "VGA_VGA_1_pss_tb_1"}
+\o [2026-04-16 10:27:37.461 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 16, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log", "logFileSize": "41302"}
+\o [2026-04-16 10:27:37.461 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 16, "testname": "VGA_VGA_1_pss_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDD = "3.63"
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/16/VGA_VGA_1_pss_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/16/VGA_VGA_1_pss_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-04-16 10:27:38.075 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 724.2539 MBytes, peak memory used: 724.2539 MBytes {"hostname": "il2244vt26_davidevi", "processid": 1093930, "testname": "VGA_VGA_1_pss_tb_1", "point": 16, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log"}
+\o [2026-04-16 10:27:38.076 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 16, "testname": "VGA_VGA_1_pss_tb_1"}
+\o [2026-04-16 10:27:38.078 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 17, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log", "logFileSize": "43355"}
+\o [2026-04-16 10:27:38.078 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 17, "testname": "VGA_VGA_1_pss_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/17/VGA_VGA_1_pss_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/17/VGA_VGA_1_pss_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-04-16 10:27:38.629 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 724.2539 MBytes, peak memory used: 724.2539 MBytes {"hostname": "il2244vt26_davidevi", "processid": 1093930, "testname": "VGA_VGA_1_pss_tb_1", "point": 17, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log"}
+\o [2026-04-16 10:27:38.630 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 17, "testname": "VGA_VGA_1_pss_tb_1"}
+\o [2026-04-16 10:27:38.632 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 18, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log", "logFileSize": "45378"}
+\o [2026-04-16 10:27:38.632 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 18, "testname": "VGA_VGA_1_pss_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDD = "2.97"
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/18/VGA_VGA_1_pss_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/18/VGA_VGA_1_pss_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-04-16 10:27:39.318 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 724.2539 MBytes, peak memory used: 724.2539 MBytes {"hostname": "il2244vt26_davidevi", "processid": 1093930, "testname": "VGA_VGA_1_pss_tb_1", "point": 18, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log"}
+\o [2026-04-16 10:27:39.319 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 18, "testname": "VGA_VGA_1_pss_tb_1"}
+\o [2026-04-16 10:27:39.321 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 19, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log", "logFileSize": "47431"}
+\o [2026-04-16 10:27:39.321 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 19, "testname": "VGA_VGA_1_pss_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/19/VGA_VGA_1_pss_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/19/VGA_VGA_1_pss_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-04-16 10:27:39.883 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 724.2539 MBytes, peak memory used: 724.2539 MBytes {"hostname": "il2244vt26_davidevi", "processid": 1093930, "testname": "VGA_VGA_1_pss_tb_1", "point": 19, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log"}
+\o [2026-04-16 10:27:39.884 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 19, "testname": "VGA_VGA_1_pss_tb_1"}
+\o [2026-04-16 10:27:39.886 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 20, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log", "logFileSize": "49454"}
+\o [2026-04-16 10:27:39.886 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 20, "testname": "VGA_VGA_1_pss_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDD = "3.63"
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/20/VGA_VGA_1_pss_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/20/VGA_VGA_1_pss_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-04-16 10:27:40.422 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 724.2539 MBytes, peak memory used: 724.2539 MBytes {"hostname": "il2244vt26_davidevi", "processid": 1093930, "testname": "VGA_VGA_1_pss_tb_1", "point": 20, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log"}
+\o [2026-04-16 10:27:40.423 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 20, "testname": "VGA_VGA_1_pss_tb_1"}
+\o [2026-04-16 10:27:40.425 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 21, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log", "logFileSize": "51507"}
+\o [2026-04-16 10:27:40.425 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 21, "testname": "VGA_VGA_1_pss_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/21/VGA_VGA_1_pss_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/21/VGA_VGA_1_pss_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-04-16 10:27:41.005 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 724.2539 MBytes, peak memory used: 724.2539 MBytes {"hostname": "il2244vt26_davidevi", "processid": 1093930, "testname": "VGA_VGA_1_pss_tb_1", "point": 21, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log"}
+\o [2026-04-16 10:27:41.006 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 21, "testname": "VGA_VGA_1_pss_tb_1"}
+\o [2026-04-16 10:27:41.008 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 22, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log", "logFileSize": "53530"}
+\o [2026-04-16 10:27:41.008 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 22, "testname": "VGA_VGA_1_pss_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDD = "2.97"
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/22/VGA_VGA_1_pss_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/22/VGA_VGA_1_pss_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-04-16 10:27:41.560 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 724.2539 MBytes, peak memory used: 724.2539 MBytes {"hostname": "il2244vt26_davidevi", "processid": 1093930, "testname": "VGA_VGA_1_pss_tb_1", "point": 22, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log"}
+\o [2026-04-16 10:27:41.561 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 22, "testname": "VGA_VGA_1_pss_tb_1"}
+\o [2026-04-16 10:27:41.563 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 23, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log", "logFileSize": "55583"}
+\o [2026-04-16 10:27:41.563 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 23, "testname": "VGA_VGA_1_pss_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/23/VGA_VGA_1_pss_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/23/VGA_VGA_1_pss_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-04-16 10:27:42.361 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 724.2539 MBytes, peak memory used: 724.2539 MBytes {"hostname": "il2244vt26_davidevi", "processid": 1093930, "testname": "VGA_VGA_1_pss_tb_1", "point": 23, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log"}
+\o [2026-04-16 10:27:42.362 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 23, "testname": "VGA_VGA_1_pss_tb_1"}
+\o [2026-04-16 10:27:42.364 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 24, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log", "logFileSize": "57606"}
+\o [2026-04-16 10:27:42.364 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 24, "testname": "VGA_VGA_1_pss_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDD = "3.63"
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/24/VGA_VGA_1_pss_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/24/VGA_VGA_1_pss_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-04-16 10:27:42.967 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 724.2539 MBytes, peak memory used: 724.2539 MBytes {"hostname": "il2244vt26_davidevi", "processid": 1093930, "testname": "VGA_VGA_1_pss_tb_1", "point": 24, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log"}
+\o [2026-04-16 10:27:42.968 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 24, "testname": "VGA_VGA_1_pss_tb_1"}
+\o [2026-04-16 10:27:42.969 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 25, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log", "logFileSize": "59659"}
+\o [2026-04-16 10:27:42.970 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 25, "testname": "VGA_VGA_1_pss_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/25/VGA_VGA_1_pss_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/25/VGA_VGA_1_pss_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-04-16 10:27:44.362 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 724.2539 MBytes, peak memory used: 724.2539 MBytes {"hostname": "il2244vt26_davidevi", "processid": 1093930, "testname": "VGA_VGA_1_pss_tb_1", "point": 25, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log"}
+\o [2026-04-16 10:27:44.363 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 25, "testname": "VGA_VGA_1_pss_tb_1"}
+\o [2026-04-16 10:27:44.364 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 26, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log", "logFileSize": "61682"}
+\o [2026-04-16 10:27:44.364 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 26, "testname": "VGA_VGA_1_pss_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDD = "2.97"
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/26/VGA_VGA_1_pss_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/26/VGA_VGA_1_pss_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-04-16 10:27:44.939 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 724.2539 MBytes, peak memory used: 724.2539 MBytes {"hostname": "il2244vt26_davidevi", "processid": 1093930, "testname": "VGA_VGA_1_pss_tb_1", "point": 26, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log"}
+\o [2026-04-16 10:27:44.939 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 26, "testname": "VGA_VGA_1_pss_tb_1"}
+\o [2026-04-16 10:27:44.941 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 27, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log", "logFileSize": "63735"}
+\o [2026-04-16 10:27:44.941 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 27, "testname": "VGA_VGA_1_pss_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/27/VGA_VGA_1_pss_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/27/VGA_VGA_1_pss_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-04-16 10:27:45.613 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 724.2539 MBytes, peak memory used: 724.2539 MBytes {"hostname": "il2244vt26_davidevi", "processid": 1093930, "testname": "VGA_VGA_1_pss_tb_1", "point": 27, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log"}
+\o [2026-04-16 10:27:45.613 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 27, "testname": "VGA_VGA_1_pss_tb_1"}
+\o [2026-04-16 10:27:45.616 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 28, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log", "logFileSize": "65758"}
+\o [2026-04-16 10:27:45.616 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 28, "testname": "VGA_VGA_1_pss_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDD = "3.63"
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/28/VGA_VGA_1_pss_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/28/VGA_VGA_1_pss_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-04-16 10:27:46.190 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 724.2539 MBytes, peak memory used: 724.2539 MBytes {"hostname": "il2244vt26_davidevi", "processid": 1093930, "testname": "VGA_VGA_1_pss_tb_1", "point": 28, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log"}
+\o [2026-04-16 10:27:46.191 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 28, "testname": "VGA_VGA_1_pss_tb_1"}
+\o [2026-04-16 10:27:46.193 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 29, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log", "logFileSize": "67811"}
+\o [2026-04-16 10:27:46.194 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 29, "testname": "VGA_VGA_1_pss_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/29/VGA_VGA_1_pss_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/29/VGA_VGA_1_pss_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-04-16 10:27:46.761 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 724.2539 MBytes, peak memory used: 724.2539 MBytes {"hostname": "il2244vt26_davidevi", "processid": 1093930, "testname": "VGA_VGA_1_pss_tb_1", "point": 29, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log"}
+\o [2026-04-16 10:27:46.762 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 29, "testname": "VGA_VGA_1_pss_tb_1"}
+\o [2026-04-16 10:27:46.764 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 30, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log", "logFileSize": "69834"}
+\o [2026-04-16 10:27:46.764 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 30, "testname": "VGA_VGA_1_pss_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDD = "2.97"
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/30/VGA_VGA_1_pss_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/30/VGA_VGA_1_pss_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-04-16 10:27:47.312 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 724.2539 MBytes, peak memory used: 724.2539 MBytes {"hostname": "il2244vt26_davidevi", "processid": 1093930, "testname": "VGA_VGA_1_pss_tb_1", "point": 30, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log"}
+\o [2026-04-16 10:27:47.313 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 30, "testname": "VGA_VGA_1_pss_tb_1"}
+\o [2026-04-16 10:27:47.315 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 31, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log", "logFileSize": "71887"}
+\o [2026-04-16 10:27:47.315 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 31, "testname": "VGA_VGA_1_pss_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/31/VGA_VGA_1_pss_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/31/VGA_VGA_1_pss_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-04-16 10:27:47.886 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 724.2539 MBytes, peak memory used: 724.2539 MBytes {"hostname": "il2244vt26_davidevi", "processid": 1093930, "testname": "VGA_VGA_1_pss_tb_1", "point": 31, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log"}
+\o [2026-04-16 10:27:47.887 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 31, "testname": "VGA_VGA_1_pss_tb_1"}
+\o [2026-04-16 10:27:47.889 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 32, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log", "logFileSize": "73910"}
+\o [2026-04-16 10:27:47.889 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 32, "testname": "VGA_VGA_1_pss_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDD = "3.63"
+\o Setting var temperature = "-40"
+\o Setting temp(T) = -40
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/32/VGA_VGA_1_pss_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/32/VGA_VGA_1_pss_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-04-16 10:27:48.928 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 724.2539 MBytes, peak memory used: 724.2539 MBytes {"hostname": "il2244vt26_davidevi", "processid": 1093930, "testname": "VGA_VGA_1_pss_tb_1", "point": 32, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log"}
+\o [2026-04-16 10:27:48.929 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 32, "testname": "VGA_VGA_1_pss_tb_1"}
+\o [2026-04-16 10:27:48.931 Z] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 33, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log", "logFileSize": "75963"}
+\o [2026-04-16 10:27:48.931 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 33, "testname": "VGA_VGA_1_pss_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/33/VGA_VGA_1_pss_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/33/VGA_VGA_1_pss_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o [2026-04-16 10:27:49.467 Z] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 724.2539 MBytes, peak memory used: 724.2539 MBytes {"hostname": "il2244vt26_davidevi", "processid": 1093930, "testname": "VGA_VGA_1_pss_tb_1", "point": 33, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Service510.log"}
+\o [2026-04-16 10:27:49.467 Z] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 33, "testname": "VGA_VGA_1_pss_tb_1"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\# Lic Summary:
+\# [10:32:52.258882] Cdslmd servers:3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
+\# [10:32:52.258898] Feature usage summary:
+\# Memory report: on exit            421 MB, process size 2,183 MB at UTC 2026.04.16 10:32:52.783
+\# Memory report: peak usage         421 MB, process size 2,185 MB

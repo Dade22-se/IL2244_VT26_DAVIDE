@@ -1,0 +1,5 @@
+
+// Library name: FECG
+// Cell name: buffer2
+// View name: schematic
+subckt buffer2 BIAS GNDA INP OUT VDDA

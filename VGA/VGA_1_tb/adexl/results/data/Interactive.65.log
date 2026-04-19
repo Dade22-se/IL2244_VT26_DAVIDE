@@ -1,0 +1,21 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Mon Mar 23 10:47:19 2026 
+Best design point: 1
+Design specs: 
+	VGA:VGA_1_tb:1	corner	Nominal - 
+	total noise		473.9u
+Design parameters: 
+	bias		200n
+	S0		3.3
+	S1		3.3
+	S2		3.3
+	S3		3.3
+	VDD		3.3
+	V_FREQ		1K
+
+Interactive.65
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.65 completed. 
+Current time: Mon Mar 23 10:47:27 2026 

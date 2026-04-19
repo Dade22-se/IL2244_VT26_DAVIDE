@@ -1,0 +1,6 @@
+"ECG_IA.ecg_vga4.schematic.termorder" (("BIAS" "GNDA" "S<2>" "S<1>" "S<0>" "VDDA" "VIN" "VOUT") ("BIAS" "GNDA" "S<2>" "S<1>" "S<0>" "VDDA" "VIN" "VOUT"))
+"PRIMLIB.rpolyhc.schematic.termorder" (("PLUS" "MINUS" "REF") ("MINUS" "PLUS" "REF"))
+"ECG_IA.mux21.schematic.termorder" (("A0" "A1" "C" "GNDA" "S" "VDDA") ("A0" "A1" "C" "GNDA" "S" "VDDA"))
+"ECG_IA.ecg_ia8.schematic.termorder" (("BIAS" "GNDA" "VDDA" "VINN" "VINP" "VOUT" "CLK") ("BIAS" "CLK" "GNDA" "VDDA" "VINN" "VINP" "VOUT"))
+"ECG_IA.chopper.schematic.termorder" (("GNDA" "VDDA" "clk" "inn" "inp" "outn" "outp") ("GNDA" "VDDA" "clk" "inn" "inp" "outn" "outp"))
+"PRIMLIB.cpolyc.schematic.termorder" nil

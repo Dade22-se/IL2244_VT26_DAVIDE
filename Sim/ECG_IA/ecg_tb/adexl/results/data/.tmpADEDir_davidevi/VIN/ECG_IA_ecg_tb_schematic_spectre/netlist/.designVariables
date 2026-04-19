@@ -1,0 +1,3 @@
+parameters temperature=27 VIN_STEP=0 VDD_STEP=0 S0=3.3 S1=3.3 S2=3.3 T0=0 \
+    T1=0 T2=0 VIN_FREQ=50 VIN_AMP=1m FC=2K VCM_AC=1 VCM_DC=1.6 VDD=3.3 \
+    VIN_AC=1 VIN_DC=0

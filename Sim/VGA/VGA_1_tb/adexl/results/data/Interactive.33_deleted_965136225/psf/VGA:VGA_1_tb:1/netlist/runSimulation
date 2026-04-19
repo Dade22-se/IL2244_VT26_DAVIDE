@@ -1,0 +1,1 @@
+ spectre  input.scs  +escchars +log ../../../../Interactive.9/psf/VGA:VGA_1_tb:1/psf/spectre.out  -format psfbin +rtsf -raw ../../../../Interactive.9/psf/VGA:VGA_1_tb:1/psf   +aps +mt +lqtimeout 900 -maxw 5 -maxn 5 +param /opt/pdk/ams/410/spectre/ams_range.lmts -env ade +adespetkn=adespe   

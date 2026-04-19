@@ -1,0 +1,1 @@
+(nil paramString "modelFiles \"processOption.scs,cmos53.scs:cmosws,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm\",temperature 85.0,VDD 2.97" cornerName "CMOS_CAP_VDD_TEMP_9" rootDir "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.8/wavedb" runIndex 11 designPointId 1)

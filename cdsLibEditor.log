@@ -1,0 +1,24 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.8 - CAT37 04/25/2024 14:36 (csvcm36c-7) $
+\o Sub version:		sub-version  s364 
+\o Arguments:		-cdslib /home/davidevi/Desktop/myproject/cds.lib -mpssession virtuoso483270 -mpshost il2244vt26_davidevi -mpsversion 6.18 
+\o Working Directory:	il2244vt26_davidevi:/home/davidevi/Desktop/myproject
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		5.9.1
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(cdsLibEditor list(598 294 500 400))
+\a nrListItemAction(cdsLibEditor->mainTable 39 1)
+\o Active cell: 39 1 "CHARACTERIZATION"
+\a nrListItemAction(cdsLibEditor->mainTable 40 1)
+\o Active cell: 40 1 ""
+\a nrListItemAction(cdsLibEditor->mainTable 40 0)
+\o Active cell: 40 0 ""
+\a nrListItemRename(cdsLibEditor->mainTable, 40 0 "FECG")
+\a nrListItemAction(cdsLibEditor->mainTable 40 1)
+\o Active cell: 40 1 ""
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemRename(cdsLibEditor->mainTable, 40 1 "/home/davidevi/Desktop/IL2244_VT26_DAVIDE/FECG")
+\a nrListItemAction(cdsLibEditor->mainTable 41 0)
+\o Active cell: 41 0 ""
+\a cdsLibEditor->fileSaveButton->value = t
+\a exit(0)

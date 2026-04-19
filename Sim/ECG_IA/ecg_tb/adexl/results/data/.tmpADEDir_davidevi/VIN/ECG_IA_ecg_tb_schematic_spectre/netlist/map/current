@@ -1,0 +1,30 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "ecg_tb"
+  repList "spectre cmos_sch schematic"
+  stopList "spectre"
+  globalList "gnd!"
+  hierDelim "."
+  netlistDir "/home/davidevi/Desktop/myproject/Sim/ECG_IA/ecg_tb/adexl/results/data/Interactive.200/1/VIN/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "PRIMLIB/cpolyc/schematic" "cpolyc" )
+( "ECG_IA/ecg_tb/schematic" "ecg_tb" )
+( "ECG_IA/ecg_ia8/schematic" "ecg_ia8" )
+( "ECG_IA/chopper/schematic" "chopper" )
+( "PRIMLIB/rpolyhc/schematic" "rpolyhc" )
+( "ECG_IA/ecg_vga4/schematic" "ecg_vga4" )
+( "ECG_IA/mux21/schematic" "mux21" )
+ )
+( "ecg_ia8" "ihnl/cds5/map" )
+( "chopper" "ihnl/cds4/map" )
+( "cpolyc" "ihnl/cds1/map" )
+( "mux21" "ihnl/cds2/map" )
+( "rpolyhc" "ihnl/cds0/map" )
+( "ecg_tb" "ihnl/cds6/map" )
+( "ecg_vga4" "ihnl/cds3/map" )
+ )

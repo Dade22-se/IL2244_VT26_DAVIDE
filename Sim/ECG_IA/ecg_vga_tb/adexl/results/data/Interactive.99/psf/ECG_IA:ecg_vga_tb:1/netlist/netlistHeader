@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Design Netlist Generated on: Mar 16 09:58:09 2026
+// Design library name: ECG_IA
+// Design cell name: ecg_vga_tb
+// Design view name: schematic
+simulator lang=spectre
+global 0

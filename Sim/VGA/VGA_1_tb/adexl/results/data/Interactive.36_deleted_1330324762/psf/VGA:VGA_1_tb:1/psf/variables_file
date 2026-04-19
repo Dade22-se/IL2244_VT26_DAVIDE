@@ -1,0 +1,18 @@
+HEADER
+"PSFversion" "1.00"
+"Time Stamp" "Mar 19 13:39:05 2026"
+TYPE
+"variable" STRUCT(
+"value" FLOAT DOUBLE
+) PROP( "key" "element" )
+VALUE
+"VIN_PULSE" "variable" ( 10e-3 ) PROP( )
+"VDD" "variable" ( 3.3 ) PROP( )
+"V_AMP" "variable" ( 1e-3 ) PROP( )
+"S3" "variable" ( 0 ) PROP( )
+"S2" "variable" ( 0 ) PROP( )
+"S1" "variable" ( 0 ) PROP( )
+"S0" "variable" ( 0 ) PROP( )
+"bias" "variable" ( 200e-9 ) PROP( )
+"temp" "variable" ( 27 ) PROP( )
+END

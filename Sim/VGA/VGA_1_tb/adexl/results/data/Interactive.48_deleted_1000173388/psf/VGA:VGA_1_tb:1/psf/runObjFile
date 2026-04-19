@@ -1,0 +1,37 @@
+HEADER
+"PSFversion" "1.00"
+"Run Generator" "drlRun rev. 1.0"
+"Run Time Stamp" "Mar 21 15:31:51 2026"
+"date" "Mar 21 15:31:51 2026"
+"simulator" "spectre"
+"netlistDir" "../netlist"
+"axlParamFlag" "true"
+ "externalSweepVariableCount" 1
+TYPE
+"runObject" STRUCT(
+"logName" ARRAY( * ) STRING *
+"parent" STRING *
+"sweepVariable" ARRAY( * ) STRING *
+) PROP( "key" "runObject" )
+VALUE
+"Root" "runObject" (
+("")
+""
+("V_FREQ")
+)
+"V_FREQ=1000.0" "runObject" (
+(
+"../../../1/VGA:VGA_1_tb:1/psf/logFile"
+"../../../1/VGA:VGA_1_tb:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 1
+"netlistDir" "../../../1/VGA:VGA_1_tb:1/netlist"
+"dataDir" "../../../1/VGA:VGA_1_tb:1"
+ "V_FREQ" 1.000000e+03
+)
+
+END

@@ -1,0 +1,531 @@
+
+Spectre (R) Circuit Simulator
+Version 24.1.0.288.isr5 64bit -- 3 Apr 2025
+Copyright (C) 1989-2025 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: davidevi   Host: il2244vt26_davidevi   HostID: 11AC2C00   PID: 737344
+Memory  available: 3.0556 TB  physical: 3.2467 TB
+Linux   : Rocky Linux release 8.10 (Green Obsidian)
+CPU Type: Intel(R) Xeon(R) CPU E7-8857 v2 @ 3.00GHz
+        Socket: Processors [Frequency]
+        0:       0 [1200.0],  1 [1200.0],  2 [1200.0],  3 [2999.9],  4 [1200.0]
+                 5 [1200.0],  6 [1200.0],  7 [1600.0],  8 [1200.0],  9 [2999.9]
+                10 [1200.0], 11 [1200.0]
+        1:      12 [2999.9], 13 [1200.0], 14 [1200.0], 15 [3600.0], 16 [2600.0]
+                17 [1200.0], 18 [1200.0], 19 [2400.0], 20 [2999.9], 21 [1200.0]
+                22 [1200.0], 23 [1200.0]
+        2:      24 [1200.0], 25 [2999.9], 26 [1200.0], 27 [2999.9], 28 [1200.0]
+                29 [1200.0], 30 [1200.0], 31 [1200.0], 32 [1200.0], 33 [1200.0]
+                34 [1200.0], 35 [1200.0]
+        3:      36 [1200.0], 37 [1200.0], 38 [1200.0], 39 [1200.0], 40 [2999.9]
+                41 [1200.0], 42 [2999.9], 43 [1200.0], 44 [1200.0], 45 [1200.0]
+                46 [1200.0], 47 [1200.0]
+        
+System load averages (1min, 5min, 15min) : 18.6 %, 20.5 %, 19.9 %
+HPC is enabled
+
+
+Simulating `input.scs' on il2244vt26_davidevi at 12:13:34 PM, Wed Apr 8, 2026 (process id: 737344).
+Current working directory: /home/davidevi/Desktop/myproject/Sim/FECG/fecg_tb/adexl/results/data/Interactive.41/1/VIN/netlist
+Command line:
+    /opt/tools/cadence/installs/SPECTRE241/tools/bin/spectre -64  \
+        input.scs +escchars +log ../psf/spectre.out -format psfbin  \
+        +rtsf -raw ../psf ++aps +mt +lqtimeout 900 -maxw 5 -maxn 5  \
+        +param /opt/pdk/ams/410/spectre/ams_range.lmts -env ade  \
+        -ahdllibdir  \
+        /home/davidevi/Desktop/myproject/Sim/FECG/fecg_tb/adexl/results/data/Interactive.41/sharedData/CDS/ahdl/input.ahdlSimDB  \
+        +logstatus  \
+        +adespetkn=0001089D13A302B663E41FB550AF0DF415A679A322D5069144BF588C12F604E07EF416DC01A319B562BB63D37FDC399545A351C806C43B9772C276D044894F9271F279D15D9175FF34986BDD0AF002BA50FD7FD707E002A700AC1C8404FE5AE30EA979D118F874D3349879D118F874D3349810075E9332B85D4E0000363D
+
+Simulation Id: MFQxnCFZODg0JkEj
+Licensing Information:
+[12:13:34.121714] Configured Lic search path (24.01-s002): 3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
+
+Licensing Information:
+[12:13:34.208697] Periodic Lic check successful
+
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libphilips_I_sh.so ...
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+
+Warning from spectre.
+    WARNING (SPECTRE-691): This CPU processor does not support x86 advanced vector extensions instructions. This may affect math operations and slow down the simulation.
+
+Reading file:  /home/davidevi/Desktop/myproject/Sim/FECG/fecg_tb/adexl/results/data/Interactive.41/1/VIN/netlist/input.scs
+Reading file:  /opt/pdk/ams/410/spectre/ams_range.lmts
+
+Warning from spectre during read of parameter soft limits file `/opt/pdk/ams/410/spectre/ams_range.lmts', during circuit read-in.
+    WARNING (SPECTRE-8360): line 1511: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1512: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1513: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1514: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1515: `ac' is an undefined primitive device.
+        Further occurrences of this warning will be suppressed.
+
+Reading file:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /opt/pdk/ams/410/spectre/c35/soac/soac.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/processOption.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/process.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/processOption/C35B4C3.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/cmos53.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/res.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/cap.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/bip.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/ind.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/esddiode.scs
+Time for NDB Parsing: CPU = 162.323 ms, elapsed = 317.549 ms.
+Time accumulated: CPU = 356.286 ms, elapsed = 317.553 ms.
+Peak resident memory used = 172 Mbytes.
+
+Reading link:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/discipline.h
+Reading file:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/disciplines.vams
+Reading link:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/constants.h
+Reading file:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/constants.vams
+
+Warning from spectre during AHDL read-in.
+    WARNING (VACOMP-2435): The environment variable CDS_AHDLCMI_ENABLE is no longer supported. Therefore, the simulator will use the default compiled C code flow.
+
+Existing shared object for module bsource_19b458 is up to date.
+Installed compiled interface for bsource_19b458.
+Time for Elaboration: CPU = 65.525 ms, elapsed = 73.437 ms.
+Time accumulated: CPU = 422.039 ms, elapsed = 391.217 ms.
+Peak resident memory used = 189 Mbytes.
+
+
+Notice from spectre during hierarchy flattening.
+    The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option.
+
+
+*****************************************************************************************
+* 
+* INFO: AMS_processOption = C35B4C3
+* 
+* INFO: Valid Modules  PIP VG5 HIRES
+* 
+*****************************************************************************************
+
+
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-8527): There are some nodes and instances removed from the netlist topology check. Check the circuit and correct the topology. Or use preserve_inst to keep them if necessary.
+
+***********************************************
+  Total removed instances 14 ( dangling 0, terminals connected together 14)  
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-8528): The I12.C6<0>_turbo_m3.C1 device is removed because its terminals are connected together. Check the device in the netlist file to ensure that this warning can be ignored.
+    WARNING (SPECTRE-8528): The I12.C9<0>_turbo_m6.C1 device is removed because its terminals are connected together. Check the device in the netlist file to ensure that this warning can be ignored.
+    WARNING (SPECTRE-8528): The I12.C10<0>_turbo_m12.C1 device is removed because its terminals are connected together. Check the device in the netlist file to ensure that this warning can be ignored.
+    WARNING (SPECTRE-8528): The I12.C7<0>_turbo_m3.C1 device is removed because its terminals are connected together. Check the device in the netlist file to ensure that this warning can be ignored.
+    WARNING (SPECTRE-8528): The I8.C6<0>_turbo_m3.C1 device is removed because its terminals are connected together. Check the device in the netlist file to ensure that this warning can be ignored.
+        Further occurrences of this warning will be suppressed.
+
+
+  Total removed nodes 0 ( dangling nodes 0, floating nodes 0 )
+***********************************************
+Time for EDB Visiting: CPU = 19.099 ms, elapsed = 19.115 ms.
+Time accumulated: CPU = 441.411 ms, elapsed = 410.604 ms.
+Peak resident memory used = 192 Mbytes.
+
+
+Warning from spectre during initial setup.
+    WARNING (CMI-2425): I14.C1: `Acde' = 2.393 is unusually large.
+    WARNING (CMI-2425): I14.C1: `Noff' = 4.732 is unusually large.
+    WARNING (CMI-2424): I14.C1: `Voffcv' = -867.4e-03 is unusually small.
+
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/mdl/lib/64bit/libSpectreEH_sh.so ...
+
+Warning from spectre during initial setup.
+    WARNING (SPECTRE-17607): Assert `SOAC_rpolyh_vminuspsub' is ignored because it contains an expression which is invalid or not supported by native evaluator. 
+    WARNING (SPECTRE-17607): Assert `SOAC_rpolyh_vpluspsub' is ignored because it contains an expression which is invalid or not supported by native evaluator. 
+    WARNING (SPECTRE-16460): SOAC_cvarm_vspsub:Specified subcircuit master `cvarm' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvarm_vspsub:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvarm_vbs:Specified subcircuit master `cvarm' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvarm_vbs:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvarm_vgb:Specified subcircuit master `cvarm' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvarm_vgb:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvart_vspsub:Specified subcircuit master `cvart' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvart_vspsub:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvart_vbs:Specified subcircuit master `cvart' was not found.
+        Further occurrences of this warning will be suppressed.
+    WARNING (SPECTRE-16462): SOAC_cvart_vbs:Error in specification of subcircuit master. Assert is ignored.
+        Further occurrences of this warning will be suppressed.
+    WARNING (SPECTRE-17607): Assert `SOAC_cvar_vspsub' is ignored because it contains an expression which is invalid or not supported by native evaluator. 
+    WARNING (SPECTRE-17607): Assert `SOAC_cvar_vbpsub' is ignored because it contains an expression which is invalid or not supported by native evaluator. 
+    WARNING (SPECTRE-17607): Assert `SOAC_cvar_vgpsub' is ignored because it contains an expression which is invalid or not supported by native evaluator. 
+        Further occurrences of this warning will be suppressed.
+Notice from spectre during initial setup.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Netlist title:
+        // Point Netlist Generated on: Apr  8 12:13:32 2026
+
+
+Global user options:
+         psfversion = 1.4.0
+            vabstol = 1e-06
+            iabstol = 1e-12
+               temp = 27
+           homotopy = 5
+              limit = delta
+         compatible = spice2
+               gmin = 1e-12
+             rforce = 1
+           maxnotes = 5
+           maxwarns = 5
+             digits = 5
+               cols = 80
+             pivrel = 0.001
+           sensfile = ../psf/sens.output
+     checklimitdest = psf
+     enable_pre_ver = yes
+      ignorezerovar = yes
+               save = allpub
+             reltol = 0.0001
+               tnom = 27
+             scalem = 1
+              scale = 1
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 150
+            bsim3v3 205   
+     bsource_19b458 16    
+          capacitor 250   
+              diode 2     
+           inductor 1     
+            isource 6     
+           resistor 6     
+            vsource 12    
+
+Analysis and control statement inventory:
+                 dc 1     
+               info 7     
+                pac 1     
+                pss 1     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 0     
+
+Design checks inventory:
+          paramtest 334   
+             assert 175   
+
+
+Notice from spectre during initial setup.
+    3 vsources are shorted because their absolute value is less than or equal to 'vabsshort'.
+    Fast APS enabled.
+Warning from spectre during initial setup.
+    WARNING (CMI-2425): I14.C1: `Acde' = 2.393 is unusually large.
+    WARNING (CMI-2425): I14.C1: `Noff' = 4.732 is unusually large.
+    WARNING (CMI-2424): I14.C1: `Voffcv' = -867.4e-03 is unusually small.
+Notice from spectre.
+    85 warnings suppressed.
+
+Time for parsing: CPU = 54.595 ms, elapsed = 659.899 ms.
+Time accumulated: CPU = 496.217 ms, elapsed = 1.07071 s.
+Peak resident memory used = 200 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+   -   (Fast APS) Multi-threading. The recommended number of threads is 1, consider adding +mt=1 on command line.
+~~~~~~~~~~~~~~~~~~~~~~
+
+******************
+DC Analysis `dcOp'
+******************
+
+Notice from spectre during DC analysis `dcOp'.
+    No checklimit analysis defined for asserts. A default checklimit analysis 'SpectreChecklimitAnal' has been created with all asserts enabled.
+
+
+Opening the PSF file ../psf/dcOp.dc ...
+Important parameter values:
+    reltol = 100e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    gmindc = 1 pS
+    rabsshort = 1 mOhm
+
+Notice from spectre during DC analysis `dcOp'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I14.C1.d1) = 2.58851 mV
+        Use the `gmin_check' option to eliminate or expand this report.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+
+
+Maximum value achieved for any signal of each quantity: 
+V: V(I14.C1.g1) = 3.3 V
+I: I(V1:p) = 141.6 uA
+
+Warning from spectre during check, during DC analysis `dcOp'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I14.C3.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I14.C0<0>_turbo_m8.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I14.R0.CM'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I14.R0.CS1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I14.R0.CS0'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 45 iterations.
+DC simulation time: CPU = 102.585 ms, elapsed = 108.179 ms.
+Total time required for dc analysis `dcOp': CPU = 102.747 ms, elapsed = 108.331 ms, util. = 94.8%.
+Time accumulated: CPU = 622.537 ms, elapsed = 1.20422 s.
+Peak resident memory used = 207 Mbytes.
+
+
+Notice from spectre.
+    62 warnings suppressed.
+
+dcOpInfo: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dcOpInfo.info ...
+Licensing Information:
+[12:13:35.272891] Periodic Lic check successful
+
+
+**************************************************
+Periodic Steady-State Analysis `pss': fund = 50 Hz
+**************************************************
+
+Notice from spectre during IC analysis, during periodic steady state analysis `pss'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I14.C1.d1) = 2.58851 mV
+        Use the `gmin_check' option to eliminate or expand this report.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+Warning from spectre during check, during IC analysis, during periodic steady state analysis `pss'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I14.C3.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I14.C0<0>_turbo_m8.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I14.R0.CM'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I14.R0.CS1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I14.R0.CS0'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 1.922 ms, elapsed = 1.92285 ms.
+
+==================================
+pss `tstab': time = (0 s -> 20 ms)
+==================================
+
+Output and IC/nodeset summary:
+                 save   10      (current)
+                 save   149     (voltage)
+
+Important parameter values in tstab integration:
+    start = 0 s
+    outputstart = 0 s
+    stop = 20 ms
+    period = 20 ms
+    maxperiods = 20
+    step = 20 us
+    maxstep = 800 us
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 100e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+
+Notice from spectre at time = 64.9191 us during periodic steady state analysis `pss'.
+    Found trapezoidal ringing on node V0:p.
+Notice from spectre at time = 79.7274 us during periodic steady state analysis `pss'.
+    Found trapezoidal ringing on node V0:p.
+Notice from spectre at time = 109.546 us during periodic steady state analysis `pss'.
+    Found trapezoidal ringing on node V0:p.
+Notice from spectre at time = 131.143 us during periodic steady state analysis `pss'.
+    Found trapezoidal ringing on node V0:p.
+Notice from spectre at time = 168.45 us during periodic steady state analysis `pss'.
+    Found trapezoidal ringing on node V0:p.
+        Further occurrences of this notice will be suppressed.
+
+    pss: time = 500 us       (2.5 %), step = 14.79 us    (73.9 m%)
+    pss: time = 1.5 ms       (7.5 %), step = 16 us         (80 m%)
+    pss: time = 2.5 ms      (12.5 %), step = 14.27 us    (71.3 m%)
+    pss: time = 3.5 ms      (17.5 %), step = 14.69 us    (73.4 m%)
+    pss: time = 4.5 ms      (22.5 %), step = 14.98 us    (74.9 m%)
+    pss: time = 5.5 ms      (27.5 %), step = 57.85 ps     (289 n%)
+    pss: time = 6.5 ms      (32.5 %), step = 9.999 us      (50 m%)
+    pss: time = 7.5 ms      (37.5 %), step = 14.56 us    (72.8 m%)
+    pss: time = 8.5 ms      (42.5 %), step = 13.19 us      (66 m%)
+    pss: time = 9.5 ms      (47.5 %), step = 12.36 us    (61.8 m%)
+    pss: time = 10.5 ms     (52.5 %), step = 15.69 us    (78.4 m%)
+    pss: time = 11.5 ms     (57.5 %), step = 16.48 us    (82.4 m%)
+    pss: time = 12.5 ms     (62.5 %), step = 18.53 us    (92.7 m%)
+    pss: time = 13.5 ms     (67.5 %), step = 16.17 us    (80.9 m%)
+    pss: time = 14.5 ms     (72.5 %), step = 11.11 us    (55.6 m%)
+    pss: time = 15.5 ms     (77.5 %), step = 17.98 us    (89.9 m%)
+    pss: time = 16.5 ms     (82.5 %), step = 9.966 us    (49.8 m%)
+    pss: time = 17.5 ms     (87.5 %), step = 19.78 us    (98.9 m%)
+    pss: time = 18.5 ms     (92.5 %), step = 17.41 us    (87.1 m%)
+    pss: time = 19.5 ms     (97.5 %), step = 14.27 us    (71.4 m%)
+Total time required for tstab analysis `pss': CPU = 9.22116 s, elapsed = 9.22323 s.
+Time accumulated: CPU = 9.87143 s, elapsed = 10.4764 s.
+Peak resident memory used = 211 Mbytes.
+
+Conv norm = 42.6e+03, max dV(VOUT) = -1.51005 V, took 9.22 s.
+
+Important parameter values in pss iteration:
+    start = 0 s
+    outputstart = 0 s
+    stop = 20 ms
+    period = 20 ms
+    maxperiods = 20
+    steadyratio = 10e-03
+    step = 20 us
+    maxstep = 100 us
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 100e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative
+    method = gear2only
+    lteratio = 3.5
+    relref = alllocal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+
+Notice from spectre during periodic steady state analysis `pss'.
+    62 warnings suppressed.
+
+
+============================
+`pss': time = (0 s -> 20 ms)
+============================
+    pss: time = 500 us       (2.5 %), step = 6.502 us    (32.5 m%)
+    pss: time = 1.5 ms       (7.5 %), step = 7.115 us    (35.6 m%)
+    pss: time = 2.5 ms      (12.5 %), step = 6.518 us    (32.6 m%)
+    pss: time = 3.5 ms      (17.5 %), step = 11.15 us    (55.7 m%)
+    pss: time = 4.5 ms      (22.5 %), step = 8.338 us    (41.7 m%)
+    pss: time = 5.5 ms      (27.5 %), step = 34.47 ps     (172 n%)
+    pss: time = 6.5 ms      (32.5 %), step = 2.847 us    (14.2 m%)
+    pss: time = 7.5 ms      (37.5 %), step = 8.987 us    (44.9 m%)
+    pss: time = 8.5 ms      (42.5 %), step = 7.129 us    (35.6 m%)
+    pss: time = 9.5 ms      (47.5 %), step = 9.94 us     (49.7 m%)
+    pss: time = 10.5 ms     (52.5 %), step = 10.07 us    (50.4 m%)
+    pss: time = 11.5 ms     (57.5 %), step = 6.741 us    (33.7 m%)
+    pss: time = 12.5 ms     (62.5 %), step = 8.76 us     (43.8 m%)
+    pss: time = 13.5 ms     (67.5 %), step = 8.628 us    (43.1 m%)
+    pss: time = 14.5 ms     (72.5 %), step = 10.27 us    (51.3 m%)
+    pss: time = 15.5 ms     (77.5 %), step = 11.09 us    (55.5 m%)
+    pss: time = 16.5 ms     (82.5 %), step = 10.03 us    (50.2 m%)
+    pss: time = 17.5 ms     (87.5 %), step = 11.12 us    (55.6 m%)
+    pss: time = 18.5 ms     (92.5 %), step = 6.613 us    (33.1 m%)
+    pss: time = 19.5 ms     (97.5 %), step = 9.493 us    (47.5 m%)
+Conv norm = 1.07e+03, max dV(VGA) = 33.1273 mV, took 18.23 s.
+
+
+============================
+`pss': time = (0 s -> 20 ms)
+============================
+    pss: time = 500 us       (2.5 %), step = 5.659 us    (28.3 m%)
+    pss: time = 1.5 ms       (7.5 %), step = 9.537 us    (47.7 m%)
+    pss: time = 2.5 ms      (12.5 %), step = 9.924 us    (49.6 m%)
+    pss: time = 3.5 ms      (17.5 %), step = 2.847 us    (14.2 m%)
+    pss: time = 4.5 ms      (22.5 %), step = 10.05 us    (50.3 m%)
+    pss: time = 5.5 ms      (27.5 %), step = 34.47 ps     (172 n%)
+    pss: time = 6.5 ms      (32.5 %), step = 797.8 ns    (3.99 m%)
+    pss: time = 7.5 ms      (37.5 %), step = 10.1 us     (50.5 m%)
+    pss: time = 8.5 ms      (42.5 %), step = 9.639 us    (48.2 m%)
+    pss: time = 9.5 ms      (47.5 %), step = 11.24 us    (56.2 m%)
+    pss: time = 10.5 ms     (52.5 %), step = 10.16 us    (50.8 m%)
+    pss: time = 11.5 ms     (57.5 %), step = 9.038 us    (45.2 m%)
+    pss: time = 12.5 ms     (62.5 %), step = 7.735 us    (38.7 m%)
+    pss: time = 13.5 ms     (67.5 %), step = 10.14 us    (50.7 m%)
+    pss: time = 14.5 ms     (72.5 %), step = 8.565 us    (42.8 m%)
+    pss: time = 15.5 ms     (77.5 %), step = 9.046 us    (45.2 m%)
+    pss: time = 16.5 ms     (82.5 %), step = 9.797 us      (49 m%)
+    pss: time = 17.5 ms     (87.5 %), step = 10.27 us    (51.4 m%)
+    pss: time = 18.5 ms     (92.5 %), step = 9.564 us    (47.8 m%)
+    pss: time = 19.5 ms     (97.5 %), step = 7.923 us    (39.6 m%)
+Conv norm = 1.21e+03, max dV(I11.net9) = 36.0462 mV, took 18.13 s.
+
+
+============================
+`pss': time = (0 s -> 20 ms)
+============================
+    pss: time = 500 us       (2.5 %), step = 8.543 us    (42.7 m%)
+    pss: time = 1.5 ms       (7.5 %), step = 3.85 us     (19.3 m%)
+    pss: time = 2.5 ms      (12.5 %), step = 9.924 us    (49.6 m%)
+    pss: time = 3.5 ms      (17.5 %), step = 2.844 us    (14.2 m%)
+    pss: time = 4.5 ms      (22.5 %), step = 10.05 us    (50.3 m%)
+    pss: time = 5.5 ms      (27.5 %), step = 34.47 ps     (172 n%)
+    pss: time = 6.5 ms      (32.5 %), step = 801.8 ns    (4.01 m%)
+    pss: time = 7.5 ms      (37.5 %), step = 10.1 us     (50.5 m%)
+    pss: time = 8.5 ms      (42.5 %), step = 9.639 us    (48.2 m%)
+    pss: time = 9.5 ms      (47.5 %), step = 7.975 us    (39.9 m%)
+    pss: time = 10.5 ms     (52.5 %), step = 10.24 us    (51.2 m%)
+    pss: time = 11.5 ms     (57.5 %), step = 9.037 us    (45.2 m%)
+    pss: time = 12.5 ms     (62.5 %), step = 7.735 us    (38.7 m%)
+    pss: time = 13.5 ms     (67.5 %), step = 10.14 us    (50.7 m%)
+    pss: time = 14.5 ms     (72.5 %), step = 8.549 us    (42.7 m%)
+    pss: time = 15.5 ms     (77.5 %), step = 9.045 us    (45.2 m%)
+    pss: time = 16.5 ms     (82.5 %), step = 9.796 us      (49 m%)
+    pss: time = 17.5 ms     (87.5 %), step = 10.27 us    (51.4 m%)
+    pss: time = 18.5 ms     (92.5 %), step = 9.564 us    (47.8 m%)
+    pss: time = 19.5 ms     (97.5 %), step = 7.924 us    (39.6 m%)
+Conv norm = 1.13e+03, max dV(VLF2) = 29.3807 mV, took 18.07 s.
+
+
+============================
+`pss': time = (0 s -> 20 ms)
+============================
+    pss: time = 500 us       (2.5 %), step = 8.543 us    (42.7 m%)
+
+Spectre received SIGTERM sent from PID: 737341 with UID: 1000.
+Process hierarchy of PID 737341 :
+    PID        COMMAND
+    737341     /opt/tools/cadence/installs/IC618/tools/bin/64bit/cdsServIpc -c 37531 -n 252 -r 10 -x cd /home/davidevi/Desktop/myproject/Sim/FECG/fecg_tb/adexl/results/data/Interactive.41/1/VIN/netlist ; ./runSimulation 
+    483270     /opt/tools/cadence/installs/IC618/tools/dfII/bin/64bit/virtuoso 
+    483230     /bin/csh -f /opt/pdk/ams/410/cds/bin/ams_cds 
+    401266     zsh 
+    401263     /usr/bin/xterm 
+About to end simulation, please wait for a moment...
+Licensing Information:
+Lic Summary:
+[12:14:42.328458] Cdslmd servers:3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
+[12:14:42.328512] Feature usage summary:
+[12:14:42.328521] Virtuoso_Multi_mode_Simulation
+
+
+Error found by spectre at time = 1.25 ms during periodic steady state analysis `pss'.
+    ERROR (SPECTRE-25): 
+        Message from ADE: Simulation stopped because you selected the 'Stop Simulation' command in ADE.
+
+State File: ./saveFileAfterTrapSignals.
+
+Aggregate audit (12:14:42 PM, Wed Apr 8, 2026):
+Time used: CPU = 67.7 s (1m  7.7s), elapsed = 68.3 s (1m  8.3s), util. = 99.1%.
+Time spent in licensing: elapsed = 60.4 ms.
+Peak memory used = 480 Mbytes.
+Simulation started at: 12:13:34 PM, Wed Apr 8, 2026, ended at: 12:14:42 PM, Wed Apr 8, 2026, with elapsed time (wall clock): 68.3 s (1m  8.3s).
+spectre completes with 1 error, 44 warnings, and 799 notices.
+spectre terminated prematurely due to fatal error.

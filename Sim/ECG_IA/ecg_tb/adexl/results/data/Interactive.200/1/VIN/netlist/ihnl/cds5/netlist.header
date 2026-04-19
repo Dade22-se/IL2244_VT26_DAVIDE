@@ -1,0 +1,5 @@
+
+// Library name: ECG_IA
+// Cell name: ecg_ia8
+// View name: schematic
+subckt ecg_ia8 BIAS GNDA VDDA VINN VINP VOUT CLK

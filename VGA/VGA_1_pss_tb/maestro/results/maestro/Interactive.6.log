@@ -1,0 +1,78 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Wed Apr 15 13:21:17 2026 
+Best design point: 1
+Design specs: 
+	VGA_VGA_1_pss_tb_1	corner	CMOS_CAP_VDD_TEMP_0 - 
+	d2_db		101.3
+	VGA_VGA_1_pss_tb_1	corner	CMOS_CAP_VDD_TEMP_1 - 
+	d2_db		100.7
+	VGA_VGA_1_pss_tb_1	corner	CMOS_CAP_VDD_TEMP_2 - 
+	d2_db		101.4
+	VGA_VGA_1_pss_tb_1	corner	CMOS_CAP_VDD_TEMP_3 - 
+	d2_db		100.7
+	VGA_VGA_1_pss_tb_1	corner	CMOS_CAP_VDD_TEMP_4 - 
+	d2_db		102
+	VGA_VGA_1_pss_tb_1	corner	CMOS_CAP_VDD_TEMP_5 - 
+	d2_db		36.72
+	VGA_VGA_1_pss_tb_1	corner	CMOS_CAP_VDD_TEMP_6 - 
+	d2_db		102
+	VGA_VGA_1_pss_tb_1	corner	CMOS_CAP_VDD_TEMP_7 - 
+	d2_db		36.72
+	VGA_VGA_1_pss_tb_1	corner	CMOS_CAP_VDD_TEMP_8 - 
+	d2_db		101.7
+	VGA_VGA_1_pss_tb_1	corner	CMOS_CAP_VDD_TEMP_9 - 
+	d2_db		101.3
+	VGA_VGA_1_pss_tb_1	corner	CMOS_CAP_VDD_TEMP_10 - 
+	d2_db		101.8
+	VGA_VGA_1_pss_tb_1	corner	CMOS_CAP_VDD_TEMP_11 - 
+	d2_db		101.3
+	VGA_VGA_1_pss_tb_1	corner	CMOS_CAP_VDD_TEMP_12 - 
+	d2_db		102.2
+	VGA_VGA_1_pss_tb_1	corner	CMOS_CAP_VDD_TEMP_13 - 
+	d2_db		36.79
+	VGA_VGA_1_pss_tb_1	corner	CMOS_CAP_VDD_TEMP_14 - 
+	d2_db		102.2
+	VGA_VGA_1_pss_tb_1	corner	CMOS_CAP_VDD_TEMP_15 - 
+	d2_db		36.79
+	VGA_VGA_1_pss_tb_1	corner	CMOS_CAP_VDD_TEMP_16 - 
+	d2_db		101.7
+	VGA_VGA_1_pss_tb_1	corner	CMOS_CAP_VDD_TEMP_17 - 
+	d2_db		101.1
+	VGA_VGA_1_pss_tb_1	corner	CMOS_CAP_VDD_TEMP_18 - 
+	d2_db		101.8
+	VGA_VGA_1_pss_tb_1	corner	CMOS_CAP_VDD_TEMP_19 - 
+	d2_db		101.1
+	VGA_VGA_1_pss_tb_1	corner	CMOS_CAP_VDD_TEMP_20 - 
+	d2_db		102.3
+	VGA_VGA_1_pss_tb_1	corner	CMOS_CAP_VDD_TEMP_21 - 
+	d2_db		38.48
+	VGA_VGA_1_pss_tb_1	corner	CMOS_CAP_VDD_TEMP_22 - 
+	d2_db		102.2
+	VGA_VGA_1_pss_tb_1	corner	CMOS_CAP_VDD_TEMP_23 - 
+	d2_db		38.48
+	VGA_VGA_1_pss_tb_1	corner	CMOS_CAP_VDD_TEMP_24 - 
+	d2_db		102
+	VGA_VGA_1_pss_tb_1	corner	CMOS_CAP_VDD_TEMP_25 - 
+	d2_db		101.6
+	VGA_VGA_1_pss_tb_1	corner	CMOS_CAP_VDD_TEMP_26 - 
+	d2_db		102.1
+	VGA_VGA_1_pss_tb_1	corner	CMOS_CAP_VDD_TEMP_27 - 
+	d2_db		101.6
+	VGA_VGA_1_pss_tb_1	corner	CMOS_CAP_VDD_TEMP_28 - 
+	d2_db		102.5
+	VGA_VGA_1_pss_tb_1	corner	CMOS_CAP_VDD_TEMP_29 - 
+	d2_db		38.56
+	VGA_VGA_1_pss_tb_1	corner	CMOS_CAP_VDD_TEMP_30 - 
+	d2_db		102.4
+	VGA_VGA_1_pss_tb_1	corner	CMOS_CAP_VDD_TEMP_31 - 
+	d2_db		38.56
+	VGA_VGA_1_pss_tb_1	corner	Nominal - 
+	d2_db		100.7
+Design parameters: 
+
+Interactive.6
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.6 completed. 
+Current time: Wed Apr 15 13:21:52 2026 

@@ -1,0 +1,109 @@
+HEADER
+"PSFversion" "1.00"
+"Run Generator" "drlRun rev. 1.0"
+"Run Time Stamp" "Apr 15 12:45:10 2026"
+"date" "Apr 15 12:45:10 2026"
+"simulator" "spectre"
+"netlistDir" "../netlist"
+"axlParamFlag" "true"
+"#maeHistoryName" "MonteCarlo.4"
+"#maeTestName" "MC"
+ "externalSweepVariableCount" 1
+TYPE
+"runObject" STRUCT(
+"logName" ARRAY( * ) STRING *
+"parent" STRING *
+"sweepVariable" ARRAY( * ) STRING *
+) PROP( "key" "runObject" )
+VALUE
+"Root" "runObject" (
+("")
+""
+("mcparamset")
+)
+"mcparamset=1.0" "runObject" (
+(
+"../../../1/MC/psf/logFile"
+"../../../1/MC/psf/artistLogFile"
+"../../../1/MC/psf/matlabLogFile"
+)
+"Root"
+()
+) PROP(
+ "#maeDesignPoint" 1
+"#maeCorner" "nom"
+ "#pointID" 1
+"netlistDir" "../../../1/MC/netlist"
+"dataDir" "../../../1/MC"
+ "mcparamset" 1.000000e+00
+)
+
+"mcparamset=2.0" "runObject" (
+(
+"../../../2/MC/psf/logFile"
+"../../../2/MC/psf/artistLogFile"
+"../../../2/MC/psf/matlabLogFile"
+)
+"Root"
+()
+) PROP(
+ "#maeDesignPoint" 2
+"#maeCorner" "nom"
+ "#pointID" 2
+"netlistDir" "../../../2/MC/netlist"
+"dataDir" "../../../2/MC"
+ "mcparamset" 2.000000e+00
+)
+
+"mcparamset=3.0" "runObject" (
+(
+"../../../3/MC/psf/logFile"
+"../../../3/MC/psf/artistLogFile"
+"../../../3/MC/psf/matlabLogFile"
+)
+"Root"
+()
+) PROP(
+ "#maeDesignPoint" 3
+"#maeCorner" "nom"
+ "#pointID" 3
+"netlistDir" "../../../3/MC/netlist"
+"dataDir" "../../../3/MC"
+ "mcparamset" 3.000000e+00
+)
+
+"mcparamset=4.0" "runObject" (
+(
+"../../../4/MC/psf/logFile"
+"../../../4/MC/psf/artistLogFile"
+"../../../4/MC/psf/matlabLogFile"
+)
+"Root"
+()
+) PROP(
+ "#maeDesignPoint" 4
+"#maeCorner" "nom"
+ "#pointID" 4
+"netlistDir" "../../../4/MC/netlist"
+"dataDir" "../../../4/MC"
+ "mcparamset" 4.000000e+00
+)
+
+"mcparamset=5.0" "runObject" (
+(
+"../../../5/MC/psf/logFile"
+"../../../5/MC/psf/artistLogFile"
+"../../../5/MC/psf/matlabLogFile"
+)
+"Root"
+()
+) PROP(
+ "#maeDesignPoint" 5
+"#maeCorner" "nom"
+ "#pointID" 5
+"netlistDir" "../../../5/MC/netlist"
+"dataDir" "../../../5/MC"
+ "mcparamset" 5.000000e+00
+)
+
+END

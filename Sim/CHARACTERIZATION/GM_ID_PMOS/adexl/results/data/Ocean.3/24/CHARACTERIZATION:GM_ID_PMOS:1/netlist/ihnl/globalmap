@@ -1,0 +1,15 @@
+CADENCE IHNL11140
+$model
+CHARACTERIZATION/GM_ID_PMOS/schematic GM_ID_PMOS
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+L L
+W W
+temperature temperature
+NF NF
+IDS IDS
+VDS VDS
+$endparam

@@ -1,0 +1,3 @@
+projectDir = '"./Sim"
+designInfo = '("VGA" "VGA_bias_step" "schematic" "spectre")
+descriptionText = "None"

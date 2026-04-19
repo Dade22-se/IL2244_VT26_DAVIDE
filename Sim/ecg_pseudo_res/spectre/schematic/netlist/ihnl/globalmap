@@ -1,0 +1,10 @@
+CADENCE IHNL11140
+$model
+ECG_IA/ecg_pseudo_res/schematic ecg_pseudo_res
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+VIN VIN
+$endparam

@@ -1,0 +1,18 @@
+// Point Netlist Generated on: Apr 15 12:39:35 2026
+// Generated for: spectre
+// Design Netlist Generated on: Apr  8 14:03:21 2026
+// Design library name: VGA
+// Design cell name: VGA_1_pss_tb
+// Design view name: schematic
+simulator lang=spectre
+global 0
+include "/opt/pdk/ams/410/spectre/c35/soac/soac.scs"
+parameters S0=3.3 S1=3.3 S2=3.3 S3=3.3 V_AMP=20m V_FREQ=50 VDD=3.3
+include "/opt/pdk/ams/410/spectre/c35/processOption.scs"
+include "/opt/pdk/ams/410/spectre/c35/cmos53.scs" section=cmostm
+include "/opt/pdk/ams/410/spectre/c35/res.scs" section=restm
+include "/opt/pdk/ams/410/spectre/c35/cap.scs" section=captm
+include "/opt/pdk/ams/410/spectre/c35/bip.scs" section=biptm
+include "/opt/pdk/ams/410/spectre/c35/ind.scs" section=indtm
+include "/opt/pdk/ams/410/spectre/c35/esddiode.scs" section=esddiodetm
+include "netlist"

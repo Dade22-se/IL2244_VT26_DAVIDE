@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"design" "(\"ECG_IA\" \"ecg_vga_tb\" \"schematic\" \"\")"
+"simulator" "spectre"
+"temperature" "85"
+"host" ""
+"date" "Mar 21 15:48:27 2026"
+"title" ""
+"analysisList" "()"
+END

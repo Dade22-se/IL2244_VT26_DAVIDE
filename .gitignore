@@ -1,0 +1,2 @@
+echo "ECG_IA/" >> .gitignore
+echo "ecg_ia_tb/" >> .gitignore

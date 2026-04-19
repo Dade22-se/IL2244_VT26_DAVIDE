@@ -1,0 +1,11 @@
+HEADER
+"PSFversion" "1.00"
+"MN9n MN7n MN17n MN16n MN15n MN8n MN4n" "PRIMLIB_nmos4_spectre"
+"C1n" "analogLib_cap_spectre"
+"C4n C6n C5n" "cpolyc"
+"MP1n MP0n MP4n MP13n MP12n MP10n MP9n" "PRIMLIB_pmos4_spectre"
+"BIASv" ":1v"
+"GNDAv" ":2v"
+"VDDAv" ":3v"
+"VINv" ":4v"
+"VOUTv" ":5v"

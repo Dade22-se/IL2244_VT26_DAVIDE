@@ -1,0 +1,6 @@
+
+// Library name: PRIMLIB
+// Cell name: cpolyc
+// View name: schematic
+subckt cpolyc MINUS PLUS SUB
+parameters pcap=15.5f area=100p perimeter=40u mmw=0

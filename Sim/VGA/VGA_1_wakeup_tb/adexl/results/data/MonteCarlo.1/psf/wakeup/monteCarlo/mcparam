@@ -1,0 +1,68 @@
+#  Corner  =  nom
+OUT NOISE	-1e+36	1e+36	"getData(\"out\" ?result \"noise\")"
+total noise	-1e+36	1e+36	"sqrt(totalNoise(\"noise\" 0.01 100000000 nil))"
+#
+#  Corner  =  CMOS_CAP_VDD_TEMP_RAMP_0
+OUT NOISE_CMOS_CAP_VDD_TEMP_RAMP_0	-1e+36	1e+36	"getData(\"out\" ?result \"noise\")"
+total noise_CMOS_CAP_VDD_TEMP_RAMP_0	-1e+36	1e+36	"sqrt(totalNoise(\"noise\" 0.01 100000000 nil))"
+#
+#  Corner  =  CMOS_CAP_VDD_TEMP_RAMP_1
+OUT NOISE_CMOS_CAP_VDD_TEMP_RAMP_1	-1e+36	1e+36	"getData(\"out\" ?result \"noise\")"
+total noise_CMOS_CAP_VDD_TEMP_RAMP_1	-1e+36	1e+36	"sqrt(totalNoise(\"noise\" 0.01 100000000 nil))"
+#
+#  Corner  =  CMOS_CAP_VDD_TEMP_RAMP_2
+OUT NOISE_CMOS_CAP_VDD_TEMP_RAMP_2	-1e+36	1e+36	"getData(\"out\" ?result \"noise\")"
+total noise_CMOS_CAP_VDD_TEMP_RAMP_2	-1e+36	1e+36	"sqrt(totalNoise(\"noise\" 0.01 100000000 nil))"
+#
+#  Corner  =  CMOS_CAP_VDD_TEMP_RAMP_3
+OUT NOISE_CMOS_CAP_VDD_TEMP_RAMP_3	-1e+36	1e+36	"getData(\"out\" ?result \"noise\")"
+total noise_CMOS_CAP_VDD_TEMP_RAMP_3	-1e+36	1e+36	"sqrt(totalNoise(\"noise\" 0.01 100000000 nil))"
+#
+#  Corner  =  CMOS_CAP_VDD_TEMP_RAMP_4
+OUT NOISE_CMOS_CAP_VDD_TEMP_RAMP_4	-1e+36	1e+36	"getData(\"out\" ?result \"noise\")"
+total noise_CMOS_CAP_VDD_TEMP_RAMP_4	-1e+36	1e+36	"sqrt(totalNoise(\"noise\" 0.01 100000000 nil))"
+#
+#  Corner  =  CMOS_CAP_VDD_TEMP_RAMP_5
+OUT NOISE_CMOS_CAP_VDD_TEMP_RAMP_5	-1e+36	1e+36	"getData(\"out\" ?result \"noise\")"
+total noise_CMOS_CAP_VDD_TEMP_RAMP_5	-1e+36	1e+36	"sqrt(totalNoise(\"noise\" 0.01 100000000 nil))"
+#
+#  Corner  =  CMOS_CAP_VDD_TEMP_RAMP_6
+OUT NOISE_CMOS_CAP_VDD_TEMP_RAMP_6	-1e+36	1e+36	"getData(\"out\" ?result \"noise\")"
+total noise_CMOS_CAP_VDD_TEMP_RAMP_6	-1e+36	1e+36	"sqrt(totalNoise(\"noise\" 0.01 100000000 nil))"
+#
+#  Corner  =  CMOS_CAP_VDD_TEMP_RAMP_7
+OUT NOISE_CMOS_CAP_VDD_TEMP_RAMP_7	-1e+36	1e+36	"getData(\"out\" ?result \"noise\")"
+total noise_CMOS_CAP_VDD_TEMP_RAMP_7	-1e+36	1e+36	"sqrt(totalNoise(\"noise\" 0.01 100000000 nil))"
+#
+#  Corner  =  CMOS_CAP_VDD_TEMP_RAMP_8
+OUT NOISE_CMOS_CAP_VDD_TEMP_RAMP_8	-1e+36	1e+36	"getData(\"out\" ?result \"noise\")"
+total noise_CMOS_CAP_VDD_TEMP_RAMP_8	-1e+36	1e+36	"sqrt(totalNoise(\"noise\" 0.01 100000000 nil))"
+#
+#  Corner  =  CMOS_CAP_VDD_TEMP_RAMP_9
+OUT NOISE_CMOS_CAP_VDD_TEMP_RAMP_9	-1e+36	1e+36	"getData(\"out\" ?result \"noise\")"
+total noise_CMOS_CAP_VDD_TEMP_RAMP_9	-1e+36	1e+36	"sqrt(totalNoise(\"noise\" 0.01 100000000 nil))"
+#
+#  Corner  =  CMOS_CAP_VDD_TEMP_RAMP_10
+OUT NOISE_CMOS_CAP_VDD_TEMP_RAMP_10	-1e+36	1e+36	"getData(\"out\" ?result \"noise\")"
+total noise_CMOS_CAP_VDD_TEMP_RAMP_10	-1e+36	1e+36	"sqrt(totalNoise(\"noise\" 0.01 100000000 nil))"
+#
+#  Corner  =  CMOS_CAP_VDD_TEMP_RAMP_11
+OUT NOISE_CMOS_CAP_VDD_TEMP_RAMP_11	-1e+36	1e+36	"getData(\"out\" ?result \"noise\")"
+total noise_CMOS_CAP_VDD_TEMP_RAMP_11	-1e+36	1e+36	"sqrt(totalNoise(\"noise\" 0.01 100000000 nil))"
+#
+#  Corner  =  CMOS_CAP_VDD_TEMP_RAMP_12
+OUT NOISE_CMOS_CAP_VDD_TEMP_RAMP_12	-1e+36	1e+36	"getData(\"out\" ?result \"noise\")"
+total noise_CMOS_CAP_VDD_TEMP_RAMP_12	-1e+36	1e+36	"sqrt(totalNoise(\"noise\" 0.01 100000000 nil))"
+#
+#  Corner  =  CMOS_CAP_VDD_TEMP_RAMP_13
+OUT NOISE_CMOS_CAP_VDD_TEMP_RAMP_13	-1e+36	1e+36	"getData(\"out\" ?result \"noise\")"
+total noise_CMOS_CAP_VDD_TEMP_RAMP_13	-1e+36	1e+36	"sqrt(totalNoise(\"noise\" 0.01 100000000 nil))"
+#
+#  Corner  =  CMOS_CAP_VDD_TEMP_RAMP_14
+OUT NOISE_CMOS_CAP_VDD_TEMP_RAMP_14	-1e+36	1e+36	"getData(\"out\" ?result \"noise\")"
+total noise_CMOS_CAP_VDD_TEMP_RAMP_14	-1e+36	1e+36	"sqrt(totalNoise(\"noise\" 0.01 100000000 nil))"
+#
+#  Corner  =  CMOS_CAP_VDD_TEMP_RAMP_15
+OUT NOISE_CMOS_CAP_VDD_TEMP_RAMP_15	-1e+36	1e+36	"getData(\"out\" ?result \"noise\")"
+total noise_CMOS_CAP_VDD_TEMP_RAMP_15	-1e+36	1e+36	"sqrt(totalNoise(\"noise\" 0.01 100000000 nil))"
+#

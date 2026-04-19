@@ -1,0 +1,5 @@
+
+// Library name: VGA
+// Cell name: MUX
+// View name: schematic
+subckt MUX A0 AI C GNDA S VDDA

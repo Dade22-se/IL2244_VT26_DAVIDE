@@ -1,0 +1,37 @@
+HEADER
+"PSFversion" "1.00"
+"Run Generator" "drlRun rev. 1.0"
+"Run Time Stamp" "Apr 16 08:59:39 2026"
+"date" "Apr 16 08:59:39 2026"
+"simulator" "spectre"
+"netlistDir" "../netlist"
+"axlParamFlag" "true"
+ "externalSweepVariableCount" 1
+TYPE
+"runObject" STRUCT(
+"logName" ARRAY( * ) STRING *
+"parent" STRING *
+"sweepVariable" ARRAY( * ) STRING *
+) PROP( "key" "runObject" )
+VALUE
+"Root" "runObject" (
+("")
+""
+("V_FREQ")
+)
+"V_FREQ=1000.0" "runObject" (
+(
+"../../../1/Linerity/psf/logFile"
+"../../../1/Linerity/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 1
+"netlistDir" "../../../1/Linerity/netlist"
+"dataDir" "../../../1/Linerity"
+ "V_FREQ" 1.000000e+03
+)
+
+END

@@ -1,0 +1,3 @@
+#  Corner  =  nom
+Total Noise	-1e+36	1e+36	"sqrt(totalNoise(\"noise\" 0.01 100000000 nil))"
+#

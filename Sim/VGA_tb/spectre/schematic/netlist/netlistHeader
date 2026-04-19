@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Feb 26 14:15:56 2026
+// Design library name: VGA
+// Design cell name: VGA_tb
+// Design view name: schematic
+simulator lang=spectre
+global 0

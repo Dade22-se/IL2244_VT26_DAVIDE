@@ -1,0 +1,5 @@
+\o _axlToolCloseTestPointOutputLog("/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_wakeup_tb/adexl/results/data/Interactive.104/1/wakeup/psf/spectre.out")
+\o _axlToolDisplayTestPointOutputLog("session20" "wakeup" "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_wakeup_tb/adexl/results/data/Interactive.105/1/wakeup/psf/spectre.out")
+\e *Error* ("expt" 0 t nil ("*Error* expt: can't handle (nil**2)"))
+\e 
+\e 

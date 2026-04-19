@@ -1,0 +1,2 @@
+parameters temperature=27 VIN_FREQ=1k VIN_AMP=0 VIN_STEP=10m S0=3.3 S1=3.3 \
+    S2=3.3 VDD=2.97

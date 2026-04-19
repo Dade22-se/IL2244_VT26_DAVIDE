@@ -1,0 +1,64 @@
+
+// Library name: PRIMLIB
+// Cell name: cpolyc
+// View name: schematic
+subckt cpolyc MINUS PLUS SUB
+parameters pcap=15.5f area=100p perimeter=40u mmw=0
+    C1 (MINUS SUB) capacitor c=pcap m=1
+    C0 (PLUS MINUS) cpoly area=area perimeter=perimeter m=1 mmw=mmw
+ends cpolyc
+// End of subcircuit definition.
+
+// Library name: ECG_IA
+// Cell name: ecg_vga1
+// View name: schematic
+subckt ecg_vga1 BIAS GNDA VDDA VIN VOUT
+    MN9 (net15 BIAS net43 GNDA) modn w=10u l=8u as=6.75e-12 ad=5e-12 \
+        ps=6.35u pd=1u nrd=0.05 nrs=0.05 ng=4
+    MN7 (net43 net14 GNDA GNDA) modn w=10u l=12u as=6.75e-12 ad=5e-12 \
+        ps=6.35u pd=1u nrd=0.05 nrs=0.05 ng=4
+    MN17 (VOUT net41 GNDA GNDA) modn w=1u l=2u as=5.7e-13 ad=5e-13 \
+        ps=1.34u pd=1u nrd=0.5 nrs=0.5 ng=10
+    MN16 (net39 net39 GNDA GNDA) modn w=10u l=8u as=6.75e-12 ad=5e-12 \
+        ps=6.35u pd=1u nrd=0.05 nrs=0.05 ng=4
+    MN15 (net41 net39 GNDA GNDA) modn w=10u l=8u as=6.75e-12 ad=5e-12 \
+        ps=6.35u pd=1u nrd=0.05 nrs=0.05 ng=4
+    MN8 (BIAS BIAS net14 GNDA) modn w=10u l=8u as=8.5e-12 ad=5e-12 \
+        ps=11.7u pd=1u nrd=0.05 nrs=0.05 ng=2
+    MN4 (net14 net14 GNDA GNDA) modn w=10u l=12u as=8.5e-12 ad=5e-12 \
+        ps=11.7u pd=1u nrd=0.05 nrs=0.05 ng=2
+    C1 (net41 VOUT) capacitor c=2p
+    C4 (VOUT net42 GNDA) cpolyc m=1 pcap=167.3f area=1.20n perimeter=140u \
+        mmw=0
+    C6 (net1 net42 GNDA) cpolyc m=1 pcap=167.3f area=1.20n perimeter=140u \
+        mmw=0
+    C5 (GNDA net42 GNDA) cpolyc m=1 pcap=167.3f area=1.20n perimeter=140u \
+        mmw=0
+    MP1 (net42 net42 net44 net44) modp w=1u l=0.35u as=8.5e-13 ad=8.5e-13 \
+        ps=2.7u pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MP0 (net44 net44 VOUT VOUT) modp w=0.7u l=0.35u as=5.95e-13 \
+        ad=5.95e-13 ps=2.4u pd=2.4u nrd=0.7142857 nrs=0.7142857 ng=1
+    MP4 (net15 net15 VDDA VDDA) modp w=10u l=12u as=8.5e-12 ad=5e-12 \
+        ps=11.7u pd=1u nrd=0.05 nrs=0.05 ng=2
+    MP13 (net33 net15 VDDA VDDA) modp w=10u l=12u as=5.7e-12 ad=5.7e-12 \
+        ps=3.14u pd=3.14u nrd=0.05 nrs=0.05 ng=5
+    MP12 (VOUT net15 VDDA VDDA) modp w=10u l=12u as=5.7e-12 ad=5.7e-12 \
+        ps=3.14u pd=3.14u nrd=0.05 nrs=0.05 ng=5
+    MP10 (net41 VIN net33 net33) modp w=10u l=4u as=5.7e-12 ad=5e-12 \
+        ps=3.14u pd=1u nrd=0.05 nrs=0.05 ng=10
+    MP9 (net39 net42 net33 net33) modp w=10u l=4u as=5.7e-12 ad=5e-12 \
+        ps=3.14u pd=1u nrd=0.05 nrs=0.05 ng=10
+ends ecg_vga1
+// End of subcircuit definition.
+
+// Library name: ECG_IA
+// Cell name: ecg_vga_tb
+// View name: schematic
+I0 (net1 0 net2 VIN VOUT) ecg_vga1
+V1 (net3 net4) vsource dc=1.6 xfmag=1 type=dc
+V0 (net2 0) vsource dc=VDD xfmag=1 type=dc
+I2 (0 net1) isource dc=200n type=dc
+V2 (VIN net3) vsource mag=1 type=sine
+C0 (VOUT 0) capacitor c=100f
+V3 (net4 0) vsource type=pulse val0=0 val1=10m period=1 delay=1u rise=1n \
+        fall=1n width=500.0m

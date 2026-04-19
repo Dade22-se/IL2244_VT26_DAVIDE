@@ -1,0 +1,7 @@
+include "/opt/pdk/ams/410/spectre/c35/processOption.scs"
+include "/opt/pdk/ams/410/spectre/c35/cmos53.scs" section=cmosmc
+include "/opt/pdk/ams/410/spectre/c35/res.scs" section=resmc
+include "/opt/pdk/ams/410/spectre/c35/cap.scs" section=capmc
+include "/opt/pdk/ams/410/spectre/c35/bip.scs" section=bipmc
+include "/opt/pdk/ams/410/spectre/c35/ind.scs" section=indmc
+include "/opt/pdk/ams/410/spectre/c35/esddiode.scs" section=esddiodemc

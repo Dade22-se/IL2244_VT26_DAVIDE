@@ -1,0 +1,1 @@
+{"hierarchy":{"top_level":1,"1":{"insts":{"MP1":3,"MP0":3,"V0":2}}},"modelMap":{"modp":[3],"vsource":[2]},"cellviews":[["ECG_IA","ecg_pseudo_res","schematic"],["analogLib","vdc","spectre"],["PRIMLIB","pmos4","spectre"]]}

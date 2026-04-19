@@ -1,0 +1,38 @@
+CADENCE IHNL11140
+$model
+FECG/chopper/schematic chopper
+ECG_IA/mux21/schematic mux21
+PRIMLIB/rpolyhc/schematic rpolyhc
+FECG/fecg_tb/schematic fecg_tb
+PRIMLIB/cpolyc/schematic cpolyc
+FECG/fecg_vga1/schematic fecg_vga1
+CORELIBD/INVX1/cmos_sch INVX1
+FECG/fecg_ia_3/schematic fecg_ia_3
+FECG/gmc_5/schematic gmc_5
+FECG/buffer2/schematic buffer2
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+T0 T0
+VDD_STEP VDD_STEP
+F1 F1
+VDD VDD
+VCM_DC VCM_DC
+S0 S0
+VIN_DC VIN_DC
+T2 T2
+temperature temperature
+F2 F2
+VIN_AMP VIN_AMP
+VCM_AC VCM_AC
+VIN_AC VIN_AC
+VIN_FREQ VIN_FREQ
+S2 S2
+S1 S1
+F0 F0
+VIN_STEP VIN_STEP
+T1 T1
+FC FC
+$endparam

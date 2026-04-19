@@ -1,0 +1,3052 @@
+
+Spectre (R) Circuit Simulator
+Version 24.1.0.288.isr5 64bit -- 3 Apr 2025
+Copyright (C) 1989-2025 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: davidevi   Host: il2244vt26_davidevi   HostID: 11AC2C00   PID: 994353
+Memory  available: 3.0271 TB  physical: 3.2467 TB
+Linux   : Rocky Linux release 8.10 (Green Obsidian)
+CPU Type: Intel(R) Xeon(R) CPU E7-8857 v2 @ 3.00GHz
+        Socket: Processors [Frequency]
+        0:       0 [1600.0],  1 [2900.0],  2 [2999.9],  3 [1200.0],  4 [3600.0]
+                 5 [1200.0],  6 [2999.9],  7 [3600.0],  8 [2999.9],  9 [1200.0]
+                10 [2999.9], 11 [2999.9]
+        1:      12 [3399.9], 13 [3600.0], 14 [3398.4], 15 [3399.9], 16 [3600.0]
+                17 [3400.0], 18 [3600.0], 19 [3600.0], 20 [3600.0], 21 [3399.9]
+                22 [3600.0], 23 [3600.0]
+        2:      24 [3100.0], 25 [3399.9], 26 [3399.9], 27 [3161.7], 28 [3600.0]
+                29 [3399.9], 30 [3600.0], 31 [3600.0], 32 [3399.9], 33 [2800.0]
+                34 [3400.0], 35 [3600.0]
+        3:      36 [3001.1], 37 [3001.8], 38 [3002.2], 39 [3002.5], 40 [3002.8]
+                41 [3600.0], 42 [3600.0], 43 [3600.0], 44 [3200.0], 45 [3600.0]
+                46 [3600.0], 47 [3600.0]
+        
+System load averages (1min, 5min, 15min) : 21.9 %, 18.9 %, 20.1 %
+HPC is enabled
+
+
+Simulating `input.scs' on il2244vt26_davidevi at 1:18:15 PM, Wed Apr 15, 2026 (process id: 994353).
+Current working directory: /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/MonteCarlo.5/37/MC/groupRunDataDir/netlist
+Command line:
+    /opt/tools/cadence/installs/SPECTRE241/tools/bin/spectre -64  \
+        input.scs +escchars +log ../psf/spectre.out -format psfbin  \
+        +rtsf -raw ../psf +preset=cx +mt +lqtimeout 900 -maxw 5 -maxn 5  \
+        +param /opt/pdk/ams/410/spectre/ams_range.lmts -env ade  \
+        +adespetkn=0001089D13A302B663E41FB550AF0DF415A679A322D5069144BF588C12F604E07EF416DC01A319B562BB63D34ADC0C9545A3588C1F981C8560A1408769D54F9242FE79D15D9175FF34986BDD0AF002BA50FD7FD707E002A700AC1C8404FE5AE30EA979D118F874D3349879D118F874D33498100E88EFE4C45D470000367C  \
+        -ahdllibdir  \
+        /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/MonteCarlo.5/sharedData/lscsJob445/ahdl/input.ahdlSimDB  \
+        +logstatus
+
+Simulation Id: xFo6udT9hVJlO0vf
+Licensing Information:
+[13:18:15.121754] Configured Lic search path (24.01-s002): 3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
+
+Licensing Information:
+[13:18:16.055267] Periodic Lic check successful
+
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libphilips_I_sh.so ...
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+
+Warning from spectre.
+    WARNING (SPECTRE-691): This CPU processor does not support x86 advanced vector extensions instructions. This may affect math operations and slow down the simulation.
+
+Reading file:  /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/MonteCarlo.5/37/MC/groupRunDataDir/netlist/input.scs
+
+Notice from spectre during circuit read-in.
+    Pre_Configuration file used: /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/configs/preset.precfg
+    Configuration file used: `/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/configs/preset.cfg'.
+
+Reading file:  /opt/pdk/ams/410/spectre/ams_range.lmts
+
+Warning from spectre during read of parameter soft limits file `/opt/pdk/ams/410/spectre/ams_range.lmts', during circuit read-in.
+    WARNING (SPECTRE-8360): line 1511: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1512: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1513: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1514: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1515: `ac' is an undefined primitive device.
+        Further occurrences of this warning will be suppressed.
+
+Reading file:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/configs/preset.precfg
+Reading file:  /opt/pdk/ams/410/spectre/c35/soac/soac.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/processOption.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/process.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/processOption/C35B4C3.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/cmos53.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/res.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/cap.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/bip.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/ind.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/esddiode.scs
+Reading link:  /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/MonteCarlo.5/37/MC/groupRunDataDir/netlist/netlist
+Reading file:  /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/MonteCarlo.5/psf/MC/netlist/netlist
+Reading file:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/configs/preset.cfg
+Time for NDB Parsing: CPU = 190.706 ms, elapsed = 336.447 ms.
+Time accumulated: CPU = 380.94 ms, elapsed = 336.449 ms.
+Peak resident memory used = 179 Mbytes.
+
+Reading link:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/discipline.h
+Reading file:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/disciplines.vams
+Reading link:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/constants.h
+Reading file:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/constants.vams
+
+Warning from spectre during AHDL read-in.
+    WARNING (VACOMP-2435): The environment variable CDS_AHDLCMI_ENABLE is no longer supported. Therefore, the simulator will use the default compiled C code flow.
+
+Created directory /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/MonteCarlo.5/sharedData/lscsJob445/ahdl/input.ahdlSimDB/input.ahdlSimDB/ (775)
+Created directory /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/MonteCarlo.5/sharedData/lscsJob445/ahdl/input.ahdlSimDB/input.ahdlSimDB//bsource_fcab9d.va.bsource_fcab9d.ahdlcmi/ (775)
+Reading file:  /home/davidevi/Desktop/myproject/Sim/ECG_IA/ecg_vga_tb/adexl/results/data/MonteCarlo.3/sharedData/Job173/ahdl/input.ahdlSimDB/input.ahdlSimDB/bsource_fcab9d.va.bsource_fcab9d.ahdlcmi/Linux-64/obj/optimize/5.0/libahdlcmi_bsource_fcab9d.so
+Created directory /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/MonteCarlo.5/sharedData/lscsJob445/ahdl/input.ahdlSimDB/input.ahdlSimDB//bsource_fcab9d.va.bsource_fcab9d.ahdlcmi/Linux-64/obj/optimize/5.0 
+Copying files from directory /home/davidevi/Desktop/myproject/Sim/ECG_IA/ecg_vga_tb/adexl/results/data/MonteCarlo.3/sharedData/Job173/ahdl/input.ahdlSimDB/input.ahdlSimDB/bsource_fcab9d.va.bsource_fcab9d.ahdlcmi/Linux-64/ to directory /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/MonteCarlo.5/sharedData/lscsJob445/ahdl/input.ahdlSimDB/input.ahdlSimDB//bsource_fcab9d.va.bsource_fcab9d.ahdlcmi/Linux-64/
+Finished copying files from /home/davidevi/Desktop/myproject/Sim/ECG_IA/ecg_vga_tb/adexl/results/data/MonteCarlo.3/sharedData/Job173/ahdl/input.ahdlSimDB/input.ahdlSimDB/bsource_fcab9d.va.bsource_fcab9d.ahdlcmi/Linux-64/ to /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/MonteCarlo.5/sharedData/lscsJob445/ahdl/input.ahdlSimDB/input.ahdlSimDB//bsource_fcab9d.va.bsource_fcab9d.ahdlcmi/Linux-64/.
+The simulator has reused the existing Verilog-A libraries for this simulation run. If you do not want to use these libraries, set the 'CDS_AHDL_REUSE_LIB' environment variable to 'NO' and rerun the simulation.
+Existing shared object for module bsource_fcab9d is up to date.
+Installed compiled interface for bsource_fcab9d.
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SFE-3016): The floating node net6 is removed.
+
+Time for Elaboration: CPU = 136.211 ms, elapsed = 175.702 ms.
+Time accumulated: CPU = 517.268 ms, elapsed = 512.267 ms.
+Peak resident memory used = 196 Mbytes.
+
+
+Notice from spectre during hierarchy flattening.
+    The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option.
+
+
+*****************************************************************************************
+* 
+* INFO: AMS_processOption = C35B4C3
+* 
+* INFO: Valid Modules  PIP VG5 HIRES
+* 
+*****************************************************************************************
+
+
+Time for EDB Visiting: CPU = 6.868 ms, elapsed = 7.406 ms.
+Time accumulated: CPU = 524.248 ms, elapsed = 519.784 ms.
+Peak resident memory used = 198 Mbytes.
+
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/mdl/lib/64bit/libSpectreEH_sh.so ...
+
+Warning from spectre during initial setup.
+    WARNING (SPECTRE-17607): Assert `SOAC_rpolyh_vminuspsub' is ignored because it contains an expression which is invalid or not supported by native evaluator. 
+    WARNING (SPECTRE-17607): Assert `SOAC_rpolyh_vpluspsub' is ignored because it contains an expression which is invalid or not supported by native evaluator. 
+    WARNING (SPECTRE-16460): SOAC_cvarm_vspsub:Specified subcircuit master `cvarm' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvarm_vspsub:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvarm_vbs:Specified subcircuit master `cvarm' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvarm_vbs:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvarm_vgb:Specified subcircuit master `cvarm' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvarm_vgb:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvart_vspsub:Specified subcircuit master `cvart' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvart_vspsub:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvart_vbs:Specified subcircuit master `cvart' was not found.
+        Further occurrences of this warning will be suppressed.
+    WARNING (SPECTRE-16462): SOAC_cvart_vbs:Error in specification of subcircuit master. Assert is ignored.
+        Further occurrences of this warning will be suppressed.
+    WARNING (SPECTRE-17607): Assert `SOAC_cpoly_vminuspsub' is ignored because it contains an expression which is invalid or not supported by native evaluator. 
+    WARNING (SPECTRE-17607): Assert `SOAC_cpoly_vpluspsub' is ignored because it contains an expression which is invalid or not supported by native evaluator. 
+    WARNING (SPECTRE-17607): Assert `SOAC_modp_vbpsub' is ignored because it contains an expression which is invalid or not supported by native evaluator. 
+        Further occurrences of this warning will be suppressed.
+Notice from spectre during initial setup.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Netlist title:
+        // Point Netlist Generated on: Apr 15 13:18:11 2026
+
+
+Warning from spectre during initial setup.
+    WARNING (SPECTRE-592): Following parameters are disabled because they are ignored or redefined in Spectre X:
+        
+        
+        PSS Parameters:
+          errpreset
+
+
+Global user options:
+         psfversion = 1.4.0
+               temp = 27
+           homotopy = 5
+              limit = delta
+         compatible = spice2
+               gmin = 1e-12
+             rforce = 1
+           maxnotes = 5
+           maxwarns = 5
+             digits = 5
+               cols = 80
+             pivrel = 0.001
+           sensfile = ../psf/sens.output
+     checklimitdest = psf
+     enable_pre_ver = yes
+      ignorezerovar = yes
+               save = allpub
+               tnom = 27
+             scalem = 1
+              scale = 1
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 33
+            bsim3v3 35    
+     bsource_fcab9d 2     
+          capacitor 38    
+            isource 1     
+           resistor 1     
+            vsource 7     
+
+Analysis and control statement inventory:
+               info 7     
+         montecarlo 1     
+                pss 1     
+               tran 1     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 0     
+
+Design checks inventory:
+          paramtest 55    
+             assert 175   
+
+
+Notice from spectre during initial setup.
+    Spectre X preset=cx enabled.
+    73 warnings suppressed.
+
+Time for parsing: CPU = 19.985 ms, elapsed = 571.206 ms.
+Time accumulated: CPU = 544.328 ms, elapsed = 1.09108 s.
+Peak resident memory used = 206 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+   -   (Spectre X) Multi-threading. The recommended number of threads is 1, consider adding +mt=1 on command line.
+~~~~~~~~~~~~~~~~~~~~~~
+
+**************************************************
+Monte Carlo Analysis `mc1': iteration = (37 -> 45)
+**************************************************
+Important parameter values:
+    seed = 12345
+    sampling = lds
+    variations = all
+    firstrun = 37
+    numruns = 9
+    nullmfactorcorrelation = no
+    donominal = no
+    method = standard
+Opening iteration number and data-directory mapping file:  /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/MonteCarlo.5/37/MC/groupRunDataDir/netlist/../psf/mc1.mapping
+
+Statistical parameters:
+    Defined process parameters: 629
+    Defined mismatch parameters (subckt based): 86
+    Non-referenced mismatch parameters: 80
+    Number of random variables: 707
+    Gaussian truncation for process parameters: 4.00 sigma
+    Gaussian truncation for mismatch parameters: 4.00 sigma
+
+
+**** Skipping runs 1 to 36 for `mc1'
+
+
+Opening the PSF file ../psf/mc1_tran.montecarlo ...
+
+Opening the PSF file ../psf/mc1_finalTimeOP.montecarlo ...
+
+Opening the PSF file ../psf/mc1_pss_td.montecarlo ...
+
+Opening the PSF file ../psf/mc1_pss_fd.montecarlo ...
+
+Opening the PSF file ../psf/mc1_modelParameter.montecarlo ...
+
+Opening the PSF file ../psf/mc1_element.montecarlo ...
+
+Opening the PSF file ../psf/mc1_outputParameter.montecarlo ...
+
+Opening the PSF file ../psf/mc1_designParamVals.montecarlo ...
+
+Opening the PSF file ../psf/mc1_primitives.montecarlo ...
+
+Opening the PSF file ../psf/mc1_subckts.montecarlo ...
+
+**** Performing monte carlo loop for `mc1'
+
+37   0.00% 
+
+Notice from spectre at iteration = 37 during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    No checklimit analysis defined for asserts. A default checklimit analysis 'SpectreChecklimitAnal' has been created with all asserts enabled.
+
+
+*************************************************
+Transient Analysis `tran': time = (0 s -> 100 ms)
+*************************************************
+
+Opening the PSF file ../psf/mc1_separate/037/tran.tran.tran ...
+
+Notice from spectre at iteration = 37 during IC analysis, during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+Warning from spectre at iteration = 37 during check, during IC analysis, during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<0>_turbo_m4.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C9<0>_turbo_m8.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C7<0>_turbo_m2.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 18 iterations.
+DC simulation time: CPU = 3.102 ms, elapsed = 3.14999 ms.
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 100 ms
+    step = 100 us
+    maxstep = 1 ms
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 100e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative_sigglobal
+    method = gear2only
+    lteratio = 10
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+
+Notice from spectre at iteration = 37 during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Output and IC/nodeset summary:
+                 save   7       (current)
+                 save   32      (voltage)
+
+    tran: time = 2.907 ms    (2.91 %), step = 933.9 us     (934 m%)
+    tran: time = 7.844 ms    (7.84 %), step = 1 ms            (1 %)
+    tran: time = 13.29 ms    (13.3 %), step = 871 us       (871 m%)
+    tran: time = 18.21 ms    (18.2 %), step = 1 ms            (1 %)
+    tran: time = 22.73 ms    (22.7 %), step = 854.6 us     (855 m%)
+    tran: time = 27.56 ms    (27.6 %), step = 1 ms            (1 %)
+    tran: time = 33.04 ms      (33 %), step = 862.7 us     (863 m%)
+    tran: time = 37.92 ms    (37.9 %), step = 1 ms            (1 %)
+    tran: time = 43.35 ms    (43.4 %), step = 873.3 us     (873 m%)
+    tran: time = 48.28 ms    (48.3 %), step = 1 ms            (1 %)
+    tran: time = 52.79 ms    (52.8 %), step = 855.9 us     (856 m%)
+    tran: time = 57.62 ms    (57.6 %), step = 1 ms            (1 %)
+    tran: time = 63.1 ms     (63.1 %), step = 864.5 us     (864 m%)
+    tran: time = 67.99 ms      (68 %), step = 1 ms            (1 %)
+    tran: time = 72.54 ms    (72.5 %), step = 851 us       (851 m%)
+    tran: time = 78.34 ms    (78.3 %), step = 1 ms            (1 %)
+    tran: time = 82.85 ms    (82.8 %), step = 857.3 us     (857 m%)
+    tran: time = 87.69 ms    (87.7 %), step = 1 ms            (1 %)
+    tran: time = 93.16 ms    (93.2 %), step = 866.4 us     (866 m%)
+    tran: time = 98.06 ms    (98.1 %), step = 1 ms            (1 %)
+Number of accepted tran steps =             112
+
+Maximum value achieved for any signal of each quantity: 
+V: V(net2) = 3.3 V
+I: I(V0:p) = 6.581 uA
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   Non-default settings that could significantly slow down simulation
+          errpreset = conservative_sigglobal, default moderate
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+         0 (64.5 %)      1 (54.6 %)      2 (32.7 %)      3 (30.6 %)
+         4 (38.2 %)      5 (8.5 %)       6 (94.5 %)      7 (16.0 %)
+         8 (24.8 %)      9 (12.8 %)     10 (65.1 %)     11 (100.0 %)
+        12 (27.7 %)     13 (24.1 %)     14 (44.9 %)     15 (100.0 %)
+        16 (22.9 %)     17 (27.5 %)     18 (16.5 %)     19 (27.8 %)
+        20 (45.5 %)     21 (75.9 %)     22 (43.4 %)     23 (73.8 %)
+        24 (39.1 %)     25 (100.0 %)    26 (8.5 %)      27 (36.1 %)
+        28 (43.1 %)     29 (100.0 %)    30 (26.9 %)     31 (74.3 %)
+        32 (19.3 %)     33 (59.1 %)     34 (9.3 %)      35 (10.5 %)
+        36 (100.0 %)    37 (51.4 %)     38 (55.5 %)     39 (31.1 %)
+        40 (56.1 %)     41 (39.3 %)     42 (39.6 %)     43 (31.4 %)
+        44 (50.5 %)     45 (26.6 %)     46 (22.4 %)     47 (42.2 %)
+        Total: 2144.7%
+Initial condition solution time: CPU = 3.147 ms, elapsed = 3.19791 ms.
+Intrinsic tran analysis time:    CPU = 20.95 ms, elapsed = 22.4099 ms.
+Total time required for tran analysis `tran': CPU = 97.006 ms, elapsed = 101.531 ms, util. = 95.5%.
+Time accumulated: CPU = 692.488 ms, elapsed = 1.25212 s.
+Peak resident memory used = 217 Mbytes.
+
+
+Notice from spectre during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    12 warnings suppressed.
+
+finalTimeOP: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/037/finalTimeOP.info ...
+Licensing Information:
+[13:18:17.147595] Periodic Lic check successful
+
+
+**************************************************
+Periodic Steady-State Analysis `pss': fund = 50 Hz
+**************************************************
+
+Notice from spectre during IC analysis, during periodic steady state analysis `pss', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+Warning from spectre during check, during IC analysis, during periodic steady state analysis `pss', during Monte Carlo analysis `mc1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<0>_turbo_m4.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C9<0>_turbo_m8.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C7<0>_turbo_m2.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 18 iterations.
+DC simulation time: CPU = 2.489 ms, elapsed = 2.4972 ms.
+
+==================================
+pss `tstab': time = (0 s -> 20 ms)
+==================================
+
+Output and IC/nodeset summary:
+                 save   7       (current)
+                 save   32      (voltage)
+
+Important parameter values in tstab integration:
+    start = 0 s
+    outputstart = 0 s
+    stop = 20 ms
+    period = 20 ms
+    maxperiods = 20
+    step = 20 us
+    maxstep = 800 us
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+    pss: time = 513.8 us    (2.57 %), step = 259.3 us      (1.3 %)
+    pss: time = 2.185 ms    (10.9 %), step = 800 us          (4 %)
+    pss: time = 2.985 ms    (14.9 %), step = 800 us          (4 %)
+    pss: time = 3.785 ms    (18.9 %), step = 800 us          (4 %)
+    pss: time = 4.585 ms    (22.9 %), step = 800 us          (4 %)
+    pss: time = 6.185 ms    (30.9 %), step = 800 us          (4 %)
+    pss: time = 6.985 ms    (34.9 %), step = 800 us          (4 %)
+    pss: time = 7.785 ms    (38.9 %), step = 800 us          (4 %)
+    pss: time = 8.585 ms    (42.9 %), step = 800 us          (4 %)
+    pss: time = 10.18 ms    (50.9 %), step = 800 us          (4 %)
+    pss: time = 10.98 ms    (54.9 %), step = 800 us          (4 %)
+    pss: time = 11.78 ms    (58.9 %), step = 800 us          (4 %)
+    pss: time = 12.58 ms    (62.9 %), step = 800 us          (4 %)
+    pss: time = 14.18 ms    (70.9 %), step = 800 us          (4 %)
+    pss: time = 14.98 ms    (74.9 %), step = 800 us          (4 %)
+    pss: time = 15.78 ms    (78.9 %), step = 800 us          (4 %)
+    pss: time = 16.58 ms    (82.9 %), step = 800 us          (4 %)
+    pss: time = 18.18 ms    (90.9 %), step = 800 us          (4 %)
+    pss: time = 18.98 ms    (94.9 %), step = 800 us          (4 %)
+    pss: time = 20 ms        (100 %), step = 507.7 us     (2.54 %)
+Total time required for tstab analysis `pss': CPU = 6.168 ms, elapsed = 6.16693 ms.
+Time accumulated: CPU = 715.367 ms, elapsed = 1.29081 s.
+Peak resident memory used = 219 Mbytes.
+
+Conv norm = 29.6, max dV(vout_filt) = -10.1753 mV, took 10 ms.
+
+Important parameter values in pss iteration:
+    start = 0 s
+    outputstart = 0 s
+    stop = 20 ms
+    period = 20 ms
+    maxperiods = 20
+    steadyratio = 10e-03
+    step = 20 us
+    maxstep = 100 us
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 100e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative
+    method = gear2only
+    lteratio = 10
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+
+Notice from spectre during periodic steady state analysis `pss', during Monte Carlo analysis `mc1'.
+    12 warnings suppressed.
+
+
+============================
+`pss': time = (0 s -> 20 ms)
+============================
+    pss: time = 512.5 us    (2.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 1.512 ms    (7.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 2.512 ms    (12.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 3.512 ms    (17.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 4.5 ms      (22.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 5.5 ms      (27.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 6.5 ms      (32.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 7.5 ms      (37.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 8.5 ms      (42.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 9.5 ms      (47.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 10.5 ms     (52.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 11.5 ms     (57.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 12.5 ms     (62.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 13.5 ms     (67.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 14.5 ms     (72.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 15.5 ms     (77.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 16.5 ms     (82.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 17.5 ms     (87.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 18.5 ms     (92.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 19.51 ms    (97.6 %), step = 12.5 us     (62.5 m%)
+Conv norm = 272e-03, max dV(vout_filt) = 26.8633 uV, took 380 ms.
+
+
+Opening the PSF file ../psf/mc1_separate/037/pss.td.pss ...
+
+Opening the PSF file ../psf/mc1_separate/037/pss.fd.pss ...
+
+============================
+`pss': time = (0 s -> 20 ms)
+============================
+    pss: time = 512.5 us    (2.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 1.512 ms    (7.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 2.512 ms    (12.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 3.512 ms    (17.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 4.5 ms      (22.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 5.5 ms      (27.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 6.5 ms      (32.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 7.5 ms      (37.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 8.5 ms      (42.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 9.5 ms      (47.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 10.5 ms     (52.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 11.5 ms     (57.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 12.5 ms     (62.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 13.5 ms     (67.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 14.5 ms     (72.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 15.5 ms     (77.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 16.5 ms     (82.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 17.5 ms     (87.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 18.5 ms     (92.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 19.51 ms    (97.6 %), step = 12.5 us     (62.5 m%)
+
+Maximum value achieved for any signal of each quantity: 
+V: V(net2) = 3.3 V
+I: I(V0:p) = 6.581 uA
+Initial condition solution time: CPU = 2.529 ms, elapsed = 2.53797 ms.
+pss: The steady-state solution was achieved in 2 iterations.
+Number of accepted pss steps =             1600
+Total time required for pss analysis `pss': CPU = 809.958 ms, elapsed = 827.267 ms, util. = 97.9%.
+Time accumulated: CPU = 1.5082 s, elapsed = 2.08817 s.
+Peak resident memory used = 225 Mbytes.
+
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/037/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/037/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/037/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/037/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/037/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/037/subckts.info.subckts ...
+38  12.50% 
+
+*************************************************
+Transient Analysis `tran': time = (0 s -> 100 ms)
+*************************************************
+
+Opening the PSF file ../psf/mc1_separate/038/tran.tran.tran ...
+
+Notice from spectre during IC analysis, during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+Warning from spectre during check, during IC analysis, during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<0>_turbo_m4.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C9<0>_turbo_m8.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C7<0>_turbo_m2.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 17 iterations.
+DC simulation time: CPU = 2.469 ms, elapsed = 2.46906 ms.
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 100 ms
+    step = 100 us
+    maxstep = 1 ms
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 100e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative_sigglobal
+    method = gear2only
+    lteratio = 10
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+
+Notice from spectre during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Output and IC/nodeset summary:
+                 save   7       (current)
+                 save   32      (voltage)
+
+    tran: time = 2.908 ms    (2.91 %), step = 934.4 us     (934 m%)
+    tran: time = 7.845 ms    (7.85 %), step = 1 ms            (1 %)
+    tran: time = 13.29 ms    (13.3 %), step = 871.1 us     (871 m%)
+    tran: time = 18.21 ms    (18.2 %), step = 1 ms            (1 %)
+    tran: time = 22.73 ms    (22.7 %), step = 854.7 us     (855 m%)
+    tran: time = 27.56 ms    (27.6 %), step = 1 ms            (1 %)
+    tran: time = 33.04 ms      (33 %), step = 862.7 us     (863 m%)
+    tran: time = 37.92 ms    (37.9 %), step = 1 ms            (1 %)
+    tran: time = 43.35 ms    (43.4 %), step = 873.4 us     (873 m%)
+    tran: time = 48.28 ms    (48.3 %), step = 1 ms            (1 %)
+    tran: time = 52.79 ms    (52.8 %), step = 856 us       (856 m%)
+    tran: time = 57.62 ms    (57.6 %), step = 1 ms            (1 %)
+    tran: time = 63.1 ms     (63.1 %), step = 864.5 us     (865 m%)
+    tran: time = 67.99 ms      (68 %), step = 1 ms            (1 %)
+    tran: time = 72.54 ms    (72.5 %), step = 851 us       (851 m%)
+    tran: time = 78.34 ms    (78.3 %), step = 1 ms            (1 %)
+    tran: time = 82.85 ms    (82.8 %), step = 857.4 us     (857 m%)
+    tran: time = 87.69 ms    (87.7 %), step = 1 ms            (1 %)
+    tran: time = 93.17 ms    (93.2 %), step = 866.5 us     (867 m%)
+    tran: time = 98.06 ms    (98.1 %), step = 1 ms            (1 %)
+Number of accepted tran steps =             112
+
+Maximum value achieved for any signal of each quantity: 
+V: V(net2) = 3.3 V
+I: I(V0:p) = 6.523 uA
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   Non-default settings that could significantly slow down simulation
+          errpreset = conservative_sigglobal, default moderate
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+         0 (81.4 %)      1 (31.1 %)      2 (41.0 %)      3 (57.3 %)
+         4 (26.7 %)      5 (28.8 %)      6 (62.0 %)      7 (21.3 %)
+         8 (51.2 %)      9 (12.0 %)     10 (43.3 %)     11 (100.0 %)
+        12 (31.1 %)     13 (35.6 %)     14 (53.9 %)     15 (100.0 %)
+        16 (45.4 %)     17 (23.2 %)     18 (21.8 %)     19 (33.8 %)
+        20 (31.9 %)     21 (70.0 %)     22 (52.4 %)     23 (79.7 %)
+        24 (23.3 %)     25 (100.0 %)    26 (7.8 %)      27 (26.1 %)
+        28 (62.7 %)     29 (100.0 %)    30 (17.6 %)     31 (54.1 %)
+        32 (31.9 %)     33 (32.9 %)     34 (8.7 %)      35 (49.0 %)
+        36 (100.0 %)    37 (53.9 %)     38 (43.5 %)     39 (28.2 %)
+        40 (75.8 %)     41 (39.8 %)     42 (31.9 %)     43 (46.6 %)
+        44 (29.1 %)     45 (16.8 %)     46 (15.6 %)     47 (31.9 %)
+        Total: 2162.1%
+Initial condition solution time: CPU = 2.516 ms, elapsed = 2.51794 ms.
+Intrinsic tran analysis time:    CPU = 21.242 ms, elapsed = 22.6409 ms.
+Total time required for tran analysis `tran': CPU = 25.926 ms, elapsed = 28.064 ms, util. = 92.4%.
+Time accumulated: CPU = 1.56946 s, elapsed = 2.16315 s.
+Peak resident memory used = 225 Mbytes.
+
+
+Notice from spectre during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    12 warnings suppressed.
+
+finalTimeOP: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/038/finalTimeOP.info ...
+Licensing Information:
+[13:18:18.058169] Periodic Lic check successful
+
+
+**************************************************
+Periodic Steady-State Analysis `pss': fund = 50 Hz
+**************************************************
+
+Notice from spectre during IC analysis, during periodic steady state analysis `pss', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+Warning from spectre during check, during IC analysis, during periodic steady state analysis `pss', during Monte Carlo analysis `mc1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<0>_turbo_m4.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C9<0>_turbo_m8.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C7<0>_turbo_m2.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 17 iterations.
+DC simulation time: CPU = 2.392 ms, elapsed = 2.40517 ms.
+
+==================================
+pss `tstab': time = (0 s -> 20 ms)
+==================================
+
+Output and IC/nodeset summary:
+                 save   7       (current)
+                 save   32      (voltage)
+
+Important parameter values in tstab integration:
+    start = 0 s
+    outputstart = 0 s
+    stop = 20 ms
+    period = 20 ms
+    maxperiods = 20
+    step = 20 us
+    maxstep = 800 us
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+    pss: time = 519.9 us     (2.6 %), step = 262.8 us     (1.31 %)
+    pss: time = 2.196 ms      (11 %), step = 800 us          (4 %)
+    pss: time = 2.996 ms      (15 %), step = 800 us          (4 %)
+    pss: time = 3.796 ms      (19 %), step = 800 us          (4 %)
+    pss: time = 4.596 ms      (23 %), step = 800 us          (4 %)
+    pss: time = 6.196 ms      (31 %), step = 800 us          (4 %)
+    pss: time = 6.996 ms      (35 %), step = 800 us          (4 %)
+    pss: time = 7.796 ms      (39 %), step = 800 us          (4 %)
+    pss: time = 8.596 ms      (43 %), step = 800 us          (4 %)
+    pss: time = 10.2 ms       (51 %), step = 800 us          (4 %)
+    pss: time = 11 ms         (55 %), step = 800 us          (4 %)
+    pss: time = 11.8 ms       (59 %), step = 800 us          (4 %)
+    pss: time = 12.6 ms       (63 %), step = 800 us          (4 %)
+    pss: time = 14.2 ms       (71 %), step = 800 us          (4 %)
+    pss: time = 15 ms         (75 %), step = 800 us          (4 %)
+    pss: time = 15.8 ms       (79 %), step = 800 us          (4 %)
+    pss: time = 16.6 ms       (83 %), step = 800 us          (4 %)
+    pss: time = 18.2 ms       (91 %), step = 800 us          (4 %)
+    pss: time = 19 ms         (95 %), step = 800 us          (4 %)
+    pss: time = 20 ms        (100 %), step = 502.1 us     (2.51 %)
+Total time required for tstab analysis `pss': CPU = 5.98 ms, elapsed = 5.97882 ms.
+Time accumulated: CPU = 1.59327 s, elapsed = 2.20179 s.
+Peak resident memory used = 225 Mbytes.
+
+Conv norm = 29.7, max dV(vout_filt) = -10.2243 mV, took 10 ms.
+
+Important parameter values in pss iteration:
+    start = 0 s
+    outputstart = 0 s
+    stop = 20 ms
+    period = 20 ms
+    maxperiods = 20
+    steadyratio = 10e-03
+    step = 20 us
+    maxstep = 100 us
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 100e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative
+    method = gear2only
+    lteratio = 10
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+
+Notice from spectre during periodic steady state analysis `pss', during Monte Carlo analysis `mc1'.
+    12 warnings suppressed.
+
+
+============================
+`pss': time = (0 s -> 20 ms)
+============================
+    pss: time = 512.5 us    (2.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 1.512 ms    (7.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 2.512 ms    (12.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 3.512 ms    (17.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 4.5 ms      (22.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 5.5 ms      (27.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 6.5 ms      (32.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 7.5 ms      (37.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 8.5 ms      (42.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 9.5 ms      (47.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 10.5 ms     (52.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 11.5 ms     (57.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 12.5 ms     (62.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 13.5 ms     (67.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 14.5 ms     (72.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 15.5 ms     (77.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 16.5 ms     (82.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 17.5 ms     (87.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 18.5 ms     (92.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 19.51 ms    (97.6 %), step = 12.5 us     (62.5 m%)
+Conv norm = 263e-03, max dV(vout_filt) = 25.9984 uV, took 370 ms.
+
+
+Opening the PSF file ../psf/mc1_separate/038/pss.td.pss ...
+
+Opening the PSF file ../psf/mc1_separate/038/pss.fd.pss ...
+
+============================
+`pss': time = (0 s -> 20 ms)
+============================
+    pss: time = 512.5 us    (2.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 1.512 ms    (7.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 2.512 ms    (12.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 3.512 ms    (17.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 4.5 ms      (22.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 5.5 ms      (27.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 6.5 ms      (32.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 7.5 ms      (37.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 8.5 ms      (42.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 9.5 ms      (47.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 10.5 ms     (52.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 11.5 ms     (57.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 12.5 ms     (62.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 13.5 ms     (67.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 14.5 ms     (72.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 15.5 ms     (77.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 16.5 ms     (82.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 17.5 ms     (87.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 18.5 ms     (92.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 19.51 ms    (97.6 %), step = 12.5 us     (62.5 m%)
+
+Maximum value achieved for any signal of each quantity: 
+V: V(net2) = 3.3 V
+I: I(V0:p) = 6.523 uA
+Initial condition solution time: CPU = 2.433 ms, elapsed = 2.44808 ms.
+pss: The steady-state solution was achieved in 2 iterations.
+Number of accepted pss steps =             1600
+Total time required for pss analysis `pss': CPU = 800.087 ms, elapsed = 816.771 ms, util. = 98%.
+Time accumulated: CPU = 2.37461 s, elapsed = 2.98745 s.
+Peak resident memory used = 226 Mbytes.
+
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/038/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/038/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/038/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/038/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/038/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/038/subckts.info.subckts ...
+    mc1: iteration = 38          (12.5 %), step = 1            (12.5 %)
+39  25.00% 
+
+*************************************************
+Transient Analysis `tran': time = (0 s -> 100 ms)
+*************************************************
+
+Opening the PSF file ../psf/mc1_separate/039/tran.tran.tran ...
+
+Notice from spectre during IC analysis, during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+Warning from spectre during check, during IC analysis, during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<0>_turbo_m4.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C9<0>_turbo_m8.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C7<0>_turbo_m2.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 18 iterations.
+DC simulation time: CPU = 2.43 ms, elapsed = 2.42996 ms.
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 100 ms
+    step = 100 us
+    maxstep = 1 ms
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 100e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative_sigglobal
+    method = gear2only
+    lteratio = 10
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+
+Notice from spectre during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Output and IC/nodeset summary:
+                 save   7       (current)
+                 save   32      (voltage)
+
+    tran: time = 2.906 ms    (2.91 %), step = 933.6 us     (934 m%)
+    tran: time = 7.844 ms    (7.84 %), step = 1 ms            (1 %)
+    tran: time = 13.29 ms    (13.3 %), step = 871 us       (871 m%)
+    tran: time = 18.21 ms    (18.2 %), step = 1 ms            (1 %)
+    tran: time = 22.73 ms    (22.7 %), step = 854.6 us     (855 m%)
+    tran: time = 27.56 ms    (27.6 %), step = 1 ms            (1 %)
+    tran: time = 33.04 ms      (33 %), step = 862.7 us     (863 m%)
+    tran: time = 37.92 ms    (37.9 %), step = 1 ms            (1 %)
+    tran: time = 43.35 ms    (43.4 %), step = 873.3 us     (873 m%)
+    tran: time = 48.28 ms    (48.3 %), step = 1 ms            (1 %)
+    tran: time = 52.79 ms    (52.8 %), step = 856 us       (856 m%)
+    tran: time = 57.62 ms    (57.6 %), step = 1 ms            (1 %)
+    tran: time = 63.1 ms     (63.1 %), step = 864.5 us     (864 m%)
+    tran: time = 67.99 ms      (68 %), step = 1 ms            (1 %)
+    tran: time = 72.54 ms    (72.5 %), step = 851 us       (851 m%)
+    tran: time = 78.34 ms    (78.3 %), step = 1 ms            (1 %)
+    tran: time = 82.85 ms    (82.8 %), step = 857.4 us     (857 m%)
+    tran: time = 87.69 ms    (87.7 %), step = 1 ms            (1 %)
+    tran: time = 93.17 ms    (93.2 %), step = 866.5 us     (867 m%)
+    tran: time = 98.06 ms    (98.1 %), step = 1 ms            (1 %)
+Number of accepted tran steps =             112
+
+Maximum value achieved for any signal of each quantity: 
+V: V(net2) = 3.3 V
+I: I(V0:p) = 6.456 uA
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   Non-default settings that could significantly slow down simulation
+          errpreset = conservative_sigglobal, default moderate
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+         0 (87.0 %)      1 (31.9 %)      2 (56.5 %)      3 (51.4 %)
+         4 (32.7 %)      5 (25.1 %)      6 (51.5 %)      7 (24.1 %)
+         8 (65.0 %)      9 (19.9 %)     10 (38.0 %)     11 (88.0 %)
+        12 (50.0 %)     13 (31.3 %)     14 (41.0 %)     15 (92.3 %)
+        16 (54.6 %)     17 (22.8 %)     18 (35.7 %)     19 (30.2 %)
+        20 (35.5 %)     21 (63.6 %)     22 (43.7 %)     23 (85.5 %)
+        24 (43.6 %)     25 (100.0 %)    26 (27.0 %)     27 (34.6 %)
+        28 (60.9 %)     29 (100.0 %)    30 (16.3 %)     31 (66.8 %)
+        32 (23.4 %)     33 (23.7 %)     34 (7.1 %)      35 (50.9 %)
+        36 (100.0 %)    37 (53.7 %)     38 (52.2 %)     39 (22.8 %)
+        40 (82.2 %)     41 (39.1 %)     42 (24.6 %)     43 (44.7 %)
+        44 (40.6 %)     45 (39.1 %)     46 (14.6 %)     47 (25.9 %)
+        Total: 2251.1%
+Initial condition solution time: CPU = 2.468 ms, elapsed = 2.47002 ms.
+Intrinsic tran analysis time:    CPU = 21.863 ms, elapsed = 22.9392 ms.
+Total time required for tran analysis `tran': CPU = 26.483 ms, elapsed = 28.168 ms, util. = 94%.
+Time accumulated: CPU = 2.43417 s, elapsed = 3.0584 s.
+Peak resident memory used = 226 Mbytes.
+
+
+Notice from spectre during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    12 warnings suppressed.
+
+finalTimeOP: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/039/finalTimeOP.info ...
+Licensing Information:
+[13:18:18.428931] Periodic Lic check successful
+
+
+**************************************************
+Periodic Steady-State Analysis `pss': fund = 50 Hz
+**************************************************
+
+Notice from spectre during IC analysis, during periodic steady state analysis `pss', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+Warning from spectre during check, during IC analysis, during periodic steady state analysis `pss', during Monte Carlo analysis `mc1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<0>_turbo_m4.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C9<0>_turbo_m8.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C7<0>_turbo_m2.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 18 iterations.
+DC simulation time: CPU = 2.622 ms, elapsed = 2.62189 ms.
+
+==================================
+pss `tstab': time = (0 s -> 20 ms)
+==================================
+
+Output and IC/nodeset summary:
+                 save   7       (current)
+                 save   32      (voltage)
+
+Important parameter values in tstab integration:
+    start = 0 s
+    outputstart = 0 s
+    stop = 20 ms
+    period = 20 ms
+    maxperiods = 20
+    step = 20 us
+    maxstep = 800 us
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+    pss: time = 510 us      (2.55 %), step = 257.2 us     (1.29 %)
+    pss: time = 2.178 ms    (10.9 %), step = 800 us          (4 %)
+    pss: time = 2.978 ms    (14.9 %), step = 800 us          (4 %)
+    pss: time = 3.778 ms    (18.9 %), step = 800 us          (4 %)
+    pss: time = 4.578 ms    (22.9 %), step = 800 us          (4 %)
+    pss: time = 6.178 ms    (30.9 %), step = 800 us          (4 %)
+    pss: time = 6.978 ms    (34.9 %), step = 800 us          (4 %)
+    pss: time = 7.778 ms    (38.9 %), step = 800 us          (4 %)
+    pss: time = 8.578 ms    (42.9 %), step = 800 us          (4 %)
+    pss: time = 10.18 ms    (50.9 %), step = 800 us          (4 %)
+    pss: time = 10.98 ms    (54.9 %), step = 800 us          (4 %)
+    pss: time = 11.78 ms    (58.9 %), step = 800 us          (4 %)
+    pss: time = 12.58 ms    (62.9 %), step = 800 us          (4 %)
+    pss: time = 14.18 ms    (70.9 %), step = 800 us          (4 %)
+    pss: time = 14.98 ms    (74.9 %), step = 800 us          (4 %)
+    pss: time = 15.78 ms    (78.9 %), step = 800 us          (4 %)
+    pss: time = 16.58 ms    (82.9 %), step = 800 us          (4 %)
+    pss: time = 18.18 ms    (90.9 %), step = 800 us          (4 %)
+    pss: time = 18.98 ms    (94.9 %), step = 800 us          (4 %)
+    pss: time = 20 ms        (100 %), step = 511.2 us     (2.56 %)
+Total time required for tstab analysis `pss': CPU = 6.179 ms, elapsed = 6.1779 ms.
+Time accumulated: CPU = 2.45679 s, elapsed = 3.09725 s.
+Peak resident memory used = 226 Mbytes.
+
+Conv norm = 29.6, max dV(vout_filt) = -10.1827 mV, took 10 ms.
+
+Important parameter values in pss iteration:
+    start = 0 s
+    outputstart = 0 s
+    stop = 20 ms
+    period = 20 ms
+    maxperiods = 20
+    steadyratio = 10e-03
+    step = 20 us
+    maxstep = 100 us
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 100e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative
+    method = gear2only
+    lteratio = 10
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+
+Notice from spectre during periodic steady state analysis `pss', during Monte Carlo analysis `mc1'.
+    12 warnings suppressed.
+
+
+============================
+`pss': time = (0 s -> 20 ms)
+============================
+    pss: time = 512.5 us    (2.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 1.512 ms    (7.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 2.512 ms    (12.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 3.512 ms    (17.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 4.5 ms      (22.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 5.5 ms      (27.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 6.5 ms      (32.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 7.5 ms      (37.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 8.5 ms      (42.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 9.5 ms      (47.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 10.5 ms     (52.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 11.5 ms     (57.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 12.5 ms     (62.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 13.5 ms     (67.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 14.5 ms     (72.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 15.5 ms     (77.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 16.5 ms     (82.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 17.5 ms     (87.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 18.5 ms     (92.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 19.51 ms    (97.6 %), step = 12.5 us     (62.5 m%)
+Conv norm = 413e-03, max dV(vout) = -40.9291 uV, took 380 ms.
+
+
+Opening the PSF file ../psf/mc1_separate/039/pss.td.pss ...
+
+Opening the PSF file ../psf/mc1_separate/039/pss.fd.pss ...
+
+============================
+`pss': time = (0 s -> 20 ms)
+============================
+    pss: time = 512.5 us    (2.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 1.512 ms    (7.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 2.512 ms    (12.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 3.512 ms    (17.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 4.5 ms      (22.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 5.5 ms      (27.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 6.5 ms      (32.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 7.5 ms      (37.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 8.5 ms      (42.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 9.5 ms      (47.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 10.5 ms     (52.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 11.5 ms     (57.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 12.5 ms     (62.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 13.5 ms     (67.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 14.5 ms     (72.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 15.5 ms     (77.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 16.5 ms     (82.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 17.5 ms     (87.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 18.5 ms     (92.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 19.51 ms    (97.6 %), step = 12.5 us     (62.5 m%)
+
+Maximum value achieved for any signal of each quantity: 
+V: V(net2) = 3.3 V
+I: I(V0:p) = 6.456 uA
+Initial condition solution time: CPU = 2.688 ms, elapsed = 2.69103 ms.
+pss: The steady-state solution was achieved in 2 iterations.
+Number of accepted pss steps =             1600
+Total time required for pss analysis `pss': CPU = 807.552 ms, elapsed = 826.313 ms, util. = 97.7%.
+Time accumulated: CPU = 3.24724 s, elapsed = 3.89269 s.
+Peak resident memory used = 226 Mbytes.
+
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/039/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/039/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/039/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/039/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/039/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/039/subckts.info.subckts ...
+    mc1: iteration = 39            (25 %), step = 1            (12.5 %)
+40  37.50% 
+
+*************************************************
+Transient Analysis `tran': time = (0 s -> 100 ms)
+*************************************************
+
+Opening the PSF file ../psf/mc1_separate/040/tran.tran.tran ...
+
+Notice from spectre during IC analysis, during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+Warning from spectre during check, during IC analysis, during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<0>_turbo_m4.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C9<0>_turbo_m8.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C7<0>_turbo_m2.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 19 iterations.
+DC simulation time: CPU = 2.632 ms, elapsed = 2.63309 ms.
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 100 ms
+    step = 100 us
+    maxstep = 1 ms
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 100e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative_sigglobal
+    method = gear2only
+    lteratio = 10
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+
+Notice from spectre during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Output and IC/nodeset summary:
+                 save   7       (current)
+                 save   32      (voltage)
+
+    tran: time = 2.905 ms    (2.91 %), step = 933 us       (933 m%)
+    tran: time = 7.842 ms    (7.84 %), step = 1 ms            (1 %)
+    tran: time = 13.29 ms    (13.3 %), step = 871 us       (871 m%)
+    tran: time = 18.21 ms    (18.2 %), step = 1 ms            (1 %)
+    tran: time = 22.73 ms    (22.7 %), step = 854.6 us     (855 m%)
+    tran: time = 27.56 ms    (27.6 %), step = 1 ms            (1 %)
+    tran: time = 33.04 ms      (33 %), step = 862.6 us     (863 m%)
+    tran: time = 37.91 ms    (37.9 %), step = 1 ms            (1 %)
+    tran: time = 43.35 ms    (43.4 %), step = 873.3 us     (873 m%)
+    tran: time = 48.27 ms    (48.3 %), step = 1 ms            (1 %)
+    tran: time = 52.79 ms    (52.8 %), step = 855.9 us     (856 m%)
+    tran: time = 57.62 ms    (57.6 %), step = 1 ms            (1 %)
+    tran: time = 63.1 ms     (63.1 %), step = 864.4 us     (864 m%)
+    tran: time = 67.99 ms      (68 %), step = 1 ms            (1 %)
+    tran: time = 72.54 ms    (72.5 %), step = 851 us       (851 m%)
+    tran: time = 78.34 ms    (78.3 %), step = 1 ms            (1 %)
+    tran: time = 82.85 ms    (82.8 %), step = 857.3 us     (857 m%)
+    tran: time = 87.69 ms    (87.7 %), step = 1 ms            (1 %)
+    tran: time = 93.16 ms    (93.2 %), step = 866.4 us     (866 m%)
+    tran: time = 98.06 ms    (98.1 %), step = 1 ms            (1 %)
+Number of accepted tran steps =             112
+
+Maximum value achieved for any signal of each quantity: 
+V: V(net2) = 3.3 V
+I: I(V0:p) = 6.237 uA
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   Non-default settings that could significantly slow down simulation
+          errpreset = conservative_sigglobal, default moderate
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+         0 (90.0 %)      1 (26.9 %)      2 (64.6 %)      3 (47.7 %)
+         4 (30.8 %)      5 (25.0 %)      6 (61.6 %)      7 (22.1 %)
+         8 (66.8 %)      9 (18.2 %)     10 (48.1 %)     11 (77.2 %)
+        12 (45.4 %)     13 (37.0 %)     14 (45.3 %)     15 (76.7 %)
+        16 (65.3 %)     17 (20.8 %)     18 (48.2 %)     19 (28.0 %)
+        20 (32.8 %)     21 (54.8 %)     22 (48.3 %)     23 (81.9 %)
+        24 (37.0 %)     25 (100.0 %)    26 (23.0 %)     27 (28.5 %)
+        28 (63.0 %)     29 (100.0 %)    30 (33.9 %)     31 (65.8 %)
+        32 (31.4 %)     33 (21.4 %)     34 (16.4 %)     35 (56.0 %)
+        36 (100.0 %)    37 (46.3 %)     38 (53.4 %)     39 (21.8 %)
+        40 (85.3 %)     41 (33.5 %)     42 (25.5 %)     43 (49.0 %)
+        44 (53.4 %)     45 (38.6 %)     46 (22.0 %)     47 (28.1 %)
+        Total: 2296.4%
+Initial condition solution time: CPU = 2.686 ms, elapsed = 2.68698 ms.
+Intrinsic tran analysis time:    CPU = 22.124 ms, elapsed = 23.545 ms.
+Total time required for tran analysis `tran': CPU = 27.229 ms, elapsed = 29.2342 ms, util. = 93.1%.
+Time accumulated: CPU = 3.30853 s, elapsed = 3.96701 s.
+Peak resident memory used = 226 Mbytes.
+
+
+Notice from spectre during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    12 warnings suppressed.
+
+finalTimeOP: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/040/finalTimeOP.info ...
+Licensing Information:
+[13:18:19.337361] Periodic Lic check successful
+
+
+**************************************************
+Periodic Steady-State Analysis `pss': fund = 50 Hz
+**************************************************
+
+Notice from spectre during IC analysis, during periodic steady state analysis `pss', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+Warning from spectre during check, during IC analysis, during periodic steady state analysis `pss', during Monte Carlo analysis `mc1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<0>_turbo_m4.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C9<0>_turbo_m8.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C7<0>_turbo_m2.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 19 iterations.
+DC simulation time: CPU = 2.539 ms, elapsed = 2.53987 ms.
+
+==================================
+pss `tstab': time = (0 s -> 20 ms)
+==================================
+
+Output and IC/nodeset summary:
+                 save   7       (current)
+                 save   32      (voltage)
+
+Important parameter values in tstab integration:
+    start = 0 s
+    outputstart = 0 s
+    stop = 20 ms
+    period = 20 ms
+    maxperiods = 20
+    step = 20 us
+    maxstep = 800 us
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+    pss: time = 503.7 us    (2.52 %), step = 253.6 us     (1.27 %)
+    pss: time = 2.166 ms    (10.8 %), step = 800 us          (4 %)
+    pss: time = 2.966 ms    (14.8 %), step = 800 us          (4 %)
+    pss: time = 3.766 ms    (18.8 %), step = 800 us          (4 %)
+    pss: time = 4.566 ms    (22.8 %), step = 800 us          (4 %)
+    pss: time = 6.166 ms    (30.8 %), step = 800 us          (4 %)
+    pss: time = 6.966 ms    (34.8 %), step = 800 us          (4 %)
+    pss: time = 7.766 ms    (38.8 %), step = 800 us          (4 %)
+    pss: time = 8.566 ms    (42.8 %), step = 800 us          (4 %)
+    pss: time = 10.17 ms    (50.8 %), step = 800 us          (4 %)
+    pss: time = 10.97 ms    (54.8 %), step = 800 us          (4 %)
+    pss: time = 11.77 ms    (58.8 %), step = 800 us          (4 %)
+    pss: time = 12.57 ms    (62.8 %), step = 800 us          (4 %)
+    pss: time = 14.17 ms    (70.8 %), step = 800 us          (4 %)
+    pss: time = 14.97 ms    (74.8 %), step = 800 us          (4 %)
+    pss: time = 15.77 ms    (78.8 %), step = 800 us          (4 %)
+    pss: time = 16.57 ms    (82.8 %), step = 800 us          (4 %)
+    pss: time = 18.17 ms    (90.8 %), step = 800 us          (4 %)
+    pss: time = 18.97 ms    (94.8 %), step = 800 us          (4 %)
+    pss: time = 20 ms        (100 %), step = 516.9 us     (2.58 %)
+Total time required for tstab analysis `pss': CPU = 6.126 ms, elapsed = 6.12998 ms.
+Time accumulated: CPU = 3.33059 s, elapsed = 4.00462 s.
+Peak resident memory used = 226 Mbytes.
+
+Conv norm = 29.4, max dV(vout_filt) = -10.1055 mV, took 10 ms.
+
+Important parameter values in pss iteration:
+    start = 0 s
+    outputstart = 0 s
+    stop = 20 ms
+    period = 20 ms
+    maxperiods = 20
+    steadyratio = 10e-03
+    step = 20 us
+    maxstep = 100 us
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 100e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative
+    method = gear2only
+    lteratio = 10
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+
+Notice from spectre during periodic steady state analysis `pss', during Monte Carlo analysis `mc1'.
+    12 warnings suppressed.
+
+
+============================
+`pss': time = (0 s -> 20 ms)
+============================
+    pss: time = 512.5 us    (2.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 1.512 ms    (7.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 2.512 ms    (12.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 3.512 ms    (17.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 4.5 ms      (22.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 5.5 ms      (27.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 6.5 ms      (32.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 7.5 ms      (37.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 8.5 ms      (42.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 9.5 ms      (47.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 10.5 ms     (52.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 11.5 ms     (57.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 12.5 ms     (62.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 13.5 ms     (67.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 14.5 ms     (72.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 15.5 ms     (77.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 16.5 ms     (82.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 17.5 ms     (87.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 18.5 ms     (92.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 19.51 ms    (97.6 %), step = 12.5 us     (62.5 m%)
+Conv norm = 174e-03, max dV(vout) = -17.2129 uV, took 380 ms.
+
+
+Opening the PSF file ../psf/mc1_separate/040/pss.td.pss ...
+
+Opening the PSF file ../psf/mc1_separate/040/pss.fd.pss ...
+
+============================
+`pss': time = (0 s -> 20 ms)
+============================
+    pss: time = 512.5 us    (2.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 1.512 ms    (7.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 2.512 ms    (12.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 3.512 ms    (17.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 4.5 ms      (22.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 5.5 ms      (27.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 6.5 ms      (32.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 7.5 ms      (37.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 8.5 ms      (42.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 9.5 ms      (47.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 10.5 ms     (52.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 11.5 ms     (57.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 12.5 ms     (62.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 13.5 ms     (67.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 14.5 ms     (72.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 15.5 ms     (77.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 16.5 ms     (82.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 17.5 ms     (87.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 18.5 ms     (92.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 19.51 ms    (97.6 %), step = 12.5 us     (62.5 m%)
+
+Maximum value achieved for any signal of each quantity: 
+V: V(net2) = 3.3 V
+I: I(V0:p) = 6.237 uA
+Initial condition solution time: CPU = 2.583 ms, elapsed = 2.58517 ms.
+pss: The steady-state solution was achieved in 2 iterations.
+Number of accepted pss steps =             1600
+Total time required for pss analysis `pss': CPU = 807.68 ms, elapsed = 824.499 ms, util. = 98%.
+Time accumulated: CPU = 4.12168 s, elapsed = 4.79919 s.
+Peak resident memory used = 226 Mbytes.
+
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/040/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/040/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/040/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/040/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/040/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/040/subckts.info.subckts ...
+    mc1: iteration = 40          (37.5 %), step = 1            (12.5 %)
+41  50.00% 
+
+*************************************************
+Transient Analysis `tran': time = (0 s -> 100 ms)
+*************************************************
+
+Opening the PSF file ../psf/mc1_separate/041/tran.tran.tran ...
+
+Notice from spectre during IC analysis, during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+Warning from spectre during check, during IC analysis, during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<0>_turbo_m4.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C9<0>_turbo_m8.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C7<0>_turbo_m2.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 19 iterations.
+DC simulation time: CPU = 2.436 ms, elapsed = 2.43711 ms.
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 100 ms
+    step = 100 us
+    maxstep = 1 ms
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 100e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative_sigglobal
+    method = gear2only
+    lteratio = 10
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+
+Notice from spectre during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Output and IC/nodeset summary:
+                 save   7       (current)
+                 save   32      (voltage)
+
+    tran: time = 2.908 ms    (2.91 %), step = 934.6 us     (935 m%)
+    tran: time = 7.846 ms    (7.85 %), step = 1 ms            (1 %)
+    tran: time = 13.29 ms    (13.3 %), step = 871 us       (871 m%)
+    tran: time = 18.21 ms    (18.2 %), step = 1 ms            (1 %)
+    tran: time = 22.73 ms    (22.7 %), step = 854.6 us     (855 m%)
+    tran: time = 27.56 ms    (27.6 %), step = 1 ms            (1 %)
+    tran: time = 33.04 ms      (33 %), step = 862.7 us     (863 m%)
+    tran: time = 37.92 ms    (37.9 %), step = 1 ms            (1 %)
+    tran: time = 43.35 ms    (43.4 %), step = 873.3 us     (873 m%)
+    tran: time = 48.28 ms    (48.3 %), step = 1 ms            (1 %)
+    tran: time = 52.79 ms    (52.8 %), step = 855.9 us     (856 m%)
+    tran: time = 57.62 ms    (57.6 %), step = 1 ms            (1 %)
+    tran: time = 63.1 ms     (63.1 %), step = 864.5 us     (864 m%)
+    tran: time = 67.99 ms      (68 %), step = 1 ms            (1 %)
+    tran: time = 72.54 ms    (72.5 %), step = 850.9 us     (851 m%)
+    tran: time = 78.34 ms    (78.3 %), step = 1 ms            (1 %)
+    tran: time = 82.85 ms    (82.8 %), step = 857.3 us     (857 m%)
+    tran: time = 87.69 ms    (87.7 %), step = 1 ms            (1 %)
+    tran: time = 93.16 ms    (93.2 %), step = 866.4 us     (866 m%)
+    tran: time = 98.06 ms    (98.1 %), step = 1 ms            (1 %)
+Number of accepted tran steps =             112
+
+Maximum value achieved for any signal of each quantity: 
+V: V(net2) = 3.3 V
+I: I(V0:p) = 6.442 uA
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   Non-default settings that could significantly slow down simulation
+          errpreset = conservative_sigglobal, default moderate
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+         0 (91.5 %)      1 (34.6 %)      2 (70.7 %)      3 (45.9 %)
+         4 (31.1 %)      5 (38.4 %)      6 (68.8 %)      7 (19.5 %)
+         8 (61.3 %)      9 (25.4 %)     10 (56.3 %)     11 (71.3 %)
+        12 (42.9 %)     13 (35.6 %)     14 (42.5 %)     15 (79.9 %)
+        16 (71.8 %)     17 (20.0 %)     18 (47.0 %)     19 (28.5 %)
+        20 (31.1 %)     21 (59.6 %)     22 (54.6 %)     23 (70.9 %)
+        24 (35.7 %)     25 (100.0 %)    26 (21.2 %)     27 (30.4 %)
+        28 (63.7 %)     29 (100.0 %)    30 (44.9 %)     31 (58.1 %)
+        32 (28.5 %)     33 (29.8 %)     34 (24.7 %)     35 (54.4 %)
+        36 (100.0 %)    37 (51.4 %)     38 (46.6 %)     39 (21.3 %)
+        40 (84.7 %)     41 (31.6 %)     42 (38.1 %)     43 (43.8 %)
+        44 (47.6 %)     45 (47.6 %)     46 (36.1 %)     47 (30.4 %)
+        Total: 2369.8%
+Initial condition solution time: CPU = 2.481 ms, elapsed = 2.48218 ms.
+Intrinsic tran analysis time:    CPU = 21.175 ms, elapsed = 22.826 ms.
+Total time required for tran analysis `tran': CPU = 25.717 ms, elapsed = 27.9791 ms, util. = 91.9%.
+Time accumulated: CPU = 4.18134 s, elapsed = 4.8721 s.
+Peak resident memory used = 226 Mbytes.
+
+
+Notice from spectre during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    12 warnings suppressed.
+
+finalTimeOP: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/041/finalTimeOP.info ...
+Licensing Information:
+[13:18:20.240888] Periodic Lic check successful
+
+
+**************************************************
+Periodic Steady-State Analysis `pss': fund = 50 Hz
+**************************************************
+
+Warning from spectre during check, during IC analysis, during periodic steady state analysis `pss', during Monte Carlo analysis `mc1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<0>_turbo_m4.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C9<0>_turbo_m8.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C7<0>_turbo_m2.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 19 iterations.
+DC simulation time: CPU = 2.274 ms, elapsed = 2.27284 ms.
+
+==================================
+pss `tstab': time = (0 s -> 20 ms)
+==================================
+
+Output and IC/nodeset summary:
+                 save   7       (current)
+                 save   32      (voltage)
+
+Important parameter values in tstab integration:
+    start = 0 s
+    outputstart = 0 s
+    stop = 20 ms
+    period = 20 ms
+    maxperiods = 20
+    step = 20 us
+    maxstep = 800 us
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+    pss: time = 522.5 us    (2.61 %), step = 264.3 us     (1.32 %)
+    pss: time = 2.201 ms      (11 %), step = 800 us          (4 %)
+    pss: time = 3.001 ms      (15 %), step = 800 us          (4 %)
+    pss: time = 3.801 ms      (19 %), step = 800 us          (4 %)
+    pss: time = 4.601 ms      (23 %), step = 800 us          (4 %)
+    pss: time = 6.201 ms      (31 %), step = 800 us          (4 %)
+    pss: time = 7.001 ms      (35 %), step = 800 us          (4 %)
+    pss: time = 7.801 ms      (39 %), step = 800 us          (4 %)
+    pss: time = 8.601 ms      (43 %), step = 800 us          (4 %)
+    pss: time = 10.2 ms       (51 %), step = 800 us          (4 %)
+    pss: time = 11 ms         (55 %), step = 800 us          (4 %)
+    pss: time = 11.8 ms       (59 %), step = 800 us          (4 %)
+    pss: time = 12.6 ms       (63 %), step = 800 us          (4 %)
+    pss: time = 14.2 ms       (71 %), step = 800 us          (4 %)
+    pss: time = 15 ms         (75 %), step = 800 us          (4 %)
+    pss: time = 15.8 ms       (79 %), step = 800 us          (4 %)
+    pss: time = 16.6 ms       (83 %), step = 800 us          (4 %)
+    pss: time = 18.2 ms       (91 %), step = 800 us          (4 %)
+    pss: time = 19 ms         (95 %), step = 800 us          (4 %)
+    pss: time = 19.5 ms     (97.5 %), step = 499.7 us      (2.5 %)
+Total time required for tstab analysis `pss': CPU = 5.969 ms, elapsed = 5.96905 ms.
+Time accumulated: CPU = 4.20196 s, elapsed = 4.90799 s.
+Peak resident memory used = 226 Mbytes.
+
+Conv norm = 29.8, max dV(vout_filt) = -10.2447 mV, took 10 ms.
+
+Important parameter values in pss iteration:
+    start = 0 s
+    outputstart = 0 s
+    stop = 20 ms
+    period = 20 ms
+    maxperiods = 20
+    steadyratio = 10e-03
+    step = 20 us
+    maxstep = 100 us
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 100e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative
+    method = gear2only
+    lteratio = 10
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+
+Notice from spectre during periodic steady state analysis `pss', during Monte Carlo analysis `mc1'.
+    12 warnings suppressed.
+
+
+============================
+`pss': time = (0 s -> 20 ms)
+============================
+    pss: time = 512.5 us    (2.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 1.512 ms    (7.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 2.512 ms    (12.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 3.512 ms    (17.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 4.5 ms      (22.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 5.5 ms      (27.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 6.5 ms      (32.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 7.5 ms      (37.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 8.5 ms      (42.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 9.5 ms      (47.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 10.5 ms     (52.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 11.5 ms     (57.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 12.5 ms     (62.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 13.5 ms     (67.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 14.5 ms     (72.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 15.5 ms     (77.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 16.5 ms     (82.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 17.5 ms     (87.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 18.5 ms     (92.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 19.51 ms    (97.6 %), step = 12.5 us     (62.5 m%)
+Conv norm = 250e-03, max dV(vout_filt) = 24.7357 uV, took 370 ms.
+
+
+Opening the PSF file ../psf/mc1_separate/041/pss.td.pss ...
+
+Opening the PSF file ../psf/mc1_separate/041/pss.fd.pss ...
+
+============================
+`pss': time = (0 s -> 20 ms)
+============================
+    pss: time = 512.5 us    (2.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 1.512 ms    (7.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 2.512 ms    (12.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 3.512 ms    (17.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 4.5 ms      (22.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 5.5 ms      (27.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 6.5 ms      (32.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 7.5 ms      (37.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 8.5 ms      (42.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 9.5 ms      (47.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 10.5 ms     (52.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 11.5 ms     (57.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 12.5 ms     (62.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 13.5 ms     (67.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 14.5 ms     (72.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 15.5 ms     (77.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 16.5 ms     (82.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 17.5 ms     (87.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 18.5 ms     (92.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 19.51 ms    (97.6 %), step = 12.5 us     (62.5 m%)
+
+Maximum value achieved for any signal of each quantity: 
+V: V(net2) = 3.3 V
+I: I(V0:p) = 6.442 uA
+Initial condition solution time: CPU = 2.313 ms, elapsed = 2.31385 ms.
+pss: The steady-state solution was achieved in 2 iterations.
+Number of accepted pss steps =             1600
+Total time required for pss analysis `pss': CPU = 795.302 ms, elapsed = 813.294 ms, util. = 97.8%.
+Time accumulated: CPU = 4.98147 s, elapsed = 5.69226 s.
+Peak resident memory used = 226 Mbytes.
+
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/041/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/041/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/041/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/041/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/041/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/041/subckts.info.subckts ...
+    mc1: iteration = 41            (50 %), step = 1            (12.5 %)
+42  62.50% 
+
+*************************************************
+Transient Analysis `tran': time = (0 s -> 100 ms)
+*************************************************
+
+Opening the PSF file ../psf/mc1_separate/042/tran.tran.tran ...
+
+Notice from spectre during IC analysis, during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+Warning from spectre during check, during IC analysis, during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<0>_turbo_m4.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C9<0>_turbo_m8.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C7<0>_turbo_m2.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 17 iterations.
+DC simulation time: CPU = 2.421 ms, elapsed = 2.42209 ms.
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 100 ms
+    step = 100 us
+    maxstep = 1 ms
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 100e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative_sigglobal
+    method = gear2only
+    lteratio = 10
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+
+Notice from spectre during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Output and IC/nodeset summary:
+                 save   7       (current)
+                 save   32      (voltage)
+
+    tran: time = 2.906 ms    (2.91 %), step = 933.8 us     (934 m%)
+    tran: time = 7.844 ms    (7.84 %), step = 1 ms            (1 %)
+    tran: time = 13.29 ms    (13.3 %), step = 871 us       (871 m%)
+    tran: time = 18.21 ms    (18.2 %), step = 1 ms            (1 %)
+    tran: time = 22.73 ms    (22.7 %), step = 854.7 us     (855 m%)
+    tran: time = 27.56 ms    (27.6 %), step = 1 ms            (1 %)
+    tran: time = 33.04 ms      (33 %), step = 862.7 us     (863 m%)
+    tran: time = 37.92 ms    (37.9 %), step = 1 ms            (1 %)
+    tran: time = 43.35 ms    (43.4 %), step = 873.4 us     (873 m%)
+    tran: time = 48.28 ms    (48.3 %), step = 1 ms            (1 %)
+    tran: time = 52.79 ms    (52.8 %), step = 856 us       (856 m%)
+    tran: time = 57.62 ms    (57.6 %), step = 1 ms            (1 %)
+    tran: time = 63.1 ms     (63.1 %), step = 864.5 us     (865 m%)
+    tran: time = 67.99 ms      (68 %), step = 1 ms            (1 %)
+    tran: time = 72.54 ms    (72.5 %), step = 851 us       (851 m%)
+    tran: time = 78.34 ms    (78.3 %), step = 1 ms            (1 %)
+    tran: time = 82.85 ms    (82.8 %), step = 857.4 us     (857 m%)
+    tran: time = 87.69 ms    (87.7 %), step = 1 ms            (1 %)
+    tran: time = 93.17 ms    (93.2 %), step = 866.5 us     (867 m%)
+    tran: time = 98.06 ms    (98.1 %), step = 1 ms            (1 %)
+Number of accepted tran steps =             112
+
+Maximum value achieved for any signal of each quantity: 
+V: V(net2) = 3.3 V
+I: I(V0:p) = 6.466 uA
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   Non-default settings that could significantly slow down simulation
+          errpreset = conservative_sigglobal, default moderate
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+         0 (92.8 %)      1 (36.7 %)      2 (74.7 %)      3 (45.5 %)
+         4 (36.0 %)      5 (46.6 %)      6 (73.8 %)      7 (22.2 %)
+         8 (57.9 %)      9 (24.6 %)     10 (59.0 %)     11 (73.3 %)
+        12 (43.7 %)     13 (43.0 %)     14 (45.3 %)     15 (73.5 %)
+        16 (76.1 %)     17 (21.3 %)     18 (50.1 %)     19 (29.6 %)
+        20 (32.7 %)     21 (57.8 %)     22 (50.7 %)     23 (68.2 %)
+        24 (33.9 %)     25 (100.0 %)    26 (31.2 %)     27 (34.2 %)
+        28 (56.5 %)     29 (100.0 %)    30 (39.5 %)     31 (51.7 %)
+        32 (38.5 %)     33 (30.6 %)     34 (24.0 %)     35 (59.8 %)
+        36 (96.5 %)     37 (58.0 %)     38 (51.2 %)     39 (25.6 %)
+        40 (76.9 %)     41 (40.1 %)     42 (40.7 %)     43 (45.1 %)
+        44 (46.2 %)     45 (45.4 %)     46 (43.2 %)     47 (27.8 %)
+        Total: 2432.0%
+Initial condition solution time: CPU = 2.464 ms, elapsed = 2.46596 ms.
+Intrinsic tran analysis time:    CPU = 21.099 ms, elapsed = 22.614 ms.
+Total time required for tran analysis `tran': CPU = 26.147 ms, elapsed = 28.259 ms, util. = 92.5%.
+Time accumulated: CPU = 5.04225 s, elapsed = 5.7647 s.
+Peak resident memory used = 226 Mbytes.
+
+
+Notice from spectre during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    12 warnings suppressed.
+
+finalTimeOP: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/042/finalTimeOP.info ...
+Licensing Information:
+[13:18:21.134034] Periodic Lic check successful
+
+
+**************************************************
+Periodic Steady-State Analysis `pss': fund = 50 Hz
+**************************************************
+
+Notice from spectre during IC analysis, during periodic steady state analysis `pss', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+Warning from spectre during check, during IC analysis, during periodic steady state analysis `pss', during Monte Carlo analysis `mc1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<0>_turbo_m4.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C9<0>_turbo_m8.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C7<0>_turbo_m2.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 17 iterations.
+DC simulation time: CPU = 2.523 ms, elapsed = 2.5301 ms.
+
+==================================
+pss `tstab': time = (0 s -> 20 ms)
+==================================
+
+Output and IC/nodeset summary:
+                 save   7       (current)
+                 save   32      (voltage)
+
+Important parameter values in tstab integration:
+    start = 0 s
+    outputstart = 0 s
+    stop = 20 ms
+    period = 20 ms
+    maxperiods = 20
+    step = 20 us
+    maxstep = 800 us
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+    pss: time = 512.1 us    (2.56 %), step = 258.4 us     (1.29 %)
+    pss: time = 2.182 ms    (10.9 %), step = 800 us          (4 %)
+    pss: time = 2.982 ms    (14.9 %), step = 800 us          (4 %)
+    pss: time = 3.782 ms    (18.9 %), step = 800 us          (4 %)
+    pss: time = 4.582 ms    (22.9 %), step = 800 us          (4 %)
+    pss: time = 6.182 ms    (30.9 %), step = 800 us          (4 %)
+    pss: time = 6.982 ms    (34.9 %), step = 800 us          (4 %)
+    pss: time = 7.782 ms    (38.9 %), step = 800 us          (4 %)
+    pss: time = 8.582 ms    (42.9 %), step = 800 us          (4 %)
+    pss: time = 10.18 ms    (50.9 %), step = 800 us          (4 %)
+    pss: time = 10.98 ms    (54.9 %), step = 800 us          (4 %)
+    pss: time = 11.78 ms    (58.9 %), step = 800 us          (4 %)
+    pss: time = 12.58 ms    (62.9 %), step = 800 us          (4 %)
+    pss: time = 14.18 ms    (70.9 %), step = 800 us          (4 %)
+    pss: time = 14.98 ms    (74.9 %), step = 800 us          (4 %)
+    pss: time = 15.78 ms    (78.9 %), step = 800 us          (4 %)
+    pss: time = 16.58 ms    (82.9 %), step = 800 us          (4 %)
+    pss: time = 18.18 ms    (90.9 %), step = 800 us          (4 %)
+    pss: time = 18.98 ms    (94.9 %), step = 800 us          (4 %)
+    pss: time = 20 ms        (100 %), step = 509.2 us     (2.55 %)
+Total time required for tstab analysis `pss': CPU = 5.978 ms, elapsed = 5.97715 ms.
+Time accumulated: CPU = 5.06419 s, elapsed = 5.80145 s.
+Peak resident memory used = 226 Mbytes.
+
+Conv norm = 29.5, max dV(vout_filt) = -10.1642 mV, took 0 s.
+
+Important parameter values in pss iteration:
+    start = 0 s
+    outputstart = 0 s
+    stop = 20 ms
+    period = 20 ms
+    maxperiods = 20
+    steadyratio = 10e-03
+    step = 20 us
+    maxstep = 100 us
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 100e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative
+    method = gear2only
+    lteratio = 10
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+
+Notice from spectre during periodic steady state analysis `pss', during Monte Carlo analysis `mc1'.
+    12 warnings suppressed.
+
+
+============================
+`pss': time = (0 s -> 20 ms)
+============================
+    pss: time = 512.5 us    (2.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 1.512 ms    (7.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 2.512 ms    (12.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 3.512 ms    (17.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 4.5 ms      (22.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 5.5 ms      (27.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 6.5 ms      (32.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 7.5 ms      (37.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 8.5 ms      (42.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 9.5 ms      (47.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 10.5 ms     (52.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 11.5 ms     (57.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 12.5 ms     (62.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 13.5 ms     (67.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 14.5 ms     (72.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 15.5 ms     (77.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 16.5 ms     (82.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 17.5 ms     (87.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 18.5 ms     (92.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 19.51 ms    (97.6 %), step = 12.5 us     (62.5 m%)
+Conv norm = 248e-03, max dV(vout_filt) = 24.5027 uV, took 380 ms.
+
+
+Opening the PSF file ../psf/mc1_separate/042/pss.td.pss ...
+
+Opening the PSF file ../psf/mc1_separate/042/pss.fd.pss ...
+
+============================
+`pss': time = (0 s -> 20 ms)
+============================
+    pss: time = 512.5 us    (2.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 1.512 ms    (7.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 2.512 ms    (12.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 3.512 ms    (17.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 4.5 ms      (22.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 5.5 ms      (27.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 6.5 ms      (32.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 7.5 ms      (37.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 8.5 ms      (42.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 9.5 ms      (47.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 10.5 ms     (52.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 11.5 ms     (57.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 12.5 ms     (62.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 13.5 ms     (67.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 14.5 ms     (72.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 15.5 ms     (77.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 16.5 ms     (82.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 17.5 ms     (87.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 18.5 ms     (92.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 19.51 ms    (97.6 %), step = 12.5 us     (62.5 m%)
+
+Maximum value achieved for any signal of each quantity: 
+V: V(net2) = 3.3 V
+I: I(V0:p) = 6.466 uA
+Initial condition solution time: CPU = 2.589 ms, elapsed = 2.59805 ms.
+pss: The steady-state solution was achieved in 2 iterations.
+Number of accepted pss steps =             1600
+Total time required for pss analysis `pss': CPU = 799.874 ms, elapsed = 816.246 ms, util. = 98%.
+Time accumulated: CPU = 5.84732 s, elapsed = 6.58825 s.
+Peak resident memory used = 226 Mbytes.
+
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/042/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/042/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/042/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/042/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/042/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/042/subckts.info.subckts ...
+    mc1: iteration = 42          (62.5 %), step = 1            (12.5 %)
+43  75.00% 
+
+*************************************************
+Transient Analysis `tran': time = (0 s -> 100 ms)
+*************************************************
+
+Opening the PSF file ../psf/mc1_separate/043/tran.tran.tran ...
+
+Notice from spectre during IC analysis, during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+Warning from spectre during check, during IC analysis, during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<0>_turbo_m4.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C9<0>_turbo_m8.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C7<0>_turbo_m2.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 18 iterations.
+DC simulation time: CPU = 2.407 ms, elapsed = 2.40803 ms.
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 100 ms
+    step = 100 us
+    maxstep = 1 ms
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 100e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative_sigglobal
+    method = gear2only
+    lteratio = 10
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+
+Notice from spectre during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Output and IC/nodeset summary:
+                 save   7       (current)
+                 save   32      (voltage)
+
+    tran: time = 2.907 ms    (2.91 %), step = 934 us       (934 m%)
+    tran: time = 7.844 ms    (7.84 %), step = 1 ms            (1 %)
+    tran: time = 13.29 ms    (13.3 %), step = 871.1 us     (871 m%)
+    tran: time = 18.21 ms    (18.2 %), step = 1 ms            (1 %)
+    tran: time = 22.73 ms    (22.7 %), step = 854.6 us     (855 m%)
+    tran: time = 27.56 ms    (27.6 %), step = 1 ms            (1 %)
+    tran: time = 33.04 ms      (33 %), step = 862.7 us     (863 m%)
+    tran: time = 37.92 ms    (37.9 %), step = 1 ms            (1 %)
+    tran: time = 43.35 ms    (43.4 %), step = 873.3 us     (873 m%)
+    tran: time = 48.28 ms    (48.3 %), step = 1 ms            (1 %)
+    tran: time = 52.79 ms    (52.8 %), step = 856 us       (856 m%)
+    tran: time = 57.62 ms    (57.6 %), step = 1 ms            (1 %)
+    tran: time = 63.1 ms     (63.1 %), step = 864.5 us     (864 m%)
+    tran: time = 67.99 ms      (68 %), step = 1 ms            (1 %)
+    tran: time = 72.54 ms    (72.5 %), step = 851 us       (851 m%)
+    tran: time = 78.34 ms    (78.3 %), step = 1 ms            (1 %)
+    tran: time = 82.85 ms    (82.8 %), step = 857.3 us     (857 m%)
+    tran: time = 87.69 ms    (87.7 %), step = 1 ms            (1 %)
+    tran: time = 93.16 ms    (93.2 %), step = 866.5 us     (867 m%)
+    tran: time = 98.06 ms    (98.1 %), step = 1 ms            (1 %)
+Number of accepted tran steps =             112
+
+Maximum value achieved for any signal of each quantity: 
+V: V(net2) = 3.3 V
+I: I(V0:p) = 6.619 uA
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   Non-default settings that could significantly slow down simulation
+          errpreset = conservative_sigglobal, default moderate
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+         0 (93.6 %)      1 (44.0 %)      2 (77.8 %)      3 (51.8 %)
+         4 (40.0 %)      5 (52.9 %)      6 (77.4 %)      7 (30.8 %)
+         8 (55.4 %)      9 (29.5 %)     10 (53.5 %)     11 (66.0 %)
+        12 (45.8 %)     13 (46.6 %)     14 (42.7 %)     15 (67.5 %)
+        16 (79.4 %)     17 (22.7 %)     18 (50.6 %)     19 (32.4 %)
+        20 (33.3 %)     21 (57.2 %)     22 (51.5 %)     23 (67.0 %)
+        24 (31.4 %)     25 (100.0 %)    26 (38.2 %)     27 (33.5 %)
+        28 (57.0 %)     29 (100.0 %)    30 (41.6 %)     31 (47.8 %)
+        32 (46.0 %)     33 (30.6 %)     34 (24.0 %)     35 (59.8 %)
+        36 (95.6 %)     37 (54.1 %)     38 (58.0 %)     39 (26.2 %)
+        40 (75.3 %)     41 (37.7 %)     42 (48.8 %)     43 (44.5 %)
+        44 (52.9 %)     45 (52.2 %)     46 (41.6 %)     47 (25.4 %)
+        Total: 2491.4%
+Initial condition solution time: CPU = 2.453 ms, elapsed = 2.455 ms.
+Intrinsic tran analysis time:    CPU = 21.373 ms, elapsed = 22.6252 ms.
+Total time required for tran analysis `tran': CPU = 25.92 ms, elapsed = 27.7619 ms, util. = 93.4%.
+Time accumulated: CPU = 5.90904 s, elapsed = 6.66452 s.
+Peak resident memory used = 226 Mbytes.
+
+
+Notice from spectre during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    12 warnings suppressed.
+
+finalTimeOP: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/043/finalTimeOP.info ...
+Licensing Information:
+[13:18:22.033824] Periodic Lic check successful
+
+
+**************************************************
+Periodic Steady-State Analysis `pss': fund = 50 Hz
+**************************************************
+
+Warning from spectre during check, during IC analysis, during periodic steady state analysis `pss', during Monte Carlo analysis `mc1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<0>_turbo_m4.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C9<0>_turbo_m8.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C7<0>_turbo_m2.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 18 iterations.
+DC simulation time: CPU = 2.391 ms, elapsed = 2.39992 ms.
+
+==================================
+pss `tstab': time = (0 s -> 20 ms)
+==================================
+
+Output and IC/nodeset summary:
+                 save   7       (current)
+                 save   32      (voltage)
+
+Important parameter values in tstab integration:
+    start = 0 s
+    outputstart = 0 s
+    stop = 20 ms
+    period = 20 ms
+    maxperiods = 20
+    step = 20 us
+    maxstep = 800 us
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+    pss: time = 515.1 us    (2.58 %), step = 260.1 us      (1.3 %)
+    pss: time = 2.187 ms    (10.9 %), step = 800 us          (4 %)
+    pss: time = 2.987 ms    (14.9 %), step = 800 us          (4 %)
+    pss: time = 3.787 ms    (18.9 %), step = 800 us          (4 %)
+    pss: time = 4.587 ms    (22.9 %), step = 800 us          (4 %)
+    pss: time = 6.187 ms    (30.9 %), step = 800 us          (4 %)
+    pss: time = 6.987 ms    (34.9 %), step = 800 us          (4 %)
+    pss: time = 7.787 ms    (38.9 %), step = 800 us          (4 %)
+    pss: time = 8.587 ms    (42.9 %), step = 800 us          (4 %)
+    pss: time = 10.19 ms    (50.9 %), step = 800 us          (4 %)
+    pss: time = 10.99 ms    (54.9 %), step = 800 us          (4 %)
+    pss: time = 11.79 ms    (58.9 %), step = 800 us          (4 %)
+    pss: time = 12.59 ms    (62.9 %), step = 800 us          (4 %)
+    pss: time = 14.19 ms    (70.9 %), step = 800 us          (4 %)
+    pss: time = 14.99 ms    (74.9 %), step = 800 us          (4 %)
+    pss: time = 15.79 ms    (78.9 %), step = 800 us          (4 %)
+    pss: time = 16.59 ms    (82.9 %), step = 800 us          (4 %)
+    pss: time = 18.19 ms    (90.9 %), step = 800 us          (4 %)
+    pss: time = 18.99 ms    (94.9 %), step = 800 us          (4 %)
+    pss: time = 20 ms        (100 %), step = 506.4 us     (2.53 %)
+Total time required for tstab analysis `pss': CPU = 5.764 ms, elapsed = 5.76305 ms.
+Time accumulated: CPU = 5.93016 s, elapsed = 6.70121 s.
+Peak resident memory used = 226 Mbytes.
+
+Conv norm = 29.8, max dV(vout_filt) = -10.2576 mV, took 10 ms.
+
+Important parameter values in pss iteration:
+    start = 0 s
+    outputstart = 0 s
+    stop = 20 ms
+    period = 20 ms
+    maxperiods = 20
+    steadyratio = 10e-03
+    step = 20 us
+    maxstep = 100 us
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 100e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative
+    method = gear2only
+    lteratio = 10
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+
+Notice from spectre during periodic steady state analysis `pss', during Monte Carlo analysis `mc1'.
+    12 warnings suppressed.
+
+
+============================
+`pss': time = (0 s -> 20 ms)
+============================
+    pss: time = 512.5 us    (2.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 1.512 ms    (7.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 2.512 ms    (12.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 3.512 ms    (17.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 4.5 ms      (22.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 5.5 ms      (27.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 6.5 ms      (32.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 7.5 ms      (37.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 8.5 ms      (42.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 9.5 ms      (47.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 10.5 ms     (52.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 11.5 ms     (57.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 12.5 ms     (62.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 13.5 ms     (67.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 14.5 ms     (72.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 15.5 ms     (77.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 16.5 ms     (82.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 17.5 ms     (87.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 18.5 ms     (92.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 19.51 ms    (97.6 %), step = 12.5 us     (62.5 m%)
+Conv norm = 723e-03, max dV(vout) = -71.5091 uV, took 360 ms.
+
+
+Opening the PSF file ../psf/mc1_separate/043/pss.td.pss ...
+
+Opening the PSF file ../psf/mc1_separate/043/pss.fd.pss ...
+
+============================
+`pss': time = (0 s -> 20 ms)
+============================
+    pss: time = 512.5 us    (2.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 1.512 ms    (7.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 2.512 ms    (12.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 3.512 ms    (17.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 4.5 ms      (22.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 5.5 ms      (27.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 6.5 ms      (32.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 7.5 ms      (37.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 8.5 ms      (42.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 9.5 ms      (47.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 10.5 ms     (52.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 11.5 ms     (57.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 12.5 ms     (62.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 13.5 ms     (67.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 14.5 ms     (72.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 15.5 ms     (77.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 16.5 ms     (82.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 17.5 ms     (87.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 18.5 ms     (92.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 19.51 ms    (97.6 %), step = 12.5 us     (62.5 m%)
+
+Maximum value achieved for any signal of each quantity: 
+V: V(net2) = 3.3 V
+I: I(V0:p) = 6.619 uA
+Initial condition solution time: CPU = 2.441 ms, elapsed = 2.44999 ms.
+pss: The steady-state solution was achieved in 2 iterations.
+Number of accepted pss steps =             1600
+Total time required for pss analysis `pss': CPU = 786.126 ms, elapsed = 802.874 ms, util. = 97.9%.
+Time accumulated: CPU = 6.70005 s, elapsed = 7.47457 s.
+Peak resident memory used = 226 Mbytes.
+
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/043/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/043/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/043/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/043/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/043/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/043/subckts.info.subckts ...
+    mc1: iteration = 43            (75 %), step = 1            (12.5 %)
+44  87.50% 
+
+*************************************************
+Transient Analysis `tran': time = (0 s -> 100 ms)
+*************************************************
+
+Opening the PSF file ../psf/mc1_separate/044/tran.tran.tran ...
+
+Notice from spectre during IC analysis, during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+Warning from spectre during check, during IC analysis, during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<0>_turbo_m4.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C9<0>_turbo_m8.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C7<0>_turbo_m2.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 18 iterations.
+DC simulation time: CPU = 2.319 ms, elapsed = 2.3191 ms.
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 100 ms
+    step = 100 us
+    maxstep = 1 ms
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 100e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative_sigglobal
+    method = gear2only
+    lteratio = 10
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+
+Notice from spectre during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Output and IC/nodeset summary:
+                 save   7       (current)
+                 save   32      (voltage)
+
+    tran: time = 2.908 ms    (2.91 %), step = 934.9 us     (935 m%)
+    tran: time = 7.846 ms    (7.85 %), step = 1 ms            (1 %)
+    tran: time = 13.29 ms    (13.3 %), step = 871 us       (871 m%)
+    tran: time = 18.21 ms    (18.2 %), step = 1 ms            (1 %)
+    tran: time = 22.73 ms    (22.7 %), step = 854.6 us     (855 m%)
+    tran: time = 27.56 ms    (27.6 %), step = 1 ms            (1 %)
+    tran: time = 33.04 ms      (33 %), step = 862.7 us     (863 m%)
+    tran: time = 37.92 ms    (37.9 %), step = 1 ms            (1 %)
+    tran: time = 43.35 ms    (43.4 %), step = 873.3 us     (873 m%)
+    tran: time = 48.28 ms    (48.3 %), step = 1 ms            (1 %)
+    tran: time = 52.79 ms    (52.8 %), step = 855.9 us     (856 m%)
+    tran: time = 57.62 ms    (57.6 %), step = 1 ms            (1 %)
+    tran: time = 63.1 ms     (63.1 %), step = 864.5 us     (864 m%)
+    tran: time = 67.99 ms      (68 %), step = 1 ms            (1 %)
+    tran: time = 72.54 ms    (72.5 %), step = 851 us       (851 m%)
+    tran: time = 78.34 ms    (78.3 %), step = 1 ms            (1 %)
+    tran: time = 82.85 ms    (82.8 %), step = 857.3 us     (857 m%)
+    tran: time = 87.69 ms    (87.7 %), step = 1 ms            (1 %)
+    tran: time = 93.16 ms    (93.2 %), step = 866.4 us     (866 m%)
+    tran: time = 98.06 ms    (98.1 %), step = 1 ms            (1 %)
+Number of accepted tran steps =             112
+
+Maximum value achieved for any signal of each quantity: 
+V: V(net2) = 3.3 V
+I: I(V0:p) = 6.38 uA
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   Non-default settings that could significantly slow down simulation
+          errpreset = conservative_sigglobal, default moderate
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+         0 (94.4 %)      1 (41.0 %)      2 (80.0 %)      3 (56.5 %)
+         4 (36.4 %)      5 (58.1 %)      6 (80.0 %)      7 (38.1 %)
+         8 (59.0 %)      9 (32.9 %)     10 (47.9 %)     11 (59.2 %)
+        12 (47.3 %)     13 (47.1 %)     14 (44.4 %)     15 (66.8 %)
+        16 (81.9 %)     17 (24.3 %)     18 (54.2 %)     19 (33.2 %)
+        20 (36.8 %)     21 (55.1 %)     22 (56.0 %)     23 (63.3 %)
+        24 (29.1 %)     25 (100.0 %)    26 (45.1 %)     27 (34.1 %)
+        28 (57.9 %)     29 (100.0 %)    30 (48.2 %)     31 (43.6 %)
+        32 (41.6 %)     33 (28.0 %)     34 (32.5 %)     35 (53.6 %)
+        36 (95.6 %)     37 (51.3 %)     38 (63.0 %)     39 (28.8 %)
+        40 (72.0 %)     41 (39.7 %)     42 (52.1 %)     43 (40.3 %)
+        44 (51.1 %)     45 (57.4 %)     46 (45.2 %)     47 (29.3 %)
+        Total: 2533.4%
+Initial condition solution time: CPU = 2.354 ms, elapsed = 2.3551 ms.
+Intrinsic tran analysis time:    CPU = 20.737 ms, elapsed = 22.0549 ms.
+Total time required for tran analysis `tran': CPU = 25.011 ms, elapsed = 26.9079 ms, util. = 93%.
+Time accumulated: CPU = 6.7588 s, elapsed = 7.54578 s.
+Peak resident memory used = 226 Mbytes.
+
+
+Notice from spectre during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    12 warnings suppressed.
+
+finalTimeOP: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/044/finalTimeOP.info ...
+Licensing Information:
+[13:18:23.439984] Periodic Lic check successful
+
+
+**************************************************
+Periodic Steady-State Analysis `pss': fund = 50 Hz
+**************************************************
+
+Warning from spectre during check, during IC analysis, during periodic steady state analysis `pss', during Monte Carlo analysis `mc1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<0>_turbo_m4.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C9<0>_turbo_m8.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C7<0>_turbo_m2.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 18 iterations.
+DC simulation time: CPU = 2.026 ms, elapsed = 2.02703 ms.
+
+==================================
+pss `tstab': time = (0 s -> 20 ms)
+==================================
+
+Output and IC/nodeset summary:
+                 save   7       (current)
+                 save   32      (voltage)
+
+Important parameter values in tstab integration:
+    start = 0 s
+    outputstart = 0 s
+    stop = 20 ms
+    period = 20 ms
+    maxperiods = 20
+    step = 20 us
+    maxstep = 800 us
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+    pss: time = 524.6 us    (2.62 %), step = 265.5 us     (1.33 %)
+    pss: time = 2.205 ms      (11 %), step = 800 us          (4 %)
+    pss: time = 3.005 ms      (15 %), step = 800 us          (4 %)
+    pss: time = 3.805 ms      (19 %), step = 800 us          (4 %)
+    pss: time = 4.605 ms      (23 %), step = 800 us          (4 %)
+    pss: time = 6.205 ms      (31 %), step = 800 us          (4 %)
+    pss: time = 7.005 ms      (35 %), step = 800 us          (4 %)
+    pss: time = 7.805 ms      (39 %), step = 800 us          (4 %)
+    pss: time = 8.605 ms      (43 %), step = 800 us          (4 %)
+    pss: time = 10.2 ms       (51 %), step = 800 us          (4 %)
+    pss: time = 11 ms         (55 %), step = 800 us          (4 %)
+    pss: time = 11.8 ms       (59 %), step = 800 us          (4 %)
+    pss: time = 12.6 ms       (63 %), step = 800 us          (4 %)
+    pss: time = 14.2 ms       (71 %), step = 800 us          (4 %)
+    pss: time = 15 ms         (75 %), step = 800 us          (4 %)
+    pss: time = 15.8 ms       (79 %), step = 800 us          (4 %)
+    pss: time = 16.6 ms       (83 %), step = 800 us          (4 %)
+    pss: time = 18.2 ms       (91 %), step = 800 us          (4 %)
+    pss: time = 19 ms         (95 %), step = 800 us          (4 %)
+    pss: time = 19.5 ms     (97.5 %), step = 497.7 us     (2.49 %)
+Total time required for tstab analysis `pss': CPU = 5.803 ms, elapsed = 5.80311 ms.
+Time accumulated: CPU = 6.77897 s, elapsed = 7.5834 s.
+Peak resident memory used = 226 Mbytes.
+
+Conv norm = 29.8, max dV(vout_filt) = -10.2581 mV, took 10 ms.
+
+Important parameter values in pss iteration:
+    start = 0 s
+    outputstart = 0 s
+    stop = 20 ms
+    period = 20 ms
+    maxperiods = 20
+    steadyratio = 10e-03
+    step = 20 us
+    maxstep = 100 us
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 100e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative
+    method = gear2only
+    lteratio = 10
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+
+Notice from spectre during periodic steady state analysis `pss', during Monte Carlo analysis `mc1'.
+    12 warnings suppressed.
+
+
+============================
+`pss': time = (0 s -> 20 ms)
+============================
+    pss: time = 512.5 us    (2.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 1.512 ms    (7.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 2.512 ms    (12.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 3.512 ms    (17.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 4.5 ms      (22.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 5.5 ms      (27.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 6.5 ms      (32.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 7.5 ms      (37.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 8.5 ms      (42.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 9.5 ms      (47.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 10.5 ms     (52.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 11.5 ms     (57.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 12.5 ms     (62.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 13.5 ms     (67.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 14.5 ms     (72.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 15.5 ms     (77.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 16.5 ms     (82.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 17.5 ms     (87.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 18.5 ms     (92.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 19.51 ms    (97.6 %), step = 12.5 us     (62.5 m%)
+Conv norm = 272e-03, max dV(vout_filt) = 26.9097 uV, took 360 ms.
+
+
+Opening the PSF file ../psf/mc1_separate/044/pss.td.pss ...
+
+Opening the PSF file ../psf/mc1_separate/044/pss.fd.pss ...
+
+============================
+`pss': time = (0 s -> 20 ms)
+============================
+    pss: time = 512.5 us    (2.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 1.512 ms    (7.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 2.512 ms    (12.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 3.512 ms    (17.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 4.5 ms      (22.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 5.5 ms      (27.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 6.5 ms      (32.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 7.5 ms      (37.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 8.5 ms      (42.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 9.5 ms      (47.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 10.5 ms     (52.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 11.5 ms     (57.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 12.5 ms     (62.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 13.5 ms     (67.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 14.5 ms     (72.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 15.5 ms     (77.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 16.5 ms     (82.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 17.5 ms     (87.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 18.5 ms     (92.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 19.51 ms    (97.6 %), step = 12.5 us     (62.5 m%)
+
+Maximum value achieved for any signal of each quantity: 
+V: V(net2) = 3.3 V
+I: I(V0:p) = 6.38 uA
+Initial condition solution time: CPU = 2.063 ms, elapsed = 2.06494 ms.
+pss: The steady-state solution was achieved in 2 iterations.
+Number of accepted pss steps =             1600
+Total time required for pss analysis `pss': CPU = 782.554 ms, elapsed = 802.693 ms, util. = 97.5%.
+Time accumulated: CPU = 7.54608 s, elapsed = 8.35517 s.
+Peak resident memory used = 226 Mbytes.
+
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/044/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/044/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/044/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/044/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/044/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/044/subckts.info.subckts ...
+    mc1: iteration = 44          (87.5 %), step = 1            (12.5 %)
+45 100.00% 
+
+*************************************************
+Transient Analysis `tran': time = (0 s -> 100 ms)
+*************************************************
+
+Opening the PSF file ../psf/mc1_separate/045/tran.tran.tran ...
+
+Notice from spectre during IC analysis, during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+Warning from spectre during check, during IC analysis, during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<0>_turbo_m4.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C9<0>_turbo_m8.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C7<0>_turbo_m2.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 20 iterations.
+DC simulation time: CPU = 2.416 ms, elapsed = 2.41709 ms.
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 100 ms
+    step = 100 us
+    maxstep = 1 ms
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 100e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative_sigglobal
+    method = gear2only
+    lteratio = 10
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+
+Notice from spectre during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Output and IC/nodeset summary:
+                 save   7       (current)
+                 save   32      (voltage)
+
+    tran: time = 2.908 ms    (2.91 %), step = 934.7 us     (935 m%)
+    tran: time = 7.846 ms    (7.85 %), step = 1 ms            (1 %)
+    tran: time = 13.29 ms    (13.3 %), step = 871.1 us     (871 m%)
+    tran: time = 18.21 ms    (18.2 %), step = 1 ms            (1 %)
+    tran: time = 22.73 ms    (22.7 %), step = 854.7 us     (855 m%)
+    tran: time = 27.56 ms    (27.6 %), step = 1 ms            (1 %)
+    tran: time = 33.04 ms      (33 %), step = 862.7 us     (863 m%)
+    tran: time = 37.92 ms    (37.9 %), step = 1 ms            (1 %)
+    tran: time = 43.35 ms    (43.4 %), step = 873.4 us     (873 m%)
+    tran: time = 48.28 ms    (48.3 %), step = 1 ms            (1 %)
+    tran: time = 52.79 ms    (52.8 %), step = 856 us       (856 m%)
+    tran: time = 57.62 ms    (57.6 %), step = 1 ms            (1 %)
+    tran: time = 63.1 ms     (63.1 %), step = 864.5 us     (864 m%)
+    tran: time = 67.99 ms      (68 %), step = 1 ms            (1 %)
+    tran: time = 72.54 ms    (72.5 %), step = 851 us       (851 m%)
+    tran: time = 78.34 ms    (78.3 %), step = 1 ms            (1 %)
+    tran: time = 82.85 ms    (82.8 %), step = 857.4 us     (857 m%)
+    tran: time = 87.69 ms    (87.7 %), step = 1 ms            (1 %)
+    tran: time = 93.16 ms    (93.2 %), step = 866.5 us     (866 m%)
+    tran: time = 98.06 ms    (98.1 %), step = 1 ms            (1 %)
+Number of accepted tran steps =             112
+
+Maximum value achieved for any signal of each quantity: 
+V: V(net2) = 3.3 V
+I: I(V0:p) = 6.511 uA
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   Non-default settings that could significantly slow down simulation
+          errpreset = conservative_sigglobal, default moderate
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+         0 (95.0 %)      1 (38.6 %)      2 (74.5 %)      3 (52.5 %)
+         4 (40.8 %)      5 (60.6 %)      6 (82.1 %)      7 (41.8 %)
+         8 (61.6 %)      9 (34.3 %)     10 (48.7 %)     11 (59.9 %)
+        12 (49.6 %)     13 (45.6 %)     14 (49.2 %)     15 (69.6 %)
+        16 (83.8 %)     17 (28.3 %)     18 (57.4 %)     19 (39.3 %)
+        20 (39.3 %)     21 (55.4 %)     22 (51.8 %)     23 (58.2 %)
+        24 (27.3 %)     25 (100.0 %)    26 (50.7 %)     27 (39.6 %)
+        28 (55.9 %)     29 (100.0 %)    30 (44.3 %)     31 (39.8 %)
+        32 (38.3 %)     33 (32.2 %)     34 (39.3 %)     35 (48.6 %)
+        36 (86.7 %)     37 (47.4 %)     38 (66.9 %)     39 (36.1 %)
+        40 (66.6 %)     41 (45.8 %)     42 (54.3 %)     43 (39.8 %)
+        44 (55.6 %)     45 (61.5 %)     46 (41.7 %)     47 (29.3 %)
+        Total: 2565.7%
+Initial condition solution time: CPU = 2.453 ms, elapsed = 2.45404 ms.
+Intrinsic tran analysis time:    CPU = 20.702 ms, elapsed = 24.544 ms.
+Total time required for tran analysis `tran': CPU = 24.897 ms, elapsed = 29.3338 ms, util. = 84.9%.
+Time accumulated: CPU = 7.6044 s, elapsed = 8.42822 s.
+Peak resident memory used = 226 Mbytes.
+
+
+Notice from spectre during transient analysis `tran', during Monte Carlo analysis `mc1'.
+    12 warnings suppressed.
+
+finalTimeOP: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/045/finalTimeOP.info ...
+Licensing Information:
+[13:18:24.321129] Periodic Lic check successful
+
+
+**************************************************
+Periodic Steady-State Analysis `pss': fund = 50 Hz
+**************************************************
+
+Notice from spectre during IC analysis, during periodic steady state analysis `pss', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+Warning from spectre during check, during IC analysis, during periodic steady state analysis `pss', during Monte Carlo analysis `mc1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<0>_turbo_m4.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C9<0>_turbo_m8.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C7<0>_turbo_m2.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 20 iterations.
+DC simulation time: CPU = 2.149 ms, elapsed = 2.14887 ms.
+
+==================================
+pss `tstab': time = (0 s -> 20 ms)
+==================================
+
+Output and IC/nodeset summary:
+                 save   7       (current)
+                 save   32      (voltage)
+
+Important parameter values in tstab integration:
+    start = 0 s
+    outputstart = 0 s
+    stop = 20 ms
+    period = 20 ms
+    maxperiods = 20
+    step = 20 us
+    maxstep = 800 us
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+    pss: time = 522.6 us    (2.61 %), step = 264.4 us     (1.32 %)
+    pss: time = 2.201 ms      (11 %), step = 800 us          (4 %)
+    pss: time = 3.001 ms      (15 %), step = 800 us          (4 %)
+    pss: time = 3.801 ms      (19 %), step = 800 us          (4 %)
+    pss: time = 4.601 ms      (23 %), step = 800 us          (4 %)
+    pss: time = 6.201 ms      (31 %), step = 800 us          (4 %)
+    pss: time = 7.001 ms      (35 %), step = 800 us          (4 %)
+    pss: time = 7.801 ms      (39 %), step = 800 us          (4 %)
+    pss: time = 8.601 ms      (43 %), step = 800 us          (4 %)
+    pss: time = 10.2 ms       (51 %), step = 800 us          (4 %)
+    pss: time = 11 ms         (55 %), step = 800 us          (4 %)
+    pss: time = 11.8 ms       (59 %), step = 800 us          (4 %)
+    pss: time = 12.6 ms       (63 %), step = 800 us          (4 %)
+    pss: time = 14.2 ms       (71 %), step = 800 us          (4 %)
+    pss: time = 15 ms         (75 %), step = 800 us          (4 %)
+    pss: time = 15.8 ms       (79 %), step = 800 us          (4 %)
+    pss: time = 16.6 ms       (83 %), step = 800 us          (4 %)
+    pss: time = 18.2 ms       (91 %), step = 800 us          (4 %)
+    pss: time = 19 ms         (95 %), step = 800 us          (4 %)
+    pss: time = 19.5 ms     (97.5 %), step = 499.5 us      (2.5 %)
+Total time required for tstab analysis `pss': CPU = 7.41 ms, elapsed = 7.4091 ms.
+Time accumulated: CPU = 7.62616 s, elapsed = 8.46688 s.
+Peak resident memory used = 226 Mbytes.
+
+Conv norm = 29.8, max dV(vout_filt) = -10.2562 mV, took 10 ms.
+
+Important parameter values in pss iteration:
+    start = 0 s
+    outputstart = 0 s
+    stop = 20 ms
+    period = 20 ms
+    maxperiods = 20
+    steadyratio = 10e-03
+    step = 20 us
+    maxstep = 100 us
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 100e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative
+    method = gear2only
+    lteratio = 10
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+
+Notice from spectre during periodic steady state analysis `pss', during Monte Carlo analysis `mc1'.
+    12 warnings suppressed.
+
+
+============================
+`pss': time = (0 s -> 20 ms)
+============================
+    pss: time = 512.5 us    (2.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 1.512 ms    (7.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 2.512 ms    (12.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 3.512 ms    (17.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 4.5 ms      (22.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 5.5 ms      (27.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 6.5 ms      (32.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 7.5 ms      (37.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 8.5 ms      (42.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 9.5 ms      (47.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 10.5 ms     (52.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 11.5 ms     (57.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 12.5 ms     (62.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 13.5 ms     (67.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 14.5 ms     (72.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 15.5 ms     (77.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 16.5 ms     (82.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 17.5 ms     (87.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 18.5 ms     (92.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 19.51 ms    (97.6 %), step = 12.5 us     (62.5 m%)
+Conv norm = 139e-03, max dV(vout_filt) = 13.6932 uV, took 360 ms.
+
+
+Opening the PSF file ../psf/mc1_separate/045/pss.td.pss ...
+
+Opening the PSF file ../psf/mc1_separate/045/pss.fd.pss ...
+
+============================
+`pss': time = (0 s -> 20 ms)
+============================
+    pss: time = 512.5 us    (2.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 1.512 ms    (7.56 %), step = 12.5 us     (62.5 m%)
+    pss: time = 2.512 ms    (12.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 3.512 ms    (17.6 %), step = 12.5 us     (62.5 m%)
+    pss: time = 4.5 ms      (22.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 5.5 ms      (27.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 6.5 ms      (32.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 7.5 ms      (37.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 8.5 ms      (42.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 9.5 ms      (47.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 10.5 ms     (52.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 11.5 ms     (57.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 12.5 ms     (62.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 13.5 ms     (67.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 14.5 ms     (72.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 15.5 ms     (77.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 16.5 ms     (82.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 17.5 ms     (87.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 18.5 ms     (92.5 %), step = 12.5 us     (62.5 m%)
+    pss: time = 19.51 ms    (97.6 %), step = 12.5 us     (62.5 m%)
+
+Maximum value achieved for any signal of each quantity: 
+V: V(net2) = 3.3 V
+I: I(V0:p) = 6.511 uA
+Initial condition solution time: CPU = 2.184 ms, elapsed = 2.18511 ms.
+pss: The steady-state solution was achieved in 2 iterations.
+Number of accepted pss steps =             1600
+Total time required for pss analysis `pss': CPU = 791.261 ms, elapsed = 809.396 ms, util. = 97.8%.
+Time accumulated: CPU = 8.40005 s, elapsed = 9.24419 s.
+Peak resident memory used = 226 Mbytes.
+
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/045/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/045/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/045/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/045/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/045/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/045/subckts.info.subckts ...
+    mc1: iteration = 45           (100 %), step = 1            (12.5 %)
+Total time required for montecarlo analysis `mc1': CPU = 7.88053 s, elapsed = 8.18964 s, util. = 96.2%.
+Time accumulated: CPU = 8.42563 s, elapsed = 9.28152 s.
+Peak resident memory used = 226 Mbytes.
+
+Licensing Information:
+Lic Summary:
+[13:18:25.158691] Cdslmd servers: lic08
+[13:18:25.158730] Feature usage summary:
+[13:18:25.158731] Virtuoso_Multi_mode_Simulation
+[13:18:25.158731] Spectre_X_MMSIM_Lk
+
+
+Aggregate audit (1:18:25 PM, Wed Apr 15, 2026):
+Time used: CPU = 8.43 s, elapsed = 9.29 s, util. = 90.8%.
+Time spent in licensing: elapsed = 186 ms.
+Peak memory used = 226 Mbytes.
+Simulation started at: 1:18:15 PM, Wed Apr 15, 2026, ended at: 1:18:25 PM, Wed Apr 15, 2026, with elapsed time (wall clock): 9.29 s.
+spectre completes with 0 errors, 114 warnings, and 51 notices.

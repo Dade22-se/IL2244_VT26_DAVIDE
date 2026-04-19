@@ -1,0 +1,68 @@
+\o _axlToolDisplayTestPointOutputLog("session10" "VIN" "/home/davidevi/Desktop/myproject/Sim/FECG/fecg_tb/adexl/results/data/Interactive.40/1/VIN/psf/spectre.out")
+\a hiSetCurrentWindow(window(302))
+\r t
+\a hiRaiseWindow(301 t)
+\r t
+\a geScroll(nil "e" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a geScroll(nil "e" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a geScroll(nil "e" nil)
+\r t
+\a geScroll(nil "e" nil)
+\r t
+\a geScroll(nil "e" nil)
+\r t
+\a geScroll(nil "e" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a geScroll(nil "e" nil)
+\r t
+\a geScroll(nil "e" nil)
+\r t
+\a geScroll(nil "e" nil)
+\r t
+\a geScroll(nil "w" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "w" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a geScroll(nil "w" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "e" nil)
+\r t
+\a geScroll(nil "w" nil)
+\r t
+\a hiRaiseWindow(302 t)
+\r t
+\e *Error* ("sqrt" 0 t nil ("*Error* sqrt: can't handle sqrt(nil)"))
+\e 
+\e 
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\e *Error* ("expt" 0 t nil ("*Error* expt: can't handle (nil**2)"))
+\e 
+\e 

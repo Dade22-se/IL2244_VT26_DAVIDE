@@ -1,0 +1,5 @@
+{"index": 4, "analyses": false, "uniqueName": "v /vout_filt; pss (V)", "name": "v /vout_filt; pss (V)", "convertedExpression": "vtime('pss \"/vout_filt\")", "spec": false, "evalType": false, "signalNames": false}
+{"index": 5, "analyses": false, "uniqueName": "v /vout_filt; pss dB20(V)", "name": "v /vout_filt; pss dB20(V)", "convertedExpression": "db(vh('pss \"/vout_filt\"))", "spec": false, "evalType": false, "signalNames": false}
+{"index": 3, "analyses": false, "uniqueName": "v /vout; pss (V)", "name": "v /vout; pss (V)", "convertedExpression": "vtime('pss \"/vout\")", "spec": false, "evalType": false, "signalNames": false}
+{"index": 6, "analyses": false, "uniqueName": "v /vout; pss dB20(V)", "name": "v /vout; pss dB20(V)", "convertedExpression": "db(vh('pss \"/vout\"))", "spec": false, "evalType": false, "signalNames": false}
+{"index": 7, "analyses": false, "uniqueName": "d2_db", "name": "d2_db", "convertedExpression": "(harmonic(db(vh('pss \"/vout\")) 1) - harmonic(db(vh('pss \"/vout\")) 2))", "spec": false, "evalType": "point", "signalNames": false}

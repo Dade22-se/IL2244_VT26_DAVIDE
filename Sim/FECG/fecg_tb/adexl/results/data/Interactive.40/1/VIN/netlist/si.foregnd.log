@@ -1,0 +1,10 @@
+Begin Incremental Netlisting Apr  3 10:29:00 2026
+WARNING (OSSHNL-940): Same Cell name 'chopper' is present in multiple libraries
+-  ECG_IA and FECG.
+
+WARNING (OSSHNL-941): Failed to open the sameCellNamesInMultipleLibs file
+'/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_tb/adexl/results/data/Interactive.8/1/VGA:VGA_1_tb:1/netlist/ihnl/sameCellNamesInMultipleLibs', in the append
+mode.
+Ensure that you have the write permission for the mentioned file.
+
+End netlisting Apr  3 10:29:00 2026

@@ -1,0 +1,2 @@
+parameters temperature=-40 TF=1u TR=1u tf=1u tr=1u V_FREQ=0 S0=3.3 S1=3.3 \
+    S2=3.3 S3=3.3 V_AMP=0 VDD=0 VIN_PULSE=0

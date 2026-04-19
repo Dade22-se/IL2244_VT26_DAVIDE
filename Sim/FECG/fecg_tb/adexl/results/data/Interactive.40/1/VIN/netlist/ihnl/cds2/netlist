@@ -1,0 +1,22 @@
+    MP8 (inp clk outn VDDA) modp w=10u l=0.35u as=6.75e-12 ad=5e-12 \
+        ps=6.35u pd=1u nrd=0.05 nrs=0.05 ng=4
+    MP7 (inp clkn outp VDDA) modp w=10u l=0.35u as=6.75e-12 ad=5e-12 \
+        ps=6.35u pd=1u nrd=0.05 nrs=0.05 ng=4
+    MP6 (inn clk outp VDDA) modp w=10u l=0.35u as=6.75e-12 ad=5e-12 \
+        ps=6.35u pd=1u nrd=0.05 nrs=0.05 ng=4
+    MP5 (inn clkn outn VDDA) modp w=10u l=0.35u as=6.75e-12 ad=5e-12 \
+        ps=6.35u pd=1u nrd=0.05 nrs=0.05 ng=4
+    MP4 (clkn clk VDDA VDDA) modp w=1.4u l=0.35u as=1.19e-12 ad=1.19e-12 \
+        ps=3.1u pd=3.1u nrd=0.3571429 nrs=0.3571429 ng=1
+    MN0 (clkn clk GNDA GNDA) modn w=0.8u l=0.35u as=6.8e-13 ad=6.8e-13 \
+        ps=2.5u pd=2.5u nrd=0.625 nrs=0.625 ng=1
+    MP3 (outn clk inn GNDA) modn w=10u l=0.35u as=8.5e-12 ad=5e-12 \
+        ps=11.7u pd=1u nrd=0.05 nrs=0.05 ng=2
+    MP2 (outp clkn inn GNDA) modn w=10u l=0.35u as=8.5e-12 ad=5e-12 \
+        ps=11.7u pd=1u nrd=0.05 nrs=0.05 ng=2
+    MP1 (outn clkn inp GNDA) modn w=10u l=0.35u as=8.5e-12 ad=5e-12 \
+        ps=11.7u pd=1u nrd=0.05 nrs=0.05 ng=2
+    MP0 (outp clk inp GNDA) modn w=10u l=0.35u as=8.5e-12 ad=5e-12 \
+        ps=11.7u pd=1u nrd=0.05 nrs=0.05 ng=2
+ends chopper
+// End of subcircuit definition.

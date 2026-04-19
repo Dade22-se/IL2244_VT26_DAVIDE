@@ -1,0 +1,4 @@
+\w *WARNING* aaTriggerEvent1: error calling (lambda((_simID) _axlPreRunSetup(stdobj@0x48d614e8)) t (nil nil nil)) ("scGetProcessId" 0 t nil ("*Error* scGetProcessId: no applicable method for the class" list()))
+\o _axlToolDisplayTestPointOutputLog("session24" "VGA:VGA_1_tb:1" "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_wakeup_tb/adexl/results/data/Interactive.108/1/VGA:VGA_1_tb:1/psf/spectre.out")
+\a hiSetCurrentWindow(window(548))
+\r t

@@ -1,0 +1,5 @@
+
+// Library name: CORELIBD
+// Cell name: INVX1
+// View name: cmos_sch
+subckt INVX1 A Q inh_gnd inh_vdd

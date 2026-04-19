@@ -1,0 +1,77 @@
+`include "constants.vams"
+`include "disciplines.vams"
+
+module VGA (VINP, VINN, VOUT, VDDA, GNDA, EN, IBIAS, VCTRL);
+    inout VINP, VINN, VDDA, EN, IBIAS, GNDA, VOUT;
+    electrical VINP, VINN, VOUT, VDDA, GNDA, EN, IBIAS;
+	
+	inout [3:0] VCTRL;
+	electrical [3:0] VCTRL;
+
+
+	parameter real C1 = 39.5e-12;
+	parameter real C2 = 2.07895e-12;
+	parameter real C3 = 1.0128e-12;
+	parameter real C4 = 0.6695e-12;
+	parameter real C5 = 0.5e-12;
+
+    parameter real vth = 0.5;
+
+    parameter real rout = 1e6;
+
+    real gain = 1.0;
+    real vout_ideal;
+    real vout_sat;
+
+	integer en_state, sel;
+	genvar i;
+
+    analog begin
+
+		for(i=0;i<4;i=i+1)
+			@(cross(V(VCTRL[i]) - vth, 0));
+
+		sel = -1;
+
+		//selection of the gain using the VCTRL
+		if (V(VCTRL[0]) > vth) sel = 0;
+    		else if (V(VCTRL[1]) > vth) sel = 1;
+    		else if (V(VCTRL[2]) > vth) sel = 2;
+    		else if (V(VCTRL[3]) > vth) sel = 3;
+		else sel=-1;
+	
+		case (sel)
+			0: gain = 1 + C1/C2;
+			1: gain = 1 + C1/C3;
+			2: gain = 1 + C1/C4;
+			3: gain = 1 + C1/C5;
+		default: gain = 1.0;
+		endcase
+
+		//enable with cross
+		
+        @(initial_step)
+            en_state = (V(EN,GNDA) > V(VDDA,GNDA)/2);
+
+        @(cross(V(EN,GNDA) - V(VDDA,GNDA)/2, +1))
+            en_state = 1;
+
+        @(cross(V(EN,GNDA) - V(VDDA,GNDA)/2, -1))
+            en_state = 0;
+
+        if (en_state)
+            vout_ideal = gain * V(VINP,VINN);
+        else
+            vout_ideal = 0;
+		
+		
+        // saturation
+		if(vout_ideal > V(VDDA,GNDA))
+		vout_sat = max(0, min(vout_ideal, V(VDDA,GNDA)));
+		else vout_at = vout_ideal;
+
+
+		V(VOUT,GNDA) <+ vout_sat;
+
+    end
+endmodule

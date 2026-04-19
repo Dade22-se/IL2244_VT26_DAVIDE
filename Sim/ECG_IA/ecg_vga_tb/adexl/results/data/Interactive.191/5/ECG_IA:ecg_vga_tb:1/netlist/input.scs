@@ -1,0 +1,180 @@
+// Point Netlist Generated on: Mar 21 15:47:44 2026
+// Generated for: spectre
+// Design Netlist Generated on: Mar 21 09:49:05 2026
+// Design library name: ECG_IA
+// Design cell name: ecg_vga_tb
+// Design view name: schematic
+simulator lang=spectre
+global 0
+include "/opt/pdk/ams/410/spectre/c35/soac/soac.scs"
+parameters temperature=27 VIN_FREQ=1k VIN_AMP=0 VIN_STEP=10m S0=3.3 S1=3.3 \
+    S2=3.3 VDD=3.3
+include "/opt/pdk/ams/410/spectre/c35/soac/processOption.scs"
+include "/opt/pdk/ams/410/spectre/c35/soac/cmos53.scs" section=cmoswz
+include "/opt/pdk/ams/410/spectre/c35/soac/res.scs" section=restm
+include "/opt/pdk/ams/410/spectre/c35/soac/cap.scs" section=captm
+include "/opt/pdk/ams/410/spectre/c35/soac/bip.scs" section=biptm
+include "/opt/pdk/ams/410/spectre/c35/soac/ind.scs" section=indtm
+include "/opt/pdk/ams/410/spectre/c35/soac/esddiode.scs" section=esddiodetm
+
+// Library name: PRIMLIB
+// Cell name: rpolyhc
+// View name: schematic
+subckt rpolyhc PLUS MINUS REF
+parameters w=10u l=10u mult=1 mmw=0 cap=14.34f
+    R1 (PLUS net9) rpolyh w=w l=(0.5 * l) m=mult mmw=mmw
+    R2 (net9 MINUS) rpolyh w=w l=(0.5*l) m=mult mmw=mmw
+    CS0 (PLUS REF) capacitor c=(1-0.5*(1+tanh(l/200/w)))*cap/2 m=mult
+    CS1 (MINUS REF) capacitor c=(1-0.5*(1+tanh(l/200/w)))*cap/2 m=mult
+    CM (net9 REF) capacitor c=(0.5*(1+tanh(l/200/w))*cap) m=mult
+ends rpolyhc
+// End of subcircuit definition.
+
+// Library name: PRIMLIB
+// Cell name: cpolyc
+// View name: schematic
+subckt cpolyc MINUS PLUS SUB
+parameters pcap=15.5f area=100p perimeter=40u mmw=0
+    C1 (MINUS SUB) capacitor c=pcap m=1
+    C0 (PLUS MINUS) cpoly area=area perimeter=perimeter m=1 mmw=mmw
+ends cpolyc
+// End of subcircuit definition.
+
+// Library name: ECG_IA
+// Cell name: mux21
+// View name: schematic
+subckt mux21 A0 A1 C GNDA S VDDA
+    MN2 (SN S GNDA GNDA) modn w=0.8u l=0.35u as=6.8e-13 ad=6.8e-13 ps=2.5u \
+        pd=2.5u nrd=0.625 nrs=0.625 ng=1
+    MN1 (A1 S C GNDA) modn w=4u l=0.35u as=3.4e-12 ad=3.4e-12 ps=5.7u \
+        pd=5.7u nrd=0.125 nrs=0.125 ng=1
+    MN0 (A0 SN C GNDA) modn w=4u l=0.35u as=3.4e-12 ad=3.4e-12 ps=5.7u \
+        pd=5.7u nrd=0.125 nrs=0.125 ng=1
+    MP0 (SN S VDDA VDDA) modp w=1.4u l=0.35u as=1.19e-12 ad=1.19e-12 \
+        ps=3.1u pd=3.1u nrd=0.3571429 nrs=0.3571429 ng=1
+ends mux21
+// End of subcircuit definition.
+
+// Library name: ECG_IA
+// Cell name: ecg_vga4
+// View name: schematic
+subckt ecg_vga4 BIAS GNDA S\<2\> S\<1\> S\<0\> VDDA VIN VOUT
+    MN9 (net15 BIAS net43 GNDA) modn w=10u l=8u as=8.5e-12 ad=5e-12 \
+        ps=11.7u pd=1u nrd=0.05 nrs=0.05 ng=2
+    MN7 (net43 net14 GNDA GNDA) modn w=10u l=12u as=8.5e-12 ad=5e-12 \
+        ps=11.7u pd=1u nrd=0.05 nrs=0.05 ng=2
+    MN17 (VOUT net41 GNDA GNDA) modn w=10u l=1u as=8.5e-12 ad=5e-12 \
+        ps=11.7u pd=1u nrd=0.05 nrs=0.05 ng=2
+    MN16 (net39 net39 GNDA GNDA) modn w=15u l=15u as=1.275e-11 ad=7.5e-12 \
+        ps=16.7u pd=1u nrd=0.03333333 nrs=0.03333333 ng=2
+    MN15 (net41 net39 GNDA GNDA) modn w=15u l=15u as=1.275e-11 ad=7.5e-12 \
+        ps=16.7u pd=1u nrd=0.03333333 nrs=0.03333333 ng=2
+    MN8 (BIAS BIAS net14 GNDA) modn w=10u l=8u as=8.5e-12 ad=5e-12 \
+        ps=11.7u pd=1u nrd=0.05 nrs=0.05 ng=2
+    MN4 (net14 net14 GNDA GNDA) modn w=10u l=12u as=8.5e-12 ad=5e-12 \
+        ps=11.7u pd=1u nrd=0.05 nrs=0.05 ng=2
+    R1 (net41 net1 GNDA) rpolyhc w=2u l=150u mult=1 mmw=0 cap=50.7f
+    C8\<0\> (net7 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C8\<1\> (net7 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C8\<2\> (net7 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C8\<3\> (net7 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C8\<4\> (net7 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C8\<5\> (net7 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C8\<6\> (net7 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C8\<7\> (net7 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C6\<0\> (net9 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C6\<1\> (net9 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C7\<0\> (net8 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C7\<1\> (net8 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C7\<2\> (net8 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C7\<3\> (net8 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C4 (VOUT B GNDA) cpolyc m=1 pcap=170.625f area=1.23n perimeter=140u \
+        mmw=0
+    C5 (GNDA B GNDA) cpolyc m=1 pcap=170.625f area=1.23n perimeter=140u \
+        mmw=0
+    C9\<0\> (VOUT net1 GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C9\<1\> (VOUT net1 GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C9\<2\> (VOUT net1 GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    MP7 (net2 net2 VOUT VOUT) modp w=1u l=0.35u as=8.5e-13 ad=8.5e-13 \
+        ps=2.7u pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MP5 (GNDA B net3 net3) modp w=6.25u l=0.35u as=3.671875e-12 \
+        ad=3.125e-12 ps=2.7375u pd=1u nrd=0.08 nrs=0.08 ng=8
+    MP3 (net3 net15 VDDA VDDA) modp w=10u l=15u as=8.5e-12 ad=8.5e-12 \
+        ps=11.7u pd=11.7u nrd=0.05 nrs=0.05 ng=1
+    MP8 (VOUT VOUT VOUT VOUT) modp w=1u l=0.35u as=8.5e-13 ad=8.5e-13 \
+        ps=2.7u pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MP1 (B B net44 net44) modp w=1u l=0.35u as=8.5e-13 ad=8.5e-13 ps=2.7u \
+        pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MP0 (net44 net44 net5 net5) modp w=1u l=0.35u as=8.5e-13 ad=8.5e-13 \
+        ps=2.7u pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MP2 (net5 net5 net2 net2) modp w=1u l=0.35u as=8.5e-13 ad=8.5e-13 \
+        ps=2.7u pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MP4 (net15 net15 VDDA VDDA) modp w=10u l=15u as=8.5e-12 ad=5e-12 \
+        ps=11.7u pd=1u nrd=0.05 nrs=0.05 ng=2
+    MP13 (net33 net15 VDDA VDDA) modp w=10u l=15u as=5.7e-12 ad=5e-12 \
+        ps=3.14u pd=1u nrd=0.05 nrs=0.05 ng=10
+    MP12 (VOUT net15 VDDA VDDA) modp w=10u l=15u as=5.14e-12 ad=5e-12 \
+        ps=1.428u pd=1u nrd=0.05 nrs=0.05 ng=50
+    MP10 (net41 VIN net33 net33) modp w=10u l=4u as=5.7e-12 ad=5e-12 \
+        ps=3.14u pd=1u nrd=0.05 nrs=0.05 ng=10
+    MP9 (net39 B net33 net33) modp w=10u l=4u as=5.7e-12 ad=5e-12 ps=3.14u \
+        pd=1u nrd=0.05 nrs=0.05 ng=10
+    I0 (net3 GNDA net9 GNDA S\<0\> VDDA) mux21
+    I1 (net3 GNDA net8 GNDA S\<1\> VDDA) mux21
+    I2 (net3 GNDA net7 GNDA S\<2\> VDDA) mux21
+ends ecg_vga4
+// End of subcircuit definition.
+
+// Library name: ECG_IA
+// Cell name: ecg_vga_tb
+// View name: schematic
+I0 (net1 0 S\<2\> S\<1\> S\<0\> net2 VIN VOUT) ecg_vga4
+V6 (S\<2\> 0) vsource dc=S2 type=dc
+V5 (S\<1\> 0) vsource dc=S1 type=dc
+V4 (S\<0\> 0) vsource dc=S0 type=dc
+V1 (net3 net4) vsource dc=1.6 xfmag=1 type=dc
+V0 (net2 0) vsource dc=VDD xfmag=1 type=dc
+I2 (0 net1) isource dc=200n type=dc
+V2 (VIN net3) vsource mag=1 type=sine ampl=VIN_AMP freq=VIN_FREQ
+C1 (VOUT2 0) capacitor c=500.0p
+V3 (net4 0) vsource type=pulse val0=0 val1=VIN_STEP period=1 delay=1u \
+        rise=1n fall=1n width=500.0m
+R0 (VOUT VOUT2) resistor r=1200k
+simulatorOptions options psfversion="1.4.0" reltol=100e-6 vabstol=1e-6 \
+    iabstol=1e-12 temp=27 tnom=27 homotopy=all limit=delta scalem=1.0 \
+    scale=1.0 compatible=spice2 gmin=1e-12 rforce=1 maxnotes=5 maxwarns=5 \
+    digits=5 cols=80 pivrel=1e-3 sensfile="../psf/sens.output" \
+    checklimitdest=psf enable_pre_ver=yes ignorezerovar=yes 
+dcOp dc write="spectre.dc" maxiters=150 maxsteps=10000 annotate=status
+dcOpInfo info what=oppoint where=rawfile
+pz ( VOUT ) pz iprobe=V2 freq=1 
+tran tran stop=40m errpreset=conservative write="spectre.ic" \
+    writefinal="spectre.fc" annotate=status maxiters=5 
+finalTimeOP info what=oppoint where=rawfile
+ac ac start=0.01 stop=100M dec=30 annotate=status 
+noise ( VOUT2 ) noise start=0.01 stop=100M dec=30 iprobe=V2 \
+    annotate=status 
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+saveOptions options save=allpub

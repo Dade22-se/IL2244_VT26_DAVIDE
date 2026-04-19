@@ -1,0 +1,35 @@
+// Point Netlist Generated on: Apr 15 13:21:44 2026
+// Generated for: spectre
+// Design Netlist Generated on: Apr 15 13:21:20 2026
+// Design library name: VGA
+// Design cell name: VGA_1_pss_tb
+// Design view name: schematic
+simulator lang=spectre
+global 0
+include "/opt/pdk/ams/410/spectre/c35/soac/soac.scs"
+parameters temperature=85 S0=3.3 S1=3.3 S2=3.3 S3=3.3 V_AMP=20m V_FREQ=50 \
+    VDD=3.63
+include "/opt/pdk/ams/410/spectre/c35/processOption.scs"
+include "/opt/pdk/ams/410/spectre/c35/cmos53.scs" section=cmoswz
+include "/opt/pdk/ams/410/spectre/c35/res.scs" section=restm
+include "/opt/pdk/ams/410/spectre/c35/cap.scs" section=capws
+include "/opt/pdk/ams/410/spectre/c35/bip.scs" section=biptm
+include "/opt/pdk/ams/410/spectre/c35/ind.scs" section=indtm
+include "/opt/pdk/ams/410/spectre/c35/esddiode.scs" section=esddiodetm
+include "netlist"
+simulatorOptions options psfversion="1.4.0" temp=85 tnom=27 homotopy=all \
+    limit=delta scalem=1.0 scale=1.0 compatible=spice2 gmin=1e-12 rforce=1 \
+    maxnotes=5 maxwarns=5 digits=5 cols=80 pivrel=1e-3 \
+    sensfile="../psf/sens.output" checklimitdest=psf enable_pre_ver=yes \
+    ignorezerovar=yes 
+tran tran stop=100m write="spectre.ic" writefinal="spectre.fc" \
+    annotate=status 
+finalTimeOP info what=oppoint where=rawfile
+pss  pss  fund=50  harms=80  errpreset=conservative  annotate=status
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+saveOptions options save=allpub

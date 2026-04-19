@@ -1,0 +1,123 @@
+Starting Monte Carlo Sampling...
+
+Current time: Wed Apr 15 16:45:55 2026 
+
+Variation: All
+Sampling Method: Low-Discrepancy Sequence
+Seed: 
+
+MonteCarlo.0
+Number of points completed: 100
+Number of simulation errors: 0
+MonteCarlo.0 completed. 
+Current time: Wed Apr 15 16:55:30 2026 
+Monte Carlo Sampling yield summary:
+Number of spec values are in this yield data: 34
+wakeup	Nominal - 
+	OUT NOISE:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 100
+wakeup	CMOS_CAP_VDD_TEMP_RAMP_0 - 
+	OUT NOISE:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 100
+wakeup	CMOS_CAP_VDD_TEMP_RAMP_1 - 
+	OUT NOISE:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 100
+wakeup	CMOS_CAP_VDD_TEMP_RAMP_10 - 
+	OUT NOISE:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 37
+wakeup	CMOS_CAP_VDD_TEMP_RAMP_11 - 
+	OUT NOISE:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 0
+wakeup	CMOS_CAP_VDD_TEMP_RAMP_12 - 
+	OUT NOISE:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 0
+wakeup	CMOS_CAP_VDD_TEMP_RAMP_13 - 
+	OUT NOISE:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 0
+wakeup	CMOS_CAP_VDD_TEMP_RAMP_14 - 
+	OUT NOISE:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 0
+wakeup	CMOS_CAP_VDD_TEMP_RAMP_15 - 
+	OUT NOISE:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 0
+wakeup	CMOS_CAP_VDD_TEMP_RAMP_2 - 
+	OUT NOISE:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 100
+wakeup	CMOS_CAP_VDD_TEMP_RAMP_3 - 
+	OUT NOISE:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 100
+wakeup	CMOS_CAP_VDD_TEMP_RAMP_4 - 
+	OUT NOISE:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 100
+wakeup	CMOS_CAP_VDD_TEMP_RAMP_5 - 
+	OUT NOISE:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 100
+wakeup	CMOS_CAP_VDD_TEMP_RAMP_6 - 
+	OUT NOISE:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 100
+wakeup	CMOS_CAP_VDD_TEMP_RAMP_7 - 
+	OUT NOISE:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 63
+wakeup	CMOS_CAP_VDD_TEMP_RAMP_8 - 
+	OUT NOISE:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 48
+wakeup	CMOS_CAP_VDD_TEMP_RAMP_9 - 
+	OUT NOISE:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 39
+wakeup	Nominal - 
+	total noise:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 100
+wakeup	CMOS_CAP_VDD_TEMP_RAMP_0 - 
+	total noise:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 100
+wakeup	CMOS_CAP_VDD_TEMP_RAMP_1 - 
+	total noise:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 100
+wakeup	CMOS_CAP_VDD_TEMP_RAMP_10 - 
+	total noise:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 37
+wakeup	CMOS_CAP_VDD_TEMP_RAMP_11 - 
+	total noise:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 0
+wakeup	CMOS_CAP_VDD_TEMP_RAMP_12 - 
+	total noise:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 0
+wakeup	CMOS_CAP_VDD_TEMP_RAMP_13 - 
+	total noise:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 0
+wakeup	CMOS_CAP_VDD_TEMP_RAMP_14 - 
+	total noise:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 0
+wakeup	CMOS_CAP_VDD_TEMP_RAMP_15 - 
+	total noise:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 0
+wakeup	CMOS_CAP_VDD_TEMP_RAMP_2 - 
+	total noise:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 100
+wakeup	CMOS_CAP_VDD_TEMP_RAMP_3 - 
+	total noise:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 100
+wakeup	CMOS_CAP_VDD_TEMP_RAMP_4 - 
+	total noise:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 100
+wakeup	CMOS_CAP_VDD_TEMP_RAMP_5 - 
+	total noise:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 100
+wakeup	CMOS_CAP_VDD_TEMP_RAMP_6 - 
+	total noise:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 100
+wakeup	CMOS_CAP_VDD_TEMP_RAMP_7 - 
+	total noise:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 63
+wakeup	CMOS_CAP_VDD_TEMP_RAMP_8 - 
+	total noise:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 48
+wakeup	CMOS_CAP_VDD_TEMP_RAMP_9 - 
+	total noise:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 39
+
+wakeup
+	Overall Yield	0%	Number of points passed	0	Total number of points	0
+
+Estimated yield = 0% (0/0), 0 errors
+Estimated yield (No opregions) = 0% (0/0)

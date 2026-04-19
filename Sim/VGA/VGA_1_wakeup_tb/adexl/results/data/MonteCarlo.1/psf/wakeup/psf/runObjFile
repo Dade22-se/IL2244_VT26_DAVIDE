@@ -1,0 +1,4856 @@
+HEADER
+"PSFversion" "1.00"
+"Run Generator" "drlRun rev. 1.0"
+"Run Time Stamp" "Apr 16 09:35:31 2026"
+"date" "Apr 16 09:35:31 2026"
+"simulator" "spectre"
+"netlistDir" "../netlist"
+"axlParamFlag" "true"
+ "externalSweepVariableCount" 3
+"axlDependentVarFlag" "true"
+"paramName" "#maeCorner"
+ "#maeCorner_num" 17
+"#maeCorner_name_1" "nom"
+"#maeCorner_name_2" "CMOS_CAP_VDD_TEMP_RAMP_0"
+"#maeCorner_name_3" "CMOS_CAP_VDD_TEMP_RAMP_1"
+"#maeCorner_name_4" "CMOS_CAP_VDD_TEMP_RAMP_2"
+"#maeCorner_name_5" "CMOS_CAP_VDD_TEMP_RAMP_3"
+"#maeCorner_name_6" "CMOS_CAP_VDD_TEMP_RAMP_4"
+"#maeCorner_name_7" "CMOS_CAP_VDD_TEMP_RAMP_5"
+"#maeCorner_name_8" "CMOS_CAP_VDD_TEMP_RAMP_6"
+"#maeCorner_name_9" "CMOS_CAP_VDD_TEMP_RAMP_7"
+"#maeCorner_name_10" "CMOS_CAP_VDD_TEMP_RAMP_8"
+"#maeCorner_name_11" "CMOS_CAP_VDD_TEMP_RAMP_9"
+"#maeCorner_name_12" "CMOS_CAP_VDD_TEMP_RAMP_10"
+"#maeCorner_name_13" "CMOS_CAP_VDD_TEMP_RAMP_11"
+"#maeCorner_name_14" "CMOS_CAP_VDD_TEMP_RAMP_12"
+"#maeCorner_name_15" "CMOS_CAP_VDD_TEMP_RAMP_13"
+"#maeCorner_name_16" "CMOS_CAP_VDD_TEMP_RAMP_14"
+"#maeCorner_name_17" "CMOS_CAP_VDD_TEMP_RAMP_15"
+ "#maeCorner_param_set_num" 2
+"#maeCorner_param_name_1" "modelFiles"
+"#maeCorner_param_name_2" "temperature"
+TYPE
+"runObject" STRUCT(
+"logName" ARRAY( * ) STRING *
+"parent" STRING *
+"sweepVariable" ARRAY( * ) STRING *
+) PROP( "key" "runObject" )
+VALUE
+"Root" "runObject" (
+("")
+""
+("modelFiles")
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm" "runObject" (
+("")
+"Root"
+("temperature")
+) PROP(
+"modelFiles" "processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm"
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0" "runObject" (
+("")
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm"
+("mcparamset")
+) PROP(
+ "temperature" -4.000000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=1.0" "runObject" (
+(
+"../../../4/wakeup/psf/logFile"
+"../../../4/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 4
+"netlistDir" "../../../4/wakeup/netlist"
+"dataDir" "../../../4/wakeup"
+ "mcparamset" 1.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm" "runObject" (
+("")
+"Root"
+("temperature")
+) PROP(
+"modelFiles" "processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm"
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0" "runObject" (
+("")
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm"
+("mcparamset")
+) PROP(
+ "temperature" -4.000000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=1.0" "runObject" (
+(
+"../../../2/wakeup/psf/logFile"
+"../../../2/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 2
+"netlistDir" "../../../2/wakeup/netlist"
+"dataDir" "../../../2/wakeup"
+ "mcparamset" 1.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm" "runObject" (
+("")
+"Root"
+("temperature")
+) PROP(
+"modelFiles" "processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm"
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0" "runObject" (
+("")
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm"
+("mcparamset")
+) PROP(
+ "temperature" 2.700000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=1.0" "runObject" (
+(
+"../../../1/wakeup/psf/logFile"
+"../../../1/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 1
+"netlistDir" "../../../1/wakeup/netlist"
+"dataDir" "../../../1/wakeup"
+ "mcparamset" 1.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0" "runObject" (
+("")
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm"
+("mcparamset")
+) PROP(
+ "temperature" 8.500000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=1.0" "runObject" (
+(
+"../../../3/wakeup/psf/logFile"
+"../../../3/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 3
+"netlistDir" "../../../3/wakeup/netlist"
+"dataDir" "../../../3/wakeup"
+ "mcparamset" 1.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=2.0" "runObject" (
+(
+"../../../21/wakeup/psf/logFile"
+"../../../21/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 21
+"netlistDir" "../../../21/wakeup/netlist"
+"dataDir" "../../../21/wakeup"
+ "mcparamset" 2.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=2.0" "runObject" (
+(
+"../../../19/wakeup/psf/logFile"
+"../../../19/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 19
+"netlistDir" "../../../19/wakeup/netlist"
+"dataDir" "../../../19/wakeup"
+ "mcparamset" 2.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=2.0" "runObject" (
+(
+"../../../18/wakeup/psf/logFile"
+"../../../18/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 18
+"netlistDir" "../../../18/wakeup/netlist"
+"dataDir" "../../../18/wakeup"
+ "mcparamset" 2.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=2.0" "runObject" (
+(
+"../../../20/wakeup/psf/logFile"
+"../../../20/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 20
+"netlistDir" "../../../20/wakeup/netlist"
+"dataDir" "../../../20/wakeup"
+ "mcparamset" 2.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=3.0" "runObject" (
+(
+"../../../38/wakeup/psf/logFile"
+"../../../38/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 38
+"netlistDir" "../../../38/wakeup/netlist"
+"dataDir" "../../../38/wakeup"
+ "mcparamset" 3.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=3.0" "runObject" (
+(
+"../../../36/wakeup/psf/logFile"
+"../../../36/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 36
+"netlistDir" "../../../36/wakeup/netlist"
+"dataDir" "../../../36/wakeup"
+ "mcparamset" 3.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=3.0" "runObject" (
+(
+"../../../35/wakeup/psf/logFile"
+"../../../35/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 35
+"netlistDir" "../../../35/wakeup/netlist"
+"dataDir" "../../../35/wakeup"
+ "mcparamset" 3.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=3.0" "runObject" (
+(
+"../../../37/wakeup/psf/logFile"
+"../../../37/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 37
+"netlistDir" "../../../37/wakeup/netlist"
+"dataDir" "../../../37/wakeup"
+ "mcparamset" 3.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=4.0" "runObject" (
+(
+"../../../55/wakeup/psf/logFile"
+"../../../55/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 55
+"netlistDir" "../../../55/wakeup/netlist"
+"dataDir" "../../../55/wakeup"
+ "mcparamset" 4.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=4.0" "runObject" (
+(
+"../../../53/wakeup/psf/logFile"
+"../../../53/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 53
+"netlistDir" "../../../53/wakeup/netlist"
+"dataDir" "../../../53/wakeup"
+ "mcparamset" 4.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=4.0" "runObject" (
+(
+"../../../52/wakeup/psf/logFile"
+"../../../52/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 52
+"netlistDir" "../../../52/wakeup/netlist"
+"dataDir" "../../../52/wakeup"
+ "mcparamset" 4.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=4.0" "runObject" (
+(
+"../../../54/wakeup/psf/logFile"
+"../../../54/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 54
+"netlistDir" "../../../54/wakeup/netlist"
+"dataDir" "../../../54/wakeup"
+ "mcparamset" 4.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=5.0" "runObject" (
+(
+"../../../72/wakeup/psf/logFile"
+"../../../72/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 72
+"netlistDir" "../../../72/wakeup/netlist"
+"dataDir" "../../../72/wakeup"
+ "mcparamset" 5.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=5.0" "runObject" (
+(
+"../../../70/wakeup/psf/logFile"
+"../../../70/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 70
+"netlistDir" "../../../70/wakeup/netlist"
+"dataDir" "../../../70/wakeup"
+ "mcparamset" 5.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=5.0" "runObject" (
+(
+"../../../69/wakeup/psf/logFile"
+"../../../69/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 69
+"netlistDir" "../../../69/wakeup/netlist"
+"dataDir" "../../../69/wakeup"
+ "mcparamset" 5.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=5.0" "runObject" (
+(
+"../../../71/wakeup/psf/logFile"
+"../../../71/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 71
+"netlistDir" "../../../71/wakeup/netlist"
+"dataDir" "../../../71/wakeup"
+ "mcparamset" 5.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=6.0" "runObject" (
+(
+"../../../89/wakeup/psf/logFile"
+"../../../89/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 89
+"netlistDir" "../../../89/wakeup/netlist"
+"dataDir" "../../../89/wakeup"
+ "mcparamset" 6.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=6.0" "runObject" (
+(
+"../../../87/wakeup/psf/logFile"
+"../../../87/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 87
+"netlistDir" "../../../87/wakeup/netlist"
+"dataDir" "../../../87/wakeup"
+ "mcparamset" 6.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=6.0" "runObject" (
+(
+"../../../86/wakeup/psf/logFile"
+"../../../86/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 86
+"netlistDir" "../../../86/wakeup/netlist"
+"dataDir" "../../../86/wakeup"
+ "mcparamset" 6.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=6.0" "runObject" (
+(
+"../../../88/wakeup/psf/logFile"
+"../../../88/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 88
+"netlistDir" "../../../88/wakeup/netlist"
+"dataDir" "../../../88/wakeup"
+ "mcparamset" 6.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=7.0" "runObject" (
+(
+"../../../106/wakeup/psf/logFile"
+"../../../106/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 106
+"netlistDir" "../../../106/wakeup/netlist"
+"dataDir" "../../../106/wakeup"
+ "mcparamset" 7.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=7.0" "runObject" (
+(
+"../../../104/wakeup/psf/logFile"
+"../../../104/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 104
+"netlistDir" "../../../104/wakeup/netlist"
+"dataDir" "../../../104/wakeup"
+ "mcparamset" 7.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=7.0" "runObject" (
+(
+"../../../103/wakeup/psf/logFile"
+"../../../103/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 103
+"netlistDir" "../../../103/wakeup/netlist"
+"dataDir" "../../../103/wakeup"
+ "mcparamset" 7.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=7.0" "runObject" (
+(
+"../../../105/wakeup/psf/logFile"
+"../../../105/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 105
+"netlistDir" "../../../105/wakeup/netlist"
+"dataDir" "../../../105/wakeup"
+ "mcparamset" 7.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=8.0" "runObject" (
+(
+"../../../123/wakeup/psf/logFile"
+"../../../123/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 123
+"netlistDir" "../../../123/wakeup/netlist"
+"dataDir" "../../../123/wakeup"
+ "mcparamset" 8.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=8.0" "runObject" (
+(
+"../../../121/wakeup/psf/logFile"
+"../../../121/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 121
+"netlistDir" "../../../121/wakeup/netlist"
+"dataDir" "../../../121/wakeup"
+ "mcparamset" 8.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=8.0" "runObject" (
+(
+"../../../120/wakeup/psf/logFile"
+"../../../120/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 120
+"netlistDir" "../../../120/wakeup/netlist"
+"dataDir" "../../../120/wakeup"
+ "mcparamset" 8.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=8.0" "runObject" (
+(
+"../../../122/wakeup/psf/logFile"
+"../../../122/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 122
+"netlistDir" "../../../122/wakeup/netlist"
+"dataDir" "../../../122/wakeup"
+ "mcparamset" 8.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=9.0" "runObject" (
+(
+"../../../140/wakeup/psf/logFile"
+"../../../140/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 140
+"netlistDir" "../../../140/wakeup/netlist"
+"dataDir" "../../../140/wakeup"
+ "mcparamset" 9.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=9.0" "runObject" (
+(
+"../../../138/wakeup/psf/logFile"
+"../../../138/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 138
+"netlistDir" "../../../138/wakeup/netlist"
+"dataDir" "../../../138/wakeup"
+ "mcparamset" 9.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=9.0" "runObject" (
+(
+"../../../137/wakeup/psf/logFile"
+"../../../137/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 137
+"netlistDir" "../../../137/wakeup/netlist"
+"dataDir" "../../../137/wakeup"
+ "mcparamset" 9.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=9.0" "runObject" (
+(
+"../../../139/wakeup/psf/logFile"
+"../../../139/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 139
+"netlistDir" "../../../139/wakeup/netlist"
+"dataDir" "../../../139/wakeup"
+ "mcparamset" 9.000000e+00
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=10.0" "runObject" (
+(
+"../../../157/wakeup/psf/logFile"
+"../../../157/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 157
+"netlistDir" "../../../157/wakeup/netlist"
+"dataDir" "../../../157/wakeup"
+ "mcparamset" 1.000000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=10.0" "runObject" (
+(
+"../../../155/wakeup/psf/logFile"
+"../../../155/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 155
+"netlistDir" "../../../155/wakeup/netlist"
+"dataDir" "../../../155/wakeup"
+ "mcparamset" 1.000000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=10.0" "runObject" (
+(
+"../../../154/wakeup/psf/logFile"
+"../../../154/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 154
+"netlistDir" "../../../154/wakeup/netlist"
+"dataDir" "../../../154/wakeup"
+ "mcparamset" 1.000000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=10.0" "runObject" (
+(
+"../../../156/wakeup/psf/logFile"
+"../../../156/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 156
+"netlistDir" "../../../156/wakeup/netlist"
+"dataDir" "../../../156/wakeup"
+ "mcparamset" 1.000000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=11.0" "runObject" (
+(
+"../../../174/wakeup/psf/logFile"
+"../../../174/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 174
+"netlistDir" "../../../174/wakeup/netlist"
+"dataDir" "../../../174/wakeup"
+ "mcparamset" 1.100000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=11.0" "runObject" (
+(
+"../../../172/wakeup/psf/logFile"
+"../../../172/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 172
+"netlistDir" "../../../172/wakeup/netlist"
+"dataDir" "../../../172/wakeup"
+ "mcparamset" 1.100000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=11.0" "runObject" (
+(
+"../../../171/wakeup/psf/logFile"
+"../../../171/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 171
+"netlistDir" "../../../171/wakeup/netlist"
+"dataDir" "../../../171/wakeup"
+ "mcparamset" 1.100000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=11.0" "runObject" (
+(
+"../../../173/wakeup/psf/logFile"
+"../../../173/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 173
+"netlistDir" "../../../173/wakeup/netlist"
+"dataDir" "../../../173/wakeup"
+ "mcparamset" 1.100000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=12.0" "runObject" (
+(
+"../../../191/wakeup/psf/logFile"
+"../../../191/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 191
+"netlistDir" "../../../191/wakeup/netlist"
+"dataDir" "../../../191/wakeup"
+ "mcparamset" 1.200000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=12.0" "runObject" (
+(
+"../../../189/wakeup/psf/logFile"
+"../../../189/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 189
+"netlistDir" "../../../189/wakeup/netlist"
+"dataDir" "../../../189/wakeup"
+ "mcparamset" 1.200000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=12.0" "runObject" (
+(
+"../../../188/wakeup/psf/logFile"
+"../../../188/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 188
+"netlistDir" "../../../188/wakeup/netlist"
+"dataDir" "../../../188/wakeup"
+ "mcparamset" 1.200000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=12.0" "runObject" (
+(
+"../../../190/wakeup/psf/logFile"
+"../../../190/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 190
+"netlistDir" "../../../190/wakeup/netlist"
+"dataDir" "../../../190/wakeup"
+ "mcparamset" 1.200000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=13.0" "runObject" (
+(
+"../../../208/wakeup/psf/logFile"
+"../../../208/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 208
+"netlistDir" "../../../208/wakeup/netlist"
+"dataDir" "../../../208/wakeup"
+ "mcparamset" 1.300000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=13.0" "runObject" (
+(
+"../../../206/wakeup/psf/logFile"
+"../../../206/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 206
+"netlistDir" "../../../206/wakeup/netlist"
+"dataDir" "../../../206/wakeup"
+ "mcparamset" 1.300000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=13.0" "runObject" (
+(
+"../../../205/wakeup/psf/logFile"
+"../../../205/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 205
+"netlistDir" "../../../205/wakeup/netlist"
+"dataDir" "../../../205/wakeup"
+ "mcparamset" 1.300000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=13.0" "runObject" (
+(
+"../../../207/wakeup/psf/logFile"
+"../../../207/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 207
+"netlistDir" "../../../207/wakeup/netlist"
+"dataDir" "../../../207/wakeup"
+ "mcparamset" 1.300000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=14.0" "runObject" (
+(
+"../../../225/wakeup/psf/logFile"
+"../../../225/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 225
+"netlistDir" "../../../225/wakeup/netlist"
+"dataDir" "../../../225/wakeup"
+ "mcparamset" 1.400000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=14.0" "runObject" (
+(
+"../../../223/wakeup/psf/logFile"
+"../../../223/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 223
+"netlistDir" "../../../223/wakeup/netlist"
+"dataDir" "../../../223/wakeup"
+ "mcparamset" 1.400000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=14.0" "runObject" (
+(
+"../../../222/wakeup/psf/logFile"
+"../../../222/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 222
+"netlistDir" "../../../222/wakeup/netlist"
+"dataDir" "../../../222/wakeup"
+ "mcparamset" 1.400000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=14.0" "runObject" (
+(
+"../../../224/wakeup/psf/logFile"
+"../../../224/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 224
+"netlistDir" "../../../224/wakeup/netlist"
+"dataDir" "../../../224/wakeup"
+ "mcparamset" 1.400000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=15.0" "runObject" (
+(
+"../../../242/wakeup/psf/logFile"
+"../../../242/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 242
+"netlistDir" "../../../242/wakeup/netlist"
+"dataDir" "../../../242/wakeup"
+ "mcparamset" 1.500000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=15.0" "runObject" (
+(
+"../../../240/wakeup/psf/logFile"
+"../../../240/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 240
+"netlistDir" "../../../240/wakeup/netlist"
+"dataDir" "../../../240/wakeup"
+ "mcparamset" 1.500000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=15.0" "runObject" (
+(
+"../../../239/wakeup/psf/logFile"
+"../../../239/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 239
+"netlistDir" "../../../239/wakeup/netlist"
+"dataDir" "../../../239/wakeup"
+ "mcparamset" 1.500000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=15.0" "runObject" (
+(
+"../../../241/wakeup/psf/logFile"
+"../../../241/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 241
+"netlistDir" "../../../241/wakeup/netlist"
+"dataDir" "../../../241/wakeup"
+ "mcparamset" 1.500000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=16.0" "runObject" (
+(
+"../../../259/wakeup/psf/logFile"
+"../../../259/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 259
+"netlistDir" "../../../259/wakeup/netlist"
+"dataDir" "../../../259/wakeup"
+ "mcparamset" 1.600000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=16.0" "runObject" (
+(
+"../../../257/wakeup/psf/logFile"
+"../../../257/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 257
+"netlistDir" "../../../257/wakeup/netlist"
+"dataDir" "../../../257/wakeup"
+ "mcparamset" 1.600000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=16.0" "runObject" (
+(
+"../../../256/wakeup/psf/logFile"
+"../../../256/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 256
+"netlistDir" "../../../256/wakeup/netlist"
+"dataDir" "../../../256/wakeup"
+ "mcparamset" 1.600000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=16.0" "runObject" (
+(
+"../../../258/wakeup/psf/logFile"
+"../../../258/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 258
+"netlistDir" "../../../258/wakeup/netlist"
+"dataDir" "../../../258/wakeup"
+ "mcparamset" 1.600000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=17.0" "runObject" (
+(
+"../../../276/wakeup/psf/logFile"
+"../../../276/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 276
+"netlistDir" "../../../276/wakeup/netlist"
+"dataDir" "../../../276/wakeup"
+ "mcparamset" 1.700000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=17.0" "runObject" (
+(
+"../../../274/wakeup/psf/logFile"
+"../../../274/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 274
+"netlistDir" "../../../274/wakeup/netlist"
+"dataDir" "../../../274/wakeup"
+ "mcparamset" 1.700000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=17.0" "runObject" (
+(
+"../../../273/wakeup/psf/logFile"
+"../../../273/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 273
+"netlistDir" "../../../273/wakeup/netlist"
+"dataDir" "../../../273/wakeup"
+ "mcparamset" 1.700000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=17.0" "runObject" (
+(
+"../../../275/wakeup/psf/logFile"
+"../../../275/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 275
+"netlistDir" "../../../275/wakeup/netlist"
+"dataDir" "../../../275/wakeup"
+ "mcparamset" 1.700000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=18.0" "runObject" (
+(
+"../../../293/wakeup/psf/logFile"
+"../../../293/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 293
+"netlistDir" "../../../293/wakeup/netlist"
+"dataDir" "../../../293/wakeup"
+ "mcparamset" 1.800000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=18.0" "runObject" (
+(
+"../../../291/wakeup/psf/logFile"
+"../../../291/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 291
+"netlistDir" "../../../291/wakeup/netlist"
+"dataDir" "../../../291/wakeup"
+ "mcparamset" 1.800000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=18.0" "runObject" (
+(
+"../../../290/wakeup/psf/logFile"
+"../../../290/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 290
+"netlistDir" "../../../290/wakeup/netlist"
+"dataDir" "../../../290/wakeup"
+ "mcparamset" 1.800000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=18.0" "runObject" (
+(
+"../../../292/wakeup/psf/logFile"
+"../../../292/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 292
+"netlistDir" "../../../292/wakeup/netlist"
+"dataDir" "../../../292/wakeup"
+ "mcparamset" 1.800000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=19.0" "runObject" (
+(
+"../../../310/wakeup/psf/logFile"
+"../../../310/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 310
+"netlistDir" "../../../310/wakeup/netlist"
+"dataDir" "../../../310/wakeup"
+ "mcparamset" 1.900000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=19.0" "runObject" (
+(
+"../../../308/wakeup/psf/logFile"
+"../../../308/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 308
+"netlistDir" "../../../308/wakeup/netlist"
+"dataDir" "../../../308/wakeup"
+ "mcparamset" 1.900000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=19.0" "runObject" (
+(
+"../../../307/wakeup/psf/logFile"
+"../../../307/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 307
+"netlistDir" "../../../307/wakeup/netlist"
+"dataDir" "../../../307/wakeup"
+ "mcparamset" 1.900000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=19.0" "runObject" (
+(
+"../../../309/wakeup/psf/logFile"
+"../../../309/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 309
+"netlistDir" "../../../309/wakeup/netlist"
+"dataDir" "../../../309/wakeup"
+ "mcparamset" 1.900000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=20.0" "runObject" (
+(
+"../../../327/wakeup/psf/logFile"
+"../../../327/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 327
+"netlistDir" "../../../327/wakeup/netlist"
+"dataDir" "../../../327/wakeup"
+ "mcparamset" 2.000000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=20.0" "runObject" (
+(
+"../../../325/wakeup/psf/logFile"
+"../../../325/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 325
+"netlistDir" "../../../325/wakeup/netlist"
+"dataDir" "../../../325/wakeup"
+ "mcparamset" 2.000000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=20.0" "runObject" (
+(
+"../../../324/wakeup/psf/logFile"
+"../../../324/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 324
+"netlistDir" "../../../324/wakeup/netlist"
+"dataDir" "../../../324/wakeup"
+ "mcparamset" 2.000000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=20.0" "runObject" (
+(
+"../../../326/wakeup/psf/logFile"
+"../../../326/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 326
+"netlistDir" "../../../326/wakeup/netlist"
+"dataDir" "../../../326/wakeup"
+ "mcparamset" 2.000000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=21.0" "runObject" (
+(
+"../../../344/wakeup/psf/logFile"
+"../../../344/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 344
+"netlistDir" "../../../344/wakeup/netlist"
+"dataDir" "../../../344/wakeup"
+ "mcparamset" 2.100000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=21.0" "runObject" (
+(
+"../../../342/wakeup/psf/logFile"
+"../../../342/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 342
+"netlistDir" "../../../342/wakeup/netlist"
+"dataDir" "../../../342/wakeup"
+ "mcparamset" 2.100000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=21.0" "runObject" (
+(
+"../../../341/wakeup/psf/logFile"
+"../../../341/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 341
+"netlistDir" "../../../341/wakeup/netlist"
+"dataDir" "../../../341/wakeup"
+ "mcparamset" 2.100000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=21.0" "runObject" (
+(
+"../../../343/wakeup/psf/logFile"
+"../../../343/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 343
+"netlistDir" "../../../343/wakeup/netlist"
+"dataDir" "../../../343/wakeup"
+ "mcparamset" 2.100000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=22.0" "runObject" (
+(
+"../../../361/wakeup/psf/logFile"
+"../../../361/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 361
+"netlistDir" "../../../361/wakeup/netlist"
+"dataDir" "../../../361/wakeup"
+ "mcparamset" 2.200000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=22.0" "runObject" (
+(
+"../../../359/wakeup/psf/logFile"
+"../../../359/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 359
+"netlistDir" "../../../359/wakeup/netlist"
+"dataDir" "../../../359/wakeup"
+ "mcparamset" 2.200000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=22.0" "runObject" (
+(
+"../../../358/wakeup/psf/logFile"
+"../../../358/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 358
+"netlistDir" "../../../358/wakeup/netlist"
+"dataDir" "../../../358/wakeup"
+ "mcparamset" 2.200000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=22.0" "runObject" (
+(
+"../../../360/wakeup/psf/logFile"
+"../../../360/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 360
+"netlistDir" "../../../360/wakeup/netlist"
+"dataDir" "../../../360/wakeup"
+ "mcparamset" 2.200000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=23.0" "runObject" (
+(
+"../../../378/wakeup/psf/logFile"
+"../../../378/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 378
+"netlistDir" "../../../378/wakeup/netlist"
+"dataDir" "../../../378/wakeup"
+ "mcparamset" 2.300000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=23.0" "runObject" (
+(
+"../../../376/wakeup/psf/logFile"
+"../../../376/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 376
+"netlistDir" "../../../376/wakeup/netlist"
+"dataDir" "../../../376/wakeup"
+ "mcparamset" 2.300000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=23.0" "runObject" (
+(
+"../../../375/wakeup/psf/logFile"
+"../../../375/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 375
+"netlistDir" "../../../375/wakeup/netlist"
+"dataDir" "../../../375/wakeup"
+ "mcparamset" 2.300000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=23.0" "runObject" (
+(
+"../../../377/wakeup/psf/logFile"
+"../../../377/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 377
+"netlistDir" "../../../377/wakeup/netlist"
+"dataDir" "../../../377/wakeup"
+ "mcparamset" 2.300000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=24.0" "runObject" (
+(
+"../../../395/wakeup/psf/logFile"
+"../../../395/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 395
+"netlistDir" "../../../395/wakeup/netlist"
+"dataDir" "../../../395/wakeup"
+ "mcparamset" 2.400000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=24.0" "runObject" (
+(
+"../../../393/wakeup/psf/logFile"
+"../../../393/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 393
+"netlistDir" "../../../393/wakeup/netlist"
+"dataDir" "../../../393/wakeup"
+ "mcparamset" 2.400000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=24.0" "runObject" (
+(
+"../../../392/wakeup/psf/logFile"
+"../../../392/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 392
+"netlistDir" "../../../392/wakeup/netlist"
+"dataDir" "../../../392/wakeup"
+ "mcparamset" 2.400000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=24.0" "runObject" (
+(
+"../../../394/wakeup/psf/logFile"
+"../../../394/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 394
+"netlistDir" "../../../394/wakeup/netlist"
+"dataDir" "../../../394/wakeup"
+ "mcparamset" 2.400000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=25.0" "runObject" (
+(
+"../../../412/wakeup/psf/logFile"
+"../../../412/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 412
+"netlistDir" "../../../412/wakeup/netlist"
+"dataDir" "../../../412/wakeup"
+ "mcparamset" 2.500000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=25.0" "runObject" (
+(
+"../../../410/wakeup/psf/logFile"
+"../../../410/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 410
+"netlistDir" "../../../410/wakeup/netlist"
+"dataDir" "../../../410/wakeup"
+ "mcparamset" 2.500000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=25.0" "runObject" (
+(
+"../../../409/wakeup/psf/logFile"
+"../../../409/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 409
+"netlistDir" "../../../409/wakeup/netlist"
+"dataDir" "../../../409/wakeup"
+ "mcparamset" 2.500000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=25.0" "runObject" (
+(
+"../../../411/wakeup/psf/logFile"
+"../../../411/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 411
+"netlistDir" "../../../411/wakeup/netlist"
+"dataDir" "../../../411/wakeup"
+ "mcparamset" 2.500000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=26.0" "runObject" (
+(
+"../../../429/wakeup/psf/logFile"
+"../../../429/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 429
+"netlistDir" "../../../429/wakeup/netlist"
+"dataDir" "../../../429/wakeup"
+ "mcparamset" 2.600000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=26.0" "runObject" (
+(
+"../../../427/wakeup/psf/logFile"
+"../../../427/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 427
+"netlistDir" "../../../427/wakeup/netlist"
+"dataDir" "../../../427/wakeup"
+ "mcparamset" 2.600000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=26.0" "runObject" (
+(
+"../../../426/wakeup/psf/logFile"
+"../../../426/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 426
+"netlistDir" "../../../426/wakeup/netlist"
+"dataDir" "../../../426/wakeup"
+ "mcparamset" 2.600000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=26.0" "runObject" (
+(
+"../../../428/wakeup/psf/logFile"
+"../../../428/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 428
+"netlistDir" "../../../428/wakeup/netlist"
+"dataDir" "../../../428/wakeup"
+ "mcparamset" 2.600000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=27.0" "runObject" (
+(
+"../../../446/wakeup/psf/logFile"
+"../../../446/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 446
+"netlistDir" "../../../446/wakeup/netlist"
+"dataDir" "../../../446/wakeup"
+ "mcparamset" 2.700000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=27.0" "runObject" (
+(
+"../../../444/wakeup/psf/logFile"
+"../../../444/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 444
+"netlistDir" "../../../444/wakeup/netlist"
+"dataDir" "../../../444/wakeup"
+ "mcparamset" 2.700000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=27.0" "runObject" (
+(
+"../../../443/wakeup/psf/logFile"
+"../../../443/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 443
+"netlistDir" "../../../443/wakeup/netlist"
+"dataDir" "../../../443/wakeup"
+ "mcparamset" 2.700000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=27.0" "runObject" (
+(
+"../../../445/wakeup/psf/logFile"
+"../../../445/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 445
+"netlistDir" "../../../445/wakeup/netlist"
+"dataDir" "../../../445/wakeup"
+ "mcparamset" 2.700000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=28.0" "runObject" (
+(
+"../../../463/wakeup/psf/logFile"
+"../../../463/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 463
+"netlistDir" "../../../463/wakeup/netlist"
+"dataDir" "../../../463/wakeup"
+ "mcparamset" 2.800000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=28.0" "runObject" (
+(
+"../../../461/wakeup/psf/logFile"
+"../../../461/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 461
+"netlistDir" "../../../461/wakeup/netlist"
+"dataDir" "../../../461/wakeup"
+ "mcparamset" 2.800000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=28.0" "runObject" (
+(
+"../../../460/wakeup/psf/logFile"
+"../../../460/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 460
+"netlistDir" "../../../460/wakeup/netlist"
+"dataDir" "../../../460/wakeup"
+ "mcparamset" 2.800000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=28.0" "runObject" (
+(
+"../../../462/wakeup/psf/logFile"
+"../../../462/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 462
+"netlistDir" "../../../462/wakeup/netlist"
+"dataDir" "../../../462/wakeup"
+ "mcparamset" 2.800000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=29.0" "runObject" (
+(
+"../../../480/wakeup/psf/logFile"
+"../../../480/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 480
+"netlistDir" "../../../480/wakeup/netlist"
+"dataDir" "../../../480/wakeup"
+ "mcparamset" 2.900000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=29.0" "runObject" (
+(
+"../../../478/wakeup/psf/logFile"
+"../../../478/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 478
+"netlistDir" "../../../478/wakeup/netlist"
+"dataDir" "../../../478/wakeup"
+ "mcparamset" 2.900000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=29.0" "runObject" (
+(
+"../../../477/wakeup/psf/logFile"
+"../../../477/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 477
+"netlistDir" "../../../477/wakeup/netlist"
+"dataDir" "../../../477/wakeup"
+ "mcparamset" 2.900000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=29.0" "runObject" (
+(
+"../../../479/wakeup/psf/logFile"
+"../../../479/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 479
+"netlistDir" "../../../479/wakeup/netlist"
+"dataDir" "../../../479/wakeup"
+ "mcparamset" 2.900000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=30.0" "runObject" (
+(
+"../../../497/wakeup/psf/logFile"
+"../../../497/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 497
+"netlistDir" "../../../497/wakeup/netlist"
+"dataDir" "../../../497/wakeup"
+ "mcparamset" 3.000000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=30.0" "runObject" (
+(
+"../../../495/wakeup/psf/logFile"
+"../../../495/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 495
+"netlistDir" "../../../495/wakeup/netlist"
+"dataDir" "../../../495/wakeup"
+ "mcparamset" 3.000000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=30.0" "runObject" (
+(
+"../../../494/wakeup/psf/logFile"
+"../../../494/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 494
+"netlistDir" "../../../494/wakeup/netlist"
+"dataDir" "../../../494/wakeup"
+ "mcparamset" 3.000000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=30.0" "runObject" (
+(
+"../../../496/wakeup/psf/logFile"
+"../../../496/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 496
+"netlistDir" "../../../496/wakeup/netlist"
+"dataDir" "../../../496/wakeup"
+ "mcparamset" 3.000000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=31.0" "runObject" (
+(
+"../../../514/wakeup/psf/logFile"
+"../../../514/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 514
+"netlistDir" "../../../514/wakeup/netlist"
+"dataDir" "../../../514/wakeup"
+ "mcparamset" 3.100000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=31.0" "runObject" (
+(
+"../../../512/wakeup/psf/logFile"
+"../../../512/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 512
+"netlistDir" "../../../512/wakeup/netlist"
+"dataDir" "../../../512/wakeup"
+ "mcparamset" 3.100000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=31.0" "runObject" (
+(
+"../../../511/wakeup/psf/logFile"
+"../../../511/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 511
+"netlistDir" "../../../511/wakeup/netlist"
+"dataDir" "../../../511/wakeup"
+ "mcparamset" 3.100000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=31.0" "runObject" (
+(
+"../../../513/wakeup/psf/logFile"
+"../../../513/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 513
+"netlistDir" "../../../513/wakeup/netlist"
+"dataDir" "../../../513/wakeup"
+ "mcparamset" 3.100000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=32.0" "runObject" (
+(
+"../../../531/wakeup/psf/logFile"
+"../../../531/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 531
+"netlistDir" "../../../531/wakeup/netlist"
+"dataDir" "../../../531/wakeup"
+ "mcparamset" 3.200000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=32.0" "runObject" (
+(
+"../../../529/wakeup/psf/logFile"
+"../../../529/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 529
+"netlistDir" "../../../529/wakeup/netlist"
+"dataDir" "../../../529/wakeup"
+ "mcparamset" 3.200000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=32.0" "runObject" (
+(
+"../../../528/wakeup/psf/logFile"
+"../../../528/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 528
+"netlistDir" "../../../528/wakeup/netlist"
+"dataDir" "../../../528/wakeup"
+ "mcparamset" 3.200000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=32.0" "runObject" (
+(
+"../../../530/wakeup/psf/logFile"
+"../../../530/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 530
+"netlistDir" "../../../530/wakeup/netlist"
+"dataDir" "../../../530/wakeup"
+ "mcparamset" 3.200000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=33.0" "runObject" (
+(
+"../../../548/wakeup/psf/logFile"
+"../../../548/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 548
+"netlistDir" "../../../548/wakeup/netlist"
+"dataDir" "../../../548/wakeup"
+ "mcparamset" 3.300000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=33.0" "runObject" (
+(
+"../../../546/wakeup/psf/logFile"
+"../../../546/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 546
+"netlistDir" "../../../546/wakeup/netlist"
+"dataDir" "../../../546/wakeup"
+ "mcparamset" 3.300000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=33.0" "runObject" (
+(
+"../../../545/wakeup/psf/logFile"
+"../../../545/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 545
+"netlistDir" "../../../545/wakeup/netlist"
+"dataDir" "../../../545/wakeup"
+ "mcparamset" 3.300000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=33.0" "runObject" (
+(
+"../../../547/wakeup/psf/logFile"
+"../../../547/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 547
+"netlistDir" "../../../547/wakeup/netlist"
+"dataDir" "../../../547/wakeup"
+ "mcparamset" 3.300000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=34.0" "runObject" (
+(
+"../../../565/wakeup/psf/logFile"
+"../../../565/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 565
+"netlistDir" "../../../565/wakeup/netlist"
+"dataDir" "../../../565/wakeup"
+ "mcparamset" 3.400000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=34.0" "runObject" (
+(
+"../../../563/wakeup/psf/logFile"
+"../../../563/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 563
+"netlistDir" "../../../563/wakeup/netlist"
+"dataDir" "../../../563/wakeup"
+ "mcparamset" 3.400000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=34.0" "runObject" (
+(
+"../../../562/wakeup/psf/logFile"
+"../../../562/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 562
+"netlistDir" "../../../562/wakeup/netlist"
+"dataDir" "../../../562/wakeup"
+ "mcparamset" 3.400000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=34.0" "runObject" (
+(
+"../../../564/wakeup/psf/logFile"
+"../../../564/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 564
+"netlistDir" "../../../564/wakeup/netlist"
+"dataDir" "../../../564/wakeup"
+ "mcparamset" 3.400000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=35.0" "runObject" (
+(
+"../../../582/wakeup/psf/logFile"
+"../../../582/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 582
+"netlistDir" "../../../582/wakeup/netlist"
+"dataDir" "../../../582/wakeup"
+ "mcparamset" 3.500000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=35.0" "runObject" (
+(
+"../../../580/wakeup/psf/logFile"
+"../../../580/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 580
+"netlistDir" "../../../580/wakeup/netlist"
+"dataDir" "../../../580/wakeup"
+ "mcparamset" 3.500000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=35.0" "runObject" (
+(
+"../../../579/wakeup/psf/logFile"
+"../../../579/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 579
+"netlistDir" "../../../579/wakeup/netlist"
+"dataDir" "../../../579/wakeup"
+ "mcparamset" 3.500000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=35.0" "runObject" (
+(
+"../../../581/wakeup/psf/logFile"
+"../../../581/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 581
+"netlistDir" "../../../581/wakeup/netlist"
+"dataDir" "../../../581/wakeup"
+ "mcparamset" 3.500000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=36.0" "runObject" (
+(
+"../../../599/wakeup/psf/logFile"
+"../../../599/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 599
+"netlistDir" "../../../599/wakeup/netlist"
+"dataDir" "../../../599/wakeup"
+ "mcparamset" 3.600000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=36.0" "runObject" (
+(
+"../../../597/wakeup/psf/logFile"
+"../../../597/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 597
+"netlistDir" "../../../597/wakeup/netlist"
+"dataDir" "../../../597/wakeup"
+ "mcparamset" 3.600000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=36.0" "runObject" (
+(
+"../../../596/wakeup/psf/logFile"
+"../../../596/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 596
+"netlistDir" "../../../596/wakeup/netlist"
+"dataDir" "../../../596/wakeup"
+ "mcparamset" 3.600000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=36.0" "runObject" (
+(
+"../../../598/wakeup/psf/logFile"
+"../../../598/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 598
+"netlistDir" "../../../598/wakeup/netlist"
+"dataDir" "../../../598/wakeup"
+ "mcparamset" 3.600000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=37.0" "runObject" (
+(
+"../../../616/wakeup/psf/logFile"
+"../../../616/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 616
+"netlistDir" "../../../616/wakeup/netlist"
+"dataDir" "../../../616/wakeup"
+ "mcparamset" 3.700000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=37.0" "runObject" (
+(
+"../../../614/wakeup/psf/logFile"
+"../../../614/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 614
+"netlistDir" "../../../614/wakeup/netlist"
+"dataDir" "../../../614/wakeup"
+ "mcparamset" 3.700000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=37.0" "runObject" (
+(
+"../../../613/wakeup/psf/logFile"
+"../../../613/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 613
+"netlistDir" "../../../613/wakeup/netlist"
+"dataDir" "../../../613/wakeup"
+ "mcparamset" 3.700000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=37.0" "runObject" (
+(
+"../../../615/wakeup/psf/logFile"
+"../../../615/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 615
+"netlistDir" "../../../615/wakeup/netlist"
+"dataDir" "../../../615/wakeup"
+ "mcparamset" 3.700000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=38.0" "runObject" (
+(
+"../../../633/wakeup/psf/logFile"
+"../../../633/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 633
+"netlistDir" "../../../633/wakeup/netlist"
+"dataDir" "../../../633/wakeup"
+ "mcparamset" 3.800000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=38.0" "runObject" (
+(
+"../../../631/wakeup/psf/logFile"
+"../../../631/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 631
+"netlistDir" "../../../631/wakeup/netlist"
+"dataDir" "../../../631/wakeup"
+ "mcparamset" 3.800000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=38.0" "runObject" (
+(
+"../../../630/wakeup/psf/logFile"
+"../../../630/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 630
+"netlistDir" "../../../630/wakeup/netlist"
+"dataDir" "../../../630/wakeup"
+ "mcparamset" 3.800000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=38.0" "runObject" (
+(
+"../../../632/wakeup/psf/logFile"
+"../../../632/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 632
+"netlistDir" "../../../632/wakeup/netlist"
+"dataDir" "../../../632/wakeup"
+ "mcparamset" 3.800000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=39.0" "runObject" (
+(
+"../../../650/wakeup/psf/logFile"
+"../../../650/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 650
+"netlistDir" "../../../650/wakeup/netlist"
+"dataDir" "../../../650/wakeup"
+ "mcparamset" 3.900000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=39.0" "runObject" (
+(
+"../../../648/wakeup/psf/logFile"
+"../../../648/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 648
+"netlistDir" "../../../648/wakeup/netlist"
+"dataDir" "../../../648/wakeup"
+ "mcparamset" 3.900000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=39.0" "runObject" (
+(
+"../../../647/wakeup/psf/logFile"
+"../../../647/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 647
+"netlistDir" "../../../647/wakeup/netlist"
+"dataDir" "../../../647/wakeup"
+ "mcparamset" 3.900000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=39.0" "runObject" (
+(
+"../../../649/wakeup/psf/logFile"
+"../../../649/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 649
+"netlistDir" "../../../649/wakeup/netlist"
+"dataDir" "../../../649/wakeup"
+ "mcparamset" 3.900000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=40.0" "runObject" (
+(
+"../../../667/wakeup/psf/logFile"
+"../../../667/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 667
+"netlistDir" "../../../667/wakeup/netlist"
+"dataDir" "../../../667/wakeup"
+ "mcparamset" 4.000000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=40.0" "runObject" (
+(
+"../../../665/wakeup/psf/logFile"
+"../../../665/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 665
+"netlistDir" "../../../665/wakeup/netlist"
+"dataDir" "../../../665/wakeup"
+ "mcparamset" 4.000000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=40.0" "runObject" (
+(
+"../../../664/wakeup/psf/logFile"
+"../../../664/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 664
+"netlistDir" "../../../664/wakeup/netlist"
+"dataDir" "../../../664/wakeup"
+ "mcparamset" 4.000000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=40.0" "runObject" (
+(
+"../../../666/wakeup/psf/logFile"
+"../../../666/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 666
+"netlistDir" "../../../666/wakeup/netlist"
+"dataDir" "../../../666/wakeup"
+ "mcparamset" 4.000000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=41.0" "runObject" (
+(
+"../../../684/wakeup/psf/logFile"
+"../../../684/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 684
+"netlistDir" "../../../684/wakeup/netlist"
+"dataDir" "../../../684/wakeup"
+ "mcparamset" 4.100000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=41.0" "runObject" (
+(
+"../../../682/wakeup/psf/logFile"
+"../../../682/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 682
+"netlistDir" "../../../682/wakeup/netlist"
+"dataDir" "../../../682/wakeup"
+ "mcparamset" 4.100000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=41.0" "runObject" (
+(
+"../../../681/wakeup/psf/logFile"
+"../../../681/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 681
+"netlistDir" "../../../681/wakeup/netlist"
+"dataDir" "../../../681/wakeup"
+ "mcparamset" 4.100000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=41.0" "runObject" (
+(
+"../../../683/wakeup/psf/logFile"
+"../../../683/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 683
+"netlistDir" "../../../683/wakeup/netlist"
+"dataDir" "../../../683/wakeup"
+ "mcparamset" 4.100000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=42.0" "runObject" (
+(
+"../../../701/wakeup/psf/logFile"
+"../../../701/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 701
+"netlistDir" "../../../701/wakeup/netlist"
+"dataDir" "../../../701/wakeup"
+ "mcparamset" 4.200000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=42.0" "runObject" (
+(
+"../../../699/wakeup/psf/logFile"
+"../../../699/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 699
+"netlistDir" "../../../699/wakeup/netlist"
+"dataDir" "../../../699/wakeup"
+ "mcparamset" 4.200000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=42.0" "runObject" (
+(
+"../../../698/wakeup/psf/logFile"
+"../../../698/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 698
+"netlistDir" "../../../698/wakeup/netlist"
+"dataDir" "../../../698/wakeup"
+ "mcparamset" 4.200000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=42.0" "runObject" (
+(
+"../../../700/wakeup/psf/logFile"
+"../../../700/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 700
+"netlistDir" "../../../700/wakeup/netlist"
+"dataDir" "../../../700/wakeup"
+ "mcparamset" 4.200000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=43.0" "runObject" (
+(
+"../../../718/wakeup/psf/logFile"
+"../../../718/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 718
+"netlistDir" "../../../718/wakeup/netlist"
+"dataDir" "../../../718/wakeup"
+ "mcparamset" 4.300000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=43.0" "runObject" (
+(
+"../../../716/wakeup/psf/logFile"
+"../../../716/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 716
+"netlistDir" "../../../716/wakeup/netlist"
+"dataDir" "../../../716/wakeup"
+ "mcparamset" 4.300000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=43.0" "runObject" (
+(
+"../../../715/wakeup/psf/logFile"
+"../../../715/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 715
+"netlistDir" "../../../715/wakeup/netlist"
+"dataDir" "../../../715/wakeup"
+ "mcparamset" 4.300000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=43.0" "runObject" (
+(
+"../../../717/wakeup/psf/logFile"
+"../../../717/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 717
+"netlistDir" "../../../717/wakeup/netlist"
+"dataDir" "../../../717/wakeup"
+ "mcparamset" 4.300000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=44.0" "runObject" (
+(
+"../../../735/wakeup/psf/logFile"
+"../../../735/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 735
+"netlistDir" "../../../735/wakeup/netlist"
+"dataDir" "../../../735/wakeup"
+ "mcparamset" 4.400000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=44.0" "runObject" (
+(
+"../../../733/wakeup/psf/logFile"
+"../../../733/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 733
+"netlistDir" "../../../733/wakeup/netlist"
+"dataDir" "../../../733/wakeup"
+ "mcparamset" 4.400000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=44.0" "runObject" (
+(
+"../../../732/wakeup/psf/logFile"
+"../../../732/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 732
+"netlistDir" "../../../732/wakeup/netlist"
+"dataDir" "../../../732/wakeup"
+ "mcparamset" 4.400000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=44.0" "runObject" (
+(
+"../../../734/wakeup/psf/logFile"
+"../../../734/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 734
+"netlistDir" "../../../734/wakeup/netlist"
+"dataDir" "../../../734/wakeup"
+ "mcparamset" 4.400000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=45.0" "runObject" (
+(
+"../../../752/wakeup/psf/logFile"
+"../../../752/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 752
+"netlistDir" "../../../752/wakeup/netlist"
+"dataDir" "../../../752/wakeup"
+ "mcparamset" 4.500000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=45.0" "runObject" (
+(
+"../../../750/wakeup/psf/logFile"
+"../../../750/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 750
+"netlistDir" "../../../750/wakeup/netlist"
+"dataDir" "../../../750/wakeup"
+ "mcparamset" 4.500000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=45.0" "runObject" (
+(
+"../../../749/wakeup/psf/logFile"
+"../../../749/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 749
+"netlistDir" "../../../749/wakeup/netlist"
+"dataDir" "../../../749/wakeup"
+ "mcparamset" 4.500000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=45.0" "runObject" (
+(
+"../../../751/wakeup/psf/logFile"
+"../../../751/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 751
+"netlistDir" "../../../751/wakeup/netlist"
+"dataDir" "../../../751/wakeup"
+ "mcparamset" 4.500000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=46.0" "runObject" (
+(
+"../../../769/wakeup/psf/logFile"
+"../../../769/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 769
+"netlistDir" "../../../769/wakeup/netlist"
+"dataDir" "../../../769/wakeup"
+ "mcparamset" 4.600000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=46.0" "runObject" (
+(
+"../../../767/wakeup/psf/logFile"
+"../../../767/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 767
+"netlistDir" "../../../767/wakeup/netlist"
+"dataDir" "../../../767/wakeup"
+ "mcparamset" 4.600000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=46.0" "runObject" (
+(
+"../../../766/wakeup/psf/logFile"
+"../../../766/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 766
+"netlistDir" "../../../766/wakeup/netlist"
+"dataDir" "../../../766/wakeup"
+ "mcparamset" 4.600000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=46.0" "runObject" (
+(
+"../../../768/wakeup/psf/logFile"
+"../../../768/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 768
+"netlistDir" "../../../768/wakeup/netlist"
+"dataDir" "../../../768/wakeup"
+ "mcparamset" 4.600000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=47.0" "runObject" (
+(
+"../../../786/wakeup/psf/logFile"
+"../../../786/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 786
+"netlistDir" "../../../786/wakeup/netlist"
+"dataDir" "../../../786/wakeup"
+ "mcparamset" 4.700000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=47.0" "runObject" (
+(
+"../../../784/wakeup/psf/logFile"
+"../../../784/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 784
+"netlistDir" "../../../784/wakeup/netlist"
+"dataDir" "../../../784/wakeup"
+ "mcparamset" 4.700000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=47.0" "runObject" (
+(
+"../../../783/wakeup/psf/logFile"
+"../../../783/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 783
+"netlistDir" "../../../783/wakeup/netlist"
+"dataDir" "../../../783/wakeup"
+ "mcparamset" 4.700000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=47.0" "runObject" (
+(
+"../../../785/wakeup/psf/logFile"
+"../../../785/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 785
+"netlistDir" "../../../785/wakeup/netlist"
+"dataDir" "../../../785/wakeup"
+ "mcparamset" 4.700000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=48.0" "runObject" (
+(
+"../../../803/wakeup/psf/logFile"
+"../../../803/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 803
+"netlistDir" "../../../803/wakeup/netlist"
+"dataDir" "../../../803/wakeup"
+ "mcparamset" 4.800000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=48.0" "runObject" (
+(
+"../../../801/wakeup/psf/logFile"
+"../../../801/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 801
+"netlistDir" "../../../801/wakeup/netlist"
+"dataDir" "../../../801/wakeup"
+ "mcparamset" 4.800000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=48.0" "runObject" (
+(
+"../../../800/wakeup/psf/logFile"
+"../../../800/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 800
+"netlistDir" "../../../800/wakeup/netlist"
+"dataDir" "../../../800/wakeup"
+ "mcparamset" 4.800000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=48.0" "runObject" (
+(
+"../../../802/wakeup/psf/logFile"
+"../../../802/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 802
+"netlistDir" "../../../802/wakeup/netlist"
+"dataDir" "../../../802/wakeup"
+ "mcparamset" 4.800000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=49.0" "runObject" (
+(
+"../../../820/wakeup/psf/logFile"
+"../../../820/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 820
+"netlistDir" "../../../820/wakeup/netlist"
+"dataDir" "../../../820/wakeup"
+ "mcparamset" 4.900000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=49.0" "runObject" (
+(
+"../../../818/wakeup/psf/logFile"
+"../../../818/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 818
+"netlistDir" "../../../818/wakeup/netlist"
+"dataDir" "../../../818/wakeup"
+ "mcparamset" 4.900000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=49.0" "runObject" (
+(
+"../../../817/wakeup/psf/logFile"
+"../../../817/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 817
+"netlistDir" "../../../817/wakeup/netlist"
+"dataDir" "../../../817/wakeup"
+ "mcparamset" 4.900000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=49.0" "runObject" (
+(
+"../../../819/wakeup/psf/logFile"
+"../../../819/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 819
+"netlistDir" "../../../819/wakeup/netlist"
+"dataDir" "../../../819/wakeup"
+ "mcparamset" 4.900000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=50.0" "runObject" (
+(
+"../../../837/wakeup/psf/logFile"
+"../../../837/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 837
+"netlistDir" "../../../837/wakeup/netlist"
+"dataDir" "../../../837/wakeup"
+ "mcparamset" 5.000000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=50.0" "runObject" (
+(
+"../../../835/wakeup/psf/logFile"
+"../../../835/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 835
+"netlistDir" "../../../835/wakeup/netlist"
+"dataDir" "../../../835/wakeup"
+ "mcparamset" 5.000000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=50.0" "runObject" (
+(
+"../../../834/wakeup/psf/logFile"
+"../../../834/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 834
+"netlistDir" "../../../834/wakeup/netlist"
+"dataDir" "../../../834/wakeup"
+ "mcparamset" 5.000000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=50.0" "runObject" (
+(
+"../../../836/wakeup/psf/logFile"
+"../../../836/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 836
+"netlistDir" "../../../836/wakeup/netlist"
+"dataDir" "../../../836/wakeup"
+ "mcparamset" 5.000000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=51.0" "runObject" (
+(
+"../../../854/wakeup/psf/logFile"
+"../../../854/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 854
+"netlistDir" "../../../854/wakeup/netlist"
+"dataDir" "../../../854/wakeup"
+ "mcparamset" 5.100000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=51.0" "runObject" (
+(
+"../../../852/wakeup/psf/logFile"
+"../../../852/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 852
+"netlistDir" "../../../852/wakeup/netlist"
+"dataDir" "../../../852/wakeup"
+ "mcparamset" 5.100000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=51.0" "runObject" (
+(
+"../../../851/wakeup/psf/logFile"
+"../../../851/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 851
+"netlistDir" "../../../851/wakeup/netlist"
+"dataDir" "../../../851/wakeup"
+ "mcparamset" 5.100000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=51.0" "runObject" (
+(
+"../../../853/wakeup/psf/logFile"
+"../../../853/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 853
+"netlistDir" "../../../853/wakeup/netlist"
+"dataDir" "../../../853/wakeup"
+ "mcparamset" 5.100000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=52.0" "runObject" (
+(
+"../../../871/wakeup/psf/logFile"
+"../../../871/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 871
+"netlistDir" "../../../871/wakeup/netlist"
+"dataDir" "../../../871/wakeup"
+ "mcparamset" 5.200000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=52.0" "runObject" (
+(
+"../../../869/wakeup/psf/logFile"
+"../../../869/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 869
+"netlistDir" "../../../869/wakeup/netlist"
+"dataDir" "../../../869/wakeup"
+ "mcparamset" 5.200000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=52.0" "runObject" (
+(
+"../../../868/wakeup/psf/logFile"
+"../../../868/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 868
+"netlistDir" "../../../868/wakeup/netlist"
+"dataDir" "../../../868/wakeup"
+ "mcparamset" 5.200000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=52.0" "runObject" (
+(
+"../../../870/wakeup/psf/logFile"
+"../../../870/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 870
+"netlistDir" "../../../870/wakeup/netlist"
+"dataDir" "../../../870/wakeup"
+ "mcparamset" 5.200000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=53.0" "runObject" (
+(
+"../../../888/wakeup/psf/logFile"
+"../../../888/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 888
+"netlistDir" "../../../888/wakeup/netlist"
+"dataDir" "../../../888/wakeup"
+ "mcparamset" 5.300000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=53.0" "runObject" (
+(
+"../../../886/wakeup/psf/logFile"
+"../../../886/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 886
+"netlistDir" "../../../886/wakeup/netlist"
+"dataDir" "../../../886/wakeup"
+ "mcparamset" 5.300000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=53.0" "runObject" (
+(
+"../../../885/wakeup/psf/logFile"
+"../../../885/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 885
+"netlistDir" "../../../885/wakeup/netlist"
+"dataDir" "../../../885/wakeup"
+ "mcparamset" 5.300000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=53.0" "runObject" (
+(
+"../../../887/wakeup/psf/logFile"
+"../../../887/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 887
+"netlistDir" "../../../887/wakeup/netlist"
+"dataDir" "../../../887/wakeup"
+ "mcparamset" 5.300000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=54.0" "runObject" (
+(
+"../../../905/wakeup/psf/logFile"
+"../../../905/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 905
+"netlistDir" "../../../905/wakeup/netlist"
+"dataDir" "../../../905/wakeup"
+ "mcparamset" 5.400000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=54.0" "runObject" (
+(
+"../../../903/wakeup/psf/logFile"
+"../../../903/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 903
+"netlistDir" "../../../903/wakeup/netlist"
+"dataDir" "../../../903/wakeup"
+ "mcparamset" 5.400000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=54.0" "runObject" (
+(
+"../../../902/wakeup/psf/logFile"
+"../../../902/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 902
+"netlistDir" "../../../902/wakeup/netlist"
+"dataDir" "../../../902/wakeup"
+ "mcparamset" 5.400000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=54.0" "runObject" (
+(
+"../../../904/wakeup/psf/logFile"
+"../../../904/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 904
+"netlistDir" "../../../904/wakeup/netlist"
+"dataDir" "../../../904/wakeup"
+ "mcparamset" 5.400000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=55.0" "runObject" (
+(
+"../../../922/wakeup/psf/logFile"
+"../../../922/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 922
+"netlistDir" "../../../922/wakeup/netlist"
+"dataDir" "../../../922/wakeup"
+ "mcparamset" 5.500000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=55.0" "runObject" (
+(
+"../../../920/wakeup/psf/logFile"
+"../../../920/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 920
+"netlistDir" "../../../920/wakeup/netlist"
+"dataDir" "../../../920/wakeup"
+ "mcparamset" 5.500000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=55.0" "runObject" (
+(
+"../../../919/wakeup/psf/logFile"
+"../../../919/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 919
+"netlistDir" "../../../919/wakeup/netlist"
+"dataDir" "../../../919/wakeup"
+ "mcparamset" 5.500000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=55.0" "runObject" (
+(
+"../../../921/wakeup/psf/logFile"
+"../../../921/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 921
+"netlistDir" "../../../921/wakeup/netlist"
+"dataDir" "../../../921/wakeup"
+ "mcparamset" 5.500000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=56.0" "runObject" (
+(
+"../../../939/wakeup/psf/logFile"
+"../../../939/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 939
+"netlistDir" "../../../939/wakeup/netlist"
+"dataDir" "../../../939/wakeup"
+ "mcparamset" 5.600000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=56.0" "runObject" (
+(
+"../../../937/wakeup/psf/logFile"
+"../../../937/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 937
+"netlistDir" "../../../937/wakeup/netlist"
+"dataDir" "../../../937/wakeup"
+ "mcparamset" 5.600000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=56.0" "runObject" (
+(
+"../../../936/wakeup/psf/logFile"
+"../../../936/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 936
+"netlistDir" "../../../936/wakeup/netlist"
+"dataDir" "../../../936/wakeup"
+ "mcparamset" 5.600000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=56.0" "runObject" (
+(
+"../../../938/wakeup/psf/logFile"
+"../../../938/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 938
+"netlistDir" "../../../938/wakeup/netlist"
+"dataDir" "../../../938/wakeup"
+ "mcparamset" 5.600000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=57.0" "runObject" (
+(
+"../../../956/wakeup/psf/logFile"
+"../../../956/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 956
+"netlistDir" "../../../956/wakeup/netlist"
+"dataDir" "../../../956/wakeup"
+ "mcparamset" 5.700000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=57.0" "runObject" (
+(
+"../../../954/wakeup/psf/logFile"
+"../../../954/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 954
+"netlistDir" "../../../954/wakeup/netlist"
+"dataDir" "../../../954/wakeup"
+ "mcparamset" 5.700000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=57.0" "runObject" (
+(
+"../../../953/wakeup/psf/logFile"
+"../../../953/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 953
+"netlistDir" "../../../953/wakeup/netlist"
+"dataDir" "../../../953/wakeup"
+ "mcparamset" 5.700000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=57.0" "runObject" (
+(
+"../../../955/wakeup/psf/logFile"
+"../../../955/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 955
+"netlistDir" "../../../955/wakeup/netlist"
+"dataDir" "../../../955/wakeup"
+ "mcparamset" 5.700000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=58.0" "runObject" (
+(
+"../../../973/wakeup/psf/logFile"
+"../../../973/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 973
+"netlistDir" "../../../973/wakeup/netlist"
+"dataDir" "../../../973/wakeup"
+ "mcparamset" 5.800000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=58.0" "runObject" (
+(
+"../../../971/wakeup/psf/logFile"
+"../../../971/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 971
+"netlistDir" "../../../971/wakeup/netlist"
+"dataDir" "../../../971/wakeup"
+ "mcparamset" 5.800000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=58.0" "runObject" (
+(
+"../../../970/wakeup/psf/logFile"
+"../../../970/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 970
+"netlistDir" "../../../970/wakeup/netlist"
+"dataDir" "../../../970/wakeup"
+ "mcparamset" 5.800000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=58.0" "runObject" (
+(
+"../../../972/wakeup/psf/logFile"
+"../../../972/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 972
+"netlistDir" "../../../972/wakeup/netlist"
+"dataDir" "../../../972/wakeup"
+ "mcparamset" 5.800000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=59.0" "runObject" (
+(
+"../../../990/wakeup/psf/logFile"
+"../../../990/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 990
+"netlistDir" "../../../990/wakeup/netlist"
+"dataDir" "../../../990/wakeup"
+ "mcparamset" 5.900000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=59.0" "runObject" (
+(
+"../../../988/wakeup/psf/logFile"
+"../../../988/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 988
+"netlistDir" "../../../988/wakeup/netlist"
+"dataDir" "../../../988/wakeup"
+ "mcparamset" 5.900000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=59.0" "runObject" (
+(
+"../../../987/wakeup/psf/logFile"
+"../../../987/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 987
+"netlistDir" "../../../987/wakeup/netlist"
+"dataDir" "../../../987/wakeup"
+ "mcparamset" 5.900000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=59.0" "runObject" (
+(
+"../../../989/wakeup/psf/logFile"
+"../../../989/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 989
+"netlistDir" "../../../989/wakeup/netlist"
+"dataDir" "../../../989/wakeup"
+ "mcparamset" 5.900000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=60.0" "runObject" (
+(
+"../../../1007/wakeup/psf/logFile"
+"../../../1007/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 1007
+"netlistDir" "../../../1007/wakeup/netlist"
+"dataDir" "../../../1007/wakeup"
+ "mcparamset" 6.000000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=60.0" "runObject" (
+(
+"../../../1005/wakeup/psf/logFile"
+"../../../1005/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 1005
+"netlistDir" "../../../1005/wakeup/netlist"
+"dataDir" "../../../1005/wakeup"
+ "mcparamset" 6.000000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=60.0" "runObject" (
+(
+"../../../1004/wakeup/psf/logFile"
+"../../../1004/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 1004
+"netlistDir" "../../../1004/wakeup/netlist"
+"dataDir" "../../../1004/wakeup"
+ "mcparamset" 6.000000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=60.0" "runObject" (
+(
+"../../../1006/wakeup/psf/logFile"
+"../../../1006/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 1006
+"netlistDir" "../../../1006/wakeup/netlist"
+"dataDir" "../../../1006/wakeup"
+ "mcparamset" 6.000000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=61.0" "runObject" (
+(
+"../../../1024/wakeup/psf/logFile"
+"../../../1024/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 1024
+"netlistDir" "../../../1024/wakeup/netlist"
+"dataDir" "../../../1024/wakeup"
+ "mcparamset" 6.100000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=61.0" "runObject" (
+(
+"../../../1022/wakeup/psf/logFile"
+"../../../1022/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 1022
+"netlistDir" "../../../1022/wakeup/netlist"
+"dataDir" "../../../1022/wakeup"
+ "mcparamset" 6.100000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=61.0" "runObject" (
+(
+"../../../1021/wakeup/psf/logFile"
+"../../../1021/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 1021
+"netlistDir" "../../../1021/wakeup/netlist"
+"dataDir" "../../../1021/wakeup"
+ "mcparamset" 6.100000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=61.0" "runObject" (
+(
+"../../../1023/wakeup/psf/logFile"
+"../../../1023/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 1023
+"netlistDir" "../../../1023/wakeup/netlist"
+"dataDir" "../../../1023/wakeup"
+ "mcparamset" 6.100000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=62.0" "runObject" (
+(
+"../../../1041/wakeup/psf/logFile"
+"../../../1041/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 1041
+"netlistDir" "../../../1041/wakeup/netlist"
+"dataDir" "../../../1041/wakeup"
+ "mcparamset" 6.200000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=62.0" "runObject" (
+(
+"../../../1039/wakeup/psf/logFile"
+"../../../1039/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 1039
+"netlistDir" "../../../1039/wakeup/netlist"
+"dataDir" "../../../1039/wakeup"
+ "mcparamset" 6.200000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=62.0" "runObject" (
+(
+"../../../1038/wakeup/psf/logFile"
+"../../../1038/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 1038
+"netlistDir" "../../../1038/wakeup/netlist"
+"dataDir" "../../../1038/wakeup"
+ "mcparamset" 6.200000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=62.0" "runObject" (
+(
+"../../../1040/wakeup/psf/logFile"
+"../../../1040/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 1040
+"netlistDir" "../../../1040/wakeup/netlist"
+"dataDir" "../../../1040/wakeup"
+ "mcparamset" 6.200000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=63.0" "runObject" (
+(
+"../../../1058/wakeup/psf/logFile"
+"../../../1058/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 1058
+"netlistDir" "../../../1058/wakeup/netlist"
+"dataDir" "../../../1058/wakeup"
+ "mcparamset" 6.300000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=63.0" "runObject" (
+(
+"../../../1056/wakeup/psf/logFile"
+"../../../1056/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 1056
+"netlistDir" "../../../1056/wakeup/netlist"
+"dataDir" "../../../1056/wakeup"
+ "mcparamset" 6.300000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=63.0" "runObject" (
+(
+"../../../1055/wakeup/psf/logFile"
+"../../../1055/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 1055
+"netlistDir" "../../../1055/wakeup/netlist"
+"dataDir" "../../../1055/wakeup"
+ "mcparamset" 6.300000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=63.0" "runObject" (
+(
+"../../../1057/wakeup/psf/logFile"
+"../../../1057/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 1057
+"netlistDir" "../../../1057/wakeup/netlist"
+"dataDir" "../../../1057/wakeup"
+ "mcparamset" 6.300000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=64.0" "runObject" (
+(
+"../../../1075/wakeup/psf/logFile"
+"../../../1075/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 1075
+"netlistDir" "../../../1075/wakeup/netlist"
+"dataDir" "../../../1075/wakeup"
+ "mcparamset" 6.400000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=64.0" "runObject" (
+(
+"../../../1073/wakeup/psf/logFile"
+"../../../1073/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 1073
+"netlistDir" "../../../1073/wakeup/netlist"
+"dataDir" "../../../1073/wakeup"
+ "mcparamset" 6.400000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=64.0" "runObject" (
+(
+"../../../1072/wakeup/psf/logFile"
+"../../../1072/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 1072
+"netlistDir" "../../../1072/wakeup/netlist"
+"dataDir" "../../../1072/wakeup"
+ "mcparamset" 6.400000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=64.0" "runObject" (
+(
+"../../../1074/wakeup/psf/logFile"
+"../../../1074/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 1074
+"netlistDir" "../../../1074/wakeup/netlist"
+"dataDir" "../../../1074/wakeup"
+ "mcparamset" 6.400000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=65.0" "runObject" (
+(
+"../../../1092/wakeup/psf/logFile"
+"../../../1092/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 1092
+"netlistDir" "../../../1092/wakeup/netlist"
+"dataDir" "../../../1092/wakeup"
+ "mcparamset" 6.500000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=65.0" "runObject" (
+(
+"../../../1090/wakeup/psf/logFile"
+"../../../1090/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 1090
+"netlistDir" "../../../1090/wakeup/netlist"
+"dataDir" "../../../1090/wakeup"
+ "mcparamset" 6.500000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=65.0" "runObject" (
+(
+"../../../1089/wakeup/psf/logFile"
+"../../../1089/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 1089
+"netlistDir" "../../../1089/wakeup/netlist"
+"dataDir" "../../../1089/wakeup"
+ "mcparamset" 6.500000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=65.0" "runObject" (
+(
+"../../../1091/wakeup/psf/logFile"
+"../../../1091/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 1091
+"netlistDir" "../../../1091/wakeup/netlist"
+"dataDir" "../../../1091/wakeup"
+ "mcparamset" 6.500000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=66.0" "runObject" (
+(
+"../../../1109/wakeup/psf/logFile"
+"../../../1109/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 1109
+"netlistDir" "../../../1109/wakeup/netlist"
+"dataDir" "../../../1109/wakeup"
+ "mcparamset" 6.600000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=66.0" "runObject" (
+(
+"../../../1107/wakeup/psf/logFile"
+"../../../1107/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 1107
+"netlistDir" "../../../1107/wakeup/netlist"
+"dataDir" "../../../1107/wakeup"
+ "mcparamset" 6.600000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=66.0" "runObject" (
+(
+"../../../1106/wakeup/psf/logFile"
+"../../../1106/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 1106
+"netlistDir" "../../../1106/wakeup/netlist"
+"dataDir" "../../../1106/wakeup"
+ "mcparamset" 6.600000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=66.0" "runObject" (
+(
+"../../../1108/wakeup/psf/logFile"
+"../../../1108/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 1108
+"netlistDir" "../../../1108/wakeup/netlist"
+"dataDir" "../../../1108/wakeup"
+ "mcparamset" 6.600000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=67.0" "runObject" (
+(
+"../../../1126/wakeup/psf/logFile"
+"../../../1126/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 1126
+"netlistDir" "../../../1126/wakeup/netlist"
+"dataDir" "../../../1126/wakeup"
+ "mcparamset" 6.700000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=67.0" "runObject" (
+(
+"../../../1124/wakeup/psf/logFile"
+"../../../1124/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 1124
+"netlistDir" "../../../1124/wakeup/netlist"
+"dataDir" "../../../1124/wakeup"
+ "mcparamset" 6.700000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=67.0" "runObject" (
+(
+"../../../1123/wakeup/psf/logFile"
+"../../../1123/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 1123
+"netlistDir" "../../../1123/wakeup/netlist"
+"dataDir" "../../../1123/wakeup"
+ "mcparamset" 6.700000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=67.0" "runObject" (
+(
+"../../../1125/wakeup/psf/logFile"
+"../../../1125/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 1125
+"netlistDir" "../../../1125/wakeup/netlist"
+"dataDir" "../../../1125/wakeup"
+ "mcparamset" 6.700000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=68.0" "runObject" (
+(
+"../../../1143/wakeup/psf/logFile"
+"../../../1143/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 1143
+"netlistDir" "../../../1143/wakeup/netlist"
+"dataDir" "../../../1143/wakeup"
+ "mcparamset" 6.800000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=68.0" "runObject" (
+(
+"../../../1141/wakeup/psf/logFile"
+"../../../1141/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 1141
+"netlistDir" "../../../1141/wakeup/netlist"
+"dataDir" "../../../1141/wakeup"
+ "mcparamset" 6.800000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=68.0" "runObject" (
+(
+"../../../1140/wakeup/psf/logFile"
+"../../../1140/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 1140
+"netlistDir" "../../../1140/wakeup/netlist"
+"dataDir" "../../../1140/wakeup"
+ "mcparamset" 6.800000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=68.0" "runObject" (
+(
+"../../../1142/wakeup/psf/logFile"
+"../../../1142/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 1142
+"netlistDir" "../../../1142/wakeup/netlist"
+"dataDir" "../../../1142/wakeup"
+ "mcparamset" 6.800000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=69.0" "runObject" (
+(
+"../../../1160/wakeup/psf/logFile"
+"../../../1160/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 1160
+"netlistDir" "../../../1160/wakeup/netlist"
+"dataDir" "../../../1160/wakeup"
+ "mcparamset" 6.900000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=69.0" "runObject" (
+(
+"../../../1158/wakeup/psf/logFile"
+"../../../1158/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 1158
+"netlistDir" "../../../1158/wakeup/netlist"
+"dataDir" "../../../1158/wakeup"
+ "mcparamset" 6.900000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=69.0" "runObject" (
+(
+"../../../1157/wakeup/psf/logFile"
+"../../../1157/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 1157
+"netlistDir" "../../../1157/wakeup/netlist"
+"dataDir" "../../../1157/wakeup"
+ "mcparamset" 6.900000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=69.0" "runObject" (
+(
+"../../../1159/wakeup/psf/logFile"
+"../../../1159/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 1159
+"netlistDir" "../../../1159/wakeup/netlist"
+"dataDir" "../../../1159/wakeup"
+ "mcparamset" 6.900000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=70.0" "runObject" (
+(
+"../../../1177/wakeup/psf/logFile"
+"../../../1177/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 1177
+"netlistDir" "../../../1177/wakeup/netlist"
+"dataDir" "../../../1177/wakeup"
+ "mcparamset" 7.000000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=70.0" "runObject" (
+(
+"../../../1175/wakeup/psf/logFile"
+"../../../1175/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 1175
+"netlistDir" "../../../1175/wakeup/netlist"
+"dataDir" "../../../1175/wakeup"
+ "mcparamset" 7.000000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=70.0" "runObject" (
+(
+"../../../1174/wakeup/psf/logFile"
+"../../../1174/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 1174
+"netlistDir" "../../../1174/wakeup/netlist"
+"dataDir" "../../../1174/wakeup"
+ "mcparamset" 7.000000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=70.0" "runObject" (
+(
+"../../../1176/wakeup/psf/logFile"
+"../../../1176/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 1176
+"netlistDir" "../../../1176/wakeup/netlist"
+"dataDir" "../../../1176/wakeup"
+ "mcparamset" 7.000000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=71.0" "runObject" (
+(
+"../../../1194/wakeup/psf/logFile"
+"../../../1194/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 1194
+"netlistDir" "../../../1194/wakeup/netlist"
+"dataDir" "../../../1194/wakeup"
+ "mcparamset" 7.100000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=71.0" "runObject" (
+(
+"../../../1192/wakeup/psf/logFile"
+"../../../1192/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 1192
+"netlistDir" "../../../1192/wakeup/netlist"
+"dataDir" "../../../1192/wakeup"
+ "mcparamset" 7.100000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=71.0" "runObject" (
+(
+"../../../1191/wakeup/psf/logFile"
+"../../../1191/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 1191
+"netlistDir" "../../../1191/wakeup/netlist"
+"dataDir" "../../../1191/wakeup"
+ "mcparamset" 7.100000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=71.0" "runObject" (
+(
+"../../../1193/wakeup/psf/logFile"
+"../../../1193/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 1193
+"netlistDir" "../../../1193/wakeup/netlist"
+"dataDir" "../../../1193/wakeup"
+ "mcparamset" 7.100000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=72.0" "runObject" (
+(
+"../../../1211/wakeup/psf/logFile"
+"../../../1211/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 1211
+"netlistDir" "../../../1211/wakeup/netlist"
+"dataDir" "../../../1211/wakeup"
+ "mcparamset" 7.200000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=72.0" "runObject" (
+(
+"../../../1209/wakeup/psf/logFile"
+"../../../1209/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 1209
+"netlistDir" "../../../1209/wakeup/netlist"
+"dataDir" "../../../1209/wakeup"
+ "mcparamset" 7.200000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=72.0" "runObject" (
+(
+"../../../1208/wakeup/psf/logFile"
+"../../../1208/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 1208
+"netlistDir" "../../../1208/wakeup/netlist"
+"dataDir" "../../../1208/wakeup"
+ "mcparamset" 7.200000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=72.0" "runObject" (
+(
+"../../../1210/wakeup/psf/logFile"
+"../../../1210/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 1210
+"netlistDir" "../../../1210/wakeup/netlist"
+"dataDir" "../../../1210/wakeup"
+ "mcparamset" 7.200000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=73.0" "runObject" (
+(
+"../../../1228/wakeup/psf/logFile"
+"../../../1228/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 1228
+"netlistDir" "../../../1228/wakeup/netlist"
+"dataDir" "../../../1228/wakeup"
+ "mcparamset" 7.300000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=73.0" "runObject" (
+(
+"../../../1226/wakeup/psf/logFile"
+"../../../1226/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 1226
+"netlistDir" "../../../1226/wakeup/netlist"
+"dataDir" "../../../1226/wakeup"
+ "mcparamset" 7.300000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=73.0" "runObject" (
+(
+"../../../1225/wakeup/psf/logFile"
+"../../../1225/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 1225
+"netlistDir" "../../../1225/wakeup/netlist"
+"dataDir" "../../../1225/wakeup"
+ "mcparamset" 7.300000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=73.0" "runObject" (
+(
+"../../../1227/wakeup/psf/logFile"
+"../../../1227/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 1227
+"netlistDir" "../../../1227/wakeup/netlist"
+"dataDir" "../../../1227/wakeup"
+ "mcparamset" 7.300000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=74.0" "runObject" (
+(
+"../../../1245/wakeup/psf/logFile"
+"../../../1245/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 1245
+"netlistDir" "../../../1245/wakeup/netlist"
+"dataDir" "../../../1245/wakeup"
+ "mcparamset" 7.400000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=74.0" "runObject" (
+(
+"../../../1243/wakeup/psf/logFile"
+"../../../1243/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 1243
+"netlistDir" "../../../1243/wakeup/netlist"
+"dataDir" "../../../1243/wakeup"
+ "mcparamset" 7.400000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=74.0" "runObject" (
+(
+"../../../1242/wakeup/psf/logFile"
+"../../../1242/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 1242
+"netlistDir" "../../../1242/wakeup/netlist"
+"dataDir" "../../../1242/wakeup"
+ "mcparamset" 7.400000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=74.0" "runObject" (
+(
+"../../../1244/wakeup/psf/logFile"
+"../../../1244/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 1244
+"netlistDir" "../../../1244/wakeup/netlist"
+"dataDir" "../../../1244/wakeup"
+ "mcparamset" 7.400000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=75.0" "runObject" (
+(
+"../../../1262/wakeup/psf/logFile"
+"../../../1262/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 1262
+"netlistDir" "../../../1262/wakeup/netlist"
+"dataDir" "../../../1262/wakeup"
+ "mcparamset" 7.500000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=75.0" "runObject" (
+(
+"../../../1260/wakeup/psf/logFile"
+"../../../1260/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 1260
+"netlistDir" "../../../1260/wakeup/netlist"
+"dataDir" "../../../1260/wakeup"
+ "mcparamset" 7.500000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=75.0" "runObject" (
+(
+"../../../1259/wakeup/psf/logFile"
+"../../../1259/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 1259
+"netlistDir" "../../../1259/wakeup/netlist"
+"dataDir" "../../../1259/wakeup"
+ "mcparamset" 7.500000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=75.0" "runObject" (
+(
+"../../../1261/wakeup/psf/logFile"
+"../../../1261/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 1261
+"netlistDir" "../../../1261/wakeup/netlist"
+"dataDir" "../../../1261/wakeup"
+ "mcparamset" 7.500000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=76.0" "runObject" (
+(
+"../../../1279/wakeup/psf/logFile"
+"../../../1279/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 1279
+"netlistDir" "../../../1279/wakeup/netlist"
+"dataDir" "../../../1279/wakeup"
+ "mcparamset" 7.600000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=76.0" "runObject" (
+(
+"../../../1277/wakeup/psf/logFile"
+"../../../1277/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 1277
+"netlistDir" "../../../1277/wakeup/netlist"
+"dataDir" "../../../1277/wakeup"
+ "mcparamset" 7.600000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=76.0" "runObject" (
+(
+"../../../1276/wakeup/psf/logFile"
+"../../../1276/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 1276
+"netlistDir" "../../../1276/wakeup/netlist"
+"dataDir" "../../../1276/wakeup"
+ "mcparamset" 7.600000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=76.0" "runObject" (
+(
+"../../../1278/wakeup/psf/logFile"
+"../../../1278/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 1278
+"netlistDir" "../../../1278/wakeup/netlist"
+"dataDir" "../../../1278/wakeup"
+ "mcparamset" 7.600000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=77.0" "runObject" (
+(
+"../../../1296/wakeup/psf/logFile"
+"../../../1296/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 1296
+"netlistDir" "../../../1296/wakeup/netlist"
+"dataDir" "../../../1296/wakeup"
+ "mcparamset" 7.700000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=77.0" "runObject" (
+(
+"../../../1294/wakeup/psf/logFile"
+"../../../1294/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 1294
+"netlistDir" "../../../1294/wakeup/netlist"
+"dataDir" "../../../1294/wakeup"
+ "mcparamset" 7.700000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=77.0" "runObject" (
+(
+"../../../1293/wakeup/psf/logFile"
+"../../../1293/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 1293
+"netlistDir" "../../../1293/wakeup/netlist"
+"dataDir" "../../../1293/wakeup"
+ "mcparamset" 7.700000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0,mcparamset=77.0" "runObject" (
+(
+"../../../1295/wakeup/psf/logFile"
+"../../../1295/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=85.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_1"
+ "#pointID" 1295
+"netlistDir" "../../../1295/wakeup/netlist"
+"dataDir" "../../../1295/wakeup"
+ "mcparamset" 7.700000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=78.0" "runObject" (
+(
+"../../../1313/wakeup/psf/logFile"
+"../../../1313/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 1313
+"netlistDir" "../../../1313/wakeup/netlist"
+"dataDir" "../../../1313/wakeup"
+ "mcparamset" 7.800000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=78.0" "runObject" (
+(
+"../../../1311/wakeup/psf/logFile"
+"../../../1311/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswo,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_0"
+ "#pointID" 1311
+"netlistDir" "../../../1311/wakeup/netlist"
+"dataDir" "../../../1311/wakeup"
+ "mcparamset" 7.800000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=78.0" "runObject" (
+(
+"../../../1310/wakeup/psf/logFile"
+"../../../1310/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 1310
+"netlistDir" "../../../1310/wakeup/netlist"
+"dataDir" "../../../1310/wakeup"
+ "mcparamset" 7.800000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0,mcparamset=79.0" "runObject" (
+(
+"../../../1330/wakeup/psf/logFile"
+"../../../1330/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmoswp,res.scs:restm,cap.scs:capwp,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=-40.0"
+()
+) PROP(
+"#maeCorner" "CMOS_CAP_VDD_TEMP_RAMP_2"
+ "#pointID" 1330
+"netlistDir" "../../../1330/wakeup/netlist"
+"dataDir" "../../../1330/wakeup"
+ "mcparamset" 7.900000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=79.0" "runObject" (
+(
+"../../../1327/wakeup/psf/logFile"
+"../../../1327/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 1327
+"netlistDir" "../../../1327/wakeup/netlist"
+"dataDir" "../../../1327/wakeup"
+ "mcparamset" 7.900000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=80.0" "runObject" (
+(
+"../../../1344/wakeup/psf/logFile"
+"../../../1344/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 1344
+"netlistDir" "../../../1344/wakeup/netlist"
+"dataDir" "../../../1344/wakeup"
+ "mcparamset" 8.000000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=81.0" "runObject" (
+(
+"../../../1361/wakeup/psf/logFile"
+"../../../1361/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 1361
+"netlistDir" "../../../1361/wakeup/netlist"
+"dataDir" "../../../1361/wakeup"
+ "mcparamset" 8.100000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=82.0" "runObject" (
+(
+"../../../1378/wakeup/psf/logFile"
+"../../../1378/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 1378
+"netlistDir" "../../../1378/wakeup/netlist"
+"dataDir" "../../../1378/wakeup"
+ "mcparamset" 8.200000e+01
+)
+
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0,mcparamset=83.0" "runObject" (
+(
+"../../../1395/wakeup/psf/logFile"
+"../../../1395/wakeup/psf/artistLogFile"
+)
+"modelFiles=processOption.scs,cmos53.scs:cmostm,res.scs:restm,cap.scs:captm,bip.scs:biptm,ind.scs:indtm,esddiode.scs:esddiodetm,temperature=27.0"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 1395
+"netlistDir" "../../../1395/wakeup/netlist"
+"dataDir" "../../../1395/wakeup"
+ "mcparamset" 8.300000e+01
+)
+
+END

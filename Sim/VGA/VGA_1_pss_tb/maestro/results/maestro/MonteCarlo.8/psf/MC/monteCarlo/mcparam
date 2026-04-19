@@ -1,0 +1,3 @@
+#  Corner  =  nom
+d2_db	-1e+36	1e+36	"(harmonic(db(vh('pss \"/vout\")) 1) - harmonic(db(vh('pss \"/vout\")) 2))"
+#

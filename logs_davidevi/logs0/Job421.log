@@ -1,0 +1,127 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = VGA
+	Cell         = VGA_1_wakeup_tb
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = wakeup_VGA:VGA_1_tb:1:1_state_Interactive.104
+	Results DB   = /home/davidevi/Desktop/myproject/VGA/VGA_1_wakeup_tb/adexl/results/data/Interactive.104.rdb
+	Results Dir  = /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_wakeup_tb/adexl/results/data/Interactive.104/1/wakeup
+	Results Loc  = /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_wakeup_tb/adexl/results/data
+	Project Dir  = /home/davidevi/Desktop/myproject/Sim
+	Setup DB loc = /home/davidevi/Desktop/myproject/VGA/VGA_1_wakeup_tb/adexl
+	File Encoding = 0
+
+
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (10 1) on testbench [ wakeup ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var S0 = "3.3"
+Setting var S1 = "3.3"
+Setting var S2 = "3.3"
+Setting var S3 = "3.3"
+Setting var TF = "1u"
+Setting var TR = "1u"
+Setting var VDD = "0"
+Setting var VIN_PULSE = "0"
+Setting var V_AMP = "0"
+Setting var V_FREQ = "0"
+Setting var temperature = "27"
+Setting temp(T) = 27
+Setting var tf = "1u"
+Setting var tr = "1u"
+
+*Info*    Netlist Directory =
+          /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_wakeup_tb/adexl/results/data/Interactive.104/1/wakeup/netlist
+
+
+*Info*    Data Directory    =
+          /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_wakeup_tb/adexl/results/data/Interactive.104/1/wakeup
+
+
+*Info*    Creating Netlist for Point ID (10 1)
+
+generate netlist...
+function ansCdlCompPrim redefined
+function ansCdlCompPrim redefined
+Initializing the control file using cp:
+    cp /opt/tools/cadence/installs/IC618/tools.lnx86/dfII/etc/si/control.spectre /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_wakeup_tb/adexl/results/data/Interactive.104/1/wakeup/netlist/control
+Copying Spectre source file 'spectre.inp'
+Copying Spectre command file 'spectre.sim'
+Begin Incremental Netlisting Apr 15 12:54:34 2026
+WARNING (OSSHNL-941): Failed to open the sameCellNamesInMultipleLibs file '/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_tb/adexl/results/data/Interactive.8/1/VGA:VGA_1_tb:1/netlist/ihnl/sameCellNamesInMultipleLibs', in the append mode.
+Ensure that you have the write permission for the mentioned file.
+
+End netlisting Apr 15 12:54:34 2026
+
+Netlisting Statistics:
+	Number of components:   64
+
+	Elapsed time:          0.0s
+Errors: 0	Warnings: 0
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [ wakeup ] for Point ID (10
+          1).
+
+Delete psf data in /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_wakeup_tb/adexl/results/data/Interactive.104/1/wakeup/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+       and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+       There will be no performance impact on data visualization due to this change.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
+
+WARNING (OCN-6038): Results noise are not available for /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_wakeup_tb/adexl/results/data/Interactive.104/1/wakeup. Use results() for a list of available results.
+WARNING (OCN-6038): Results noise are not available for /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_wakeup_tb/adexl/results/data/Interactive.104/1/wakeup. Use results() for a list of available results.
+ERROR (ADEXL-2709): Evaluation of output 'OUT NOISE' returned 'nil' for point:'1' test:'wakeup'
+	Expression:'getData("out" ?result "noise")'.
+Ensure that the definition of output is correct.
+
+WARNING (OCN-6038): Results noise are not available for /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_wakeup_tb/adexl/results/data/Interactive.104/1/wakeup. Use results() for a list of available results.
+WARNING (OCN-6038): Results noise are not available for /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_wakeup_tb/adexl/results/data/Interactive.104/1/wakeup. Use results() for a list of available results.
+ERROR (ADEXL-2708): Evaluation of output 'total noise' failed for point:'1' test:'wakeup'
+	Expression:'sqrt(totalNoise("noise" 0.01 100000000 nil))'
+	because of the following error(s)
+	*Error* expt: can't handle (nil**2).
+Ensure that the definition of output is correct.
+
+
+*Info*    Run complete for Point ID (10 1) on testbench [ wakeup ].
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.

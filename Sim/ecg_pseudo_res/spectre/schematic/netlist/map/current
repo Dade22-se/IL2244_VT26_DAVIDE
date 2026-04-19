@@ -1,0 +1,18 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "ecg_pseudo_res"
+  repList "spectre cmos_sch schematic"
+  stopList "spectre"
+  globalList "gnd!"
+  hierDelim "."
+  netlistDir "/home/davidevi/Desktop/myproject/Sim/ecg_pseudo_res/spectre/schematic/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "ECG_IA/ecg_pseudo_res/schematic" "ecg_pseudo_res" )
+ )
+( "ecg_pseudo_res" "ihnl/cds0/map" )
+ )

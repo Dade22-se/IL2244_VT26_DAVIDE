@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Mar 17 10:12:57 2026
+// Design library name: ECG_IA
+// Design cell name: ecg_pseudo_res
+// Design view name: schematic
+simulator lang=spectre
+global 0

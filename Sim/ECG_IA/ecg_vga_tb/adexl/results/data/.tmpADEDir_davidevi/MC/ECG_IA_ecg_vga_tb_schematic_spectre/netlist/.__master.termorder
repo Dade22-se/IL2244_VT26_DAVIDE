@@ -1,0 +1,4 @@
+"ECG_IA.ecg_vga4.schematic.termorder" (("BIAS" "GNDA" "S<2>" "S<1>" "S<0>" "VDDA" "VIN" "VOUT") ("BIAS" "GNDA" "S<2>" "S<1>" "S<0>" "VDDA" "VIN" "VOUT"))
+"PRIMLIB.rpolyhc.schematic.termorder" (("PLUS" "MINUS" "REF") ("MINUS" "PLUS" "REF"))
+"ECG_IA.mux21.schematic.termorder" (("A0" "A1" "C" "GNDA" "S" "VDDA") ("A0" "A1" "C" "GNDA" "S" "VDDA"))
+"PRIMLIB.cpolyc.schematic.termorder" nil

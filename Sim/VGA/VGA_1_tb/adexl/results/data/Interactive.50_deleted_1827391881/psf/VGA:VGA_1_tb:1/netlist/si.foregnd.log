@@ -1,0 +1,7 @@
+Begin Incremental Netlisting Mar 21 16:05:58 2026
+WARNING (OSSHNL-941): Failed to open the sameCellNamesInMultipleLibs file
+'/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_tb/adexl/results/data/Interactive.8/1/VGA:VGA_1_tb:1/netlist/ihnl/sameCellNamesInMultipleLibs', in the append
+mode.
+Ensure that you have the write permission for the mentioned file.
+
+End netlisting Mar 21 16:05:58 2026

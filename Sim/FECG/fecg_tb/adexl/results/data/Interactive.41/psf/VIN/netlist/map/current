@@ -1,0 +1,36 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "fecg_tb"
+  repList "spectre cmos_sch schematic"
+  stopList "spectre"
+  globalList "gnd!"
+  hierDelim "."
+  netlistDir "/home/davidevi/Desktop/myproject/Sim/FECG/fecg_tb/adexl/results/data/Interactive.41/1/VIN/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "FECG/chopper/schematic" "chopper" )
+( "PRIMLIB/cpolyc/schematic" "cpolyc" )
+( "FECG/buffer2/schematic" "buffer2" )
+( "PRIMLIB/rpolyhc/schematic" "rpolyhc" )
+( "FECG/gmc_5/schematic" "gmc_5" )
+( "FECG/fecg_tb/schematic" "fecg_tb" )
+( "CORELIBD/INVX1/cmos_sch" "INVX1" )
+( "FECG/fecg_ia_3/schematic" "fecg_ia_3" )
+( "FECG/fecg_vga1/schematic" "fecg_vga1" )
+( "ECG_IA/mux21/schematic" "mux21" )
+ )
+( "fecg_ia_3" "ihnl/cds3/map" )
+( "buffer2" "ihnl/cds8/map" )
+( "chopper" "ihnl/cds2/map" )
+( "fecg_vga1" "ihnl/cds7/map" )
+( "fecg_tb" "ihnl/cds9/map" )
+( "cpolyc" "ihnl/cds0/map" )
+( "mux21" "ihnl/cds6/map" )
+( "rpolyhc" "ihnl/cds1/map" )
+( "INVX1" "ihnl/cds4/map" )
+( "gmc_5" "ihnl/cds5/map" )
+ )

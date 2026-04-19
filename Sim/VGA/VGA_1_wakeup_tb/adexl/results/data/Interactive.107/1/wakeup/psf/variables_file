@@ -1,0 +1,23 @@
+HEADER
+"PSFversion" "1.00"
+"Time Stamp" "Apr 15 16:43:31 2026"
+TYPE
+"variable" STRUCT(
+"value" FLOAT DOUBLE
+) PROP( "key" "element" )
+VALUE
+"VIN_PULSE" "variable" ( 0 ) PROP( )
+"VDD" "variable" ( 0 ) PROP( )
+"V_AMP" "variable" ( 0 ) PROP( )
+"S3" "variable" ( 3.3 ) PROP( )
+"S2" "variable" ( 3.3 ) PROP( )
+"S1" "variable" ( 3.3 ) PROP( )
+"S0" "variable" ( 3.3 ) PROP( )
+"V_FREQ" "variable" ( 0 ) PROP( )
+"tr" "variable" ( 1e-6 ) PROP( )
+"tf" "variable" ( 1e-6 ) PROP( )
+"TR" "variable" ( 1e-6 ) PROP( )
+"TF" "variable" ( 1e-6 ) PROP( )
+"temperature" "variable" ( 27 ) PROP( )
+"temp" "variable" ( 27 ) PROP( )
+END

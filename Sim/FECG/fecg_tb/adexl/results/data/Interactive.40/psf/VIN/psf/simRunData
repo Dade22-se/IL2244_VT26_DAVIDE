@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"design" "(\"FECG\" \"fecg_tb\" \"schematic\" \"\")"
+"simulator" "spectre"
+"temperature" "27"
+"host" ""
+"date" "Apr  3 10:31:58 2026"
+"title" ""
+"analysisList" "()"
+END

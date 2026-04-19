@@ -1,0 +1,18 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Mon Mar 16 17:43:07 2026 
+Best design point: 2
+Design specs: 
+	CHARACTERIZATION:GM_ID_PMOS:1	corner	Nominal - 
+Design parameters: 
+	IDS		1.166n
+	VDS		1.5
+	L		4u
+	NF		10
+	W		10u
+
+Ocean.3
+Number of points completed: 76
+Number of simulation errors: 0
+Ocean.3 completed. 
+Current time: Mon Mar 16 17:44:14 2026 

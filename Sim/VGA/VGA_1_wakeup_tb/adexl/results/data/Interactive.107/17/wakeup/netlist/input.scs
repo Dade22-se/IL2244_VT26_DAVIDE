@@ -1,0 +1,173 @@
+// Point Netlist Generated on: Apr 15 16:43:48 2026
+// Generated for: spectre
+// Design Netlist Generated on: Apr 15 12:55:46 2026
+// Design library name: VGA
+// Design cell name: VGA_1_wakeup_tb
+// Design view name: schematic
+simulator lang=spectre
+global 0
+include "/opt/pdk/ams/410/spectre/c35/soac/soac.scs"
+parameters temperature=85 TF=1u TR=1u tf=1u tr=1u V_FREQ=0 S0=3.3 S1=3.3 \
+    S2=3.3 S3=3.3 V_AMP=0 VDD=0 VIN_PULSE=0
+include "/opt/pdk/ams/410/spectre/c35/soac/processOption.scs"
+include "/opt/pdk/ams/410/spectre/c35/soac/cmos53.scs" section=cmoswz
+include "/opt/pdk/ams/410/spectre/c35/soac/res.scs" section=restm
+include "/opt/pdk/ams/410/spectre/c35/soac/cap.scs" section=capws
+include "/opt/pdk/ams/410/spectre/c35/soac/bip.scs" section=biptm
+include "/opt/pdk/ams/410/spectre/c35/soac/ind.scs" section=indtm
+include "/opt/pdk/ams/410/spectre/c35/soac/esddiode.scs" section=esddiodetm
+
+// Library name: VGA
+// Cell name: MUX
+// View name: schematic
+subckt MUX A0 AI C GNDA S VDDA
+    MN2 (AI S C GNDA) modn w=4u l=0.35u as=3.4e-12 ad=3.4e-12 ps=5.7u \
+        pd=5.7u nrd=0.125 nrs=0.125 ng=1
+    MN1 (A0 SN C GNDA) modn w=4u l=0.35u as=3.4e-12 ad=3.4e-12 ps=5.7u \
+        pd=5.7u nrd=0.125 nrs=0.125 ng=1
+    MN0 (SN S GNDA GNDA) modn w=0.8u l=0.35u as=6.8e-13 ad=6.8e-13 ps=2.5u \
+        pd=2.5u nrd=0.625 nrs=0.625 ng=1
+    MP0 (SN S VDDA VDDA) modp w=1.4u l=0.35u as=1.19e-12 ad=1.19e-12 \
+        ps=3.1u pd=3.1u nrd=0.3571429 nrs=0.3571429 ng=1
+ends MUX
+// End of subcircuit definition.
+
+// Library name: PRIMLIB
+// Cell name: cpolyc
+// View name: schematic
+subckt cpolyc MINUS PLUS SUB
+parameters pcap=15.5f area=100p perimeter=40u mmw=0
+    C1 (MINUS SUB) capacitor c=pcap m=1
+    C0 (PLUS MINUS) cpoly area=area perimeter=perimeter m=1 mmw=mmw
+ends cpolyc
+// End of subcircuit definition.
+
+// Library name: PRIMLIB
+// Cell name: rpolyhc
+// View name: schematic
+subckt rpolyhc PLUS MINUS REF
+parameters w=10u l=10u mult=1 mmw=0 cap=14.34f
+    R1 (PLUS net9) rpolyh w=w l=(0.5 * l) m=mult mmw=mmw
+    R2 (net9 MINUS) rpolyh w=w l=(0.5*l) m=mult mmw=mmw
+    CS0 (PLUS REF) capacitor c=(1-0.5*(1+tanh(l/200/w)))*cap/2 m=mult
+    CS1 (MINUS REF) capacitor c=(1-0.5*(1+tanh(l/200/w)))*cap/2 m=mult
+    CM (net9 REF) capacitor c=(0.5*(1+tanh(l/200/w))*cap) m=mult
+ends rpolyhc
+// End of subcircuit definition.
+
+// Library name: VGA
+// Cell name: VGA_1
+// View name: schematic
+subckt VGA_1 EN GNDA IBIAS S\<3\> S\<2\> S\<1\> S\<0\> VDDA VIN VOUT
+    MN6 (net6 net6 GNDA GNDA) modn w=30u l=15u as=2.55e-11 ad=2.55e-11 \
+        ps=31.7u pd=31.7u nrd=0.01666667 nrs=0.01666667 ng=1
+    MN5 (net19 net6 GNDA GNDA) modn w=15u l=15u as=1.275e-11 ad=7.5e-12 \
+        ps=16.7u pd=1u nrd=0.03333333 nrs=0.03333333 ng=2
+    MN4 (net4 net3 GNDA GNDA) modn w=20u l=12u as=1.7e-11 ad=1.7e-11 \
+        ps=21.7u pd=21.7u nrd=0.025 nrs=0.025 ng=1
+    MN3 (net3 net3 GNDA GNDA) modn w=20u l=12u as=1.7e-11 ad=1.7e-11 \
+        ps=21.7u pd=21.7u nrd=0.025 nrs=0.025 ng=1
+    MN2 (net14 IBIAS net4 GNDA) modn w=20u l=8u as=1.7e-11 ad=1.7e-11 \
+        ps=21.7u pd=21.7u nrd=0.025 nrs=0.025 ng=1
+    MN1 (IBIAS IBIAS net3 GNDA) modn w=20u l=8u as=1.7e-11 ad=1.7e-11 \
+        ps=21.7u pd=21.7u nrd=0.025 nrs=0.025 ng=1
+    MN0 (VOUT net19 GNDA GNDA) modn w=10u l=1u as=8.5e-12 ad=5e-12 \
+        ps=11.7u pd=1u nrd=0.05 nrs=0.05 ng=2
+    MP4 (net14 net14 VDDA VDDA) modp w=20u l=15u as=1.7e-11 ad=1.7e-11 \
+        ps=21.7u pd=21.7u nrd=0.025 nrs=0.025 ng=1
+    MP11 (net7 net7 VOUT VOUT) modp w=1u l=0.35u as=8.5e-13 ad=8.5e-13 \
+        ps=2.7u pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MP10 (net17 net17 net7 net7) modp w=1u l=0.35u as=8.5e-13 ad=8.5e-13 \
+        ps=2.7u pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MP9 (net16 net16 net17 net17) modp w=1u l=0.35u as=8.5e-13 ad=8.5e-13 \
+        ps=2.7u pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MP8 (net12 net12 net16 net16) modp w=1u l=0.35u as=8.5e-13 ad=8.5e-13 \
+        ps=2.7u pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MP7 (net15 net15 net12 net12) modp w=1u l=0.35u as=8.5e-13 ad=8.5e-13 \
+        ps=2.7u pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MP6 (GNDA net15 net2 net2) modp w=6.25u l=0.35u as=3.671875e-12 \
+        ad=3.125e-12 ps=2.7375u pd=1u nrd=0.08 nrs=0.08 ng=8
+    MP5 (net2 net14 VDDA VDDA) modp w=10u l=15u as=8.5e-12 ad=8.5e-12 \
+        ps=11.7u pd=11.7u nrd=0.05 nrs=0.05 ng=1
+    MP3 (VOUT net14 VDDA VDDA) modp w=50u l=15u as=2.85e-11 ad=2.5e-11 \
+        ps=11.14u pd=1u nrd=0.01 nrs=0.01 ng=10
+    MP2 (net5 net14 VDDA VDDA) modp w=10u l=15u as=5.7e-12 ad=5e-12 \
+        ps=3.14u pd=1u nrd=0.05 nrs=0.05 ng=10
+    MP1 (net19 VIN net5 net5) modp w=100u l=4u as=8.5e-11 ad=8.5e-11 \
+        ps=101.7u pd=101.7u nrd=0.005 nrs=0.005 ng=1
+    MP0 (net6 net15 net5 net5) modp w=100u l=4u as=8.5e-11 ad=8.5e-11 \
+        ps=101.7u pd=101.7u nrd=0.005 nrs=0.005 ng=1
+    I5 (net2 GNDA net1 GNDA S\<0\> VDDA) MUX
+    I3 (net2 GNDA net11 GNDA S\<3\> VDDA) MUX
+    I2 (net2 GNDA net10 GNDA S\<2\> VDDA) MUX
+    I1 (net2 GNDA net9 GNDA S\<1\> VDDA) MUX
+    C11 (VOUT net20 GNDA) cpolyc m=1 pcap=171.29f area=1.23n \
+        perimeter=140u mmw=0
+    C10 (VOUT net15 GNDA) cpolyc m=1 pcap=171.29f area=1.23n \
+        perimeter=140u mmw=0
+    C9\<0\> (net11 net15 GNDA) cpolyc m=1 pcap=171.29f area=1.23n \
+        perimeter=140u mmw=0
+    C9\<1\> (net11 net15 GNDA) cpolyc m=1 pcap=171.29f area=1.23n \
+        perimeter=140u mmw=0
+    C9\<2\> (net11 net15 GNDA) cpolyc m=1 pcap=171.29f area=1.23n \
+        perimeter=140u mmw=0
+    C9\<3\> (net11 net15 GNDA) cpolyc m=1 pcap=171.29f area=1.23n \
+        perimeter=140u mmw=0
+    C9\<4\> (net11 net15 GNDA) cpolyc m=1 pcap=171.29f area=1.23n \
+        perimeter=140u mmw=0
+    C9\<5\> (net11 net15 GNDA) cpolyc m=1 pcap=171.29f area=1.23n \
+        perimeter=140u mmw=0
+    C9\<6\> (net11 net15 GNDA) cpolyc m=1 pcap=171.29f area=1.23n \
+        perimeter=140u mmw=0
+    C9\<7\> (net11 net15 GNDA) cpolyc m=1 pcap=171.29f area=1.23n \
+        perimeter=140u mmw=0
+    C8\<0\> (net10 net15 GNDA) cpolyc m=1 pcap=171.29f area=1.23n \
+        perimeter=140u mmw=0
+    C8\<1\> (net10 net15 GNDA) cpolyc m=1 pcap=171.29f area=1.23n \
+        perimeter=140u mmw=0
+    C8\<2\> (net10 net15 GNDA) cpolyc m=1 pcap=171.29f area=1.23n \
+        perimeter=140u mmw=0
+    C8\<3\> (net10 net15 GNDA) cpolyc m=1 pcap=171.29f area=1.23n \
+        perimeter=140u mmw=0
+    C7\<0\> (net9 net15 GNDA) cpolyc m=1 pcap=171.29f area=1.23n \
+        perimeter=140u mmw=0
+    C7\<1\> (net9 net15 GNDA) cpolyc m=1 pcap=171.29f area=1.23n \
+        perimeter=140u mmw=0
+    C3 (net1 net15 GNDA) cpolyc m=1 pcap=171.29f area=1.23n perimeter=140u \
+        mmw=0
+    R2 (net19 net20 GNDA) rpolyhc w=2u l=150u mult=1 mmw=0 cap=50.7f
+ends VGA_1
+// End of subcircuit definition.
+
+// Library name: VGA
+// Cell name: VGA_1_wakeup_tb
+// View name: schematic
+I0 (net6 0 net5 S\<3\> S\<2\> S\<1\> S\<0\> vdd vin vout) VGA_1
+C1 (vout_filt 0) capacitor c=1n
+V5 (net1 net3) vsource dc=1.6 xfmag=1 type=dc
+V4 (S\<3\> 0) vsource dc=S3 type=dc
+V3 (S\<2\> 0) vsource dc=S2 type=dc
+V2 (S\<1\> 0) vsource dc=S1 type=dc
+V1 (S\<0\> 0) vsource dc=S0 type=dc
+I8 (0 net5) isource dc=200n type=dc
+V6 (vin net1) vsource mag=1 type=sine ampl=V_AMP freq=V_FREQ
+V8 (vdd 0) vsource dc=0 type=pulse val0=0 val1=3.3 period=100 delay=10u \
+        rise=TR fall=TF
+V7 (net3 0) vsource type=pulse val0=0 val1=VIN_PULSE period=1 delay=1u \
+        rise=tr fall=tf width=500m
+R0 (vout vout_filt) resistor r=100k
+simulatorOptions options psfversion="1.4.0" reltol=100e-6 vabstol=1e-6 \
+    iabstol=1e-12 temp=85 tnom=27 homotopy=all limit=delta scalem=1.0 \
+    scale=1.0 compatible=spice2 gmin=1e-12 rforce=1 maxnotes=5 maxwarns=5 \
+    digits=5 cols=80 pivrel=1e-3 sensfile="../psf/sens.output" \
+    checklimitdest=psf enable_pre_ver=yes ignorezerovar=yes 
+tran tran stop=50 errpreset=conservative write="spectre.ic" \
+    writefinal="spectre.fc" annotate=status maxiters=5 
+finalTimeOP info what=oppoint where=rawfile
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+saveOptions options save=allpub

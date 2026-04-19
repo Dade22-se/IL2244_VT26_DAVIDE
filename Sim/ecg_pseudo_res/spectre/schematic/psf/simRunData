@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"design" "(\"ECG_IA\" \"ecg_pseudo_res\" \"schematic\" \"\")"
+"simulator" "spectre"
+"temperature" "27"
+"host" ""
+"date" "Mar 17 10:12:57 2026"
+"title" ""
+"analysisList" "()"
+END

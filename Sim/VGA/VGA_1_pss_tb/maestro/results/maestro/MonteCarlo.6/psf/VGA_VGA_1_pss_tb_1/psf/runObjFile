@@ -1,0 +1,40 @@
+HEADER
+"PSFversion" "1.00"
+"Run Generator" "drlRun rev. 1.0"
+"Run Time Stamp" "Apr 15 13:19:44 2026"
+"date" "Apr 15 13:19:44 2026"
+"netlistDir" "../netlist"
+"axlParamFlag" "true"
+"#maeHistoryName" "MonteCarlo.6"
+"#maeTestName" "VGA_VGA_1_pss_tb_1"
+ "externalSweepVariableCount" 1
+TYPE
+"runObject" STRUCT(
+"logName" ARRAY( * ) STRING *
+"parent" STRING *
+"sweepVariable" ARRAY( * ) STRING *
+) PROP( "key" "runObject" )
+VALUE
+"Root" "runObject" (
+("")
+""
+("mcparamset")
+)
+"mcparamset=1.0" "runObject" (
+(
+"../../../1/VGA_VGA_1_pss_tb_1/psf/logFile"
+"../../../1/VGA_VGA_1_pss_tb_1/psf/artistLogFile"
+"../../../1/VGA_VGA_1_pss_tb_1/psf/matlabLogFile"
+)
+"Root"
+()
+) PROP(
+ "#maeDesignPoint" 1
+"#maeCorner" "nom"
+ "#pointID" 1
+"netlistDir" "../../../1/VGA_VGA_1_pss_tb_1/netlist"
+"dataDir" "../../../1/VGA_VGA_1_pss_tb_1"
+ "mcparamset" 1.000000e+00
+)
+
+END

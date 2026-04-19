@@ -1,0 +1,15 @@
+
+// Library name: ECG_IA
+// Cell name: ecg_vga_tb
+// View name: schematic
+V6 (S\<2\> 0) vsource dc=S2 type=dc
+V5 (S\<1\> 0) vsource dc=S1 type=dc
+V4 (S\<0\> 0) vsource dc=S0 type=dc
+V1 (net3 net4) vsource dc=1.6 xfmag=1 type=dc
+V0 (net2 0) vsource dc=VDD xfmag=1 type=dc
+I2 (0 net1) isource dc=200n type=dc
+V2 (VIN net3) vsource mag=1 type=sine ampl=VIN_AMP freq=50
+C0 (VOUT 0) capacitor c=100f
+V3 (net4 0) vsource type=pulse val0=0 val1=VIN_STEP period=1 delay=1u \
+        rise=1n fall=1n width=500.0m
+I0 (net1 0 S\<2\> S\<1\> S\<0\> net2 VIN VOUT) ecg_vga3

@@ -1,0 +1,497 @@
+// Point Netlist Generated on: Apr  3 10:29:01 2026
+// Generated for: spectre
+// Design Netlist Generated on: Apr  3 10:29:00 2026
+// Design library name: FECG
+// Design cell name: fecg_tb
+// Design view name: schematic
+simulator lang=spectre
+global 0
+include "/opt/pdk/ams/410/spectre/c35/soac/soac.scs"
+parameters temperature=27 VIN_STEP=0 VDD_STEP=0 F0=1 F1=1 F2=0 S0=3.3 S1=0 \
+    S2=0 T0=0 T1=0 T2=0 VIN_FREQ=50 VIN_AMP=10m FC=2K VCM_AC=1 VCM_DC=1.6 \
+    VDD=3.3 VIN_AC=1 VIN_DC=10m
+include "/opt/pdk/ams/410/spectre/c35/processOption.scs"
+include "/opt/pdk/ams/410/spectre/c35/cmos53.scs" section=cmostm
+include "/opt/pdk/ams/410/spectre/c35/res.scs" section=restm
+include "/opt/pdk/ams/410/spectre/c35/cap.scs" section=captm
+include "/opt/pdk/ams/410/spectre/c35/bip.scs" section=biptm
+include "/opt/pdk/ams/410/spectre/c35/ind.scs" section=indtm
+include "/opt/pdk/ams/410/spectre/c35/esddiode.scs" section=esddiodetm
+
+// Library name: PRIMLIB
+// Cell name: cpolyc
+// View name: schematic
+subckt cpolyc MINUS PLUS SUB
+parameters pcap=15.5f area=100p perimeter=40u mmw=0
+    C1 (MINUS SUB) capacitor c=pcap m=1
+    C0 (PLUS MINUS) cpoly area=area perimeter=perimeter m=1 mmw=mmw
+ends cpolyc
+// End of subcircuit definition.
+
+// Library name: PRIMLIB
+// Cell name: rpolyhc
+// View name: schematic
+subckt rpolyhc PLUS MINUS REF
+parameters w=10u l=10u mult=1 mmw=0 cap=14.34f
+    R1 (PLUS net9) rpolyh w=w l=(0.5 * l) m=mult mmw=mmw
+    R2 (net9 MINUS) rpolyh w=w l=(0.5*l) m=mult mmw=mmw
+    CS0 (PLUS REF) capacitor c=(1-0.5*(1+tanh(l/200/w)))*cap/2 m=mult
+    CS1 (MINUS REF) capacitor c=(1-0.5*(1+tanh(l/200/w)))*cap/2 m=mult
+    CM (net9 REF) capacitor c=(0.5*(1+tanh(l/200/w))*cap) m=mult
+ends rpolyhc
+// End of subcircuit definition.
+
+// Library name: FECG
+// Cell name: chopper
+// View name: schematic
+subckt chopper GNDA VDDA clk inn inp outn outp
+    MP8 (inp clk outn VDDA) modp w=10u l=0.35u as=6.75e-12 ad=5e-12 \
+        ps=6.35u pd=1u nrd=0.05 nrs=0.05 ng=4
+    MP7 (inp clkn outp VDDA) modp w=10u l=0.35u as=6.75e-12 ad=5e-12 \
+        ps=6.35u pd=1u nrd=0.05 nrs=0.05 ng=4
+    MP6 (inn clk outp VDDA) modp w=10u l=0.35u as=6.75e-12 ad=5e-12 \
+        ps=6.35u pd=1u nrd=0.05 nrs=0.05 ng=4
+    MP5 (inn clkn outn VDDA) modp w=10u l=0.35u as=6.75e-12 ad=5e-12 \
+        ps=6.35u pd=1u nrd=0.05 nrs=0.05 ng=4
+    MP4 (clkn clk VDDA VDDA) modp w=1.4u l=0.35u as=1.19e-12 ad=1.19e-12 \
+        ps=3.1u pd=3.1u nrd=0.3571429 nrs=0.3571429 ng=1
+    MN0 (clkn clk GNDA GNDA) modn w=0.8u l=0.35u as=6.8e-13 ad=6.8e-13 \
+        ps=2.5u pd=2.5u nrd=0.625 nrs=0.625 ng=1
+    MP3 (outn clk inn GNDA) modn w=10u l=0.35u as=8.5e-12 ad=5e-12 \
+        ps=11.7u pd=1u nrd=0.05 nrs=0.05 ng=2
+    MP2 (outp clkn inn GNDA) modn w=10u l=0.35u as=8.5e-12 ad=5e-12 \
+        ps=11.7u pd=1u nrd=0.05 nrs=0.05 ng=2
+    MP1 (outn clkn inp GNDA) modn w=10u l=0.35u as=8.5e-12 ad=5e-12 \
+        ps=11.7u pd=1u nrd=0.05 nrs=0.05 ng=2
+    MP0 (outp clk inp GNDA) modn w=10u l=0.35u as=8.5e-12 ad=5e-12 \
+        ps=11.7u pd=1u nrd=0.05 nrs=0.05 ng=2
+ends chopper
+// End of subcircuit definition.
+
+// Library name: FECG
+// Cell name: fecg_ia_3
+// View name: schematic
+subckt fecg_ia_3 BIAS GNDA VDDA VINN VINP VOUT CLK
+    MP13 (net19 net14 VDDA VDDA) modp w=10u l=12u as=5.7e-12 ad=5.7e-12 \
+        ps=3.14u pd=3.14u nrd=0.05 nrs=0.05 ng=5
+    MP12 (VOUT net14 VDDA VDDA) modp w=10u l=12u as=5.7e-12 ad=5e-12 \
+        ps=3.14u pd=1u nrd=0.05 nrs=0.05 ng=10
+    MP10 (net3 VREF net19 net19) modp w=10u l=4u as=5.7e-12 ad=5e-12 \
+        ps=3.14u pd=1u nrd=0.05 nrs=0.05 ng=10
+    MP9 (net5 A net19 net19) modp w=10u l=4u as=5.7e-12 ad=5e-12 ps=3.14u \
+        pd=1u nrd=0.05 nrs=0.05 ng=10
+    MP3 (net8 net6 VDDA VDDA) modp w=10u l=20u as=5.7e-12 ad=5.7e-12 \
+        ps=3.14u pd=3.14u nrd=0.05 nrs=0.05 ng=5
+    MP2 (net6 net6 VDDA VDDA) modp w=10u l=20u as=5.7e-12 ad=5.7e-12 \
+        ps=3.14u pd=3.14u nrd=0.05 nrs=0.05 ng=5
+    MP4 (net14 net14 VDDA VDDA) modp w=10u l=12u as=8.5e-12 ad=5e-12 \
+        ps=11.7u pd=1u nrd=0.05 nrs=0.05 ng=2
+    MP5 (net15 net14 VDDA VDDA) modp w=10u l=12u as=5.233333e-12 \
+        ad=5.233333e-12 ps=1.713333u pd=1.713333u nrd=0.05 nrs=0.05 ng=15
+    MP6 (net9 net14 VDDA VDDA) modp w=10u l=12u as=5.233333e-12 \
+        ad=5.233333e-12 ps=1.713333u pd=1.713333u nrd=0.05 nrs=0.05 ng=15
+    MP7 (A net7 net8 VDDA) modp w=10u l=4u as=5.7e-12 ad=5e-12 ps=3.14u \
+        pd=1u nrd=0.05 nrs=0.05 ng=10
+    MP8 (net7 net7 net6 VDDA) modp w=10u l=4u as=5.7e-12 ad=5e-12 ps=3.14u \
+        pd=1u nrd=0.05 nrs=0.05 ng=10
+    MP1 (net17 vinnc net9 net9) modp w=20u l=4u as=1.07e-11 ad=1e-11 \
+        ps=3.07u pd=1u nrd=0.025 nrs=0.025 ng=20
+    MP0 (net4 vinpc net15 net15) modp w=20u l=4u as=1.07e-11 ad=1e-11 \
+        ps=3.07u pd=1u nrd=0.025 nrs=0.025 ng=20
+    MN17 (VOUT net3 GNDA GNDA) modn w=1u l=2u as=5.7e-13 ad=5e-13 ps=1.34u \
+        pd=1u nrd=0.5 nrs=0.5 ng=10
+    MN16 (net5 net5 GNDA GNDA) modn w=10u l=8u as=6.75e-12 ad=5e-12 \
+        ps=6.35u pd=1u nrd=0.05 nrs=0.05 ng=4
+    MN15 (net3 net5 GNDA GNDA) modn w=10u l=8u as=6.75e-12 ad=5e-12 \
+        ps=6.35u pd=1u nrd=0.05 nrs=0.05 ng=4
+    MN14 (net9 BIAS net2 GNDA) modn w=1u l=4u as=5.7e-13 ad=5e-13 ps=1.34u \
+        pd=1u nrd=0.5 nrs=0.5 ng=10
+    MN13 (A BIAS D GNDA) modn w=1u l=4u as=5.7e-13 ad=5e-13 ps=1.34u pd=1u \
+        nrd=0.5 nrs=0.5 ng=10
+    MN11 (net15 BIAS net1 GNDA) modn w=1u l=4u as=5.7e-13 ad=5e-13 \
+        ps=1.34u pd=1u nrd=0.5 nrs=0.5 ng=10
+    MN10 (net7 BIAS B GNDA) modn w=1u l=4u as=5.7e-13 ad=5e-13 ps=1.34u \
+        pd=1u nrd=0.5 nrs=0.5 ng=10
+    MN9 (net14 BIAS net12 GNDA) modn w=10u l=8u as=6.75e-12 ad=5e-12 \
+        ps=6.35u pd=1u nrd=0.05 nrs=0.05 ng=4
+    MN7 (net12 net13 GNDA GNDA) modn w=4u l=40u as=3.4e-12 ad=2e-12 \
+        ps=5.7u pd=1u nrd=0.125 nrs=0.125 ng=2
+    MN6 (net17 net13 GNDA GNDA) modn w=4u l=40u as=2.28e-12 ad=2e-12 \
+        ps=1.94u pd=1u nrd=0.125 nrs=0.125 ng=10
+    MN3 (BC net4 GNDA GNDA) modn w=4u l=12u as=2.7e-12 ad=2e-12 ps=3.35u \
+        pd=1u nrd=0.125 nrs=0.125 ng=4
+    MN8 (BIAS BIAS net13 GNDA) modn w=10u l=8u as=8.5e-12 ad=5e-12 \
+        ps=11.7u pd=1u nrd=0.05 nrs=0.05 ng=2
+    MN2 (DC net17 GNDA GNDA) modn w=4u l=12u as=2.7e-12 ad=2e-12 ps=3.35u \
+        pd=1u nrd=0.125 nrs=0.125 ng=4
+    MN4 (net13 net13 GNDA GNDA) modn w=4u l=40u as=3.4e-12 ad=3.4e-12 \
+        ps=5.7u pd=5.7u nrd=0.125 nrs=0.125 ng=1
+    MN5 (net4 net13 GNDA GNDA) modn w=4u l=40u as=2.28e-12 ad=2e-12 \
+        ps=1.94u pd=1u nrd=0.125 nrs=0.125 ng=10
+    MN1 (net2 net17 GNDA GNDA) modn w=4u l=12u as=2.7e-12 ad=2e-12 \
+        ps=3.35u pd=1u nrd=0.125 nrs=0.125 ng=4
+    MN0 (net1 net4 GNDA GNDA) modn w=4u l=12u as=2.7e-12 ad=2e-12 ps=3.35u \
+        pd=1u nrd=0.125 nrs=0.125 ng=4
+    C2\<0\> (VOUT A GNDA) cpolyc m=1 pcap=317.2981f area=2.31n \
+        perimeter=192.1u mmw=0
+    C2\<1\> (VOUT A GNDA) cpolyc m=1 pcap=317.2981f area=2.31n \
+        perimeter=192.1u mmw=0
+    C2\<2\> (VOUT A GNDA) cpolyc m=1 pcap=317.2981f area=2.31n \
+        perimeter=192.1u mmw=0
+    C2\<3\> (VOUT A GNDA) cpolyc m=1 pcap=317.2981f area=2.31n \
+        perimeter=192.1u mmw=0
+    C2\<4\> (VOUT A GNDA) cpolyc m=1 pcap=317.2981f area=2.31n \
+        perimeter=192.1u mmw=0
+    C2\<5\> (VOUT A GNDA) cpolyc m=1 pcap=317.2981f area=2.31n \
+        perimeter=192.1u mmw=0
+    C2\<6\> (VOUT A GNDA) cpolyc m=1 pcap=317.2981f area=2.31n \
+        perimeter=192.1u mmw=0
+    C2\<7\> (VOUT A GNDA) cpolyc m=1 pcap=317.2981f area=2.31n \
+        perimeter=192.1u mmw=0
+    C2\<8\> (VOUT A GNDA) cpolyc m=1 pcap=317.2981f area=2.31n \
+        perimeter=192.1u mmw=0
+    C2\<9\> (VOUT A GNDA) cpolyc m=1 pcap=317.2981f area=2.31n \
+        perimeter=192.1u mmw=0
+    C0 (VOUT net3 GNDA) cpolyc m=1 pcap=317.2981f area=2.31n \
+        perimeter=192.1u mmw=0
+    V3 (VREF GNDA) vsource dc=1.5 type=dc
+    R2 (net15 E GNDA) rpolyhc w=2u l=15u mult=1 mmw=0 cap=5.07f
+    R1 (A VOUT GNDA) rpolyhc w=2u l=2400u mult=1 mmw=0 cap=811.2f
+    R0 (F net9 GNDA) rpolyhc w=2u l=15u mult=1 mmw=0 cap=5.07f
+    I14 (GNDA VDDA CLK F E FC EC) chopper
+    I9 (GNDA VDDA CLK D B DC BC) chopper
+    I8 (GNDA VDDA CLK VINN VINP vinnc vinpc) chopper
+    C3 (EC FC) capacitor c=6u
+ends fecg_ia_3
+// End of subcircuit definition.
+
+// Library name: CORELIBD
+// Cell name: INVX1
+// View name: cmos_sch
+subckt INVX1 A Q inh_gnd inh_vdd
+    M_i_1 (Q A inh_vdd inh_vdd) modp w=0.7u l=0.35u as=5.95e-13 \
+        ad=5.95e-13 ps=2.4u pd=2.4u nrd=0.7142857 nrs=0.7142857 ng=1
+    M_i_0 (Q A inh_gnd inh_gnd) modn w=0.4u l=0.35u as=3.4e-13 ad=3.4e-13 \
+        ps=2.1u pd=2.1u nrd=1.25 nrs=1.25 ng=1
+ends INVX1
+// End of subcircuit definition.
+
+// Library name: FECG
+// Cell name: gmc_5
+// View name: schematic
+subckt gmc_5 BIAS GNDA INN INP OUT S\<2\> S\<1\> S\<0\> VDDA
+    I7 (S\<1\> S1_N GNDA VDDA) INVX1
+    I8 (S\<0\> S0_N GNDA VDDA) INVX1
+    I6 (S\<2\> S2_N GNDA VDDA) INVX1
+    MP8 (net1 net1 net13 VDDA) modp w=5u l=5u as=4.25e-12 ad=4.25e-12 \
+        ps=6.7u pd=6.7u nrd=0.1 nrs=0.1 ng=1
+    MP7 (OUT net1 net6 VDDA) modp w=5u l=5u as=4.25e-12 ad=4.25e-12 \
+        ps=6.7u pd=6.7u nrd=0.1 nrs=0.1 ng=1
+    MP4 (net5 net3 VDDA VDDA) modp w=6u l=5u as=3.42e-12 ad=3e-12 ps=2.34u \
+        pd=1u nrd=0.08333333 nrs=0.08333333 ng=10
+    MP3 (net6 net1 VDDA VDDA) modp w=5u l=5u as=4.25e-12 ad=4.25e-12 \
+        ps=6.7u pd=6.7u nrd=0.1 nrs=0.1 ng=1
+    MP2 (net13 net1 VDDA VDDA) modp w=5u l=5u as=4.25e-12 ad=4.25e-12 \
+        ps=6.7u pd=6.7u nrd=0.1 nrs=0.1 ng=1
+    MP6 (net3 net3 VDDA VDDA) modp w=6u l=5u as=5.1e-12 ad=3e-12 ps=7.7u \
+        pd=1u nrd=0.08333333 nrs=0.08333333 ng=2
+    MP1 (net2 INP net5 net5) modp w=15u l=0.35u as=7.7625e-12 ad=7.5e-12 \
+        ps=1.785u pd=1u nrd=0.03333333 nrs=0.03333333 ng=40
+    MP10 (net20 S0_N OUT VDDA) modp w=2u l=1u as=1.7e-12 ad=1.7e-12 \
+        ps=3.7u pd=3.7u nrd=0.25 nrs=0.25 ng=1
+    MP11 (net191 S1_N OUT VDDA) modp w=2u l=1u as=1.7e-12 ad=1.7e-12 \
+        ps=3.7u pd=3.7u nrd=0.25 nrs=0.25 ng=1
+    MP5 (net9 net3 VDDA VDDA) modp w=6u l=5u as=3.42e-12 ad=3e-12 ps=2.34u \
+        pd=1u nrd=0.08333333 nrs=0.08333333 ng=10
+    MP0 (net4 INN net9 net9) modp w=15u l=0.35u as=7.7625e-12 ad=7.5e-12 \
+        ps=1.785u pd=1u nrd=0.03333333 nrs=0.03333333 ng=40
+    MP13 (net210 S2_N OUT VDDA) modp w=2u l=1u as=1.7e-12 ad=1.7e-12 \
+        ps=3.7u pd=3.7u nrd=0.25 nrs=0.25 ng=1
+    MN17 (OUT S\<0\> net20 GNDA) modn w=2u l=1u as=1.7e-12 ad=1.7e-12 \
+        ps=3.7u pd=3.7u nrd=0.25 nrs=0.25 ng=1
+    MN22 (OUT S\<1\> net191 GNDA) modn w=2u l=1u as=1.7e-12 ad=1.7e-12 \
+        ps=3.7u pd=3.7u nrd=0.25 nrs=0.25 ng=1
+    MN5 (BIAS BIAS net100 GNDA) modn w=2u l=40u as=1.14e-12 ad=1e-12 \
+        ps=1.54u pd=1u nrd=0.25 nrs=0.25 ng=10
+    MN7 (net4 net100 GNDA GNDA) modn w=2u l=40u as=1.233333e-12 \
+        ad=1.233333e-12 ps=1.9u pd=1.9u nrd=0.25 nrs=0.25 ng=3
+    MN6 (net2 net100 GNDA GNDA) modn w=2u l=40u as=1.233333e-12 \
+        ad=1.233333e-12 ps=1.9u pd=1.9u nrd=0.25 nrs=0.25 ng=3
+    MN1 (net5 net2 GNDA GNDA) modn w=2u l=80u as=1.07e-12 ad=1e-12 \
+        ps=1.27u pd=1u nrd=0.25 nrs=0.25 ng=20
+    MN2 (net12 net2 GNDA GNDA) modn w=2u l=80u as=1.7e-12 ad=1.7e-12 \
+        ps=3.7u pd=3.7u nrd=0.25 nrs=0.25 ng=1
+    MN3 (net10 net4 GNDA GNDA) modn w=2u l=80u as=1.7e-12 ad=1.7e-12 \
+        ps=3.7u pd=3.7u nrd=0.25 nrs=0.25 ng=1
+    MN24 (OUT S\<2\> net210 GNDA) modn w=2u l=1u as=1.7e-12 ad=1.7e-12 \
+        ps=3.7u pd=3.7u nrd=0.25 nrs=0.25 ng=1
+    MN12 (OUT net2 net12 GNDA) modn w=2u l=80u as=1.7e-12 ad=1.7e-12 \
+        ps=3.7u pd=3.7u nrd=0.25 nrs=0.25 ng=1
+    MN8 (net112 net100 GNDA GNDA) modn w=2u l=40u as=1.233333e-12 \
+        ad=1.233333e-12 ps=1.9u pd=1.9u nrd=0.25 nrs=0.25 ng=3
+    MN0 (net9 net4 GNDA GNDA) modn w=2u l=80u as=1.07e-12 ad=1e-12 \
+        ps=1.27u pd=1u nrd=0.25 nrs=0.25 ng=20
+    MN9 (net3 BIAS net112 GNDA) modn w=2u l=40u as=1.14e-12 ad=1e-12 \
+        ps=1.54u pd=1u nrd=0.25 nrs=0.25 ng=10
+    MN13 (net1 net4 net10 GNDA) modn w=2u l=80u as=1.7e-12 ad=1.7e-12 \
+        ps=3.7u pd=3.7u nrd=0.25 nrs=0.25 ng=1
+    MN4 (net100 net100 GNDA GNDA) modn w=2u l=40u as=1.7e-12 ad=1e-12 \
+        ps=3.7u pd=1u nrd=0.25 nrs=0.25 ng=2
+    C6\<0\> (GNDA OUT GNDA) cpolyc m=1 pcap=478.7f area=3.50n \
+        perimeter=240u mmw=0
+    C6\<1\> (GNDA OUT GNDA) cpolyc m=1 pcap=478.7f area=3.50n \
+        perimeter=240u mmw=0
+    C6\<2\> (GNDA OUT GNDA) cpolyc m=1 pcap=478.7f area=3.50n \
+        perimeter=240u mmw=0
+    C9\<0\> (GNDA net191 GNDA) cpolyc m=1 pcap=478.7f area=3.50n \
+        perimeter=240u mmw=0
+    C9\<1\> (GNDA net191 GNDA) cpolyc m=1 pcap=478.7f area=3.50n \
+        perimeter=240u mmw=0
+    C9\<2\> (GNDA net191 GNDA) cpolyc m=1 pcap=478.7f area=3.50n \
+        perimeter=240u mmw=0
+    C9\<3\> (GNDA net191 GNDA) cpolyc m=1 pcap=478.7f area=3.50n \
+        perimeter=240u mmw=0
+    C9\<4\> (GNDA net191 GNDA) cpolyc m=1 pcap=478.7f area=3.50n \
+        perimeter=240u mmw=0
+    C9\<5\> (GNDA net191 GNDA) cpolyc m=1 pcap=478.7f area=3.50n \
+        perimeter=240u mmw=0
+    C10\<0\> (GNDA net210 GNDA) cpolyc m=1 pcap=478.7f area=3.50n \
+        perimeter=240u mmw=0
+    C10\<1\> (GNDA net210 GNDA) cpolyc m=1 pcap=478.7f area=3.50n \
+        perimeter=240u mmw=0
+    C10\<2\> (GNDA net210 GNDA) cpolyc m=1 pcap=478.7f area=3.50n \
+        perimeter=240u mmw=0
+    C10\<3\> (GNDA net210 GNDA) cpolyc m=1 pcap=478.7f area=3.50n \
+        perimeter=240u mmw=0
+    C10\<4\> (GNDA net210 GNDA) cpolyc m=1 pcap=478.7f area=3.50n \
+        perimeter=240u mmw=0
+    C10\<5\> (GNDA net210 GNDA) cpolyc m=1 pcap=478.7f area=3.50n \
+        perimeter=240u mmw=0
+    C10\<6\> (GNDA net210 GNDA) cpolyc m=1 pcap=478.7f area=3.50n \
+        perimeter=240u mmw=0
+    C10\<7\> (GNDA net210 GNDA) cpolyc m=1 pcap=478.7f area=3.50n \
+        perimeter=240u mmw=0
+    C10\<8\> (GNDA net210 GNDA) cpolyc m=1 pcap=478.7f area=3.50n \
+        perimeter=240u mmw=0
+    C10\<9\> (GNDA net210 GNDA) cpolyc m=1 pcap=478.7f area=3.50n \
+        perimeter=240u mmw=0
+    C10\<10\> (GNDA net210 GNDA) cpolyc m=1 pcap=478.7f area=3.50n \
+        perimeter=240u mmw=0
+    C10\<11\> (GNDA net210 GNDA) cpolyc m=1 pcap=478.7f area=3.50n \
+        perimeter=240u mmw=0
+    C7\<0\> (GNDA net20 GNDA) cpolyc m=1 pcap=478.7f area=3.50n \
+        perimeter=240u mmw=0
+    C7\<1\> (GNDA net20 GNDA) cpolyc m=1 pcap=478.7f area=3.50n \
+        perimeter=240u mmw=0
+    C7\<2\> (GNDA net20 GNDA) cpolyc m=1 pcap=478.7f area=3.50n \
+        perimeter=240u mmw=0
+    R1 (net9 net5 GNDA) rpolyhc w=2u l=1500u mult=1 mmw=0 cap=507.00f
+ends gmc_5
+// End of subcircuit definition.
+
+// Library name: ECG_IA
+// Cell name: mux21
+// View name: schematic
+subckt mux21 A0 A1 C GNDA S VDDA
+    MN2 (SN S GNDA GNDA) modn w=0.8u l=0.35u as=6.8e-13 ad=6.8e-13 ps=2.5u \
+        pd=2.5u nrd=0.625 nrs=0.625 ng=1
+    MN1 (A1 S C GNDA) modn w=4u l=0.35u as=3.4e-12 ad=3.4e-12 ps=5.7u \
+        pd=5.7u nrd=0.125 nrs=0.125 ng=1
+    MN0 (A0 SN C GNDA) modn w=4u l=0.35u as=3.4e-12 ad=3.4e-12 ps=5.7u \
+        pd=5.7u nrd=0.125 nrs=0.125 ng=1
+    MP0 (SN S VDDA VDDA) modp w=1.4u l=0.35u as=1.19e-12 ad=1.19e-12 \
+        ps=3.1u pd=3.1u nrd=0.3571429 nrs=0.3571429 ng=1
+ends mux21
+// End of subcircuit definition.
+
+// Library name: FECG
+// Cell name: fecg_vga1
+// View name: schematic
+subckt fecg_vga1 BIAS GNDA S\<2\> S\<1\> S\<0\> VDDA VIN VOUT
+    MN9 (net15 BIAS net43 GNDA) modn w=10u l=8u as=8.5e-12 ad=5e-12 \
+        ps=11.7u pd=1u nrd=0.05 nrs=0.05 ng=2
+    MN7 (net43 net14 GNDA GNDA) modn w=10u l=12u as=8.5e-12 ad=5e-12 \
+        ps=11.7u pd=1u nrd=0.05 nrs=0.05 ng=2
+    MN17 (VOUT net41 GNDA GNDA) modn w=10u l=1u as=8.5e-12 ad=5e-12 \
+        ps=11.7u pd=1u nrd=0.05 nrs=0.05 ng=2
+    MN16 (net39 net39 GNDA GNDA) modn w=15u l=15u as=1.275e-11 ad=7.5e-12 \
+        ps=16.7u pd=1u nrd=0.03333333 nrs=0.03333333 ng=2
+    MN15 (net41 net39 GNDA GNDA) modn w=15u l=15u as=1.275e-11 ad=7.5e-12 \
+        ps=16.7u pd=1u nrd=0.03333333 nrs=0.03333333 ng=2
+    MN8 (BIAS BIAS net14 GNDA) modn w=10u l=8u as=8.5e-12 ad=5e-12 \
+        ps=11.7u pd=1u nrd=0.05 nrs=0.05 ng=2
+    MN4 (net14 net14 GNDA GNDA) modn w=10u l=12u as=8.5e-12 ad=5e-12 \
+        ps=11.7u pd=1u nrd=0.05 nrs=0.05 ng=2
+    R1 (net41 net1 GNDA) rpolyhc w=2u l=150u mult=1 mmw=0 cap=50.7f
+    C8\<0\> (net7 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C8\<1\> (net7 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C8\<2\> (net7 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C8\<3\> (net7 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C8\<4\> (net7 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C8\<5\> (net7 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C8\<6\> (net7 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C8\<7\> (net7 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C6\<0\> (net9 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C6\<1\> (net9 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C7\<0\> (net8 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C7\<1\> (net8 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C7\<2\> (net8 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C7\<3\> (net8 B GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C4 (VOUT B GNDA) cpolyc m=1 pcap=170.625f area=1.23n perimeter=140u \
+        mmw=0
+    C5 (GNDA B GNDA) cpolyc m=1 pcap=170.625f area=1.23n perimeter=140u \
+        mmw=0
+    C9\<0\> (VOUT net1 GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C9\<1\> (VOUT net1 GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    C9\<2\> (VOUT net1 GNDA) cpolyc m=1 pcap=170.625f area=1.23n \
+        perimeter=140u mmw=0
+    MP7 (net2 net2 VOUT VOUT) modp w=1u l=0.35u as=8.5e-13 ad=8.5e-13 \
+        ps=2.7u pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MP5 (GNDA B net3 net3) modp w=6.25u l=0.35u as=3.671875e-12 \
+        ad=3.125e-12 ps=2.7375u pd=1u nrd=0.08 nrs=0.08 ng=8
+    MP3 (net3 net15 VDDA VDDA) modp w=10u l=15u as=8.5e-12 ad=8.5e-12 \
+        ps=11.7u pd=11.7u nrd=0.05 nrs=0.05 ng=1
+    MP1 (B B net44 net44) modp w=1u l=0.35u as=8.5e-13 ad=8.5e-13 ps=2.7u \
+        pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MP0 (net44 net44 net5 net5) modp w=1u l=0.35u as=8.5e-13 ad=8.5e-13 \
+        ps=2.7u pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MP2 (net5 net5 net2 net2) modp w=1u l=0.35u as=8.5e-13 ad=8.5e-13 \
+        ps=2.7u pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MP4 (net15 net15 VDDA VDDA) modp w=10u l=15u as=8.5e-12 ad=5e-12 \
+        ps=11.7u pd=1u nrd=0.05 nrs=0.05 ng=2
+    MP13 (net33 net15 VDDA VDDA) modp w=10u l=15u as=5.7e-12 ad=5e-12 \
+        ps=3.14u pd=1u nrd=0.05 nrs=0.05 ng=10
+    MP12 (VOUT net15 VDDA VDDA) modp w=10u l=15u as=5.14e-12 ad=5e-12 \
+        ps=1.428u pd=1u nrd=0.05 nrs=0.05 ng=50
+    MP10 (net41 VIN net33 net33) modp w=10u l=4u as=5.7e-12 ad=5e-12 \
+        ps=3.14u pd=1u nrd=0.05 nrs=0.05 ng=10
+    MP9 (net39 B net33 net33) modp w=10u l=4u as=5.7e-12 ad=5e-12 ps=3.14u \
+        pd=1u nrd=0.05 nrs=0.05 ng=10
+    I0 (net3 GNDA net9 GNDA S\<0\> VDDA) mux21
+    I1 (net3 GNDA net8 GNDA S\<1\> VDDA) mux21
+    I2 (net3 GNDA net7 GNDA S\<2\> VDDA) mux21
+ends fecg_vga1
+// End of subcircuit definition.
+
+// Library name: FECG
+// Cell name: buffer2
+// View name: schematic
+subckt buffer2 BIAS GNDA INP OUT VDDA
+    C1 (VDDA net1 GNDA) cvar w=686.4u l=0.65u row=4 col=26 m=1
+    MP11 (net5 net5 OUT OUT) modp w=0.4u l=0.35u as=3.4e-13 ad=3.4e-13 \
+        ps=2.1u pd=2.1u nrd=1.25 nrs=1.25 ng=1
+    MP10 (net3 net3 net5 net5) modp w=0.4u l=0.35u as=3.4e-13 ad=3.4e-13 \
+        ps=2.1u pd=2.1u nrd=1.25 nrs=1.25 ng=1
+    MP6 (net1 net1 VDDA VDDA) modp w=10u l=3u as=8.5e-12 ad=8.5e-12 \
+        ps=11.7u pd=11.7u nrd=0.05 nrs=0.05 ng=1
+    MP3 (OUT net1 VDDA VDDA) modp w=10u l=3u as=5.14e-12 ad=5.14e-12 \
+        ps=1.428u pd=1.428u nrd=0.05 nrs=0.05 ng=25
+    MP1 (net13 INP net10 net10) modp w=20u l=0.5u as=1.07e-11 ad=1e-11 \
+        ps=3.07u pd=1u nrd=0.025 nrs=0.025 ng=20
+    MP0 (net12 net4 net10 net10) modp w=20u l=0.5u as=1.07e-11 ad=1e-11 \
+        ps=3.07u pd=1u nrd=0.025 nrs=0.025 ng=20
+    MP5 (net10 net1 VDDA VDDA) modp w=10u l=3u as=6.75e-12 ad=5e-12 \
+        ps=6.35u pd=1u nrd=0.05 nrs=0.05 ng=4
+    MP9 (net4 net4 net3 net3) modp w=0.4u l=0.35u as=3.4e-13 ad=3.4e-13 \
+        ps=2.1u pd=2.1u nrd=1.25 nrs=1.25 ng=1
+    MN9 (net1 BIAS net32 GNDA) modn w=2u l=40u as=1.14e-12 ad=1e-12 \
+        ps=1.54u pd=1u nrd=0.25 nrs=0.25 ng=10
+    MN8 (net32 net16 GNDA GNDA) modn w=2u l=40u as=1.7e-12 ad=1e-12 \
+        ps=3.7u pd=1u nrd=0.25 nrs=0.25 ng=2
+    MN5 (BIAS BIAS net16 GNDA) modn w=2u l=40u as=1.14e-12 ad=1e-12 \
+        ps=1.54u pd=1u nrd=0.25 nrs=0.25 ng=10
+    MN4 (net16 net16 GNDA GNDA) modn w=2u l=40u as=1.7e-12 ad=1e-12 \
+        ps=3.7u pd=1u nrd=0.25 nrs=0.25 ng=2
+    MN2 (OUT net13 GNDA GNDA) modn w=10u l=2u as=6.75e-12 ad=5e-12 \
+        ps=6.35u pd=1u nrd=0.05 nrs=0.05 ng=4
+    MN6 (net13 net12 GNDA GNDA) modn w=10u l=8u as=6.75e-12 ad=5e-12 \
+        ps=6.35u pd=1u nrd=0.05 nrs=0.05 ng=4
+    MN7 (net12 net12 GNDA GNDA) modn w=10u l=8u as=6.75e-12 ad=5e-12 \
+        ps=6.35u pd=1u nrd=0.05 nrs=0.05 ng=4
+    R0 (net13 net2 GNDA) rpolyhc w=2u l=75u mult=1 mmw=0 cap=25.35f
+    C2 (GNDA net4 GNDA) cpolyc m=1 pcap=160.2817f area=1.15n \
+        perimeter=135.6u mmw=0
+    C0\<0\> (OUT net2 GNDA) cpolyc m=1 pcap=221.6f area=1.60n \
+        perimeter=160u mmw=0
+    C0\<1\> (OUT net2 GNDA) cpolyc m=1 pcap=221.6f area=1.60n \
+        perimeter=160u mmw=0
+    C0\<2\> (OUT net2 GNDA) cpolyc m=1 pcap=221.6f area=1.60n \
+        perimeter=160u mmw=0
+    C0\<3\> (OUT net2 GNDA) cpolyc m=1 pcap=221.6f area=1.60n \
+        perimeter=160u mmw=0
+    C0\<4\> (OUT net2 GNDA) cpolyc m=1 pcap=221.6f area=1.60n \
+        perimeter=160u mmw=0
+    C0\<5\> (OUT net2 GNDA) cpolyc m=1 pcap=221.6f area=1.60n \
+        perimeter=160u mmw=0
+    C0\<6\> (OUT net2 GNDA) cpolyc m=1 pcap=221.6f area=1.60n \
+        perimeter=160u mmw=0
+    C0\<7\> (OUT net2 GNDA) cpolyc m=1 pcap=221.6f area=1.60n \
+        perimeter=160u mmw=0
+    C3 (OUT net4 GNDA) cpolyc m=1 pcap=160.2817f area=1.15n \
+        perimeter=135.6u mmw=0
+ends buffer2
+// End of subcircuit definition.
+
+// Library name: FECG
+// Cell name: fecg_tb
+// View name: schematic
+V13 (F\<1\> 0) vsource dc=F1 type=dc
+V12 (F\<2\> 0) vsource dc=F2 type=dc
+V11 (F\<0\> 0) vsource dc=F0 type=dc
+V5 (S\<1\> 0) vsource dc=S1 type=dc
+V6 (S\<2\> 0) vsource dc=S2 type=dc
+V4 (S\<0\> 0) vsource dc=S0 type=dc
+V2 (VCM 0) vsource dc=VCM_DC mag=VCM_AC xfmag=1 type=dc
+V1 (VDDA 0) vsource dc=VDD type=dc
+V7 (VINP VCM) vsource dc=VIN_DC/2 mag=VIN_AC/2 type=sine xfmag=1 \
+        pacmag=VIN_AC/2 ampl=VIN_AMP/2 freq=VIN_FREQ
+V8 (VCM VINN) vsource dc=VIN_DC/2 mag=VIN_AC/2 type=sine xfmag=1 \
+        pacmag=VIN_AC/2 ampl=VIN_AMP/2 freq=VIN_FREQ
+V0 (CLK 0) vsource type=pulse val0=0 val1=3.3 period=1/FC rise=1n fall=1n \
+        width=1/(2*FC)
+I15 (0 net8) isource dc=200n type=dc
+I13 (0 net6) isource dc=200n type=dc
+I9 (0 net2) isource dc=200n type=dc
+I5 (0 net5) isource dc=200n type=dc
+I3 (0 net1) isource dc=200n type=dc
+I10 (0 net3) isource dc=200n type=dc
+C0 (VOUT 0) capacitor c=100p
+I2 (net1 0 VDDA VINN VINP VIA CLK) fecg_ia_3
+I12 (net6 0 VLF1 net4 VLF1 F\<2\> F\<1\> F\<0\> VDDA) gmc_5
+I8 (net2 0 VLF1 VIA net4 F\<2\> F\<1\> F\<0\> VDDA) gmc_5
+I11 (net3 0 VLF2 VGA VLF2 F\<2\> F\<1\> F\<0\> VDDA) gmc_5
+I4 (net5 0 S\<2\> S\<1\> S\<0\> VDDA VLF1 VGA) fecg_vga1
+R0 (VOUT 0) resistor r=1M
+I14 (net8 0 VLF2 VOUT VDDA) buffer2
+simulatorOptions options psfversion="1.4.0" reltol=100e-6 vabstol=1e-6 \
+    iabstol=1e-12 temp=27 tnom=27 homotopy=all limit=delta scalem=1.0 \
+    scale=1.0 compatible=spice2 gmin=1e-12 rforce=1 maxnotes=5 maxwarns=5 \
+    digits=5 cols=80 pivrel=1e-3 sensfile="../psf/sens.output" \
+    checklimitdest=psf enable_pre_ver=yes ignorezerovar=yes 
+dcOp dc write="spectre.dc" maxiters=150 maxsteps=10000 annotate=status
+dcOpInfo info what=oppoint where=rawfile
+pss  pss  fund=50  harms=80  errpreset=conservative  annotate=status
+pac  pac  start=0.01  stop=100k  sidebands=[0]  annotate=status
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+saveOptions options save=allpub

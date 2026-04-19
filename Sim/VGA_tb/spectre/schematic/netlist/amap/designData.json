@@ -1,0 +1,1 @@
+{"hierarchy":{"top_level":1,"1":{"insts":{"V2":3,"V7":5,"V5":3,"V9":3,"V8":3,"V0":3,"R0":4}}},"modelMap":{"vsource":[5,3],"resistor":[4],"VGA":[2]},"cellviews":[["VGA","VGA_tb","schematic"],["VGA","VGA","veriloga"],["analogLib","vdc","spectre"],["analogLib","res","spectre"],["analogLib","vsin","spectre"]]}

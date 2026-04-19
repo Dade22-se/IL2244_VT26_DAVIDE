@@ -1,0 +1,5 @@
+
+// Library name: FECG
+// Cell name: fecg_ia_3
+// View name: schematic
+subckt fecg_ia_3 BIAS GNDA VDDA VINN VINP VOUT CLK

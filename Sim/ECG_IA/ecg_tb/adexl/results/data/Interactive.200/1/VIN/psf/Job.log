@@ -1,0 +1,16 @@
+\o _axlToolDisplayTestPointOutputLog("session5" "VIN" "/home/davidevi/Desktop/myproject/Sim/ECG_IA/ecg_tb/adexl/results/data/Interactive.200/1/VIN/psf/spectre.out")
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\e *Error* ("expt" 0 t nil ("*Error* expt: can't handle (nil**2)"))
+\e 
+\e 

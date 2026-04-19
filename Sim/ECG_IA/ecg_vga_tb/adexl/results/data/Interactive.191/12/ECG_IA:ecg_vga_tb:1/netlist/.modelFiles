@@ -1,0 +1,7 @@
+include "/opt/pdk/ams/410/spectre/c35/soac/processOption.scs"
+include "/opt/pdk/ams/410/spectre/c35/soac/cmos53.scs" section=cmoswz
+include "/opt/pdk/ams/410/spectre/c35/soac/res.scs" section=restm
+include "/opt/pdk/ams/410/spectre/c35/soac/cap.scs" section=capwp
+include "/opt/pdk/ams/410/spectre/c35/soac/bip.scs" section=biptm
+include "/opt/pdk/ams/410/spectre/c35/soac/ind.scs" section=indtm
+include "/opt/pdk/ams/410/spectre/c35/soac/esddiode.scs" section=esddiodetm

@@ -1,0 +1,14 @@
+
+// Library name: CHARACTERIZATION
+// Cell name: GM_ID_PMOS
+// View name: schematic
+E1 (net3 net1 net4 net2) vcvs gain=1000 min=0 max=3.3
+I2 (net2 net3) isource dc=IDS type=dc
+V2 (net3 0) vsource dc=3.3 type=dc
+V1 (net3 net4) vsource dc=VDS type=dc
+MP0 (net2 net1 net3 net3) modp w=W l=L \
+        as=(8.5e-07*W*(2-fmod(NF,2))+int((NF-1)/2)*2*5e-07*W)/NF \
+        ad=(8.5e-07*W*fmod(NF,2)+int(NF/2)*2*5e-07*W)/NF \
+        ps=((2*8.5e-07+W)*(2-fmod(NF,2))+int((NF-1)/2)*4*5e-07)/NF \
+        pd=((2*8.5e-07+W)*fmod(NF,2)+int(NF/2)*4*5e-07)/NF nrd=5e-07/W \
+        nrs=5e-07/W ng=NF

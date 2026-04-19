@@ -1,0 +1,6 @@
+CADENCE IHNL11144
+
+VGA MUX schematic cds0
+PRIMLIB cpolyc schematic cds1
+VGA VGA_1 schematic cds2
+VGA VGA_1_tb schematic cds3

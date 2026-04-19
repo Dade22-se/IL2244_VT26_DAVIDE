@@ -1,0 +1,106 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = FECG
+	Cell         = fecg_tb
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = VIN_none_Interactive.41
+	Results DB   = /home/davidevi/Desktop/IL2244_VT26_DAVIDE/FECG/fecg_tb/adexl/results/data/Interactive.41.rdb
+	Results Dir  = /home/davidevi/Desktop/myproject/Sim/FECG/fecg_tb/adexl/results/data/Interactive.41/1/VIN
+	Results Loc  = /home/davidevi/Desktop/myproject/Sim/FECG/fecg_tb/adexl/results/data
+	Project Dir  = /home/davidevi/Desktop/myproject/Sim
+	Setup DB loc = /home/davidevi/Desktop/IL2244_VT26_DAVIDE/FECG/fecg_tb/adexl
+	File Encoding = 0
+
+
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (0 1) on testbench [ VIN ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var F0 = "1"
+Setting var F1 = "1"
+Setting var F2 = "0"
+Setting var FC = "2K"
+Setting var S0 = "3.3"
+Setting var S1 = "0"
+Setting var S2 = "0"
+Setting var T0 = "0"
+Setting var T1 = "0"
+Setting var T2 = "0"
+Setting var VCM_AC = "1"
+Setting var VCM_DC = "1.6"
+Setting var VDD = "3.3"
+Setting var VDD_STEP = "0"
+Setting var VIN_AC = "1"
+Setting var VIN_AMP = "10m"
+Setting var VIN_DC = "10m"
+Setting var VIN_FREQ = "50"
+Setting var VIN_STEP = "0"
+Setting var temperature = "27"
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /home/davidevi/Desktop/myproject/Sim/FECG/fecg_tb/adexl/results/data/Interactive.41/1/VIN/netlist
+
+
+*Info*    Data Directory    =
+          /home/davidevi/Desktop/myproject/Sim/FECG/fecg_tb/adexl/results/data/Interactive.41/1/VIN
+
+
+*Info*    Creating Netlist for Point ID (0 1)
+
+generate netlist...
+function ansCdlCompPrim redefined
+function ansCdlCompPrim redefined
+Begin Incremental Netlisting Apr  8 12:13:32 2026
+WARNING (OSSHNL-940): Same Cell name 'chopper' is present in multiple libraries -  ECG_IA and FECG.
+
+WARNING (OSSHNL-941): Failed to open the sameCellNamesInMultipleLibs file '/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_tb/adexl/results/data/Interactive.8/1/VGA:VGA_1_tb:1/netlist/ihnl/sameCellNamesInMultipleLibs', in the append mode.
+Ensure that you have the write permission for the mentioned file.
+
+End netlisting Apr  8 12:13:32 2026
+
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [ VIN ] for Point ID (0 1).
+
+Delete psf data in /home/davidevi/Desktop/myproject/Sim/FECG/fecg_tb/adexl/results/data/Interactive.41/1/VIN/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+       and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+       There will be no performance impact on data visualization due to this change.
+*Info*    Current simulation for points ((0 1)).
+*Info*    (ADE-3072): Simulation stopped because you selected the
+          'Stop Simulation' command in ADE.
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.

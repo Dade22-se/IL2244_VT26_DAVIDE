@@ -1,0 +1,25 @@
+// VerilogA for VGA, FILTER, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module FILTER(VIN, VOUT, EN, VDDA, GNDA, IBIAS);
+inout VIN, VOUT, EN, VDDA, GNDA, IBIAS;
+electrical VIN, VOUT, EN, VDDA, GNDA, IBIAS;
+
+//Low pass filter frequency (Hz)
+
+parameter real filter_freq_ECG = 100;      
+parameter real filter_freq_EMG = 1e3;
+
+real v_filtered;
+real v_in;
+integer filter_freq = filter_freq_ECG;
+
+analog begin;
+	v_in = V(VIN);
+	v_filtered = laplace_nd(v_in,{2*`M_PI*filter_freq},{2*`M_PI*filter_freq, 1}); 
+	V(VOUT, GNDA) <+ v_filtered;
+end	
+
+endmodule

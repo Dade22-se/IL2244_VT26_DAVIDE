@@ -1,0 +1,5 @@
+
+// Library name: VGA
+// Cell name: VGA_1
+// View name: schematic
+subckt VGA_1 EN GNDA IBIAS S\<3\> S\<2\> S\<1\> S\<0\> VDDA VIN VOUT

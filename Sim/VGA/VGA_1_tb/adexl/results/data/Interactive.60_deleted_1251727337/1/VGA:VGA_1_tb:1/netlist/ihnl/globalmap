@@ -1,0 +1,23 @@
+CADENCE IHNL11140
+$model
+VGA/MUX/schematic MUX
+VGA/VGA_1/schematic VGA_1
+PRIMLIB/rpolyhc/schematic rpolyhc
+VGA/VGA_1_tb/schematic VGA_1_tb
+PRIMLIB/cpolyc/schematic cpolyc
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+V_AMP V_AMP
+VDD VDD
+S0 S0
+VIN_PULSE VIN_PULSE
+V_FREQ V_FREQ
+temperature temperature
+S3 S3
+S2 S2
+S1 S1
+bias bias
+$endparam

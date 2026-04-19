@@ -1,0 +1,8 @@
+HEADER
+"PSFversion" "1.00"
+"I7n" "analogLib_isin_spectre"
+"MP2n MP1n" "PRIMLIB_pmos4_spectre"
+"C2n C1n C0n" "analogLib_cap_spectre"
+"V1n" "analogLib_vpulse_spectre"
+"MN3n" "PRIMLIB_nmos4_spectre"
+"V0n" "analogLib_vdc_spectre"

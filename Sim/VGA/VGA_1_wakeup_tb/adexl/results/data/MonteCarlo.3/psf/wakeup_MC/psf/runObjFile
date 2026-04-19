@@ -1,0 +1,1522 @@
+HEADER
+"PSFversion" "1.00"
+"Run Generator" "drlRun rev. 1.0"
+"Run Time Stamp" "Apr 16 09:48:01 2026"
+"date" "Apr 16 09:48:01 2026"
+"simulator" "spectre"
+"netlistDir" "../netlist"
+"axlParamFlag" "true"
+ "externalSweepVariableCount" 1
+TYPE
+"runObject" STRUCT(
+"logName" ARRAY( * ) STRING *
+"parent" STRING *
+"sweepVariable" ARRAY( * ) STRING *
+) PROP( "key" "runObject" )
+VALUE
+"Root" "runObject" (
+("")
+""
+("mcparamset")
+)
+"mcparamset=1.0" "runObject" (
+(
+"../../../1/wakeup_MC/psf/logFile"
+"../../../1/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 1
+"netlistDir" "../../../1/wakeup_MC/netlist"
+"dataDir" "../../../1/wakeup_MC"
+ "mcparamset" 1.000000e+00
+)
+
+"mcparamset=2.0" "runObject" (
+(
+"../../../2/wakeup_MC/psf/logFile"
+"../../../2/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 2
+"netlistDir" "../../../2/wakeup_MC/netlist"
+"dataDir" "../../../2/wakeup_MC"
+ "mcparamset" 2.000000e+00
+)
+
+"mcparamset=3.0" "runObject" (
+(
+"../../../3/wakeup_MC/psf/logFile"
+"../../../3/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 3
+"netlistDir" "../../../3/wakeup_MC/netlist"
+"dataDir" "../../../3/wakeup_MC"
+ "mcparamset" 3.000000e+00
+)
+
+"mcparamset=4.0" "runObject" (
+(
+"../../../4/wakeup_MC/psf/logFile"
+"../../../4/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 4
+"netlistDir" "../../../4/wakeup_MC/netlist"
+"dataDir" "../../../4/wakeup_MC"
+ "mcparamset" 4.000000e+00
+)
+
+"mcparamset=5.0" "runObject" (
+(
+"../../../5/wakeup_MC/psf/logFile"
+"../../../5/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 5
+"netlistDir" "../../../5/wakeup_MC/netlist"
+"dataDir" "../../../5/wakeup_MC"
+ "mcparamset" 5.000000e+00
+)
+
+"mcparamset=6.0" "runObject" (
+(
+"../../../6/wakeup_MC/psf/logFile"
+"../../../6/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 6
+"netlistDir" "../../../6/wakeup_MC/netlist"
+"dataDir" "../../../6/wakeup_MC"
+ "mcparamset" 6.000000e+00
+)
+
+"mcparamset=7.0" "runObject" (
+(
+"../../../7/wakeup_MC/psf/logFile"
+"../../../7/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 7
+"netlistDir" "../../../7/wakeup_MC/netlist"
+"dataDir" "../../../7/wakeup_MC"
+ "mcparamset" 7.000000e+00
+)
+
+"mcparamset=8.0" "runObject" (
+(
+"../../../8/wakeup_MC/psf/logFile"
+"../../../8/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 8
+"netlistDir" "../../../8/wakeup_MC/netlist"
+"dataDir" "../../../8/wakeup_MC"
+ "mcparamset" 8.000000e+00
+)
+
+"mcparamset=9.0" "runObject" (
+(
+"../../../9/wakeup_MC/psf/logFile"
+"../../../9/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 9
+"netlistDir" "../../../9/wakeup_MC/netlist"
+"dataDir" "../../../9/wakeup_MC"
+ "mcparamset" 9.000000e+00
+)
+
+"mcparamset=10.0" "runObject" (
+(
+"../../../10/wakeup_MC/psf/logFile"
+"../../../10/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 10
+"netlistDir" "../../../10/wakeup_MC/netlist"
+"dataDir" "../../../10/wakeup_MC"
+ "mcparamset" 1.000000e+01
+)
+
+"mcparamset=11.0" "runObject" (
+(
+"../../../11/wakeup_MC/psf/logFile"
+"../../../11/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 11
+"netlistDir" "../../../11/wakeup_MC/netlist"
+"dataDir" "../../../11/wakeup_MC"
+ "mcparamset" 1.100000e+01
+)
+
+"mcparamset=12.0" "runObject" (
+(
+"../../../12/wakeup_MC/psf/logFile"
+"../../../12/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 12
+"netlistDir" "../../../12/wakeup_MC/netlist"
+"dataDir" "../../../12/wakeup_MC"
+ "mcparamset" 1.200000e+01
+)
+
+"mcparamset=13.0" "runObject" (
+(
+"../../../13/wakeup_MC/psf/logFile"
+"../../../13/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 13
+"netlistDir" "../../../13/wakeup_MC/netlist"
+"dataDir" "../../../13/wakeup_MC"
+ "mcparamset" 1.300000e+01
+)
+
+"mcparamset=14.0" "runObject" (
+(
+"../../../14/wakeup_MC/psf/logFile"
+"../../../14/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 14
+"netlistDir" "../../../14/wakeup_MC/netlist"
+"dataDir" "../../../14/wakeup_MC"
+ "mcparamset" 1.400000e+01
+)
+
+"mcparamset=15.0" "runObject" (
+(
+"../../../15/wakeup_MC/psf/logFile"
+"../../../15/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 15
+"netlistDir" "../../../15/wakeup_MC/netlist"
+"dataDir" "../../../15/wakeup_MC"
+ "mcparamset" 1.500000e+01
+)
+
+"mcparamset=16.0" "runObject" (
+(
+"../../../16/wakeup_MC/psf/logFile"
+"../../../16/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 16
+"netlistDir" "../../../16/wakeup_MC/netlist"
+"dataDir" "../../../16/wakeup_MC"
+ "mcparamset" 1.600000e+01
+)
+
+"mcparamset=17.0" "runObject" (
+(
+"../../../17/wakeup_MC/psf/logFile"
+"../../../17/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 17
+"netlistDir" "../../../17/wakeup_MC/netlist"
+"dataDir" "../../../17/wakeup_MC"
+ "mcparamset" 1.700000e+01
+)
+
+"mcparamset=18.0" "runObject" (
+(
+"../../../18/wakeup_MC/psf/logFile"
+"../../../18/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 18
+"netlistDir" "../../../18/wakeup_MC/netlist"
+"dataDir" "../../../18/wakeup_MC"
+ "mcparamset" 1.800000e+01
+)
+
+"mcparamset=19.0" "runObject" (
+(
+"../../../19/wakeup_MC/psf/logFile"
+"../../../19/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 19
+"netlistDir" "../../../19/wakeup_MC/netlist"
+"dataDir" "../../../19/wakeup_MC"
+ "mcparamset" 1.900000e+01
+)
+
+"mcparamset=20.0" "runObject" (
+(
+"../../../20/wakeup_MC/psf/logFile"
+"../../../20/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 20
+"netlistDir" "../../../20/wakeup_MC/netlist"
+"dataDir" "../../../20/wakeup_MC"
+ "mcparamset" 2.000000e+01
+)
+
+"mcparamset=21.0" "runObject" (
+(
+"../../../21/wakeup_MC/psf/logFile"
+"../../../21/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 21
+"netlistDir" "../../../21/wakeup_MC/netlist"
+"dataDir" "../../../21/wakeup_MC"
+ "mcparamset" 2.100000e+01
+)
+
+"mcparamset=22.0" "runObject" (
+(
+"../../../22/wakeup_MC/psf/logFile"
+"../../../22/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 22
+"netlistDir" "../../../22/wakeup_MC/netlist"
+"dataDir" "../../../22/wakeup_MC"
+ "mcparamset" 2.200000e+01
+)
+
+"mcparamset=23.0" "runObject" (
+(
+"../../../23/wakeup_MC/psf/logFile"
+"../../../23/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 23
+"netlistDir" "../../../23/wakeup_MC/netlist"
+"dataDir" "../../../23/wakeup_MC"
+ "mcparamset" 2.300000e+01
+)
+
+"mcparamset=24.0" "runObject" (
+(
+"../../../24/wakeup_MC/psf/logFile"
+"../../../24/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 24
+"netlistDir" "../../../24/wakeup_MC/netlist"
+"dataDir" "../../../24/wakeup_MC"
+ "mcparamset" 2.400000e+01
+)
+
+"mcparamset=25.0" "runObject" (
+(
+"../../../25/wakeup_MC/psf/logFile"
+"../../../25/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 25
+"netlistDir" "../../../25/wakeup_MC/netlist"
+"dataDir" "../../../25/wakeup_MC"
+ "mcparamset" 2.500000e+01
+)
+
+"mcparamset=26.0" "runObject" (
+(
+"../../../26/wakeup_MC/psf/logFile"
+"../../../26/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 26
+"netlistDir" "../../../26/wakeup_MC/netlist"
+"dataDir" "../../../26/wakeup_MC"
+ "mcparamset" 2.600000e+01
+)
+
+"mcparamset=27.0" "runObject" (
+(
+"../../../27/wakeup_MC/psf/logFile"
+"../../../27/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 27
+"netlistDir" "../../../27/wakeup_MC/netlist"
+"dataDir" "../../../27/wakeup_MC"
+ "mcparamset" 2.700000e+01
+)
+
+"mcparamset=28.0" "runObject" (
+(
+"../../../28/wakeup_MC/psf/logFile"
+"../../../28/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 28
+"netlistDir" "../../../28/wakeup_MC/netlist"
+"dataDir" "../../../28/wakeup_MC"
+ "mcparamset" 2.800000e+01
+)
+
+"mcparamset=29.0" "runObject" (
+(
+"../../../29/wakeup_MC/psf/logFile"
+"../../../29/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 29
+"netlistDir" "../../../29/wakeup_MC/netlist"
+"dataDir" "../../../29/wakeup_MC"
+ "mcparamset" 2.900000e+01
+)
+
+"mcparamset=30.0" "runObject" (
+(
+"../../../30/wakeup_MC/psf/logFile"
+"../../../30/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 30
+"netlistDir" "../../../30/wakeup_MC/netlist"
+"dataDir" "../../../30/wakeup_MC"
+ "mcparamset" 3.000000e+01
+)
+
+"mcparamset=31.0" "runObject" (
+(
+"../../../31/wakeup_MC/psf/logFile"
+"../../../31/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 31
+"netlistDir" "../../../31/wakeup_MC/netlist"
+"dataDir" "../../../31/wakeup_MC"
+ "mcparamset" 3.100000e+01
+)
+
+"mcparamset=32.0" "runObject" (
+(
+"../../../32/wakeup_MC/psf/logFile"
+"../../../32/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 32
+"netlistDir" "../../../32/wakeup_MC/netlist"
+"dataDir" "../../../32/wakeup_MC"
+ "mcparamset" 3.200000e+01
+)
+
+"mcparamset=33.0" "runObject" (
+(
+"../../../33/wakeup_MC/psf/logFile"
+"../../../33/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 33
+"netlistDir" "../../../33/wakeup_MC/netlist"
+"dataDir" "../../../33/wakeup_MC"
+ "mcparamset" 3.300000e+01
+)
+
+"mcparamset=34.0" "runObject" (
+(
+"../../../34/wakeup_MC/psf/logFile"
+"../../../34/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 34
+"netlistDir" "../../../34/wakeup_MC/netlist"
+"dataDir" "../../../34/wakeup_MC"
+ "mcparamset" 3.400000e+01
+)
+
+"mcparamset=35.0" "runObject" (
+(
+"../../../35/wakeup_MC/psf/logFile"
+"../../../35/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 35
+"netlistDir" "../../../35/wakeup_MC/netlist"
+"dataDir" "../../../35/wakeup_MC"
+ "mcparamset" 3.500000e+01
+)
+
+"mcparamset=36.0" "runObject" (
+(
+"../../../36/wakeup_MC/psf/logFile"
+"../../../36/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 36
+"netlistDir" "../../../36/wakeup_MC/netlist"
+"dataDir" "../../../36/wakeup_MC"
+ "mcparamset" 3.600000e+01
+)
+
+"mcparamset=37.0" "runObject" (
+(
+"../../../37/wakeup_MC/psf/logFile"
+"../../../37/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 37
+"netlistDir" "../../../37/wakeup_MC/netlist"
+"dataDir" "../../../37/wakeup_MC"
+ "mcparamset" 3.700000e+01
+)
+
+"mcparamset=38.0" "runObject" (
+(
+"../../../38/wakeup_MC/psf/logFile"
+"../../../38/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 38
+"netlistDir" "../../../38/wakeup_MC/netlist"
+"dataDir" "../../../38/wakeup_MC"
+ "mcparamset" 3.800000e+01
+)
+
+"mcparamset=39.0" "runObject" (
+(
+"../../../39/wakeup_MC/psf/logFile"
+"../../../39/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 39
+"netlistDir" "../../../39/wakeup_MC/netlist"
+"dataDir" "../../../39/wakeup_MC"
+ "mcparamset" 3.900000e+01
+)
+
+"mcparamset=40.0" "runObject" (
+(
+"../../../40/wakeup_MC/psf/logFile"
+"../../../40/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 40
+"netlistDir" "../../../40/wakeup_MC/netlist"
+"dataDir" "../../../40/wakeup_MC"
+ "mcparamset" 4.000000e+01
+)
+
+"mcparamset=41.0" "runObject" (
+(
+"../../../41/wakeup_MC/psf/logFile"
+"../../../41/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 41
+"netlistDir" "../../../41/wakeup_MC/netlist"
+"dataDir" "../../../41/wakeup_MC"
+ "mcparamset" 4.100000e+01
+)
+
+"mcparamset=42.0" "runObject" (
+(
+"../../../42/wakeup_MC/psf/logFile"
+"../../../42/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 42
+"netlistDir" "../../../42/wakeup_MC/netlist"
+"dataDir" "../../../42/wakeup_MC"
+ "mcparamset" 4.200000e+01
+)
+
+"mcparamset=43.0" "runObject" (
+(
+"../../../43/wakeup_MC/psf/logFile"
+"../../../43/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 43
+"netlistDir" "../../../43/wakeup_MC/netlist"
+"dataDir" "../../../43/wakeup_MC"
+ "mcparamset" 4.300000e+01
+)
+
+"mcparamset=44.0" "runObject" (
+(
+"../../../44/wakeup_MC/psf/logFile"
+"../../../44/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 44
+"netlistDir" "../../../44/wakeup_MC/netlist"
+"dataDir" "../../../44/wakeup_MC"
+ "mcparamset" 4.400000e+01
+)
+
+"mcparamset=45.0" "runObject" (
+(
+"../../../45/wakeup_MC/psf/logFile"
+"../../../45/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 45
+"netlistDir" "../../../45/wakeup_MC/netlist"
+"dataDir" "../../../45/wakeup_MC"
+ "mcparamset" 4.500000e+01
+)
+
+"mcparamset=46.0" "runObject" (
+(
+"../../../46/wakeup_MC/psf/logFile"
+"../../../46/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 46
+"netlistDir" "../../../46/wakeup_MC/netlist"
+"dataDir" "../../../46/wakeup_MC"
+ "mcparamset" 4.600000e+01
+)
+
+"mcparamset=47.0" "runObject" (
+(
+"../../../47/wakeup_MC/psf/logFile"
+"../../../47/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 47
+"netlistDir" "../../../47/wakeup_MC/netlist"
+"dataDir" "../../../47/wakeup_MC"
+ "mcparamset" 4.700000e+01
+)
+
+"mcparamset=48.0" "runObject" (
+(
+"../../../48/wakeup_MC/psf/logFile"
+"../../../48/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 48
+"netlistDir" "../../../48/wakeup_MC/netlist"
+"dataDir" "../../../48/wakeup_MC"
+ "mcparamset" 4.800000e+01
+)
+
+"mcparamset=49.0" "runObject" (
+(
+"../../../49/wakeup_MC/psf/logFile"
+"../../../49/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 49
+"netlistDir" "../../../49/wakeup_MC/netlist"
+"dataDir" "../../../49/wakeup_MC"
+ "mcparamset" 4.900000e+01
+)
+
+"mcparamset=50.0" "runObject" (
+(
+"../../../50/wakeup_MC/psf/logFile"
+"../../../50/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 50
+"netlistDir" "../../../50/wakeup_MC/netlist"
+"dataDir" "../../../50/wakeup_MC"
+ "mcparamset" 5.000000e+01
+)
+
+"mcparamset=51.0" "runObject" (
+(
+"../../../51/wakeup_MC/psf/logFile"
+"../../../51/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 51
+"netlistDir" "../../../51/wakeup_MC/netlist"
+"dataDir" "../../../51/wakeup_MC"
+ "mcparamset" 5.100000e+01
+)
+
+"mcparamset=52.0" "runObject" (
+(
+"../../../52/wakeup_MC/psf/logFile"
+"../../../52/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 52
+"netlistDir" "../../../52/wakeup_MC/netlist"
+"dataDir" "../../../52/wakeup_MC"
+ "mcparamset" 5.200000e+01
+)
+
+"mcparamset=53.0" "runObject" (
+(
+"../../../53/wakeup_MC/psf/logFile"
+"../../../53/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 53
+"netlistDir" "../../../53/wakeup_MC/netlist"
+"dataDir" "../../../53/wakeup_MC"
+ "mcparamset" 5.300000e+01
+)
+
+"mcparamset=54.0" "runObject" (
+(
+"../../../54/wakeup_MC/psf/logFile"
+"../../../54/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 54
+"netlistDir" "../../../54/wakeup_MC/netlist"
+"dataDir" "../../../54/wakeup_MC"
+ "mcparamset" 5.400000e+01
+)
+
+"mcparamset=55.0" "runObject" (
+(
+"../../../55/wakeup_MC/psf/logFile"
+"../../../55/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 55
+"netlistDir" "../../../55/wakeup_MC/netlist"
+"dataDir" "../../../55/wakeup_MC"
+ "mcparamset" 5.500000e+01
+)
+
+"mcparamset=56.0" "runObject" (
+(
+"../../../56/wakeup_MC/psf/logFile"
+"../../../56/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 56
+"netlistDir" "../../../56/wakeup_MC/netlist"
+"dataDir" "../../../56/wakeup_MC"
+ "mcparamset" 5.600000e+01
+)
+
+"mcparamset=57.0" "runObject" (
+(
+"../../../57/wakeup_MC/psf/logFile"
+"../../../57/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 57
+"netlistDir" "../../../57/wakeup_MC/netlist"
+"dataDir" "../../../57/wakeup_MC"
+ "mcparamset" 5.700000e+01
+)
+
+"mcparamset=58.0" "runObject" (
+(
+"../../../58/wakeup_MC/psf/logFile"
+"../../../58/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 58
+"netlistDir" "../../../58/wakeup_MC/netlist"
+"dataDir" "../../../58/wakeup_MC"
+ "mcparamset" 5.800000e+01
+)
+
+"mcparamset=59.0" "runObject" (
+(
+"../../../59/wakeup_MC/psf/logFile"
+"../../../59/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 59
+"netlistDir" "../../../59/wakeup_MC/netlist"
+"dataDir" "../../../59/wakeup_MC"
+ "mcparamset" 5.900000e+01
+)
+
+"mcparamset=60.0" "runObject" (
+(
+"../../../60/wakeup_MC/psf/logFile"
+"../../../60/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 60
+"netlistDir" "../../../60/wakeup_MC/netlist"
+"dataDir" "../../../60/wakeup_MC"
+ "mcparamset" 6.000000e+01
+)
+
+"mcparamset=61.0" "runObject" (
+(
+"../../../61/wakeup_MC/psf/logFile"
+"../../../61/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 61
+"netlistDir" "../../../61/wakeup_MC/netlist"
+"dataDir" "../../../61/wakeup_MC"
+ "mcparamset" 6.100000e+01
+)
+
+"mcparamset=62.0" "runObject" (
+(
+"../../../62/wakeup_MC/psf/logFile"
+"../../../62/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 62
+"netlistDir" "../../../62/wakeup_MC/netlist"
+"dataDir" "../../../62/wakeup_MC"
+ "mcparamset" 6.200000e+01
+)
+
+"mcparamset=63.0" "runObject" (
+(
+"../../../63/wakeup_MC/psf/logFile"
+"../../../63/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 63
+"netlistDir" "../../../63/wakeup_MC/netlist"
+"dataDir" "../../../63/wakeup_MC"
+ "mcparamset" 6.300000e+01
+)
+
+"mcparamset=64.0" "runObject" (
+(
+"../../../64/wakeup_MC/psf/logFile"
+"../../../64/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 64
+"netlistDir" "../../../64/wakeup_MC/netlist"
+"dataDir" "../../../64/wakeup_MC"
+ "mcparamset" 6.400000e+01
+)
+
+"mcparamset=65.0" "runObject" (
+(
+"../../../65/wakeup_MC/psf/logFile"
+"../../../65/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 65
+"netlistDir" "../../../65/wakeup_MC/netlist"
+"dataDir" "../../../65/wakeup_MC"
+ "mcparamset" 6.500000e+01
+)
+
+"mcparamset=66.0" "runObject" (
+(
+"../../../66/wakeup_MC/psf/logFile"
+"../../../66/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 66
+"netlistDir" "../../../66/wakeup_MC/netlist"
+"dataDir" "../../../66/wakeup_MC"
+ "mcparamset" 6.600000e+01
+)
+
+"mcparamset=67.0" "runObject" (
+(
+"../../../67/wakeup_MC/psf/logFile"
+"../../../67/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 67
+"netlistDir" "../../../67/wakeup_MC/netlist"
+"dataDir" "../../../67/wakeup_MC"
+ "mcparamset" 6.700000e+01
+)
+
+"mcparamset=68.0" "runObject" (
+(
+"../../../68/wakeup_MC/psf/logFile"
+"../../../68/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 68
+"netlistDir" "../../../68/wakeup_MC/netlist"
+"dataDir" "../../../68/wakeup_MC"
+ "mcparamset" 6.800000e+01
+)
+
+"mcparamset=69.0" "runObject" (
+(
+"../../../69/wakeup_MC/psf/logFile"
+"../../../69/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 69
+"netlistDir" "../../../69/wakeup_MC/netlist"
+"dataDir" "../../../69/wakeup_MC"
+ "mcparamset" 6.900000e+01
+)
+
+"mcparamset=70.0" "runObject" (
+(
+"../../../70/wakeup_MC/psf/logFile"
+"../../../70/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 70
+"netlistDir" "../../../70/wakeup_MC/netlist"
+"dataDir" "../../../70/wakeup_MC"
+ "mcparamset" 7.000000e+01
+)
+
+"mcparamset=71.0" "runObject" (
+(
+"../../../71/wakeup_MC/psf/logFile"
+"../../../71/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 71
+"netlistDir" "../../../71/wakeup_MC/netlist"
+"dataDir" "../../../71/wakeup_MC"
+ "mcparamset" 7.100000e+01
+)
+
+"mcparamset=72.0" "runObject" (
+(
+"../../../72/wakeup_MC/psf/logFile"
+"../../../72/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 72
+"netlistDir" "../../../72/wakeup_MC/netlist"
+"dataDir" "../../../72/wakeup_MC"
+ "mcparamset" 7.200000e+01
+)
+
+"mcparamset=73.0" "runObject" (
+(
+"../../../73/wakeup_MC/psf/logFile"
+"../../../73/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 73
+"netlistDir" "../../../73/wakeup_MC/netlist"
+"dataDir" "../../../73/wakeup_MC"
+ "mcparamset" 7.300000e+01
+)
+
+"mcparamset=74.0" "runObject" (
+(
+"../../../74/wakeup_MC/psf/logFile"
+"../../../74/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 74
+"netlistDir" "../../../74/wakeup_MC/netlist"
+"dataDir" "../../../74/wakeup_MC"
+ "mcparamset" 7.400000e+01
+)
+
+"mcparamset=75.0" "runObject" (
+(
+"../../../75/wakeup_MC/psf/logFile"
+"../../../75/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 75
+"netlistDir" "../../../75/wakeup_MC/netlist"
+"dataDir" "../../../75/wakeup_MC"
+ "mcparamset" 7.500000e+01
+)
+
+"mcparamset=76.0" "runObject" (
+(
+"../../../76/wakeup_MC/psf/logFile"
+"../../../76/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 76
+"netlistDir" "../../../76/wakeup_MC/netlist"
+"dataDir" "../../../76/wakeup_MC"
+ "mcparamset" 7.600000e+01
+)
+
+"mcparamset=77.0" "runObject" (
+(
+"../../../77/wakeup_MC/psf/logFile"
+"../../../77/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 77
+"netlistDir" "../../../77/wakeup_MC/netlist"
+"dataDir" "../../../77/wakeup_MC"
+ "mcparamset" 7.700000e+01
+)
+
+"mcparamset=78.0" "runObject" (
+(
+"../../../78/wakeup_MC/psf/logFile"
+"../../../78/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 78
+"netlistDir" "../../../78/wakeup_MC/netlist"
+"dataDir" "../../../78/wakeup_MC"
+ "mcparamset" 7.800000e+01
+)
+
+"mcparamset=79.0" "runObject" (
+(
+"../../../79/wakeup_MC/psf/logFile"
+"../../../79/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 79
+"netlistDir" "../../../79/wakeup_MC/netlist"
+"dataDir" "../../../79/wakeup_MC"
+ "mcparamset" 7.900000e+01
+)
+
+"mcparamset=80.0" "runObject" (
+(
+"../../../80/wakeup_MC/psf/logFile"
+"../../../80/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 80
+"netlistDir" "../../../80/wakeup_MC/netlist"
+"dataDir" "../../../80/wakeup_MC"
+ "mcparamset" 8.000000e+01
+)
+
+"mcparamset=81.0" "runObject" (
+(
+"../../../81/wakeup_MC/psf/logFile"
+"../../../81/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 81
+"netlistDir" "../../../81/wakeup_MC/netlist"
+"dataDir" "../../../81/wakeup_MC"
+ "mcparamset" 8.100000e+01
+)
+
+"mcparamset=82.0" "runObject" (
+(
+"../../../82/wakeup_MC/psf/logFile"
+"../../../82/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 82
+"netlistDir" "../../../82/wakeup_MC/netlist"
+"dataDir" "../../../82/wakeup_MC"
+ "mcparamset" 8.200000e+01
+)
+
+"mcparamset=83.0" "runObject" (
+(
+"../../../83/wakeup_MC/psf/logFile"
+"../../../83/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 83
+"netlistDir" "../../../83/wakeup_MC/netlist"
+"dataDir" "../../../83/wakeup_MC"
+ "mcparamset" 8.300000e+01
+)
+
+"mcparamset=84.0" "runObject" (
+(
+"../../../84/wakeup_MC/psf/logFile"
+"../../../84/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 84
+"netlistDir" "../../../84/wakeup_MC/netlist"
+"dataDir" "../../../84/wakeup_MC"
+ "mcparamset" 8.400000e+01
+)
+
+"mcparamset=85.0" "runObject" (
+(
+"../../../85/wakeup_MC/psf/logFile"
+"../../../85/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 85
+"netlistDir" "../../../85/wakeup_MC/netlist"
+"dataDir" "../../../85/wakeup_MC"
+ "mcparamset" 8.500000e+01
+)
+
+"mcparamset=86.0" "runObject" (
+(
+"../../../86/wakeup_MC/psf/logFile"
+"../../../86/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 86
+"netlistDir" "../../../86/wakeup_MC/netlist"
+"dataDir" "../../../86/wakeup_MC"
+ "mcparamset" 8.600000e+01
+)
+
+"mcparamset=87.0" "runObject" (
+(
+"../../../87/wakeup_MC/psf/logFile"
+"../../../87/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 87
+"netlistDir" "../../../87/wakeup_MC/netlist"
+"dataDir" "../../../87/wakeup_MC"
+ "mcparamset" 8.700000e+01
+)
+
+"mcparamset=88.0" "runObject" (
+(
+"../../../88/wakeup_MC/psf/logFile"
+"../../../88/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 88
+"netlistDir" "../../../88/wakeup_MC/netlist"
+"dataDir" "../../../88/wakeup_MC"
+ "mcparamset" 8.800000e+01
+)
+
+"mcparamset=89.0" "runObject" (
+(
+"../../../89/wakeup_MC/psf/logFile"
+"../../../89/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 89
+"netlistDir" "../../../89/wakeup_MC/netlist"
+"dataDir" "../../../89/wakeup_MC"
+ "mcparamset" 8.900000e+01
+)
+
+"mcparamset=90.0" "runObject" (
+(
+"../../../90/wakeup_MC/psf/logFile"
+"../../../90/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 90
+"netlistDir" "../../../90/wakeup_MC/netlist"
+"dataDir" "../../../90/wakeup_MC"
+ "mcparamset" 9.000000e+01
+)
+
+"mcparamset=91.0" "runObject" (
+(
+"../../../91/wakeup_MC/psf/logFile"
+"../../../91/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 91
+"netlistDir" "../../../91/wakeup_MC/netlist"
+"dataDir" "../../../91/wakeup_MC"
+ "mcparamset" 9.100000e+01
+)
+
+"mcparamset=92.0" "runObject" (
+(
+"../../../92/wakeup_MC/psf/logFile"
+"../../../92/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 92
+"netlistDir" "../../../92/wakeup_MC/netlist"
+"dataDir" "../../../92/wakeup_MC"
+ "mcparamset" 9.200000e+01
+)
+
+"mcparamset=93.0" "runObject" (
+(
+"../../../93/wakeup_MC/psf/logFile"
+"../../../93/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 93
+"netlistDir" "../../../93/wakeup_MC/netlist"
+"dataDir" "../../../93/wakeup_MC"
+ "mcparamset" 9.300000e+01
+)
+
+"mcparamset=94.0" "runObject" (
+(
+"../../../94/wakeup_MC/psf/logFile"
+"../../../94/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 94
+"netlistDir" "../../../94/wakeup_MC/netlist"
+"dataDir" "../../../94/wakeup_MC"
+ "mcparamset" 9.400000e+01
+)
+
+"mcparamset=95.0" "runObject" (
+(
+"../../../95/wakeup_MC/psf/logFile"
+"../../../95/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 95
+"netlistDir" "../../../95/wakeup_MC/netlist"
+"dataDir" "../../../95/wakeup_MC"
+ "mcparamset" 9.500000e+01
+)
+
+"mcparamset=96.0" "runObject" (
+(
+"../../../96/wakeup_MC/psf/logFile"
+"../../../96/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 96
+"netlistDir" "../../../96/wakeup_MC/netlist"
+"dataDir" "../../../96/wakeup_MC"
+ "mcparamset" 9.600000e+01
+)
+
+"mcparamset=97.0" "runObject" (
+(
+"../../../97/wakeup_MC/psf/logFile"
+"../../../97/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 97
+"netlistDir" "../../../97/wakeup_MC/netlist"
+"dataDir" "../../../97/wakeup_MC"
+ "mcparamset" 9.700000e+01
+)
+
+"mcparamset=98.0" "runObject" (
+(
+"../../../98/wakeup_MC/psf/logFile"
+"../../../98/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 98
+"netlistDir" "../../../98/wakeup_MC/netlist"
+"dataDir" "../../../98/wakeup_MC"
+ "mcparamset" 9.800000e+01
+)
+
+"mcparamset=99.0" "runObject" (
+(
+"../../../99/wakeup_MC/psf/logFile"
+"../../../99/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 99
+"netlistDir" "../../../99/wakeup_MC/netlist"
+"dataDir" "../../../99/wakeup_MC"
+ "mcparamset" 9.900000e+01
+)
+
+"mcparamset=100.0" "runObject" (
+(
+"../../../100/wakeup_MC/psf/logFile"
+"../../../100/wakeup_MC/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 100
+"netlistDir" "../../../100/wakeup_MC/netlist"
+"dataDir" "../../../100/wakeup_MC"
+ "mcparamset" 1.000000e+02
+)
+
+END

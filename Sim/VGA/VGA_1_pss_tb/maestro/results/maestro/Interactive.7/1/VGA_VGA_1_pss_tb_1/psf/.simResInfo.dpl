@@ -1,0 +1,9 @@
+nodes=33
+jobId=462
+idInRun=1
+host=il2244vt26_davidevi
+jobLog=logs0/Job462.log
+Memory=220 M
+startTime=5:22:40 PM, Wed Apr 15, 2026
+endTime=5:22:43 PM, Wed Apr 15, 2026
+elapsedTime=2.4 s

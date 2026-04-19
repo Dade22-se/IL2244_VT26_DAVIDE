@@ -1,0 +1,9 @@
+CADENCE IHNL11140
+$model
+VGA/VGA_bias_step/schematic VGA_bias_step
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+$endparam

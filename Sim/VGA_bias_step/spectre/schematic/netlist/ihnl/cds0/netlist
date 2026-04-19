@@ -1,0 +1,18 @@
+
+// Library name: VGA
+// Cell name: VGA_bias_step
+// View name: schematic
+MP1 (0 net6 net1 net1) modp w=10u l=0.35u as=1.1e-11 ad=1.1e-11 ps=12.2u \
+        pd=12.2u nrd=0.06 nrs=0.06 ng=1
+MP0 (net2 net5 net1 net1) modp w=10u l=0.35u as=1.1e-11 ad=1.1e-11 \
+        ps=12.2u pd=12.2u nrd=0.06 nrs=0.06 ng=1
+MN0 (out net2 net3 net3) modn w=10u l=0.35u as=1.1e-11 ad=1.1e-11 ps=12.2u \
+        pd=12.2u nrd=0.06 nrs=0.06 ng=1
+V1 (net5 0) vsource dc=1.6 type=dc
+V0 (net4 0) vsource dc=3.3 type=dc
+I8 (net3 0) isource dc=100n type=dc
+I7 (0 net2) isource dc=100n type=dc
+I6 (net1 net4) isource dc=200n type=dc
+C2 (out 0) capacitor c=150f
+C1 (net6 0) capacitor c=500.0f
+C0 (net6 out) capacitor c=39.5p

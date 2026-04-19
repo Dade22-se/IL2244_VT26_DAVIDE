@@ -1,0 +1,153 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = VGA
+	Cell         = VGA_1_tb
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = VGA:VGA_1_tb:1_none_Interactive.85
+	Results DB   = /home/davidevi/Desktop/myproject/VGA/VGA_1_tb/adexl/results/data/Interactive.85.rdb
+	Results Dir  = /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_tb/adexl/results/data/Interactive.85/1/VGA:VGA_1_tb:1
+	Results Loc  = /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_tb/adexl/results/data
+	Project Dir  = /home/davidevi/Desktop/myproject/Sim
+	Setup DB loc = /home/davidevi/Desktop/myproject/VGA/VGA_1_tb/adexl
+	File Encoding = 0
+
+
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (41 1) on testbench [ VGA:VGA_1_tb:1
+          ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var S0 = "3.3"
+Setting var S1 = "3.3"
+Setting var S2 = "3.3"
+Setting var S3 = "3.3"
+Setting var VDD = "3.3"
+Setting var VIN_PULSE = "10m"
+Setting var V_AMP = "0"
+Setting var V_FREQ = "1k"
+Setting var temperature = "27"
+Setting temp(T) = 27
+Setting var tf = "1n"
+Setting var tr = "1n"
+
+*Info*    Netlist Directory =
+          /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_tb/adexl/results/data/Interactive.85/1/VGA:VGA_1_tb:1/netlist
+
+
+*Info*    Data Directory    =
+          /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_tb/adexl/results/data/Interactive.85/1/VGA:VGA_1_tb:1
+
+
+*Info*    Creating Netlist for Point ID (41 1)
+
+generate netlist...
+function ansCdlCompPrim redefined
+function ansCdlCompPrim redefined
+Begin Incremental Netlisting Apr  8 12:26:57 2026
+WARNING (OSSHNL-941): Failed to open the sameCellNamesInMultipleLibs file '/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_tb/adexl/results/data/Interactive.8/1/VGA:VGA_1_tb:1/netlist/ihnl/sameCellNamesInMultipleLibs', in the append mode.
+Ensure that you have the write permission for the mentioned file.
+
+End netlisting Apr  8 12:26:57 2026
+
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [ VGA:VGA_1_tb:1 ] for
+          Point ID (41 1).
+
+Delete psf data in /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_tb/adexl/results/data/Interactive.85/1/VGA:VGA_1_tb:1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+       and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+       There will be no performance impact on data visualization due to this change.
+INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
+        on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
+        to view the simulation run log.
+reading simulation data...
+      ...successful.
+
+*Error*   Error ID  = 5011
+*Error*   Error Msg = Simulator failed to complete the simulation.
+
+          Error found by spectre during periodic steady state
+          analysis `pss'.
+Error found by spectre during periodic
+          steady state analysis `pss'.
+ERROR (SPCRTRF-15177): PSS
+          analysis doesn't support behavioral module components with
+          hidden states found in component 'cpoly_ahdl'. 
+          Skipped.
+ERROR (SPCRTRF-15177): PSS analysis doesn't
+          support behavioral module components with hidden states
+          found in component 'modn_ahdl'.  Skipped.
+ERROR
+          (SPCRTRF-15177): PSS analysis doesn't support behavioral
+          module components with hidden states found in component
+          'modp_ahdl'.  Skipped.
+ERROR (SPCRTRF-15177): PSS analysis
+          doesn't support behavioral module components with hidden
+          states found in component 'rpolyh_ahdl'.  Skipped.
+Error
+          found by spectre.
+Error found by spectre.
+ERROR
+          (SPCRTRF-15024): The pac analysis was skipped because a PSS
+          analysis must be run first.
+
+
+
+
+
+*Info*    Client has finished evaluating ... 
+
+ERROR (ADEXL-2709): Evaluation of output 'VOUT_PSS_time' returned 'nil' for point:'1' test:'VGA:VGA_1_tb:1'
+	Expression:'vtime('pss "/vout")'.
+Ensure that the definition of output is correct.
+
+ERROR (ADEXL-2709): Evaluation of output 'VOUT_PAC' returned 'nil' for point:'1' test:'VGA:VGA_1_tb:1'
+	Expression:'vh('pac "/vout")'.
+Ensure that the definition of output is correct.
+
+ERROR (ADEXL-2709): Evaluation of output 'VOUT_PSS' returned 'nil' for point:'1' test:'VGA:VGA_1_tb:1'
+	Expression:'vh('pss "/vout")'.
+Ensure that the definition of output is correct.
+
+
+*Info*    Run complete for Point ID (41 1) on testbench [
+          VGA:VGA_1_tb:1 ].
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.

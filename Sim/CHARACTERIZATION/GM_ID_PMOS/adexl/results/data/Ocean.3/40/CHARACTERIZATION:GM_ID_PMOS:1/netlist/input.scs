@@ -1,0 +1,44 @@
+// Generated for: spectre
+// Design Netlist Generated on: Mar 16 17:43:27 2026
+// Design library name: CHARACTERIZATION
+// Design cell name: GM_ID_PMOS
+// Design view name: schematic
+simulator lang=spectre
+global 0
+include "/opt/pdk/ams/410/spectre/c35/soac/soac.scs"
+parameters temperature=27 W=10e-6 NF=10 L=4e-6 VDS=1.5 IDS=398.1071706n
+include "/opt/pdk/ams/410/spectre/c35/soac/processOption.scs"
+include "/opt/pdk/ams/410/spectre/c35/soac/cmos53.scs" section=cmostm
+include "/opt/pdk/ams/410/spectre/c35/soac/res.scs" section=restm
+include "/opt/pdk/ams/410/spectre/c35/soac/cap.scs" section=captm
+include "/opt/pdk/ams/410/spectre/c35/soac/bip.scs" section=biptm
+include "/opt/pdk/ams/410/spectre/c35/soac/ind.scs" section=indtm
+include "/opt/pdk/ams/410/spectre/c35/soac/esddiode.scs" section=esddiodetm
+
+// Library name: CHARACTERIZATION
+// Cell name: GM_ID_PMOS
+// View name: schematic
+E1 (net3 net1 net4 net2) vcvs gain=1000 min=0 max=3.3
+I2 (net2 net3) isource dc=IDS type=dc
+V2 (net3 0) vsource dc=3.3 type=dc
+V1 (net3 net4) vsource dc=VDS type=dc
+MP0 (net2 net1 net3 net3) modp w=W l=L \
+        as=(8.5e-07*W*(2-fmod(NF,2))+int((NF-1)/2)*2*5e-07*W)/NF \
+        ad=(8.5e-07*W*fmod(NF,2)+int(NF/2)*2*5e-07*W)/NF \
+        ps=((2*8.5e-07+W)*(2-fmod(NF,2))+int((NF-1)/2)*4*5e-07)/NF \
+        pd=((2*8.5e-07+W)*fmod(NF,2)+int(NF/2)*4*5e-07)/NF nrd=5e-07/W \
+        nrs=5e-07/W ng=NF
+simulatorOptions options psfversion="1.4.0" reltol=100e-6 vabstol=1e-6 \
+    iabstol=1e-12 temp=27 tnom=27 homotopy=all limit=delta scalem=1.0 \
+    scale=1.0 compatible=spice2 gmin=1e-12 rforce=1 maxnotes=5 maxwarns=5 \
+    digits=5 cols=80 pivrel=1e-3 sensfile="../psf/sens.output" \
+    checklimitdest=psf enable_pre_ver=yes ignorezerovar=yes 
+dcOp dc write="spectre.dc" maxiters=150 maxsteps=10000 annotate=status
+dcOpInfo info what=oppoint where=rawfile
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+saveOptions options save=allpub

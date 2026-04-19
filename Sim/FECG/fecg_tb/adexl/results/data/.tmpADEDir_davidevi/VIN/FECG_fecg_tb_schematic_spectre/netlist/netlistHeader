@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Design Netlist Generated on: Apr  3 10:29:00 2026
+// Design library name: FECG
+// Design cell name: fecg_tb
+// Design view name: schematic
+simulator lang=spectre
+global 0

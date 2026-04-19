@@ -1,0 +1,1205 @@
+
+Spectre (R) Circuit Simulator
+Version 24.1.0.288.isr5 64bit -- 3 Apr 2025
+Copyright (C) 1989-2025 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: davidevi   Host: il2244vt26_davidevi   HostID: 11AC2C00   PID: 565449
+Memory  available: 3.0662 TB  physical: 3.2467 TB
+Linux   : Rocky Linux release 8.10 (Green Obsidian)
+CPU Type: Intel(R) Xeon(R) CPU E7-8857 v2 @ 3.00GHz
+        Socket: Processors [Frequency]
+        0:       0 [3390.5],  1 [3600.0],  2 [3300.0],  3 [3600.0],  4 [3600.0]
+                 5 [3395.0],  6 [1200.0],  7 [3394.8],  8 [3394.8],  9 [1200.0]
+                10 [1200.0], 11 [3394.6]
+        1:      12 [3600.0], 13 [3600.0], 14 [3600.0], 15 [3600.0], 16 [3600.0]
+                17 [3399.9], 18 [3600.0], 19 [3600.0], 20 [3398.5], 21 [3600.0]
+                22 [3600.0], 23 [3399.9]
+        2:      24 [3399.9], 25 [3399.9], 26 [1200.0], 27 [1400.0], 28 [1200.0]
+                29 [1200.0], 30 [3399.9], 31 [1200.0], 32 [3399.9], 33 [1200.0]
+                34 [1200.0], 35 [1200.0]
+        3:      36 [3387.8], 37 [3600.0], 38 [3600.0], 39 [1200.0], 40 [3389.8]
+                41 [3389.7], 42 [3600.0], 43 [1200.0], 44 [3600.0], 45 [3600.0]
+                46 [3389.8], 47 [3600.0]
+        
+System load averages (1min, 5min, 15min) : 28.1 %, 22.0 %, 21.2 %
+HPC is enabled
+
+
+Simulating `input.scs' on il2244vt26_davidevi at 3:48:17 PM, Sat Mar 21, 2026 (process id: 565449).
+Current working directory: /home/davidevi/Desktop/myproject/Sim/ECG_IA/ecg_vga_tb/adexl/results/data/Interactive.191/33/ECG_IA:ecg_vga_tb:1/netlist
+Command line:
+    /opt/tools/cadence/installs/SPECTRE241/tools/bin/spectre -64  \
+        input.scs +escchars +log ../psf/spectre.out -format psfbin  \
+        +rtsf -raw ../psf +aps +mt +lqtimeout 900 -maxw 5 -maxn 5  \
+        +param /opt/pdk/ams/410/spectre/ams_range.lmts -env ade  \
+        -ahdllibdir  \
+        /home/davidevi/Desktop/myproject/Sim/ECG_IA/ecg_vga_tb/adexl/results/data/Interactive.191/sharedData/Job124/ahdl/input.ahdlSimDB  \
+        +logstatus  \
+        +adespetkn=0001089D13A302B663E41FB550AF0DF415A679A322D5069144BF588C12F604E07EF416DC01A319B562BB63D307EE41A745A347E978DF25A14CCA5BDC4DC04F9264FC79D15D9175FF34986BDD0AF002BA50FD7FD707E002A700AC1C841DFF43E20EA979D12FF874D3349879D118F874D33498106FA538C9135D26000036B5
+
+Simulation Id: 5t1UFjxRQrnyriPd
+Licensing Information:
+[15:48:17.121810] Configured Lic search path (24.01-s002): 3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
+
+Licensing Information:
+[15:48:17.396443] Periodic Lic check successful
+
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libphilips_I_sh.so ...
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+
+Warning from spectre.
+    WARNING (SPECTRE-691): This CPU processor does not support x86 advanced vector extensions instructions. This may affect math operations and slow down the simulation.
+
+Reading file:  /home/davidevi/Desktop/myproject/Sim/ECG_IA/ecg_vga_tb/adexl/results/data/Interactive.191/33/ECG_IA:ecg_vga_tb:1/netlist/input.scs
+Reading file:  /opt/pdk/ams/410/spectre/ams_range.lmts
+
+Warning from spectre during read of parameter soft limits file `/opt/pdk/ams/410/spectre/ams_range.lmts', during circuit read-in.
+    WARNING (SPECTRE-8360): line 1511: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1512: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1513: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1514: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1515: `ac' is an undefined primitive device.
+        Further occurrences of this warning will be suppressed.
+
+Reading file:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /opt/pdk/ams/410/spectre/c35/soac/soac.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/soac/processOption.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/soac/process.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/soac/soac.va
+
+Warning from spectre during AHDL read-in.
+    WARNING (VACOMP-2435): The environment variable CDS_AHDLCMI_ENABLE is no longer supported. Therefore, the simulator will use the default compiled C code flow.
+
+Reading link:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/constants.h
+Reading file:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/constants.vams
+Reading link:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/discipline.h
+Reading file:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/disciplines.vams
+Reading file:  /opt/pdk/ams/410/spectre/c35/processOption/C35B4C3.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/soac/cmos53.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/soac/res.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/soac/cap.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/soac/bip.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/soac/ind.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/soac/esddiode.scs
+Time for NDB Parsing: CPU = 149.467 ms, elapsed = 302.562 ms.
+Time accumulated: CPU = 332.825 ms, elapsed = 302.564 ms.
+Peak resident memory used = 175 Mbytes.
+
+Existing shared object for module modn_ahdl is up to date.
+Installed compiled interface for modn_ahdl.
+Existing shared object for module rpolyh_ahdl is up to date.
+Installed compiled interface for rpolyh_ahdl.
+Existing shared object for module cpoly_ahdl is up to date.
+Installed compiled interface for cpoly_ahdl.
+Existing shared object for module modp_ahdl is up to date.
+Installed compiled interface for modp_ahdl.
+Existing shared object for module bsource_19b458 is up to date.
+Installed compiled interface for bsource_19b458.
+Time for Elaboration: CPU = 39.844 ms, elapsed = 42.001 ms.
+Time accumulated: CPU = 372.825 ms, elapsed = 344.72 ms.
+Peak resident memory used = 187 Mbytes.
+
+
+Notice from spectre during hierarchy flattening.
+    The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option.
+
+
+*****************************************************************************************
+* 
+* INFO: AMS_processOption = C35B4C3
+* 
+* INFO: Valid Modules  PIP VG5 HIRES
+* 
+*****************************************************************************************
+
+
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-8527): There are some nodes and instances removed from the netlist topology check. Check the circuit and correct the topology. Or use preserve_inst to keep them if necessary.
+
+***********************************************
+  Total removed instances 2 ( dangling 0, terminals connected together 2)  
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-8528): The I0.C5.C1 device is removed because its terminals are connected together. Check the device in the netlist file to ensure that this warning can be ignored.
+    WARNING (SPECTRE-8528): The I0.MP8 device is removed because its terminals are connected together. Check the device in the netlist file to ensure that this warning can be ignored.
+
+
+  Total removed nodes 0 ( dangling nodes 0, floating nodes 0 )
+***********************************************
+Time for EDB Visiting: CPU = 6.675 ms, elapsed = 6.675 ms.
+Time accumulated: CPU = 379.641 ms, elapsed = 351.536 ms.
+Peak resident memory used = 189 Mbytes.
+
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/mdl/lib/64bit/libSpectreEH_sh.so ...
+
+Warning from spectre during initial setup.
+    WARNING (SPECTRE-16460): SOAC_cvarm_vspsub:Specified subcircuit master `cvarm' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvarm_vspsub:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvarm_vbs:Specified subcircuit master `cvarm' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvarm_vbs:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvarm_vgb:Specified subcircuit master `cvarm' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvarm_vgb:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvart_vspsub:Specified subcircuit master `cvart' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvart_vspsub:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvart_vbs:Specified subcircuit master `cvart' was not found.
+        Further occurrences of this warning will be suppressed.
+    WARNING (SPECTRE-16462): SOAC_cvart_vbs:Error in specification of subcircuit master. Assert is ignored.
+        Further occurrences of this warning will be suppressed.
+Notice from spectre during topology check.
+    Only one connection to the following 39 nodes:
+        I0.MN9.psub!
+        I0.MN7.psub!
+        I0.MN17.psub!
+        I0.MN16.psub!
+        I0.MN15.psub!
+        Further occurrences of this notice will be suppressed.
+Notice from spectre during initial setup.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Netlist title:
+        // Point Netlist Generated on: Mar 21 15:48:16 2026
+
+
+Global user options:
+         psfversion = 1.4.0
+            vabstol = 1e-06
+            iabstol = 1e-12
+               temp = 85
+           homotopy = 5
+              limit = delta
+         compatible = spice2
+               gmin = 1e-12
+             rforce = 1
+           maxnotes = 5
+           maxwarns = 5
+             digits = 5
+               cols = 80
+             pivrel = 0.001
+           sensfile = ../psf/sens.output
+     checklimitdest = psf
+     enable_pre_ver = yes
+      ignorezerovar = yes
+               save = allpub
+             reltol = 0.0001
+               tnom = 27
+             scalem = 1
+              scale = 1
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 81
+            bsim3v3 31    
+     bsource_19b458 2     
+          capacitor 42    
+         cpoly_ahdl 19    
+            isource 1     
+          modn_ahdl 16    
+          modp_ahdl 15    
+           resistor 1     
+        rpolyh_ahdl 2     
+            vsource 7     
+
+Analysis and control statement inventory:
+                 ac 1     
+                 dc 1     
+               info 8     
+              noise 1     
+                 pz 1     
+               tran 1     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 0     
+
+Design checks inventory:
+          paramtest 53    
+             assert 175   
+
+
+Notice from spectre during initial setup.
+    APS enabled.
+    1 notice suppressed.
+    72 warnings suppressed.
+
+Time for parsing: CPU = 14.374 ms, elapsed = 551.625 ms.
+Time accumulated: CPU = 394.117 ms, elapsed = 903.262 ms.
+Peak resident memory used = 196 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+   -   (APS) Multi-threading. The recommended number of threads is 1, consider adding +mt=1 on command line.
+~~~~~~~~~~~~~~~~~~~~~~
+
+******************
+DC Analysis `dcOp'
+******************
+
+Notice from spectre during DC analysis `dcOp'.
+    No checklimit analysis defined for asserts. A default checklimit analysis 'SpectreChecklimitAnal' has been created with all asserts enabled.
+
+
+Opening the PSF file ../psf/dcOp.dc ...
+Important parameter values:
+    reltol = 100e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 85 C
+    tnom = 27 C
+    tempeffects = all
+    gmindc = 1 pS
+    rabsshort = 1 mOhm
+
+Notice from spectre during DC analysis `dcOp'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+SOAC: I0.I2.MP0.soac_m1       modp V(D,S): LEAVING@  0us ;
+SOAC: I0.I2.MP0.soac_m1       modp V(D,B): LEAVING@  0us ;
+SOAC: I0.I1.MP0.soac_m1       modp V(D,S): LEAVING@  0us ;
+SOAC: I0.I1.MP0.soac_m1       modp V(D,B): LEAVING@  0us ;
+SOAC: I0.I0.MP0.soac_m1       modp V(D,S): LEAVING@  0us ;
+SOAC: I0.I0.MP0.soac_m1       modp V(D,B): LEAVING@  0us ;
+
+Maximum value achieved for any signal of each quantity: 
+V: V(net2) = 3.63 V
+I: I(V0:p) = 6.331 uA
+Maximum value of each quantity, excluding Verilog-A modules or dangling current sources:
+V: V(VOUT2) = 1.6 V
+I: I(V0:p) = 6.331 uA
+
+Warning from spectre during check, during DC analysis `dcOp'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C9<0>_turbo_m3.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C4.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C7<0>_turbo_m4.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C6<0>_turbo_m2.C1'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 17 iterations.
+
+Opening the PSF file ../psf/dcOpViolations.violations ...
+DC simulation time: CPU = 78.987 ms, elapsed = 84.1899 ms.
+Total time required for dc analysis `dcOp': CPU = 79.094 ms, elapsed = 84.2879 ms, util. = 93.8%.
+Time accumulated: CPU = 493.648 ms, elapsed = 1.00838 s.
+Peak resident memory used = 204 Mbytes.
+
+
+Notice from spectre.
+    11 warnings suppressed.
+
+dcOpInfo: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dcOpInfo.info ...
+
+****************
+PZ Analysis `pz'
+****************
+
+Warning from spectre during PZ analysis `pz'.
+    WARNING: BSIM3v3 MOS Transistor - frequency dependent components are present in the circuit, approximated as AC equivalents at 1.000000e+00Hz for pz analysis.
+Notice from spectre during DC analysis, during PZ analysis `pz'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+SOAC: I0.I2.MP0.soac_m1       modp V(D,S): LEAVING@  -0.001us ;
+SOAC: I0.I2.MP0.soac_m1       modp V(D,B): LEAVING@  -0.001us ;
+SOAC: I0.I1.MP0.soac_m1       modp V(D,S): LEAVING@  -0.001us ;
+SOAC: I0.I1.MP0.soac_m1       modp V(D,B): LEAVING@  -0.001us ;
+SOAC: I0.I0.MP0.soac_m1       modp V(D,S): LEAVING@  -0.001us ;
+SOAC: I0.I0.MP0.soac_m1       modp V(D,B): LEAVING@  -0.001us ;
+
+Warning from spectre during check, during DC analysis, during PZ analysis `pz'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C9<0>_turbo_m3.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C4.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C7<0>_turbo_m4.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C6<0>_turbo_m2.C1'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 17 iterations.
+DC simulation time: CPU = 2.899 ms, elapsed = 2.89893 ms.
+
+Opening the PSF file ../psf/pz.pz ...
+SOAC: I0.I2.MP0.soac_m1       modp V(D,S): LEAVING@  -0.001us ;
+SOAC: I0.I2.MP0.soac_m1       modp V(D,B): LEAVING@  -0.001us ;
+SOAC: I0.I1.MP0.soac_m1       modp V(D,S): LEAVING@  -0.001us ;
+SOAC: I0.I1.MP0.soac_m1       modp V(D,B): LEAVING@  -0.001us ;
+SOAC: I0.I0.MP0.soac_m1       modp V(D,S): LEAVING@  -0.001us ;
+SOAC: I0.I0.MP0.soac_m1       modp V(D,B): LEAVING@  -0.001us ;
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 772 us, elapsed = 772.953 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -5.42552e-02                  0.00000e+00              5.00000e-01 
+   2   -6.94334e+01                  0.00000e+00              5.00000e-01 
+   3   -1.93304e+04                  0.00000e+00              5.00000e-01 
+   4   -3.24791e+04                  0.00000e+00              5.00000e-01 
+   5   -5.06042e+05                  0.00000e+00              5.00000e-01 
+   6   -2.18791e+06                  0.00000e+00              5.00000e-01 
+   7   -5.62809e+06              +/- 6.43489e+06              7.59483e-01 
+   8   -3.81989e+07                  0.00000e+00              5.00000e-01 
+   9   -8.14230e+07                  0.00000e+00              5.00000e-01 
+  10   -2.00385e+08                  0.00000e+00              5.00000e-01 
+  11   -2.14100e+08                  0.00000e+00              5.00000e-01 
+  12   -5.66955e+09                  0.00000e+00              5.00000e-01 
+  13   -1.03734e+11                  0.00000e+00              5.00000e-01 
+  14   -1.99379e+11                  0.00000e+00              5.00000e-01 
+  15   -4.66343e+11                  0.00000e+00              5.00000e-01 
+  16   -5.68032e+11                  0.00000e+00              5.00000e-01 
+  17   -7.91665e+11                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at V(VOUT,0)/V2
+
+           Real                       Imaginary                 Qfactor
+
+   1   -3.38406e-03                  0.00000e+00              5.00000e-01 
+   2   -6.96156e+01                  0.00000e+00              5.00000e-01 
+   3   -1.92586e+04                  0.00000e+00              5.00000e-01 
+   4   -6.33141e+05                  0.00000e+00              5.00000e-01 
+   5   -1.14310e+06                  0.00000e+00              5.00000e-01 
+   6   -1.74350e+06                  0.00000e+00              5.00000e-01 
+   7   -3.72196e+07                  0.00000e+00              5.00000e-01 
+   8    3.85532e+07              +/- 1.88787e+07              -5.56729e-01
+   9   -7.19359e+07                  0.00000e+00              5.00000e-01 
+  10   -1.22302e+08                  0.00000e+00              5.00000e-01 
+  11   -2.00732e+08                  0.00000e+00              5.00000e-01 
+  12   -5.66894e+09                  0.00000e+00              5.00000e-01 
+  13   -1.03684e+11                  0.00000e+00              5.00000e-01 
+  14   -1.99056e+11                  0.00000e+00              5.00000e-01 
+  15   -5.85926e+11              +/- 3.45268e+09              5.00009e-01 
+  16   -7.91864e+11                  0.00000e+00              5.00000e-01 
+  17   -9.92517e+11                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.57091e-15
+
+DC gain =  1.00123e+00
+
+
+Warning from spectre at 0 during PZ analysis `pz'.
+    WARNING (UWI-8101): The specified waveform format 'psf' (improper context for requested action) could not be added. The simulator will ignore the waveform. Check the application programming interface (API) before running the simulation again.
+    WARNING (UWI-8101): The specified waveform format 'psf' (improper context for requested action) could not be added. The simulator will ignore the waveform. Check the application programming interface (API) before running the simulation again.
+    WARNING (UWI-8101): The specified waveform format 'psf' (improper context for requested action) could not be added. The simulator will ignore the waveform. Check the application programming interface (API) before running the simulation again.
+    WARNING (UWI-8101): The specified waveform format 'psf' (improper context for requested action) could not be added. The simulator will ignore the waveform. Check the application programming interface (API) before running the simulation again.
+    WARNING (UWI-8101): The specified waveform format 'psf' (improper context for requested action) could not be added. The simulator will ignore the waveform. Check the application programming interface (API) before running the simulation again.
+        Further occurrences of this warning will be suppressed.
+
+Accumulated DC solution time =            3.74293 ms.
+Intrinsic pz analysis time =              17.1759 ms.
+
+Opening the PSF file ../psf/pzViolations.violations ...
+Total time required for pz analysis `pz': CPU = 23.148 ms, elapsed = 26.571 ms, util. = 87.1%.
+Time accumulated: CPU = 522.446 ms, elapsed = 1.04238 s.
+Peak resident memory used = 210 Mbytes.
+
+
+Notice from spectre.
+    61 warnings suppressed.
+
+
+************************************************
+Transient Analysis `tran': time = (0 s -> 40 ms)
+************************************************
+
+Notice from spectre during IC analysis, during transient analysis `tran'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+Warning from spectre during check, during IC analysis, during transient analysis `tran'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C9<0>_turbo_m3.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C4.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C7<0>_turbo_m4.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C6<0>_turbo_m2.C1'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 17 iterations.
+DC simulation time: CPU = 2.096 ms, elapsed = 2.09713 ms.
+
+Opening the PSF file ../psf/tran.tran.tran ...
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 40 ms
+    step = 40 us
+    maxstep = 400 us
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 10e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 85 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative
+    method = gear2only
+    lteratio = 10
+    relref = alllocal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+
+Notice from spectre during transient analysis `tran'.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Output and IC/nodeset summary:
+                 save   7       (current)
+                 save   81      (voltage)
+
+SOAC: I0.I2.MP0.soac_m1       modp V(D,S): LEAVING@  0us ;
+SOAC: I0.I2.MP0.soac_m1       modp V(D,B): LEAVING@  0us ;
+SOAC: I0.I1.MP0.soac_m1       modp V(D,S): LEAVING@  0us ;
+SOAC: I0.I1.MP0.soac_m1       modp V(D,B): LEAVING@  0us ;
+SOAC: I0.I0.MP0.soac_m1       modp V(D,S): LEAVING@  0us ;
+SOAC: I0.I0.MP0.soac_m1       modp V(D,B): LEAVING@  0us ;
+    tran: time = 1.032 ms    (2.58 %), step = 120.8 us     (302 m%)
+    tran: time = 3.282 ms     (8.2 %), step = 332.5 us     (831 m%)
+    tran: time = 5.27 ms     (13.2 %), step = 400 us          (1 %)
+    tran: time = 7.27 ms     (18.2 %), step = 400 us          (1 %)
+    tran: time = 9.27 ms     (23.2 %), step = 400 us          (1 %)
+    tran: time = 11.27 ms    (28.2 %), step = 400 us          (1 %)
+    tran: time = 13.27 ms    (33.2 %), step = 400 us          (1 %)
+    tran: time = 15.27 ms    (38.2 %), step = 400 us          (1 %)
+    tran: time = 17.27 ms    (43.2 %), step = 400 us          (1 %)
+    tran: time = 19.27 ms    (48.2 %), step = 400 us          (1 %)
+    tran: time = 21.27 ms    (53.2 %), step = 400 us          (1 %)
+    tran: time = 23.27 ms    (58.2 %), step = 400 us          (1 %)
+    tran: time = 25.27 ms    (63.2 %), step = 400 us          (1 %)
+    tran: time = 27.27 ms    (68.2 %), step = 400 us          (1 %)
+    tran: time = 29.27 ms    (73.2 %), step = 400 us          (1 %)
+    tran: time = 31.27 ms    (78.2 %), step = 400 us          (1 %)
+    tran: time = 33.27 ms    (83.2 %), step = 400 us          (1 %)
+    tran: time = 35.27 ms    (88.2 %), step = 400 us          (1 %)
+    tran: time = 37.27 ms    (93.2 %), step = 400 us          (1 %)
+    tran: time = 39.27 ms    (98.2 %), step = 400 us          (1 %)
+Number of accepted tran steps =             191
+
+Maximum value achieved for any signal of each quantity: 
+V: V(net2) = 3.63 V
+I: I(V0:p) = 6.395 uA
+Maximum value of each quantity, excluding Verilog-A modules or dangling current sources:
+V: V(VOUT2) = 1.76 V
+I: I(V0:p) = 6.395 uA
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   To further speed up simulation, consider
+          add ++aps on command line
+   -   Non-default settings that could significantly slow down simulation
+          errpreset = conservative, default moderate
+          reltol = 10e-06, default 100e-06 (conservative)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+         0 (12.0 %)      1 (14.3 %)      2 (6.5 %)       3 (4.7 %)
+         4 (17.3 %)      5 (13.9 %)      6 (13.1 %)      7 (100.0 %)
+         8 (100.0 %)     9 (3.8 %)      10 (5.7 %)      11 (100.0 %)
+        12 (35.8 %)     13 (31.8 %)     14 (11.5 %)     15 (26.4 %)
+        16 (17.9 %)     17 (23.6 %)     18 (19.4 %)     19 (43.9 %)
+        20 (16.5 %)     21 (12.3 %)     22 (20.0 %)     23 (51.9 %)
+        24 (100.0 %)    25 (24.3 %)     26 (25.5 %)     27 (59.0 %)
+        28 (19.6 %)     29 (14.0 %)     30 (100.0 %)    31 (29.9 %)
+        32 (87.0 %)     34 (2.9 %)      35 (28.0 %)     36 (38.1 %)
+        37 (7.5 %)      38 (10.6 %)     39 (15.1 %)     40 (100.0 %)
+        41 (33.3 %)     42 (58.3 %)     43 (6.6 %)      44 (4.8 %)
+        45 (14.0 %)     46 (100.0 %)    47 (32.4 %)     
+        Total: 1614.4%
+Initial condition solution time: CPU = 2.13 ms, elapsed = 2.13099 ms.
+Intrinsic tran analysis time:    CPU = 82.004 ms, elapsed = 83.493 ms.
+
+Opening the PSF file ../psf/tranViolations.violations ...
+Total time required for tran analysis `tran': CPU = 88.613 ms, elapsed = 93.1411 ms, util. = 95.1%.
+Time accumulated: CPU = 613.135 ms, elapsed = 1.13844 s.
+Peak resident memory used = 213 Mbytes.
+
+
+Notice from spectre.
+    11 warnings suppressed.
+
+finalTimeOP: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/finalTimeOP.info ...
+
+********************************************
+AC Analysis `ac': freq = (10 mHz -> 100 MHz)
+********************************************
+
+Notice from spectre during DC analysis, during AC analysis `ac'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+SOAC: I0.I2.MP0.soac_m1       modp V(D,S): LEAVING@  0us ;
+SOAC: I0.I2.MP0.soac_m1       modp V(D,B): LEAVING@  0us ;
+SOAC: I0.I1.MP0.soac_m1       modp V(D,S): LEAVING@  0us ;
+SOAC: I0.I1.MP0.soac_m1       modp V(D,B): LEAVING@  0us ;
+SOAC: I0.I0.MP0.soac_m1       modp V(D,S): LEAVING@  0us ;
+SOAC: I0.I0.MP0.soac_m1       modp V(D,B): LEAVING@  0us ;
+
+Warning from spectre during check, during DC analysis, during AC analysis `ac'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C9<0>_turbo_m3.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C4.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C7<0>_turbo_m4.C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C6<0>_turbo_m2.C1'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 17 iterations.
+DC simulation time: CPU = 2.534 ms, elapsed = 2.5332 ms.
+
+Opening the PSF file ../psf/ac.ac ...
+    ac: freq = 18.48 mHz   (2.67 %), step = 1.365 mHz    (333 m%)
+    ac: freq = 19.95 mHz      (3 %), step = 1.474 mHz    (333 m%)
+    ac: freq = 21.54 mHz   (3.33 %), step = 1.592 mHz    (333 m%)
+    ac: freq = 23.26 mHz   (3.67 %), step = 1.719 mHz    (333 m%)
+    ac: freq = 25.12 mHz      (4 %), step = 1.856 mHz    (333 m%)
+    ac: freq = 27.12 mHz   (4.33 %), step = 2.004 mHz    (333 m%)
+    ac: freq = 29.29 mHz   (4.67 %), step = 2.164 mHz    (333 m%)
+    ac: freq = 31.62 mHz      (5 %), step = 2.336 mHz    (333 m%)
+    ac: freq = 34.15 mHz   (5.33 %), step = 2.523 mHz    (333 m%)
+    ac: freq = 36.87 mHz   (5.67 %), step = 2.724 mHz    (333 m%)
+    ac: freq = 39.81 mHz      (6 %), step = 2.941 mHz    (333 m%)
+    ac: freq = 42.99 mHz   (6.33 %), step = 3.176 mHz    (333 m%)
+    ac: freq = 46.42 mHz   (6.67 %), step = 3.429 mHz    (333 m%)
+    ac: freq = 50.12 mHz      (7 %), step = 3.703 mHz    (333 m%)
+    ac: freq = 54.12 mHz   (7.33 %), step = 3.998 mHz    (333 m%)
+    ac: freq = 58.43 mHz   (7.67 %), step = 4.317 mHz    (333 m%)
+    ac: freq = 63.1 mHz       (8 %), step = 4.662 mHz    (333 m%)
+    ac: freq = 68.13 mHz   (8.33 %), step = 5.033 mHz    (333 m%)
+    ac: freq = 73.56 mHz   (8.67 %), step = 5.435 mHz    (333 m%)
+    ac: freq = 79.43 mHz      (9 %), step = 5.869 mHz    (333 m%)
+    ac: freq = 85.77 mHz   (9.33 %), step = 6.337 mHz    (333 m%)
+    ac: freq = 92.61 mHz   (9.67 %), step = 6.842 mHz    (333 m%)
+    ac: freq = 100 mHz       (10 %), step = 7.388 mHz    (333 m%)
+    ac: freq = 108 mHz     (10.3 %), step = 7.978 mHz    (333 m%)
+    ac: freq = 116.6 mHz   (10.7 %), step = 8.614 mHz    (333 m%)
+    ac: freq = 125.9 mHz     (11 %), step = 9.301 mHz    (333 m%)
+    ac: freq = 135.9 mHz   (11.3 %), step = 10.04 mHz    (333 m%)
+    ac: freq = 146.8 mHz   (11.7 %), step = 10.84 mHz    (333 m%)
+    ac: freq = 158.5 mHz     (12 %), step = 11.71 mHz    (333 m%)
+    ac: freq = 171.1 mHz   (12.3 %), step = 12.64 mHz    (333 m%)
+    ac: freq = 184.8 mHz   (12.7 %), step = 13.65 mHz    (333 m%)
+    ac: freq = 199.5 mHz     (13 %), step = 14.74 mHz    (333 m%)
+    ac: freq = 215.4 mHz   (13.3 %), step = 15.92 mHz    (333 m%)
+    ac: freq = 232.6 mHz   (13.7 %), step = 17.19 mHz    (333 m%)
+    ac: freq = 251.2 mHz     (14 %), step = 18.56 mHz    (333 m%)
+    ac: freq = 271.2 mHz   (14.3 %), step = 20.04 mHz    (333 m%)
+    ac: freq = 292.9 mHz   (14.7 %), step = 21.64 mHz    (333 m%)
+    ac: freq = 316.2 mHz     (15 %), step = 23.36 mHz    (333 m%)
+    ac: freq = 341.5 mHz   (15.3 %), step = 25.23 mHz    (333 m%)
+    ac: freq = 368.7 mHz   (15.7 %), step = 27.24 mHz    (333 m%)
+    ac: freq = 398.1 mHz     (16 %), step = 29.41 mHz    (333 m%)
+    ac: freq = 429.9 mHz   (16.3 %), step = 31.76 mHz    (333 m%)
+    ac: freq = 464.2 mHz   (16.7 %), step = 34.29 mHz    (333 m%)
+    ac: freq = 501.2 mHz     (17 %), step = 37.03 mHz    (333 m%)
+    ac: freq = 541.2 mHz   (17.3 %), step = 39.98 mHz    (333 m%)
+    ac: freq = 584.3 mHz   (17.7 %), step = 43.17 mHz    (333 m%)
+    ac: freq = 631 mHz       (18 %), step = 46.62 mHz    (333 m%)
+    ac: freq = 681.3 mHz   (18.3 %), step = 50.33 mHz    (333 m%)
+    ac: freq = 735.6 mHz   (18.7 %), step = 54.35 mHz    (333 m%)
+    ac: freq = 794.3 mHz     (19 %), step = 58.69 mHz    (333 m%)
+    ac: freq = 857.7 mHz   (19.3 %), step = 63.37 mHz    (333 m%)
+    ac: freq = 926.1 mHz   (19.7 %), step = 68.42 mHz    (333 m%)
+    ac: freq = 1 Hz          (20 %), step = 73.88 mHz    (333 m%)
+    ac: freq = 1.08 Hz     (20.3 %), step = 79.78 mHz    (333 m%)
+    ac: freq = 1.166 Hz    (20.7 %), step = 86.14 mHz    (333 m%)
+    ac: freq = 1.259 Hz      (21 %), step = 93.01 mHz    (333 m%)
+    ac: freq = 1.359 Hz    (21.3 %), step = 100.4 mHz    (333 m%)
+    ac: freq = 1.468 Hz    (21.7 %), step = 108.4 mHz    (333 m%)
+    ac: freq = 1.585 Hz      (22 %), step = 117.1 mHz    (333 m%)
+    ac: freq = 1.711 Hz    (22.3 %), step = 126.4 mHz    (333 m%)
+    ac: freq = 1.848 Hz    (22.7 %), step = 136.5 mHz    (333 m%)
+    ac: freq = 1.995 Hz      (23 %), step = 147.4 mHz    (333 m%)
+    ac: freq = 2.154 Hz    (23.3 %), step = 159.2 mHz    (333 m%)
+    ac: freq = 2.326 Hz    (23.7 %), step = 171.9 mHz    (333 m%)
+    ac: freq = 2.512 Hz      (24 %), step = 185.6 mHz    (333 m%)
+    ac: freq = 2.712 Hz    (24.3 %), step = 200.4 mHz    (333 m%)
+    ac: freq = 2.929 Hz    (24.7 %), step = 216.4 mHz    (333 m%)
+    ac: freq = 3.162 Hz      (25 %), step = 233.6 mHz    (333 m%)
+    ac: freq = 3.415 Hz    (25.3 %), step = 252.3 mHz    (333 m%)
+    ac: freq = 3.687 Hz    (25.7 %), step = 272.4 mHz    (333 m%)
+    ac: freq = 3.981 Hz      (26 %), step = 294.1 mHz    (333 m%)
+    ac: freq = 4.299 Hz    (26.3 %), step = 317.6 mHz    (333 m%)
+    ac: freq = 4.642 Hz    (26.7 %), step = 342.9 mHz    (333 m%)
+    ac: freq = 5.012 Hz      (27 %), step = 370.3 mHz    (333 m%)
+    ac: freq = 5.412 Hz    (27.3 %), step = 399.8 mHz    (333 m%)
+    ac: freq = 5.843 Hz    (27.7 %), step = 431.7 mHz    (333 m%)
+    ac: freq = 6.31 Hz       (28 %), step = 466.2 mHz    (333 m%)
+    ac: freq = 6.813 Hz    (28.3 %), step = 503.3 mHz    (333 m%)
+    ac: freq = 7.356 Hz    (28.7 %), step = 543.5 mHz    (333 m%)
+    ac: freq = 7.943 Hz      (29 %), step = 586.9 mHz    (333 m%)
+    ac: freq = 8.577 Hz    (29.3 %), step = 633.7 mHz    (333 m%)
+    ac: freq = 9.261 Hz    (29.7 %), step = 684.2 mHz    (333 m%)
+    ac: freq = 10 Hz         (30 %), step = 738.8 mHz    (333 m%)
+    ac: freq = 10.8 Hz     (30.3 %), step = 797.8 mHz    (333 m%)
+    ac: freq = 11.66 Hz    (30.7 %), step = 861.4 mHz    (333 m%)
+    ac: freq = 12.59 Hz      (31 %), step = 930.1 mHz    (333 m%)
+    ac: freq = 13.59 Hz    (31.3 %), step = 1.004 Hz     (333 m%)
+    ac: freq = 14.68 Hz    (31.7 %), step = 1.084 Hz     (333 m%)
+    ac: freq = 15.85 Hz      (32 %), step = 1.171 Hz     (333 m%)
+    ac: freq = 17.11 Hz    (32.3 %), step = 1.264 Hz     (333 m%)
+    ac: freq = 18.48 Hz    (32.7 %), step = 1.365 Hz     (333 m%)
+    ac: freq = 19.95 Hz      (33 %), step = 1.474 Hz     (333 m%)
+    ac: freq = 21.54 Hz    (33.3 %), step = 1.592 Hz     (333 m%)
+    ac: freq = 23.26 Hz    (33.7 %), step = 1.719 Hz     (333 m%)
+    ac: freq = 25.12 Hz      (34 %), step = 1.856 Hz     (333 m%)
+    ac: freq = 27.12 Hz    (34.3 %), step = 2.004 Hz     (333 m%)
+    ac: freq = 29.29 Hz    (34.7 %), step = 2.164 Hz     (333 m%)
+    ac: freq = 31.62 Hz      (35 %), step = 2.336 Hz     (333 m%)
+    ac: freq = 34.15 Hz    (35.3 %), step = 2.523 Hz     (333 m%)
+    ac: freq = 36.87 Hz    (35.7 %), step = 2.724 Hz     (333 m%)
+    ac: freq = 39.81 Hz      (36 %), step = 2.941 Hz     (333 m%)
+    ac: freq = 42.99 Hz    (36.3 %), step = 3.176 Hz     (333 m%)
+    ac: freq = 46.42 Hz    (36.7 %), step = 3.429 Hz     (333 m%)
+    ac: freq = 50.12 Hz      (37 %), step = 3.703 Hz     (333 m%)
+    ac: freq = 54.12 Hz    (37.3 %), step = 3.998 Hz     (333 m%)
+    ac: freq = 58.43 Hz    (37.7 %), step = 4.317 Hz     (333 m%)
+    ac: freq = 63.1 Hz       (38 %), step = 4.662 Hz     (333 m%)
+    ac: freq = 68.13 Hz    (38.3 %), step = 5.033 Hz     (333 m%)
+    ac: freq = 73.56 Hz    (38.7 %), step = 5.435 Hz     (333 m%)
+    ac: freq = 79.43 Hz      (39 %), step = 5.869 Hz     (333 m%)
+    ac: freq = 85.77 Hz    (39.3 %), step = 6.337 Hz     (333 m%)
+    ac: freq = 92.61 Hz    (39.7 %), step = 6.842 Hz     (333 m%)
+    ac: freq = 100 Hz        (40 %), step = 7.388 Hz     (333 m%)
+    ac: freq = 108 Hz      (40.3 %), step = 7.978 Hz     (333 m%)
+    ac: freq = 116.6 Hz    (40.7 %), step = 8.614 Hz     (333 m%)
+    ac: freq = 125.9 Hz      (41 %), step = 9.301 Hz     (333 m%)
+    ac: freq = 135.9 Hz    (41.3 %), step = 10.04 Hz     (333 m%)
+    ac: freq = 146.8 Hz    (41.7 %), step = 10.84 Hz     (333 m%)
+    ac: freq = 158.5 Hz      (42 %), step = 11.71 Hz     (333 m%)
+    ac: freq = 171.1 Hz    (42.3 %), step = 12.64 Hz     (333 m%)
+    ac: freq = 184.8 Hz    (42.7 %), step = 13.65 Hz     (333 m%)
+    ac: freq = 199.5 Hz      (43 %), step = 14.74 Hz     (333 m%)
+    ac: freq = 215.4 Hz    (43.3 %), step = 15.92 Hz     (333 m%)
+    ac: freq = 232.6 Hz    (43.7 %), step = 17.19 Hz     (333 m%)
+    ac: freq = 251.2 Hz      (44 %), step = 18.56 Hz     (333 m%)
+    ac: freq = 271.2 Hz    (44.3 %), step = 20.04 Hz     (333 m%)
+    ac: freq = 292.9 Hz    (44.7 %), step = 21.64 Hz     (333 m%)
+    ac: freq = 316.2 Hz      (45 %), step = 23.36 Hz     (333 m%)
+    ac: freq = 341.5 Hz    (45.3 %), step = 25.23 Hz     (333 m%)
+    ac: freq = 368.7 Hz    (45.7 %), step = 27.24 Hz     (333 m%)
+    ac: freq = 398.1 Hz      (46 %), step = 29.41 Hz     (333 m%)
+    ac: freq = 429.9 Hz    (46.3 %), step = 31.76 Hz     (333 m%)
+    ac: freq = 464.2 Hz    (46.7 %), step = 34.29 Hz     (333 m%)
+    ac: freq = 501.2 Hz      (47 %), step = 37.03 Hz     (333 m%)
+    ac: freq = 541.2 Hz    (47.3 %), step = 39.98 Hz     (333 m%)
+    ac: freq = 584.3 Hz    (47.7 %), step = 43.17 Hz     (333 m%)
+    ac: freq = 631 Hz        (48 %), step = 46.62 Hz     (333 m%)
+    ac: freq = 681.3 Hz    (48.3 %), step = 50.33 Hz     (333 m%)
+    ac: freq = 735.6 Hz    (48.7 %), step = 54.35 Hz     (333 m%)
+    ac: freq = 794.3 Hz      (49 %), step = 58.69 Hz     (333 m%)
+    ac: freq = 857.7 Hz    (49.3 %), step = 63.37 Hz     (333 m%)
+    ac: freq = 926.1 Hz    (49.7 %), step = 68.42 Hz     (333 m%)
+    ac: freq = 1 kHz         (50 %), step = 73.88 Hz     (333 m%)
+    ac: freq = 1.08 kHz    (50.3 %), step = 79.78 Hz     (333 m%)
+    ac: freq = 1.166 kHz   (50.7 %), step = 86.14 Hz     (333 m%)
+    ac: freq = 1.259 kHz     (51 %), step = 93.01 Hz     (333 m%)
+    ac: freq = 1.359 kHz   (51.3 %), step = 100.4 Hz     (333 m%)
+    ac: freq = 1.468 kHz   (51.7 %), step = 108.4 Hz     (333 m%)
+    ac: freq = 1.585 kHz     (52 %), step = 117.1 Hz     (333 m%)
+    ac: freq = 1.711 kHz   (52.3 %), step = 126.4 Hz     (333 m%)
+    ac: freq = 1.848 kHz   (52.7 %), step = 136.5 Hz     (333 m%)
+    ac: freq = 1.995 kHz     (53 %), step = 147.4 Hz     (333 m%)
+    ac: freq = 2.154 kHz   (53.3 %), step = 159.2 Hz     (333 m%)
+    ac: freq = 2.326 kHz   (53.7 %), step = 171.9 Hz     (333 m%)
+    ac: freq = 2.512 kHz     (54 %), step = 185.6 Hz     (333 m%)
+    ac: freq = 2.712 kHz   (54.3 %), step = 200.4 Hz     (333 m%)
+    ac: freq = 2.929 kHz   (54.7 %), step = 216.4 Hz     (333 m%)
+    ac: freq = 3.162 kHz     (55 %), step = 233.6 Hz     (333 m%)
+    ac: freq = 3.415 kHz   (55.3 %), step = 252.3 Hz     (333 m%)
+    ac: freq = 3.687 kHz   (55.7 %), step = 272.4 Hz     (333 m%)
+    ac: freq = 3.981 kHz     (56 %), step = 294.1 Hz     (333 m%)
+    ac: freq = 4.299 kHz   (56.3 %), step = 317.6 Hz     (333 m%)
+    ac: freq = 4.642 kHz   (56.7 %), step = 342.9 Hz     (333 m%)
+    ac: freq = 5.012 kHz     (57 %), step = 370.3 Hz     (333 m%)
+    ac: freq = 5.412 kHz   (57.3 %), step = 399.8 Hz     (333 m%)
+    ac: freq = 5.843 kHz   (57.7 %), step = 431.7 Hz     (333 m%)
+    ac: freq = 6.31 kHz      (58 %), step = 466.2 Hz     (333 m%)
+    ac: freq = 6.813 kHz   (58.3 %), step = 503.3 Hz     (333 m%)
+    ac: freq = 7.356 kHz   (58.7 %), step = 543.5 Hz     (333 m%)
+    ac: freq = 7.943 kHz     (59 %), step = 586.9 Hz     (333 m%)
+    ac: freq = 8.577 kHz   (59.3 %), step = 633.7 Hz     (333 m%)
+    ac: freq = 9.261 kHz   (59.7 %), step = 684.2 Hz     (333 m%)
+    ac: freq = 10 kHz        (60 %), step = 738.8 Hz     (333 m%)
+    ac: freq = 10.8 kHz    (60.3 %), step = 797.8 Hz     (333 m%)
+    ac: freq = 11.66 kHz   (60.7 %), step = 861.4 Hz     (333 m%)
+    ac: freq = 12.59 kHz     (61 %), step = 930.1 Hz     (333 m%)
+    ac: freq = 13.59 kHz   (61.3 %), step = 1.004 kHz    (333 m%)
+    ac: freq = 14.68 kHz   (61.7 %), step = 1.084 kHz    (333 m%)
+    ac: freq = 15.85 kHz     (62 %), step = 1.171 kHz    (333 m%)
+    ac: freq = 17.11 kHz   (62.3 %), step = 1.264 kHz    (333 m%)
+    ac: freq = 18.48 kHz   (62.7 %), step = 1.365 kHz    (333 m%)
+    ac: freq = 19.95 kHz     (63 %), step = 1.474 kHz    (333 m%)
+    ac: freq = 21.54 kHz   (63.3 %), step = 1.592 kHz    (333 m%)
+    ac: freq = 23.26 kHz   (63.7 %), step = 1.719 kHz    (333 m%)
+    ac: freq = 25.12 kHz     (64 %), step = 1.856 kHz    (333 m%)
+    ac: freq = 27.12 kHz   (64.3 %), step = 2.004 kHz    (333 m%)
+    ac: freq = 29.29 kHz   (64.7 %), step = 2.164 kHz    (333 m%)
+    ac: freq = 31.62 kHz     (65 %), step = 2.336 kHz    (333 m%)
+    ac: freq = 34.15 kHz   (65.3 %), step = 2.523 kHz    (333 m%)
+    ac: freq = 36.87 kHz   (65.7 %), step = 2.724 kHz    (333 m%)
+    ac: freq = 39.81 kHz     (66 %), step = 2.941 kHz    (333 m%)
+    ac: freq = 42.99 kHz   (66.3 %), step = 3.176 kHz    (333 m%)
+    ac: freq = 46.42 kHz   (66.7 %), step = 3.429 kHz    (333 m%)
+    ac: freq = 50.12 kHz     (67 %), step = 3.703 kHz    (333 m%)
+    ac: freq = 54.12 kHz   (67.3 %), step = 3.998 kHz    (333 m%)
+    ac: freq = 58.43 kHz   (67.7 %), step = 4.317 kHz    (333 m%)
+    ac: freq = 63.1 kHz      (68 %), step = 4.662 kHz    (333 m%)
+    ac: freq = 68.13 kHz   (68.3 %), step = 5.033 kHz    (333 m%)
+    ac: freq = 73.56 kHz   (68.7 %), step = 5.435 kHz    (333 m%)
+    ac: freq = 79.43 kHz     (69 %), step = 5.869 kHz    (333 m%)
+    ac: freq = 85.77 kHz   (69.3 %), step = 6.337 kHz    (333 m%)
+    ac: freq = 92.61 kHz   (69.7 %), step = 6.842 kHz    (333 m%)
+    ac: freq = 100 kHz       (70 %), step = 7.388 kHz    (333 m%)
+    ac: freq = 108 kHz     (70.3 %), step = 7.978 kHz    (333 m%)
+    ac: freq = 116.6 kHz   (70.7 %), step = 8.614 kHz    (333 m%)
+    ac: freq = 125.9 kHz     (71 %), step = 9.301 kHz    (333 m%)
+    ac: freq = 135.9 kHz   (71.3 %), step = 10.04 kHz    (333 m%)
+    ac: freq = 146.8 kHz   (71.7 %), step = 10.84 kHz    (333 m%)
+    ac: freq = 158.5 kHz     (72 %), step = 11.71 kHz    (333 m%)
+    ac: freq = 171.1 kHz   (72.3 %), step = 12.64 kHz    (333 m%)
+    ac: freq = 184.8 kHz   (72.7 %), step = 13.65 kHz    (333 m%)
+    ac: freq = 199.5 kHz     (73 %), step = 14.74 kHz    (333 m%)
+    ac: freq = 215.4 kHz   (73.3 %), step = 15.92 kHz    (333 m%)
+    ac: freq = 232.6 kHz   (73.7 %), step = 17.19 kHz    (333 m%)
+    ac: freq = 251.2 kHz     (74 %), step = 18.56 kHz    (333 m%)
+    ac: freq = 271.2 kHz   (74.3 %), step = 20.04 kHz    (333 m%)
+    ac: freq = 292.9 kHz   (74.7 %), step = 21.64 kHz    (333 m%)
+    ac: freq = 316.2 kHz     (75 %), step = 23.36 kHz    (333 m%)
+    ac: freq = 341.5 kHz   (75.3 %), step = 25.23 kHz    (333 m%)
+    ac: freq = 368.7 kHz   (75.7 %), step = 27.24 kHz    (333 m%)
+    ac: freq = 398.1 kHz     (76 %), step = 29.41 kHz    (333 m%)
+    ac: freq = 429.9 kHz   (76.3 %), step = 31.76 kHz    (333 m%)
+    ac: freq = 464.2 kHz   (76.7 %), step = 34.29 kHz    (333 m%)
+    ac: freq = 501.2 kHz     (77 %), step = 37.03 kHz    (333 m%)
+    ac: freq = 541.2 kHz   (77.3 %), step = 39.98 kHz    (333 m%)
+    ac: freq = 584.3 kHz   (77.7 %), step = 43.17 kHz    (333 m%)
+    ac: freq = 631 kHz       (78 %), step = 46.62 kHz    (333 m%)
+    ac: freq = 681.3 kHz   (78.3 %), step = 50.33 kHz    (333 m%)
+    ac: freq = 735.6 kHz   (78.7 %), step = 54.35 kHz    (333 m%)
+    ac: freq = 794.3 kHz     (79 %), step = 58.69 kHz    (333 m%)
+    ac: freq = 857.7 kHz   (79.3 %), step = 63.37 kHz    (333 m%)
+    ac: freq = 926.1 kHz   (79.7 %), step = 68.42 kHz    (333 m%)
+    ac: freq = 1 MHz         (80 %), step = 73.88 kHz    (333 m%)
+    ac: freq = 1.08 MHz    (80.3 %), step = 79.78 kHz    (333 m%)
+    ac: freq = 1.166 MHz   (80.7 %), step = 86.14 kHz    (333 m%)
+    ac: freq = 1.259 MHz     (81 %), step = 93.01 kHz    (333 m%)
+    ac: freq = 1.359 MHz   (81.3 %), step = 100.4 kHz    (333 m%)
+    ac: freq = 1.468 MHz   (81.7 %), step = 108.4 kHz    (333 m%)
+    ac: freq = 1.585 MHz     (82 %), step = 117.1 kHz    (333 m%)
+    ac: freq = 1.711 MHz   (82.3 %), step = 126.4 kHz    (333 m%)
+    ac: freq = 1.848 MHz   (82.7 %), step = 136.5 kHz    (333 m%)
+    ac: freq = 1.995 MHz     (83 %), step = 147.4 kHz    (333 m%)
+    ac: freq = 2.154 MHz   (83.3 %), step = 159.2 kHz    (333 m%)
+    ac: freq = 2.326 MHz   (83.7 %), step = 171.9 kHz    (333 m%)
+    ac: freq = 2.512 MHz     (84 %), step = 185.6 kHz    (333 m%)
+    ac: freq = 2.712 MHz   (84.3 %), step = 200.4 kHz    (333 m%)
+    ac: freq = 2.929 MHz   (84.7 %), step = 216.4 kHz    (333 m%)
+    ac: freq = 3.162 MHz     (85 %), step = 233.6 kHz    (333 m%)
+    ac: freq = 3.415 MHz   (85.3 %), step = 252.3 kHz    (333 m%)
+    ac: freq = 3.687 MHz   (85.7 %), step = 272.4 kHz    (333 m%)
+    ac: freq = 3.981 MHz     (86 %), step = 294.1 kHz    (333 m%)
+    ac: freq = 4.299 MHz   (86.3 %), step = 317.6 kHz    (333 m%)
+    ac: freq = 4.642 MHz   (86.7 %), step = 342.9 kHz    (333 m%)
+    ac: freq = 5.012 MHz     (87 %), step = 370.3 kHz    (333 m%)
+    ac: freq = 5.412 MHz   (87.3 %), step = 399.8 kHz    (333 m%)
+    ac: freq = 5.843 MHz   (87.7 %), step = 431.7 kHz    (333 m%)
+    ac: freq = 6.31 MHz      (88 %), step = 466.2 kHz    (333 m%)
+    ac: freq = 6.813 MHz   (88.3 %), step = 503.3 kHz    (333 m%)
+    ac: freq = 7.356 MHz   (88.7 %), step = 543.5 kHz    (333 m%)
+    ac: freq = 7.943 MHz     (89 %), step = 586.9 kHz    (333 m%)
+    ac: freq = 8.577 MHz   (89.3 %), step = 633.7 kHz    (333 m%)
+    ac: freq = 9.261 MHz   (89.7 %), step = 684.2 kHz    (333 m%)
+    ac: freq = 10 MHz        (90 %), step = 738.8 kHz    (333 m%)
+    ac: freq = 10.8 MHz    (90.3 %), step = 797.8 kHz    (333 m%)
+    ac: freq = 11.66 MHz   (90.7 %), step = 861.4 kHz    (333 m%)
+    ac: freq = 12.59 MHz     (91 %), step = 930.1 kHz    (333 m%)
+    ac: freq = 13.59 MHz   (91.3 %), step = 1.004 MHz    (333 m%)
+    ac: freq = 14.68 MHz   (91.7 %), step = 1.084 MHz    (333 m%)
+    ac: freq = 15.85 MHz     (92 %), step = 1.171 MHz    (333 m%)
+    ac: freq = 17.11 MHz   (92.3 %), step = 1.264 MHz    (333 m%)
+    ac: freq = 18.48 MHz   (92.7 %), step = 1.365 MHz    (333 m%)
+    ac: freq = 19.95 MHz     (93 %), step = 1.474 MHz    (333 m%)
+    ac: freq = 21.54 MHz   (93.3 %), step = 1.592 MHz    (333 m%)
+    ac: freq = 23.26 MHz   (93.7 %), step = 1.719 MHz    (333 m%)
+    ac: freq = 25.12 MHz     (94 %), step = 1.856 MHz    (333 m%)
+    ac: freq = 27.12 MHz   (94.3 %), step = 2.004 MHz    (333 m%)
+    ac: freq = 29.29 MHz   (94.7 %), step = 2.164 MHz    (333 m%)
+    ac: freq = 31.62 MHz     (95 %), step = 2.336 MHz    (333 m%)
+    ac: freq = 34.15 MHz   (95.3 %), step = 2.523 MHz    (333 m%)
+    ac: freq = 36.87 MHz   (95.7 %), step = 2.724 MHz    (333 m%)
+    ac: freq = 39.81 MHz     (96 %), step = 2.941 MHz    (333 m%)
+    ac: freq = 42.99 MHz   (96.3 %), step = 3.176 MHz    (333 m%)
+    ac: freq = 46.42 MHz   (96.7 %), step = 3.429 MHz    (333 m%)
+    ac: freq = 50.12 MHz     (97 %), step = 3.703 MHz    (333 m%)
+    ac: freq = 54.12 MHz   (97.3 %), step = 3.998 MHz    (333 m%)
+    ac: freq = 58.43 MHz   (97.7 %), step = 4.317 MHz    (333 m%)
+    ac: freq = 63.1 MHz      (98 %), step = 4.662 MHz    (333 m%)
+    ac: freq = 68.13 MHz   (98.3 %), step = 5.033 MHz    (333 m%)
+    ac: freq = 73.56 MHz   (98.7 %), step = 5.435 MHz    (333 m%)
+    ac: freq = 79.43 MHz     (99 %), step = 5.869 MHz    (333 m%)
+    ac: freq = 85.77 MHz   (99.3 %), step = 6.337 MHz    (333 m%)
+    ac: freq = 92.61 MHz   (99.7 %), step = 6.842 MHz    (333 m%)
+    ac: freq = 100 MHz      (100 %), step = 7.388 MHz    (333 m%)
+Accumulated DC solution time =            2.58207 ms.
+Intrinsic ac analysis time =              56.15 ms.
+
+Opening the PSF file ../psf/acViolations.violations ...
+Total time required for ac analysis `ac': CPU = 61.164 ms, elapsed = 64.604 ms, util. = 94.7%.
+Time accumulated: CPU = 679.309 ms, elapsed = 1.21016 s.
+Peak resident memory used = 213 Mbytes.
+
+
+Notice from spectre.
+    11 warnings suppressed.
+
+
+**************************************************
+Noise Analysis `noise': freq = (10 mHz -> 100 MHz)
+**************************************************
+
+Notice from spectre during Noise analysis `noise'.
+    Operating points will not be recomputed: the circuit and conditions were not changed since previous analysis.
+
+
+Opening the PSF file ../psf/noise.noise ...
+    noise: freq = 18.48 mHz   (2.67 %), step = 1.365 mHz    (333 m%)
+    noise: freq = 19.95 mHz      (3 %), step = 1.474 mHz    (333 m%)
+    noise: freq = 21.54 mHz   (3.33 %), step = 1.592 mHz    (333 m%)
+    noise: freq = 23.26 mHz   (3.67 %), step = 1.719 mHz    (333 m%)
+    noise: freq = 25.12 mHz      (4 %), step = 1.856 mHz    (333 m%)
+    noise: freq = 27.12 mHz   (4.33 %), step = 2.004 mHz    (333 m%)
+    noise: freq = 29.29 mHz   (4.67 %), step = 2.164 mHz    (333 m%)
+    noise: freq = 31.62 mHz      (5 %), step = 2.336 mHz    (333 m%)
+    noise: freq = 34.15 mHz   (5.33 %), step = 2.523 mHz    (333 m%)
+    noise: freq = 36.87 mHz   (5.67 %), step = 2.724 mHz    (333 m%)
+    noise: freq = 39.81 mHz      (6 %), step = 2.941 mHz    (333 m%)
+    noise: freq = 42.99 mHz   (6.33 %), step = 3.176 mHz    (333 m%)
+    noise: freq = 46.42 mHz   (6.67 %), step = 3.429 mHz    (333 m%)
+    noise: freq = 50.12 mHz      (7 %), step = 3.703 mHz    (333 m%)
+    noise: freq = 54.12 mHz   (7.33 %), step = 3.998 mHz    (333 m%)
+    noise: freq = 58.43 mHz   (7.67 %), step = 4.317 mHz    (333 m%)
+    noise: freq = 63.1 mHz       (8 %), step = 4.662 mHz    (333 m%)
+    noise: freq = 68.13 mHz   (8.33 %), step = 5.033 mHz    (333 m%)
+    noise: freq = 73.56 mHz   (8.67 %), step = 5.435 mHz    (333 m%)
+    noise: freq = 79.43 mHz      (9 %), step = 5.869 mHz    (333 m%)
+    noise: freq = 85.77 mHz   (9.33 %), step = 6.337 mHz    (333 m%)
+    noise: freq = 92.61 mHz   (9.67 %), step = 6.842 mHz    (333 m%)
+    noise: freq = 100 mHz       (10 %), step = 7.388 mHz    (333 m%)
+    noise: freq = 108 mHz     (10.3 %), step = 7.978 mHz    (333 m%)
+    noise: freq = 116.6 mHz   (10.7 %), step = 8.614 mHz    (333 m%)
+    noise: freq = 125.9 mHz     (11 %), step = 9.301 mHz    (333 m%)
+    noise: freq = 135.9 mHz   (11.3 %), step = 10.04 mHz    (333 m%)
+    noise: freq = 146.8 mHz   (11.7 %), step = 10.84 mHz    (333 m%)
+    noise: freq = 158.5 mHz     (12 %), step = 11.71 mHz    (333 m%)
+    noise: freq = 171.1 mHz   (12.3 %), step = 12.64 mHz    (333 m%)
+    noise: freq = 184.8 mHz   (12.7 %), step = 13.65 mHz    (333 m%)
+    noise: freq = 199.5 mHz     (13 %), step = 14.74 mHz    (333 m%)
+    noise: freq = 215.4 mHz   (13.3 %), step = 15.92 mHz    (333 m%)
+    noise: freq = 232.6 mHz   (13.7 %), step = 17.19 mHz    (333 m%)
+    noise: freq = 251.2 mHz     (14 %), step = 18.56 mHz    (333 m%)
+    noise: freq = 271.2 mHz   (14.3 %), step = 20.04 mHz    (333 m%)
+    noise: freq = 292.9 mHz   (14.7 %), step = 21.64 mHz    (333 m%)
+    noise: freq = 316.2 mHz     (15 %), step = 23.36 mHz    (333 m%)
+    noise: freq = 341.5 mHz   (15.3 %), step = 25.23 mHz    (333 m%)
+    noise: freq = 368.7 mHz   (15.7 %), step = 27.24 mHz    (333 m%)
+    noise: freq = 398.1 mHz     (16 %), step = 29.41 mHz    (333 m%)
+    noise: freq = 429.9 mHz   (16.3 %), step = 31.76 mHz    (333 m%)
+    noise: freq = 464.2 mHz   (16.7 %), step = 34.29 mHz    (333 m%)
+    noise: freq = 501.2 mHz     (17 %), step = 37.03 mHz    (333 m%)
+    noise: freq = 541.2 mHz   (17.3 %), step = 39.98 mHz    (333 m%)
+    noise: freq = 584.3 mHz   (17.7 %), step = 43.17 mHz    (333 m%)
+    noise: freq = 631 mHz       (18 %), step = 46.62 mHz    (333 m%)
+    noise: freq = 681.3 mHz   (18.3 %), step = 50.33 mHz    (333 m%)
+    noise: freq = 735.6 mHz   (18.7 %), step = 54.35 mHz    (333 m%)
+    noise: freq = 794.3 mHz     (19 %), step = 58.69 mHz    (333 m%)
+    noise: freq = 857.7 mHz   (19.3 %), step = 63.37 mHz    (333 m%)
+    noise: freq = 926.1 mHz   (19.7 %), step = 68.42 mHz    (333 m%)
+    noise: freq = 1 Hz          (20 %), step = 73.88 mHz    (333 m%)
+    noise: freq = 1.08 Hz     (20.3 %), step = 79.78 mHz    (333 m%)
+    noise: freq = 1.166 Hz    (20.7 %), step = 86.14 mHz    (333 m%)
+    noise: freq = 1.259 Hz      (21 %), step = 93.01 mHz    (333 m%)
+    noise: freq = 1.359 Hz    (21.3 %), step = 100.4 mHz    (333 m%)
+    noise: freq = 1.468 Hz    (21.7 %), step = 108.4 mHz    (333 m%)
+    noise: freq = 1.585 Hz      (22 %), step = 117.1 mHz    (333 m%)
+    noise: freq = 1.711 Hz    (22.3 %), step = 126.4 mHz    (333 m%)
+    noise: freq = 1.848 Hz    (22.7 %), step = 136.5 mHz    (333 m%)
+    noise: freq = 1.995 Hz      (23 %), step = 147.4 mHz    (333 m%)
+    noise: freq = 2.154 Hz    (23.3 %), step = 159.2 mHz    (333 m%)
+    noise: freq = 2.326 Hz    (23.7 %), step = 171.9 mHz    (333 m%)
+    noise: freq = 2.512 Hz      (24 %), step = 185.6 mHz    (333 m%)
+    noise: freq = 2.712 Hz    (24.3 %), step = 200.4 mHz    (333 m%)
+    noise: freq = 2.929 Hz    (24.7 %), step = 216.4 mHz    (333 m%)
+    noise: freq = 3.162 Hz      (25 %), step = 233.6 mHz    (333 m%)
+    noise: freq = 3.415 Hz    (25.3 %), step = 252.3 mHz    (333 m%)
+    noise: freq = 3.687 Hz    (25.7 %), step = 272.4 mHz    (333 m%)
+    noise: freq = 3.981 Hz      (26 %), step = 294.1 mHz    (333 m%)
+    noise: freq = 4.299 Hz    (26.3 %), step = 317.6 mHz    (333 m%)
+    noise: freq = 4.642 Hz    (26.7 %), step = 342.9 mHz    (333 m%)
+    noise: freq = 5.012 Hz      (27 %), step = 370.3 mHz    (333 m%)
+    noise: freq = 5.412 Hz    (27.3 %), step = 399.8 mHz    (333 m%)
+    noise: freq = 5.843 Hz    (27.7 %), step = 431.7 mHz    (333 m%)
+    noise: freq = 6.31 Hz       (28 %), step = 466.2 mHz    (333 m%)
+    noise: freq = 6.813 Hz    (28.3 %), step = 503.3 mHz    (333 m%)
+    noise: freq = 7.356 Hz    (28.7 %), step = 543.5 mHz    (333 m%)
+    noise: freq = 7.943 Hz      (29 %), step = 586.9 mHz    (333 m%)
+    noise: freq = 8.577 Hz    (29.3 %), step = 633.7 mHz    (333 m%)
+    noise: freq = 9.261 Hz    (29.7 %), step = 684.2 mHz    (333 m%)
+    noise: freq = 10 Hz         (30 %), step = 738.8 mHz    (333 m%)
+    noise: freq = 10.8 Hz     (30.3 %), step = 797.8 mHz    (333 m%)
+    noise: freq = 11.66 Hz    (30.7 %), step = 861.4 mHz    (333 m%)
+    noise: freq = 12.59 Hz      (31 %), step = 930.1 mHz    (333 m%)
+    noise: freq = 13.59 Hz    (31.3 %), step = 1.004 Hz     (333 m%)
+    noise: freq = 14.68 Hz    (31.7 %), step = 1.084 Hz     (333 m%)
+    noise: freq = 15.85 Hz      (32 %), step = 1.171 Hz     (333 m%)
+    noise: freq = 17.11 Hz    (32.3 %), step = 1.264 Hz     (333 m%)
+    noise: freq = 18.48 Hz    (32.7 %), step = 1.365 Hz     (333 m%)
+    noise: freq = 19.95 Hz      (33 %), step = 1.474 Hz     (333 m%)
+    noise: freq = 21.54 Hz    (33.3 %), step = 1.592 Hz     (333 m%)
+    noise: freq = 23.26 Hz    (33.7 %), step = 1.719 Hz     (333 m%)
+    noise: freq = 25.12 Hz      (34 %), step = 1.856 Hz     (333 m%)
+    noise: freq = 27.12 Hz    (34.3 %), step = 2.004 Hz     (333 m%)
+    noise: freq = 29.29 Hz    (34.7 %), step = 2.164 Hz     (333 m%)
+    noise: freq = 31.62 Hz      (35 %), step = 2.336 Hz     (333 m%)
+    noise: freq = 34.15 Hz    (35.3 %), step = 2.523 Hz     (333 m%)
+    noise: freq = 36.87 Hz    (35.7 %), step = 2.724 Hz     (333 m%)
+    noise: freq = 39.81 Hz      (36 %), step = 2.941 Hz     (333 m%)
+    noise: freq = 42.99 Hz    (36.3 %), step = 3.176 Hz     (333 m%)
+    noise: freq = 46.42 Hz    (36.7 %), step = 3.429 Hz     (333 m%)
+    noise: freq = 50.12 Hz      (37 %), step = 3.703 Hz     (333 m%)
+    noise: freq = 54.12 Hz    (37.3 %), step = 3.998 Hz     (333 m%)
+    noise: freq = 58.43 Hz    (37.7 %), step = 4.317 Hz     (333 m%)
+    noise: freq = 63.1 Hz       (38 %), step = 4.662 Hz     (333 m%)
+    noise: freq = 68.13 Hz    (38.3 %), step = 5.033 Hz     (333 m%)
+    noise: freq = 73.56 Hz    (38.7 %), step = 5.435 Hz     (333 m%)
+    noise: freq = 79.43 Hz      (39 %), step = 5.869 Hz     (333 m%)
+    noise: freq = 85.77 Hz    (39.3 %), step = 6.337 Hz     (333 m%)
+    noise: freq = 92.61 Hz    (39.7 %), step = 6.842 Hz     (333 m%)
+    noise: freq = 100 Hz        (40 %), step = 7.388 Hz     (333 m%)
+    noise: freq = 108 Hz      (40.3 %), step = 7.978 Hz     (333 m%)
+    noise: freq = 116.6 Hz    (40.7 %), step = 8.614 Hz     (333 m%)
+    noise: freq = 125.9 Hz      (41 %), step = 9.301 Hz     (333 m%)
+    noise: freq = 135.9 Hz    (41.3 %), step = 10.04 Hz     (333 m%)
+    noise: freq = 146.8 Hz    (41.7 %), step = 10.84 Hz     (333 m%)
+    noise: freq = 158.5 Hz      (42 %), step = 11.71 Hz     (333 m%)
+    noise: freq = 171.1 Hz    (42.3 %), step = 12.64 Hz     (333 m%)
+    noise: freq = 184.8 Hz    (42.7 %), step = 13.65 Hz     (333 m%)
+    noise: freq = 199.5 Hz      (43 %), step = 14.74 Hz     (333 m%)
+    noise: freq = 215.4 Hz    (43.3 %), step = 15.92 Hz     (333 m%)
+    noise: freq = 232.6 Hz    (43.7 %), step = 17.19 Hz     (333 m%)
+    noise: freq = 251.2 Hz      (44 %), step = 18.56 Hz     (333 m%)
+    noise: freq = 271.2 Hz    (44.3 %), step = 20.04 Hz     (333 m%)
+    noise: freq = 292.9 Hz    (44.7 %), step = 21.64 Hz     (333 m%)
+    noise: freq = 316.2 Hz      (45 %), step = 23.36 Hz     (333 m%)
+    noise: freq = 341.5 Hz    (45.3 %), step = 25.23 Hz     (333 m%)
+    noise: freq = 368.7 Hz    (45.7 %), step = 27.24 Hz     (333 m%)
+    noise: freq = 398.1 Hz      (46 %), step = 29.41 Hz     (333 m%)
+    noise: freq = 429.9 Hz    (46.3 %), step = 31.76 Hz     (333 m%)
+    noise: freq = 464.2 Hz    (46.7 %), step = 34.29 Hz     (333 m%)
+    noise: freq = 501.2 Hz      (47 %), step = 37.03 Hz     (333 m%)
+    noise: freq = 541.2 Hz    (47.3 %), step = 39.98 Hz     (333 m%)
+    noise: freq = 584.3 Hz    (47.7 %), step = 43.17 Hz     (333 m%)
+    noise: freq = 631 Hz        (48 %), step = 46.62 Hz     (333 m%)
+    noise: freq = 681.3 Hz    (48.3 %), step = 50.33 Hz     (333 m%)
+    noise: freq = 735.6 Hz    (48.7 %), step = 54.35 Hz     (333 m%)
+    noise: freq = 794.3 Hz      (49 %), step = 58.69 Hz     (333 m%)
+    noise: freq = 857.7 Hz    (49.3 %), step = 63.37 Hz     (333 m%)
+    noise: freq = 926.1 Hz    (49.7 %), step = 68.42 Hz     (333 m%)
+    noise: freq = 1 kHz         (50 %), step = 73.88 Hz     (333 m%)
+    noise: freq = 1.08 kHz    (50.3 %), step = 79.78 Hz     (333 m%)
+    noise: freq = 1.166 kHz   (50.7 %), step = 86.14 Hz     (333 m%)
+    noise: freq = 1.259 kHz     (51 %), step = 93.01 Hz     (333 m%)
+    noise: freq = 1.359 kHz   (51.3 %), step = 100.4 Hz     (333 m%)
+    noise: freq = 1.468 kHz   (51.7 %), step = 108.4 Hz     (333 m%)
+    noise: freq = 1.585 kHz     (52 %), step = 117.1 Hz     (333 m%)
+    noise: freq = 1.711 kHz   (52.3 %), step = 126.4 Hz     (333 m%)
+    noise: freq = 1.848 kHz   (52.7 %), step = 136.5 Hz     (333 m%)
+    noise: freq = 1.995 kHz     (53 %), step = 147.4 Hz     (333 m%)
+    noise: freq = 2.154 kHz   (53.3 %), step = 159.2 Hz     (333 m%)
+    noise: freq = 2.326 kHz   (53.7 %), step = 171.9 Hz     (333 m%)
+    noise: freq = 2.512 kHz     (54 %), step = 185.6 Hz     (333 m%)
+    noise: freq = 2.712 kHz   (54.3 %), step = 200.4 Hz     (333 m%)
+    noise: freq = 2.929 kHz   (54.7 %), step = 216.4 Hz     (333 m%)
+    noise: freq = 3.162 kHz     (55 %), step = 233.6 Hz     (333 m%)
+    noise: freq = 3.415 kHz   (55.3 %), step = 252.3 Hz     (333 m%)
+    noise: freq = 3.687 kHz   (55.7 %), step = 272.4 Hz     (333 m%)
+    noise: freq = 3.981 kHz     (56 %), step = 294.1 Hz     (333 m%)
+    noise: freq = 4.299 kHz   (56.3 %), step = 317.6 Hz     (333 m%)
+    noise: freq = 4.642 kHz   (56.7 %), step = 342.9 Hz     (333 m%)
+    noise: freq = 5.012 kHz     (57 %), step = 370.3 Hz     (333 m%)
+    noise: freq = 5.412 kHz   (57.3 %), step = 399.8 Hz     (333 m%)
+    noise: freq = 5.843 kHz   (57.7 %), step = 431.7 Hz     (333 m%)
+    noise: freq = 6.31 kHz      (58 %), step = 466.2 Hz     (333 m%)
+    noise: freq = 6.813 kHz   (58.3 %), step = 503.3 Hz     (333 m%)
+    noise: freq = 7.356 kHz   (58.7 %), step = 543.5 Hz     (333 m%)
+    noise: freq = 7.943 kHz     (59 %), step = 586.9 Hz     (333 m%)
+    noise: freq = 8.577 kHz   (59.3 %), step = 633.7 Hz     (333 m%)
+    noise: freq = 9.261 kHz   (59.7 %), step = 684.2 Hz     (333 m%)
+    noise: freq = 10 kHz        (60 %), step = 738.8 Hz     (333 m%)
+    noise: freq = 10.8 kHz    (60.3 %), step = 797.8 Hz     (333 m%)
+    noise: freq = 11.66 kHz   (60.7 %), step = 861.4 Hz     (333 m%)
+    noise: freq = 12.59 kHz     (61 %), step = 930.1 Hz     (333 m%)
+    noise: freq = 13.59 kHz   (61.3 %), step = 1.004 kHz    (333 m%)
+    noise: freq = 14.68 kHz   (61.7 %), step = 1.084 kHz    (333 m%)
+    noise: freq = 15.85 kHz     (62 %), step = 1.171 kHz    (333 m%)
+    noise: freq = 17.11 kHz   (62.3 %), step = 1.264 kHz    (333 m%)
+    noise: freq = 18.48 kHz   (62.7 %), step = 1.365 kHz    (333 m%)
+    noise: freq = 19.95 kHz     (63 %), step = 1.474 kHz    (333 m%)
+    noise: freq = 21.54 kHz   (63.3 %), step = 1.592 kHz    (333 m%)
+    noise: freq = 23.26 kHz   (63.7 %), step = 1.719 kHz    (333 m%)
+    noise: freq = 25.12 kHz     (64 %), step = 1.856 kHz    (333 m%)
+    noise: freq = 27.12 kHz   (64.3 %), step = 2.004 kHz    (333 m%)
+    noise: freq = 29.29 kHz   (64.7 %), step = 2.164 kHz    (333 m%)
+    noise: freq = 31.62 kHz     (65 %), step = 2.336 kHz    (333 m%)
+    noise: freq = 34.15 kHz   (65.3 %), step = 2.523 kHz    (333 m%)
+    noise: freq = 36.87 kHz   (65.7 %), step = 2.724 kHz    (333 m%)
+    noise: freq = 39.81 kHz     (66 %), step = 2.941 kHz    (333 m%)
+    noise: freq = 42.99 kHz   (66.3 %), step = 3.176 kHz    (333 m%)
+    noise: freq = 46.42 kHz   (66.7 %), step = 3.429 kHz    (333 m%)
+    noise: freq = 50.12 kHz     (67 %), step = 3.703 kHz    (333 m%)
+    noise: freq = 54.12 kHz   (67.3 %), step = 3.998 kHz    (333 m%)
+    noise: freq = 58.43 kHz   (67.7 %), step = 4.317 kHz    (333 m%)
+    noise: freq = 63.1 kHz      (68 %), step = 4.662 kHz    (333 m%)
+    noise: freq = 68.13 kHz   (68.3 %), step = 5.033 kHz    (333 m%)
+    noise: freq = 73.56 kHz   (68.7 %), step = 5.435 kHz    (333 m%)
+    noise: freq = 79.43 kHz     (69 %), step = 5.869 kHz    (333 m%)
+    noise: freq = 85.77 kHz   (69.3 %), step = 6.337 kHz    (333 m%)
+    noise: freq = 92.61 kHz   (69.7 %), step = 6.842 kHz    (333 m%)
+    noise: freq = 100 kHz       (70 %), step = 7.388 kHz    (333 m%)
+    noise: freq = 108 kHz     (70.3 %), step = 7.978 kHz    (333 m%)
+    noise: freq = 116.6 kHz   (70.7 %), step = 8.614 kHz    (333 m%)
+    noise: freq = 125.9 kHz     (71 %), step = 9.301 kHz    (333 m%)
+    noise: freq = 135.9 kHz   (71.3 %), step = 10.04 kHz    (333 m%)
+    noise: freq = 146.8 kHz   (71.7 %), step = 10.84 kHz    (333 m%)
+    noise: freq = 158.5 kHz     (72 %), step = 11.71 kHz    (333 m%)
+    noise: freq = 171.1 kHz   (72.3 %), step = 12.64 kHz    (333 m%)
+    noise: freq = 184.8 kHz   (72.7 %), step = 13.65 kHz    (333 m%)
+    noise: freq = 199.5 kHz     (73 %), step = 14.74 kHz    (333 m%)
+    noise: freq = 215.4 kHz   (73.3 %), step = 15.92 kHz    (333 m%)
+    noise: freq = 232.6 kHz   (73.7 %), step = 17.19 kHz    (333 m%)
+    noise: freq = 251.2 kHz     (74 %), step = 18.56 kHz    (333 m%)
+    noise: freq = 271.2 kHz   (74.3 %), step = 20.04 kHz    (333 m%)
+    noise: freq = 292.9 kHz   (74.7 %), step = 21.64 kHz    (333 m%)
+    noise: freq = 316.2 kHz     (75 %), step = 23.36 kHz    (333 m%)
+    noise: freq = 341.5 kHz   (75.3 %), step = 25.23 kHz    (333 m%)
+    noise: freq = 368.7 kHz   (75.7 %), step = 27.24 kHz    (333 m%)
+    noise: freq = 398.1 kHz     (76 %), step = 29.41 kHz    (333 m%)
+    noise: freq = 429.9 kHz   (76.3 %), step = 31.76 kHz    (333 m%)
+    noise: freq = 464.2 kHz   (76.7 %), step = 34.29 kHz    (333 m%)
+    noise: freq = 501.2 kHz     (77 %), step = 37.03 kHz    (333 m%)
+    noise: freq = 541.2 kHz   (77.3 %), step = 39.98 kHz    (333 m%)
+    noise: freq = 584.3 kHz   (77.7 %), step = 43.17 kHz    (333 m%)
+    noise: freq = 631 kHz       (78 %), step = 46.62 kHz    (333 m%)
+    noise: freq = 681.3 kHz   (78.3 %), step = 50.33 kHz    (333 m%)
+    noise: freq = 735.6 kHz   (78.7 %), step = 54.35 kHz    (333 m%)
+    noise: freq = 794.3 kHz     (79 %), step = 58.69 kHz    (333 m%)
+    noise: freq = 857.7 kHz   (79.3 %), step = 63.37 kHz    (333 m%)
+    noise: freq = 926.1 kHz   (79.7 %), step = 68.42 kHz    (333 m%)
+    noise: freq = 1 MHz         (80 %), step = 73.88 kHz    (333 m%)
+    noise: freq = 1.08 MHz    (80.3 %), step = 79.78 kHz    (333 m%)
+    noise: freq = 1.166 MHz   (80.7 %), step = 86.14 kHz    (333 m%)
+    noise: freq = 1.259 MHz     (81 %), step = 93.01 kHz    (333 m%)
+    noise: freq = 1.359 MHz   (81.3 %), step = 100.4 kHz    (333 m%)
+    noise: freq = 1.468 MHz   (81.7 %), step = 108.4 kHz    (333 m%)
+    noise: freq = 1.585 MHz     (82 %), step = 117.1 kHz    (333 m%)
+    noise: freq = 1.711 MHz   (82.3 %), step = 126.4 kHz    (333 m%)
+    noise: freq = 1.848 MHz   (82.7 %), step = 136.5 kHz    (333 m%)
+    noise: freq = 1.995 MHz     (83 %), step = 147.4 kHz    (333 m%)
+    noise: freq = 2.154 MHz   (83.3 %), step = 159.2 kHz    (333 m%)
+    noise: freq = 2.326 MHz   (83.7 %), step = 171.9 kHz    (333 m%)
+    noise: freq = 2.512 MHz     (84 %), step = 185.6 kHz    (333 m%)
+    noise: freq = 2.712 MHz   (84.3 %), step = 200.4 kHz    (333 m%)
+    noise: freq = 2.929 MHz   (84.7 %), step = 216.4 kHz    (333 m%)
+    noise: freq = 3.162 MHz     (85 %), step = 233.6 kHz    (333 m%)
+    noise: freq = 3.415 MHz   (85.3 %), step = 252.3 kHz    (333 m%)
+    noise: freq = 3.687 MHz   (85.7 %), step = 272.4 kHz    (333 m%)
+    noise: freq = 3.981 MHz     (86 %), step = 294.1 kHz    (333 m%)
+    noise: freq = 4.299 MHz   (86.3 %), step = 317.6 kHz    (333 m%)
+    noise: freq = 4.642 MHz   (86.7 %), step = 342.9 kHz    (333 m%)
+    noise: freq = 5.012 MHz     (87 %), step = 370.3 kHz    (333 m%)
+    noise: freq = 5.412 MHz   (87.3 %), step = 399.8 kHz    (333 m%)
+    noise: freq = 5.843 MHz   (87.7 %), step = 431.7 kHz    (333 m%)
+    noise: freq = 6.31 MHz      (88 %), step = 466.2 kHz    (333 m%)
+    noise: freq = 6.813 MHz   (88.3 %), step = 503.3 kHz    (333 m%)
+    noise: freq = 7.356 MHz   (88.7 %), step = 543.5 kHz    (333 m%)
+    noise: freq = 7.943 MHz     (89 %), step = 586.9 kHz    (333 m%)
+    noise: freq = 8.577 MHz   (89.3 %), step = 633.7 kHz    (333 m%)
+    noise: freq = 9.261 MHz   (89.7 %), step = 684.2 kHz    (333 m%)
+    noise: freq = 10 MHz        (90 %), step = 738.8 kHz    (333 m%)
+    noise: freq = 10.8 MHz    (90.3 %), step = 797.8 kHz    (333 m%)
+    noise: freq = 11.66 MHz   (90.7 %), step = 861.4 kHz    (333 m%)
+    noise: freq = 12.59 MHz     (91 %), step = 930.1 kHz    (333 m%)
+    noise: freq = 13.59 MHz   (91.3 %), step = 1.004 MHz    (333 m%)
+    noise: freq = 14.68 MHz   (91.7 %), step = 1.084 MHz    (333 m%)
+    noise: freq = 15.85 MHz     (92 %), step = 1.171 MHz    (333 m%)
+    noise: freq = 17.11 MHz   (92.3 %), step = 1.264 MHz    (333 m%)
+    noise: freq = 18.48 MHz   (92.7 %), step = 1.365 MHz    (333 m%)
+    noise: freq = 19.95 MHz     (93 %), step = 1.474 MHz    (333 m%)
+    noise: freq = 21.54 MHz   (93.3 %), step = 1.592 MHz    (333 m%)
+    noise: freq = 23.26 MHz   (93.7 %), step = 1.719 MHz    (333 m%)
+    noise: freq = 25.12 MHz     (94 %), step = 1.856 MHz    (333 m%)
+    noise: freq = 27.12 MHz   (94.3 %), step = 2.004 MHz    (333 m%)
+    noise: freq = 29.29 MHz   (94.7 %), step = 2.164 MHz    (333 m%)
+    noise: freq = 31.62 MHz     (95 %), step = 2.336 MHz    (333 m%)
+    noise: freq = 34.15 MHz   (95.3 %), step = 2.523 MHz    (333 m%)
+    noise: freq = 36.87 MHz   (95.7 %), step = 2.724 MHz    (333 m%)
+    noise: freq = 39.81 MHz     (96 %), step = 2.941 MHz    (333 m%)
+    noise: freq = 42.99 MHz   (96.3 %), step = 3.176 MHz    (333 m%)
+    noise: freq = 46.42 MHz   (96.7 %), step = 3.429 MHz    (333 m%)
+    noise: freq = 50.12 MHz     (97 %), step = 3.703 MHz    (333 m%)
+    noise: freq = 54.12 MHz   (97.3 %), step = 3.998 MHz    (333 m%)
+    noise: freq = 58.43 MHz   (97.7 %), step = 4.317 MHz    (333 m%)
+    noise: freq = 63.1 MHz      (98 %), step = 4.662 MHz    (333 m%)
+    noise: freq = 68.13 MHz   (98.3 %), step = 5.033 MHz    (333 m%)
+    noise: freq = 73.56 MHz   (98.7 %), step = 5.435 MHz    (333 m%)
+    noise: freq = 79.43 MHz     (99 %), step = 5.869 MHz    (333 m%)
+    noise: freq = 85.77 MHz   (99.3 %), step = 6.337 MHz    (333 m%)
+    noise: freq = 92.61 MHz   (99.7 %), step = 6.842 MHz    (333 m%)
+    noise: freq = 100 MHz      (100 %), step = 7.388 MHz    (333 m%)
+
+Opening the PSF file ../psf/noiseViolations.violations ...
+Accumulated DC solution time =            41.9617 us.
+Intrinsic noise analysis time =              73.9961 ms.
+Total time required for noise analysis `noise': CPU = 61.879 ms, elapsed = 74.2021 ms, util. = 83.4%.
+Time accumulated: CPU = 742.016 ms, elapsed = 1.28609 s.
+Peak resident memory used = 214 Mbytes.
+
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/subckts.info.subckts ...
+Licensing Information:
+Lic Summary:
+[15:48:18.015177] Cdslmd servers:3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
+[15:48:18.539497] Feature usage summary:
+[15:48:18.539498] Virtuoso_Multi_mode_Simulation
+
+
+Aggregate audit (3:48:18 PM, Sat Mar 21, 2026):
+Time used: CPU = 765 ms, elapsed = 1.32 s, util. = 58.1%.
+Time spent in licensing: elapsed = 46.1 ms.
+Peak memory used = 214 Mbytes.
+Simulation started at: 3:48:17 PM, Sat Mar 21, 2026, ended at: 3:48:18 PM, Sat Mar 21, 2026, with elapsed time (wall clock): 1.32 s.
+spectre completes with 0 errors, 46 warnings, and 17 notices.

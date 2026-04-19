@@ -1,0 +1,805 @@
+[Simulation Monitor: 307]
+[2026-04-08 14:01:25.849 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulation Monitor has successfully started up. Trying to set up communication channels to other components ... {"hostname": "il2244vt26_davidevi", "processid": 795409, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:01:25.850 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Communication channels have been successfully set up. Start processing events ... {"hostname": "il2244vt26_davidevi", "processid": 795409, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:01:25.850 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Considering to start history {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "Interactive.93", "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:01:25.853 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Started History {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:01:25.853 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - HostInfo:
+Host name (type):	il2244vt26_davidevi (x86_64)
+Operating system:	Linux 5.15.0-164-generic #174-Ubuntu SMP Fri Nov 14 20:25:16 UTC 2025 {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "nodename": "il2244vt26_davidevi", "domainname": "(none)", "machine": "x86_64", "sysname": "Linux", "release": "5.15.0-164-generic", "version": "#174-Ubuntu SMP Fri Nov 14 20:25:16 UTC 2025"}
+[2026-04-08 14:01:25.854 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - UsageInfo:
+pid=795409
+totalPhysicalMemory=3023.749672GB,Used=1536.628357GB,totalVirtualMemory=3031.749668GB,Used=1536.651306GB
+Cpu: Cores=48, Load average:6.760000,6.650000,9.020000 {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "pid": "795409", "totalPhysicalMemory": "3023.749672", "physicalMemoryUsed": "1536.628357", "totalVirtualMemory": "3031.749668", "virtualMemoryUsed": "1536.651306", "cpuCores": "48", "processes": "29605", "loadAverage1": "6.760000", "loadAverage5": "6.650000", "loadAverage15": "9.020000", "loadAverage1Percent": "0.140833"}
+[2026-04-08 14:01:25.855 Z] [EVENT] [cadence.virtuoso.ade.simulationMonitor] - NewPoint {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15", "event": "NewPoint", "EventSource": "Simulation Monitor", "HistoryName": "ExplorerRun.0", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "logFileSize": "2518"}
+[2026-04-08 14:01:25.957 Z] [EVENT] [cadence.virtuoso.ade.simulationMonitor] - NewPoint {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15", "event": "NewPoint", "EventSource": "spectre", "HistoryName": "ExplorerRun.0", "logFile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/21/VGA_VGA_1_pss_tb_1/psf/spectre.out", "logFileSize": "-1"}
+[2026-04-08 14:01:26.020 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulator launched {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15", "point": 21, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "simid": "1"}
+[2026-04-08 14:01:26.023 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Expression evaluator launched {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15", "point": 21, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:01:26.084 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Started Simulation {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15", "point": 21, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "event": "started", "task": "simulation"}
+[2026-04-08 14:01:27.084 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-691): This CPU processor does not support x86 advanced vector extensions instructions. This may affect math operations and slow down the simulation. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:27.085 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during circuit read-in.
+    Pre_Configuration file used: /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/configs/preset.precfg
+    Configuration file used: `/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/configs/preset.cfg'. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:27.085 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-8360): line 1511: `ac' is an undefined primitive device. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:27.085 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-8360): line 1512: `ac' is an undefined primitive device. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:27.085 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-8360): line 1513: `ac' is an undefined primitive device. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:27.085 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-8360): line 1514: `ac' is an undefined primitive device. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:27.085 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-8360): line 1515: `ac' is an undefined primitive device.
+        Further occurrences of this warning will be suppressed. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:27.086 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (VACOMP-2435): The environment variable CDS_AHDLCMI_ENABLE is no longer supported. Therefore, the simulator will use the default compiled C code flow. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:27.086 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 201 Mbytes. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:27.586 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SFE-3016): The floating node net6 is removed. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:27.587 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 211 Mbytes. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:27.587 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during hierarchy flattening.
+    The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:27.587 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 213 Mbytes. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:27.587 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16460): SOAC_cvarm_vspsub:Specified subcircuit master `cvarm' was not found. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:27.587 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16462): SOAC_cvarm_vspsub:Error in specification of subcircuit master. Assert is ignored. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:27.587 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16460): SOAC_cvarm_vbs:Specified subcircuit master `cvarm' was not found. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:27.588 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16462): SOAC_cvarm_vbs:Error in specification of subcircuit master. Assert is ignored. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:27.588 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16460): SOAC_cvarm_vgb:Specified subcircuit master `cvarm' was not found. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:27.588 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16462): SOAC_cvarm_vgb:Error in specification of subcircuit master. Assert is ignored. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:27.588 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16460): SOAC_cvart_vspsub:Specified subcircuit master `cvart' was not found. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:27.588 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16462): SOAC_cvart_vspsub:Error in specification of subcircuit master. Assert is ignored. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:27.588 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16460): SOAC_cvart_vbs:Specified subcircuit master `cvart' was not found.
+        Further occurrences of this warning will be suppressed. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:27.588 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16462): SOAC_cvart_vbs:Error in specification of subcircuit master. Assert is ignored.
+        Further occurrences of this warning will be suppressed. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.089 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during topology check.
+    Only one connection to the following 43 nodes:
+        I0.MN6.psub!
+        I0.MN5.psub!
+        I0.MN4.psub!
+        I0.MN3.psub!
+        I0.MN2.psub!
+        Further occurrences of this notice will be suppressed. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.089 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during initial setup.
+    Multithreading is disabled due to the size of the design being too small. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.089 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-592): Following parameters are disabled because they are ignored or redefined in Spectre X:
+        
+        
+        PSS Parameters:
+          errpreset {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.092 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] -               nodes 87 {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.092 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during initial setup.
+    Spectre X preset=cx enabled.
+    1 notice suppressed.
+    72 warnings suppressed. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.092 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 218 Mbytes. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.092 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] -    -   (Spectre X) Multi-threading. The recommended number of threads is 1, consider adding +mt=1 on command line. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.092 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during DC analysis `dcOp'.
+    No checklimit analysis defined for asserts. A default checklimit analysis 'SpectreChecklimitAnal' has been created with all asserts enabled. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.092 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during DC analysis `dcOp'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.093 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.093 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<0>_turbo_m4.C1'. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.093 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C9<0>_turbo_m8.C1'. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.093 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C7<0>_turbo_m2.C1'. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.093 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.093 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for dc analysis `dcOp': CPU = 92.832 ms, elapsed = 96.782 ms, util. = 95.9%. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.093 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 225 Mbytes. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.093 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre.
+    12 warnings suppressed. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.094 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during IC analysis, during transient analysis `tran'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.094 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.094 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<0>_turbo_m4.C1'. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.094 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C9<0>_turbo_m8.C1'. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.094 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C7<0>_turbo_m2.C1'. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.094 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.094 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during transient analysis `tran'.
+    Multithreading is disabled due to the size of the design being too small. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.094 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for tran analysis `tran': CPU = 77.943 ms, elapsed = 82.1319 ms, util. = 94.9%. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.094 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 227 Mbytes. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.095 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre.
+    12 warnings suppressed. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.095 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] -     ERROR (SPCRTRF-15177): PSS analysis doesn't support behavioral module components with hidden states found in component 'cpoly_ahdl'.  Skipped.
+        
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 5156: Hidden state variable: vplusminus_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 5156: Hidden state variable: vpluspsub_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 5156: Hidden state variable: vminuspsub_ot
+        
+        Rewrit... {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.095 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] -     ERROR (SPCRTRF-15177): PSS analysis doesn't support behavioral module components with hidden states found in component 'modn_ahdl'.  Skipped.
+        
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 28: Hidden state variable: vgs_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 28: Hidden state variable: vds_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 28: Hidden state variable: vgb_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va,... {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.095 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] -     ERROR (SPCRTRF-15177): PSS analysis doesn't support behavioral module components with hidden states found in component 'modp_ahdl'.  Skipped.
+        
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 194: Hidden state variable: vgs_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 194: Hidden state variable: vds_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 194: Hidden state variable: vgb_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.... {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.096 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] -     ERROR (SPCRTRF-15177): PSS analysis doesn't support behavioral module components with hidden states found in component 'rpolyh_ahdl'.  Skipped.
+        
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 6560: Hidden state variable: vpluspsub_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 6560: Hidden state variable: vminuspsub_ot
+        
+        Rewrite the module to remove the hidden state or if you confirm this hidden state will not affect the simulation res... {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.096 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] - Analysis `pss' was terminated prematurely due to an error. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.096 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Time used: CPU = 883 ms, elapsed = 1.6 s, util. = 55%. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.096 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Time spent in licensing: elapsed = 84.7 ms, percentage of total = 5.28%. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.097 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak memory used = 227 Mbytes. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.098 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulation started at: 2:01:26 PM, Wed Apr 8, 2026, ended at: 2:01:27 PM, Wed Apr 8, 2026, with elapsed time (wall clock): 1.6 s. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.098 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - spectre completes with 4 errors, 29 warnings, and 15 notices. {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.098 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Finished simulating for one point {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15", "point": 21, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "simid": "1"}
+[2026-04-08 14:01:28.099 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] - While simulating run ExplorerRun.0, point 21, test VGA_VGA_1_pss_tb_1, received error:
+Simulation Error:
+ The simulator process returned a non-zero exit code, indicating failure.
+The simulator could have crashed or intentionally returned to indicate an error.
+Check the simulator log file for more information.  Common causes:
+1. Simulator may have crashed during exit even after reporting success in log file.
+2. Abrupt automatic simulator termination (e.g., SIGKILL) because the simulator process has
+   excee... {"history": "ExplorerRun.0", "point": 21, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15"}
+[2026-04-08 14:01:28.099 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Finished Simulation {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15", "point": 21, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "simid": "1"}
+[2026-04-08 14:01:32.611 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Point Finished {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15", "point": 21, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:01:32.614 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - HostInfo:
+Host name (type):	il2244vt26_davidevi (x86_64)
+Operating system:	Linux 5.15.0-164-generic #174-Ubuntu SMP Fri Nov 14 20:25:16 UTC 2025 {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15", "point": 21, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "nodename": "il2244vt26_davidevi", "domainname": "(none)", "machine": "x86_64", "sysname": "Linux", "release": "5.15.0-164-generic", "version": "#174-Ubuntu SMP Fri Nov 14 20:25:16 UTC 2025"}
+[2026-04-08 14:01:32.614 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - UsageInfo:
+pid=795409
+totalPhysicalMemory=3023.749672GB,Used=1539.547165GB,totalVirtualMemory=3031.749668GB,Used=1539.570114GB
+Cpu: Cores=48, Load average:7.820000,6.870000,9.080000 {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_15", "point": 21, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "pid": "795409", "totalPhysicalMemory": "3023.749672", "physicalMemoryUsed": "1539.547165", "totalVirtualMemory": "3031.749668", "virtualMemoryUsed": "1539.570114", "cpuCores": "48", "processes": "29663", "loadAverage1": "7.820000", "loadAverage5": "6.870000", "loadAverage15": "9.080000", "loadAverage1Percent": "0.162917"}
+[2026-04-08 14:01:32.615 Z] [EVENT] [cadence.virtuoso.ade.simulationMonitor] - NewPoint {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12", "event": "NewPoint", "EventSource": "Simulation Monitor", "HistoryName": "ExplorerRun.0", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "logFileSize": "27563"}
+[2026-04-08 14:01:32.717 Z] [EVENT] [cadence.virtuoso.ade.simulationMonitor] - NewPoint {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12", "event": "NewPoint", "EventSource": "spectre", "HistoryName": "ExplorerRun.0", "logFile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/34/VGA_VGA_1_pss_tb_1/psf/spectre.out", "logFileSize": "-1"}
+[2026-04-08 14:01:32.729 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulator launched {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12", "point": 34, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "simid": "2"}
+[2026-04-08 14:01:32.795 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Started Simulation {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12", "point": 34, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "event": "started", "task": "simulation"}
+[2026-04-08 14:01:33.796 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-691): This CPU processor does not support x86 advanced vector extensions instructions. This may affect math operations and slow down the simulation. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:33.796 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during circuit read-in.
+    Pre_Configuration file used: /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/configs/preset.precfg
+    Configuration file used: `/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/configs/preset.cfg'. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:33.797 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-8360): line 1511: `ac' is an undefined primitive device. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:33.797 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-8360): line 1512: `ac' is an undefined primitive device. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:33.797 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-8360): line 1513: `ac' is an undefined primitive device. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:33.797 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-8360): line 1514: `ac' is an undefined primitive device. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:33.797 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-8360): line 1515: `ac' is an undefined primitive device.
+        Further occurrences of this warning will be suppressed. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:33.797 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (VACOMP-2435): The environment variable CDS_AHDLCMI_ENABLE is no longer supported. Therefore, the simulator will use the default compiled C code flow. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:33.797 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 182 Mbytes. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:33.797 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SFE-3016): The floating node net6 is removed. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:33.798 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 193 Mbytes. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:33.798 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during hierarchy flattening.
+    The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:33.798 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 195 Mbytes. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:33.798 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16460): SOAC_cvarm_vspsub:Specified subcircuit master `cvarm' was not found. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:33.798 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16462): SOAC_cvarm_vspsub:Error in specification of subcircuit master. Assert is ignored. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:33.798 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16460): SOAC_cvarm_vbs:Specified subcircuit master `cvarm' was not found. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:33.798 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16462): SOAC_cvarm_vbs:Error in specification of subcircuit master. Assert is ignored. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:33.798 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16460): SOAC_cvarm_vgb:Specified subcircuit master `cvarm' was not found. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:33.798 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16462): SOAC_cvarm_vgb:Error in specification of subcircuit master. Assert is ignored. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:33.799 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16460): SOAC_cvart_vspsub:Specified subcircuit master `cvart' was not found. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:33.799 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16462): SOAC_cvart_vspsub:Error in specification of subcircuit master. Assert is ignored. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:33.799 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16460): SOAC_cvart_vbs:Specified subcircuit master `cvart' was not found.
+        Further occurrences of this warning will be suppressed. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:33.799 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16462): SOAC_cvart_vbs:Error in specification of subcircuit master. Assert is ignored.
+        Further occurrences of this warning will be suppressed. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.299 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during topology check.
+    Only one connection to the following 43 nodes:
+        I0.MN6.psub!
+        I0.MN5.psub!
+        I0.MN4.psub!
+        I0.MN3.psub!
+        I0.MN2.psub!
+        Further occurrences of this notice will be suppressed. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.300 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during initial setup.
+    Multithreading is disabled due to the size of the design being too small. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.300 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-592): Following parameters are disabled because they are ignored or redefined in Spectre X:
+        
+        
+        PSS Parameters:
+          errpreset {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.302 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] -               nodes 87 {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.302 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during initial setup.
+    Spectre X preset=cx enabled.
+    1 notice suppressed.
+    72 warnings suppressed. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.302 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 201 Mbytes. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.302 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] -    -   (Spectre X) Multi-threading. The recommended number of threads is 1, consider adding +mt=1 on command line. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.302 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during DC analysis `dcOp'.
+    No checklimit analysis defined for asserts. A default checklimit analysis 'SpectreChecklimitAnal' has been created with all asserts enabled. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.302 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during DC analysis `dcOp'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.303 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.303 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<0>_turbo_m4.C1'. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.303 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C9<0>_turbo_m8.C1'. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.303 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C7<0>_turbo_m2.C1'. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.303 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.303 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for dc analysis `dcOp': CPU = 91.219 ms, elapsed = 95.1622 ms, util. = 95.9%. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.303 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 211 Mbytes. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.303 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre.
+    12 warnings suppressed. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.304 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during IC analysis, during transient analysis `tran'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.304 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.304 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<0>_turbo_m4.C1'. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.304 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C9<0>_turbo_m8.C1'. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.304 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C7<0>_turbo_m2.C1'. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.304 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.304 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during transient analysis `tran'.
+    Multithreading is disabled due to the size of the design being too small. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.304 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for tran analysis `tran': CPU = 70.782 ms, elapsed = 72.962 ms, util. = 97%. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.305 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 214 Mbytes. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.305 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre.
+    12 warnings suppressed. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.805 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] -     ERROR (SPCRTRF-15177): PSS analysis doesn't support behavioral module components with hidden states found in component 'cpoly_ahdl'.  Skipped.
+        
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 5156: Hidden state variable: vplusminus_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 5156: Hidden state variable: vpluspsub_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 5156: Hidden state variable: vminuspsub_ot
+        
+        Rewrit... {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.806 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] -     ERROR (SPCRTRF-15177): PSS analysis doesn't support behavioral module components with hidden states found in component 'modn_ahdl'.  Skipped.
+        
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 28: Hidden state variable: vgs_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 28: Hidden state variable: vds_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 28: Hidden state variable: vgb_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va,... {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.807 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] -     ERROR (SPCRTRF-15177): PSS analysis doesn't support behavioral module components with hidden states found in component 'modp_ahdl'.  Skipped.
+        
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 194: Hidden state variable: vgs_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 194: Hidden state variable: vds_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 194: Hidden state variable: vgb_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.... {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.807 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] -     ERROR (SPCRTRF-15177): PSS analysis doesn't support behavioral module components with hidden states found in component 'rpolyh_ahdl'.  Skipped.
+        
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 6560: Hidden state variable: vpluspsub_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 6560: Hidden state variable: vminuspsub_ot
+        
+        Rewrite the module to remove the hidden state or if you confirm this hidden state will not affect the simulation res... {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.807 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] - Analysis `pss' was terminated prematurely due to an error. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.807 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Time used: CPU = 655 ms, elapsed = 1.14 s, util. = 57.4%. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.808 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Time spent in licensing: elapsed = 77 ms, percentage of total = 6.76%. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.808 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak memory used = 214 Mbytes. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.809 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulation started at: 2:01:33 PM, Wed Apr 8, 2026, ended at: 2:01:34 PM, Wed Apr 8, 2026, with elapsed time (wall clock): 1.14 s. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.810 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - spectre completes with 4 errors, 29 warnings, and 15 notices. {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.810 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Finished simulating for one point {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12", "point": 34, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "simid": "2"}
+[2026-04-08 14:01:34.810 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] - While simulating run ExplorerRun.0, point 34, test VGA_VGA_1_pss_tb_1, received error:
+Simulation Error:
+ The simulator process returned a non-zero exit code, indicating failure.
+The simulator could have crashed or intentionally returned to indicate an error.
+Check the simulator log file for more information.  Common causes:
+1. Simulator may have crashed during exit even after reporting success in log file.
+2. Abrupt automatic simulator termination (e.g., SIGKILL) because the simulator process has
+   excee... {"history": "ExplorerRun.0", "point": 34, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12"}
+[2026-04-08 14:01:34.811 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Finished Simulation {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12", "point": 34, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "simid": "2"}
+[2026-04-08 14:01:36.823 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Point Finished {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12", "point": 34, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:01:36.825 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - HostInfo:
+Host name (type):	il2244vt26_davidevi (x86_64)
+Operating system:	Linux 5.15.0-164-generic #174-Ubuntu SMP Fri Nov 14 20:25:16 UTC 2025 {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12", "point": 34, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "nodename": "il2244vt26_davidevi", "domainname": "(none)", "machine": "x86_64", "sysname": "Linux", "release": "5.15.0-164-generic", "version": "#174-Ubuntu SMP Fri Nov 14 20:25:16 UTC 2025"}
+[2026-04-08 14:01:36.825 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - UsageInfo:
+pid=795409
+totalPhysicalMemory=3023.749672GB,Used=1539.542137GB,totalVirtualMemory=3031.749668GB,Used=1539.565086GB
+Cpu: Cores=48, Load average:8.160000,6.960000,9.100000 {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_12", "point": 34, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "pid": "795409", "totalPhysicalMemory": "3023.749672", "physicalMemoryUsed": "1539.542137", "totalVirtualMemory": "3031.749668", "virtualMemoryUsed": "1539.565086", "cpuCores": "48", "processes": "29662", "loadAverage1": "8.160000", "loadAverage5": "6.960000", "loadAverage15": "9.100000", "loadAverage1Percent": "0.170000"}
+[2026-04-08 14:01:36.826 Z] [EVENT] [cadence.virtuoso.ade.simulationMonitor] - NewPoint {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24", "event": "NewPoint", "EventSource": "Simulation Monitor", "HistoryName": "ExplorerRun.0", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "logFileSize": "52605"}
+[2026-04-08 14:01:36.928 Z] [EVENT] [cadence.virtuoso.ade.simulationMonitor] - NewPoint {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24", "event": "NewPoint", "EventSource": "spectre", "HistoryName": "ExplorerRun.0", "logFile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/46/VGA_VGA_1_pss_tb_1/psf/spectre.out", "logFileSize": "-1"}
+[2026-04-08 14:01:36.940 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulator launched {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24", "point": 46, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "simid": "3"}
+[2026-04-08 14:01:36.998 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Started Simulation {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24", "point": 46, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "event": "started", "task": "simulation"}
+[2026-04-08 14:01:37.999 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-691): This CPU processor does not support x86 advanced vector extensions instructions. This may affect math operations and slow down the simulation. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:37.999 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during circuit read-in.
+    Pre_Configuration file used: /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/configs/preset.precfg
+    Configuration file used: `/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/configs/preset.cfg'. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:37.999 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-8360): line 1511: `ac' is an undefined primitive device. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.000 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-8360): line 1512: `ac' is an undefined primitive device. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.000 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-8360): line 1513: `ac' is an undefined primitive device. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.000 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-8360): line 1514: `ac' is an undefined primitive device. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.000 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-8360): line 1515: `ac' is an undefined primitive device.
+        Further occurrences of this warning will be suppressed. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.000 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (VACOMP-2435): The environment variable CDS_AHDLCMI_ENABLE is no longer supported. Therefore, the simulator will use the default compiled C code flow. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.000 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 182 Mbytes. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.000 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SFE-3016): The floating node net6 is removed. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.000 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 193 Mbytes. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.000 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during hierarchy flattening.
+    The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.001 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 196 Mbytes. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.001 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16460): SOAC_cvarm_vspsub:Specified subcircuit master `cvarm' was not found. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.001 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16462): SOAC_cvarm_vspsub:Error in specification of subcircuit master. Assert is ignored. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.001 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16460): SOAC_cvarm_vbs:Specified subcircuit master `cvarm' was not found. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.001 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16462): SOAC_cvarm_vbs:Error in specification of subcircuit master. Assert is ignored. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.001 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16460): SOAC_cvarm_vgb:Specified subcircuit master `cvarm' was not found. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.001 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16462): SOAC_cvarm_vgb:Error in specification of subcircuit master. Assert is ignored. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.001 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16460): SOAC_cvart_vspsub:Specified subcircuit master `cvart' was not found. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.001 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16462): SOAC_cvart_vspsub:Error in specification of subcircuit master. Assert is ignored. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.002 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16460): SOAC_cvart_vbs:Specified subcircuit master `cvart' was not found.
+        Further occurrences of this warning will be suppressed. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.002 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16462): SOAC_cvart_vbs:Error in specification of subcircuit master. Assert is ignored.
+        Further occurrences of this warning will be suppressed. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.502 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during topology check.
+    Only one connection to the following 43 nodes:
+        I0.MN6.psub!
+        I0.MN5.psub!
+        I0.MN4.psub!
+        I0.MN3.psub!
+        I0.MN2.psub!
+        Further occurrences of this notice will be suppressed. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.502 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during initial setup.
+    Multithreading is disabled due to the size of the design being too small. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.502 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-592): Following parameters are disabled because they are ignored or redefined in Spectre X:
+        
+        
+        PSS Parameters:
+          errpreset {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.504 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] -               nodes 87 {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.504 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during initial setup.
+    Spectre X preset=cx enabled.
+    1 notice suppressed.
+    72 warnings suppressed. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.504 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 202 Mbytes. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.504 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] -    -   (Spectre X) Multi-threading. The recommended number of threads is 1, consider adding +mt=1 on command line. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.505 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during DC analysis `dcOp'.
+    No checklimit analysis defined for asserts. A default checklimit analysis 'SpectreChecklimitAnal' has been created with all asserts enabled. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.505 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during DC analysis `dcOp'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.505 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.505 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<0>_turbo_m4.C1'. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.505 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C9<0>_turbo_m8.C1'. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.505 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C7<0>_turbo_m2.C1'. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.505 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.505 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for dc analysis `dcOp': CPU = 87.459 ms, elapsed = 90.6451 ms, util. = 96.5%. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.506 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 211 Mbytes. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.506 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre.
+    12 warnings suppressed. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.506 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during IC analysis, during transient analysis `tran'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.506 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.506 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<0>_turbo_m4.C1'. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.506 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C9<0>_turbo_m8.C1'. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.506 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C7<0>_turbo_m2.C1'. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.506 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:38.507 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during transient analysis `tran'.
+    Multithreading is disabled due to the size of the design being too small. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:39.007 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for tran analysis `tran': CPU = 74.263 ms, elapsed = 75.9199 ms, util. = 97.8%. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:39.007 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 214 Mbytes. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:39.007 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre.
+    12 warnings suppressed. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:39.008 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] -     ERROR (SPCRTRF-15177): PSS analysis doesn't support behavioral module components with hidden states found in component 'cpoly_ahdl'.  Skipped.
+        
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 5156: Hidden state variable: vplusminus_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 5156: Hidden state variable: vpluspsub_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 5156: Hidden state variable: vminuspsub_ot
+        
+        Rewrit... {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:39.008 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] -     ERROR (SPCRTRF-15177): PSS analysis doesn't support behavioral module components with hidden states found in component 'modn_ahdl'.  Skipped.
+        
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 28: Hidden state variable: vgs_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 28: Hidden state variable: vds_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 28: Hidden state variable: vgb_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va,... {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:39.008 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] -     ERROR (SPCRTRF-15177): PSS analysis doesn't support behavioral module components with hidden states found in component 'modp_ahdl'.  Skipped.
+        
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 194: Hidden state variable: vgs_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 194: Hidden state variable: vds_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 194: Hidden state variable: vgb_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.... {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:39.009 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] -     ERROR (SPCRTRF-15177): PSS analysis doesn't support behavioral module components with hidden states found in component 'rpolyh_ahdl'.  Skipped.
+        
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 6560: Hidden state variable: vpluspsub_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 6560: Hidden state variable: vminuspsub_ot
+        
+        Rewrite the module to remove the hidden state or if you confirm this hidden state will not affect the simulation res... {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:39.009 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] - Analysis `pss' was terminated prematurely due to an error. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:39.009 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Time used: CPU = 650 ms, elapsed = 1.15 s, util. = 56.5%. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:39.009 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Time spent in licensing: elapsed = 73.9 ms, percentage of total = 6.43%. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:39.010 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak memory used = 214 Mbytes. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:39.011 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulation started at: 2:01:37 PM, Wed Apr 8, 2026, ended at: 2:01:38 PM, Wed Apr 8, 2026, with elapsed time (wall clock): 1.15 s. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:39.011 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - spectre completes with 4 errors, 29 warnings, and 15 notices. {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:39.011 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Finished simulating for one point {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24", "point": 46, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "simid": "3"}
+[2026-04-08 14:01:39.011 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] - While simulating run ExplorerRun.0, point 46, test VGA_VGA_1_pss_tb_1, received error:
+Simulation Error:
+ The simulator process returned a non-zero exit code, indicating failure.
+The simulator could have crashed or intentionally returned to indicate an error.
+Check the simulator log file for more information.  Common causes:
+1. Simulator may have crashed during exit even after reporting success in log file.
+2. Abrupt automatic simulator termination (e.g., SIGKILL) because the simulator process has
+   excee... {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:01:39.012 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Finished Simulation {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24", "point": 46, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "simid": "3"}
+[2026-04-08 14:01:41.024 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Point Finished {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24", "point": 46, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:01:42.026 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '6', Linger time '300', currentRunSyn '13', currentTestSyn '14' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24", "point": 46, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:01:43.027 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '6', Linger time '300', currentRunSyn '13', currentTestSyn '14' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24", "point": 46, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:01:44.027 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '6', Linger time '300', currentRunSyn '13', currentTestSyn '14' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24", "point": 46, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:01:45.029 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '6', Linger time '300', currentRunSyn '13', currentTestSyn '14' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24", "point": 46, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:01:46.031 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '6', Linger time '300', currentRunSyn '13', currentTestSyn '14' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24", "point": 46, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:01:47.029 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '6', Linger time '300', currentRunSyn '13', currentTestSyn '14' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24", "point": 46, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:01:48.029 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '6', Linger time '300', currentRunSyn '13', currentTestSyn '14' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24", "point": 46, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:01:49.030 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '6', Linger time '300', currentRunSyn '13', currentTestSyn '14' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24", "point": 46, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:01:50.031 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '6', Linger time '300', currentRunSyn '13', currentTestSyn '14' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24", "point": 46, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:01:51.031 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '6', Linger time '300', currentRunSyn '13', currentTestSyn '14' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24", "point": 46, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:03:25.110 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '7', Linger time '300', currentRunSyn '15', currentTestSyn '16' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24", "point": 46, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:03:26.110 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '7', Linger time '300', currentRunSyn '15', currentTestSyn '16' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24", "point": 46, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:03:27.111 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '7', Linger time '300', currentRunSyn '15', currentTestSyn '16' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24", "point": 46, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:03:28.111 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '7', Linger time '300', currentRunSyn '15', currentTestSyn '16' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24", "point": 46, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:03:29.112 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '7', Linger time '300', currentRunSyn '15', currentTestSyn '16' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24", "point": 46, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:03:30.113 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - SimulationMonitor has terminated the vds process '795918', reason: 'Force to stop the expression evalutor process because of new run' {"history": "ExplorerRun.0", "point": 46, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24"}
+[2026-04-08 14:03:30.114 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - HostInfo:
+Host name (type):	il2244vt26_davidevi (x86_64)
+Operating system:	Linux 5.15.0-164-generic #174-Ubuntu SMP Fri Nov 14 20:25:16 UTC 2025 {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24", "point": 46, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "nodename": "il2244vt26_davidevi", "domainname": "(none)", "machine": "x86_64", "sysname": "Linux", "release": "5.15.0-164-generic", "version": "#174-Ubuntu SMP Fri Nov 14 20:25:16 UTC 2025"}
+[2026-04-08 14:03:30.114 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - UsageInfo:
+pid=795409
+totalPhysicalMemory=3023.749672GB,Used=1537.348488GB,totalVirtualMemory=3031.749668GB,Used=1537.371437GB
+Cpu: Cores=48, Load average:8.670000,7.480000,9.040000 {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_24", "point": 46, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "pid": "795409", "totalPhysicalMemory": "3023.749672", "physicalMemoryUsed": "1537.348488", "totalVirtualMemory": "3031.749668", "virtualMemoryUsed": "1537.371437", "cpuCores": "48", "processes": "29621", "loadAverage1": "8.670000", "loadAverage5": "7.480000", "loadAverage15": "9.040000", "loadAverage1Percent": "0.180625"}
+[2026-04-08 14:03:30.115 Z] [EVENT] [cadence.virtuoso.ade.simulationMonitor] - NewPoint {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4", "event": "NewPoint", "EventSource": "Simulation Monitor", "HistoryName": "ExplorerRun.0", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "logFileSize": "84173"}
+[2026-04-08 14:03:30.216 Z] [EVENT] [cadence.virtuoso.ade.simulationMonitor] - NewPoint {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4", "event": "NewPoint", "EventSource": "spectre", "HistoryName": "ExplorerRun.0", "logFile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/58/VGA_VGA_1_pss_tb_1/psf/spectre.out", "logFileSize": "-1"}
+[2026-04-08 14:03:30.273 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulator launched {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4", "point": 58, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "simid": "4"}
+[2026-04-08 14:03:30.276 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Expression evaluator launched {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4", "point": 58, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:03:30.335 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Started Simulation {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4", "point": 58, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "event": "started", "task": "simulation"}
+[2026-04-08 14:03:31.336 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-691): This CPU processor does not support x86 advanced vector extensions instructions. This may affect math operations and slow down the simulation. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:31.336 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during circuit read-in.
+    Pre_Configuration file used: /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/configs/preset.precfg
+    Configuration file used: `/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/configs/preset.cfg'. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:31.336 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-8360): line 1511: `ac' is an undefined primitive device. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:31.336 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-8360): line 1512: `ac' is an undefined primitive device. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:31.337 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-8360): line 1513: `ac' is an undefined primitive device. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:31.337 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-8360): line 1514: `ac' is an undefined primitive device. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:31.337 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-8360): line 1515: `ac' is an undefined primitive device.
+        Further occurrences of this warning will be suppressed. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:31.337 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (VACOMP-2435): The environment variable CDS_AHDLCMI_ENABLE is no longer supported. Therefore, the simulator will use the default compiled C code flow. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:31.337 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 201 Mbytes. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:31.337 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SFE-3016): The floating node net6 is removed. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:31.337 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 211 Mbytes. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:31.337 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during hierarchy flattening.
+    The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:31.338 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 213 Mbytes. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:31.338 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16460): SOAC_cvarm_vspsub:Specified subcircuit master `cvarm' was not found. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:31.338 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16462): SOAC_cvarm_vspsub:Error in specification of subcircuit master. Assert is ignored. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:31.338 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16460): SOAC_cvarm_vbs:Specified subcircuit master `cvarm' was not found. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:31.338 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16462): SOAC_cvarm_vbs:Error in specification of subcircuit master. Assert is ignored. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:31.338 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16460): SOAC_cvarm_vgb:Specified subcircuit master `cvarm' was not found. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:31.338 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16462): SOAC_cvarm_vgb:Error in specification of subcircuit master. Assert is ignored. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:31.338 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16460): SOAC_cvart_vspsub:Specified subcircuit master `cvart' was not found. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:31.339 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16462): SOAC_cvart_vspsub:Error in specification of subcircuit master. Assert is ignored. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:31.339 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16460): SOAC_cvart_vbs:Specified subcircuit master `cvart' was not found.
+        Further occurrences of this warning will be suppressed. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:31.339 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16462): SOAC_cvart_vbs:Error in specification of subcircuit master. Assert is ignored.
+        Further occurrences of this warning will be suppressed. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:32.340 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during topology check.
+    Only one connection to the following 43 nodes:
+        I0.MN6.psub!
+        I0.MN5.psub!
+        I0.MN4.psub!
+        I0.MN3.psub!
+        I0.MN2.psub!
+        Further occurrences of this notice will be suppressed. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:32.340 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during initial setup.
+    Multithreading is disabled due to the size of the design being too small. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:32.341 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-592): Following parameters are disabled because they are ignored or redefined in Spectre X:
+        
+        
+        PSS Parameters:
+          errpreset {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:32.343 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] -               nodes 87 {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:32.343 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during initial setup.
+    Spectre X preset=cx enabled.
+    1 notice suppressed.
+    72 warnings suppressed. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:32.343 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 218 Mbytes. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:32.343 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] -    -   (Spectre X) Multi-threading. The recommended number of threads is 1, consider adding +mt=1 on command line. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:32.343 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during transient analysis `tran'.
+    No checklimit analysis defined for asserts. A default checklimit analysis 'SpectreChecklimitAnal' has been created with all asserts enabled. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:32.343 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during IC analysis, during transient analysis `tran'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:32.343 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:32.344 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<0>_turbo_m4.C1'. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:32.344 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C9<0>_turbo_m8.C1'. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:32.344 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C7<0>_turbo_m2.C1'. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:32.344 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:32.344 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during transient analysis `tran'.
+    Multithreading is disabled due to the size of the design being too small. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:32.344 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for tran analysis `tran': CPU = 161.066 ms, elapsed = 165.538 ms, util. = 97.3%. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:32.344 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 227 Mbytes. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:32.344 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre.
+    12 warnings suppressed. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:32.345 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] -     ERROR (SPCRTRF-15177): PSS analysis doesn't support behavioral module components with hidden states found in component 'cpoly_ahdl'.  Skipped.
+        
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 5156: Hidden state variable: vplusminus_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 5156: Hidden state variable: vpluspsub_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 5156: Hidden state variable: vminuspsub_ot
+        
+        Rewrit... {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:32.345 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] -     ERROR (SPCRTRF-15177): PSS analysis doesn't support behavioral module components with hidden states found in component 'modn_ahdl'.  Skipped.
+        
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 28: Hidden state variable: vgs_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 28: Hidden state variable: vds_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 28: Hidden state variable: vgb_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va,... {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:32.345 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] -     ERROR (SPCRTRF-15177): PSS analysis doesn't support behavioral module components with hidden states found in component 'modp_ahdl'.  Skipped.
+        
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 194: Hidden state variable: vgs_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 194: Hidden state variable: vds_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 194: Hidden state variable: vgb_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.... {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:32.346 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] -     ERROR (SPCRTRF-15177): PSS analysis doesn't support behavioral module components with hidden states found in component 'rpolyh_ahdl'.  Skipped.
+        
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 6560: Hidden state variable: vpluspsub_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 6560: Hidden state variable: vminuspsub_ot
+        
+        Rewrite the module to remove the hidden state or if you confirm this hidden state will not affect the simulation res... {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:32.346 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] - Analysis `pss' was terminated prematurely due to an error. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:32.346 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Time used: CPU = 833 ms, elapsed = 1.5 s, util. = 55.6%. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:32.346 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Time spent in licensing: elapsed = 74.6 ms. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:32.347 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak memory used = 229 Mbytes. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:32.348 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulation started at: 2:03:30 PM, Wed Apr 8, 2026, ended at: 2:03:32 PM, Wed Apr 8, 2026, with elapsed time (wall clock): 1.5 s. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:32.348 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - spectre completes with 4 errors, 24 warnings, and 13 notices. {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:32.348 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Finished simulating for one point {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4", "point": 58, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "simid": "4"}
+[2026-04-08 14:03:32.348 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] - While simulating run ExplorerRun.0, point 58, test VGA_VGA_1_pss_tb_1, received error:
+Simulation Error:
+ The simulator process returned a non-zero exit code, indicating failure.
+The simulator could have crashed or intentionally returned to indicate an error.
+Check the simulator log file for more information.  Common causes:
+1. Simulator may have crashed during exit even after reporting success in log file.
+2. Abrupt automatic simulator termination (e.g., SIGKILL) because the simulator process has
+   excee... {"history": "ExplorerRun.0", "point": 58, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4"}
+[2026-04-08 14:03:32.349 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Finished Simulation {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4", "point": 58, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "simid": "4"}
+[2026-04-08 14:03:36.360 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Point Finished {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4", "point": 58, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:03:36.362 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '7', Linger time '300', currentRunSyn '15', currentTestSyn '16' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4", "point": 58, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:03:37.363 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '7', Linger time '300', currentRunSyn '15', currentTestSyn '16' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4", "point": 58, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:03:38.363 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '7', Linger time '300', currentRunSyn '15', currentTestSyn '16' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4", "point": 58, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:03:39.364 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '7', Linger time '300', currentRunSyn '15', currentTestSyn '16' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4", "point": 58, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:03:40.364 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '7', Linger time '300', currentRunSyn '15', currentTestSyn '16' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4", "point": 58, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:03:41.364 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '7', Linger time '300', currentRunSyn '15', currentTestSyn '16' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4", "point": 58, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:03:42.365 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - HostInfo:
+Host name (type):	il2244vt26_davidevi (x86_64)
+Operating system:	Linux 5.15.0-164-generic #174-Ubuntu SMP Fri Nov 14 20:25:16 UTC 2025 {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4", "point": 58, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "nodename": "il2244vt26_davidevi", "domainname": "(none)", "machine": "x86_64", "sysname": "Linux", "release": "5.15.0-164-generic", "version": "#174-Ubuntu SMP Fri Nov 14 20:25:16 UTC 2025"}
+[2026-04-08 14:03:42.366 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - UsageInfo:
+pid=795409
+totalPhysicalMemory=3023.749672GB,Used=1539.467022GB,totalVirtualMemory=3031.749668GB,Used=1539.489971GB
+Cpu: Cores=48, Load average:9.920000,7.800000,9.120000 {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "VDD_4", "point": 58, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "pid": "795409", "totalPhysicalMemory": "3023.749672", "physicalMemoryUsed": "1539.467022", "totalVirtualMemory": "3031.749668", "virtualMemoryUsed": "1539.489971", "cpuCores": "48", "processes": "29608", "loadAverage1": "9.920000", "loadAverage5": "7.800000", "loadAverage15": "9.120000", "loadAverage1Percent": "0.206667"}
+[2026-04-08 14:03:42.367 Z] [EVENT] [cadence.virtuoso.ade.simulationMonitor] - NewPoint {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0", "event": "NewPoint", "EventSource": "Simulation Monitor", "HistoryName": "ExplorerRun.0", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "logFileSize": "108135"}
+[2026-04-08 14:03:42.468 Z] [EVENT] [cadence.virtuoso.ade.simulationMonitor] - NewPoint {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0", "event": "NewPoint", "EventSource": "spectre", "HistoryName": "ExplorerRun.0", "logFile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/22/VGA_VGA_1_pss_tb_1/psf/spectre.out", "logFileSize": "-1"}
+[2026-04-08 14:03:42.481 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulator launched {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0", "point": 22, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "simid": "5"}
+[2026-04-08 14:03:42.526 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Started Simulation {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0", "point": 22, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "event": "started", "task": "simulation"}
+[2026-04-08 14:03:43.527 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-691): This CPU processor does not support x86 advanced vector extensions instructions. This may affect math operations and slow down the simulation. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:43.527 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during circuit read-in.
+    Pre_Configuration file used: /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/configs/preset.precfg
+    Configuration file used: `/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/configs/preset.cfg'. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:43.527 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-8360): line 1511: `ac' is an undefined primitive device. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:43.528 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-8360): line 1512: `ac' is an undefined primitive device. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:43.528 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-8360): line 1513: `ac' is an undefined primitive device. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:43.528 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-8360): line 1514: `ac' is an undefined primitive device. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:43.528 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-8360): line 1515: `ac' is an undefined primitive device.
+        Further occurrences of this warning will be suppressed. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:43.528 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (VACOMP-2435): The environment variable CDS_AHDLCMI_ENABLE is no longer supported. Therefore, the simulator will use the default compiled C code flow. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:43.528 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 182 Mbytes. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:43.528 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SFE-3016): The floating node net6 is removed. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:43.528 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 193 Mbytes. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:43.529 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during hierarchy flattening.
+    The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:43.529 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 195 Mbytes. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:43.529 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16460): SOAC_cvarm_vspsub:Specified subcircuit master `cvarm' was not found. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:43.529 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16462): SOAC_cvarm_vspsub:Error in specification of subcircuit master. Assert is ignored. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:43.529 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16460): SOAC_cvarm_vbs:Specified subcircuit master `cvarm' was not found. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:43.529 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16462): SOAC_cvarm_vbs:Error in specification of subcircuit master. Assert is ignored. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:43.529 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16460): SOAC_cvarm_vgb:Specified subcircuit master `cvarm' was not found. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:43.529 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16462): SOAC_cvarm_vgb:Error in specification of subcircuit master. Assert is ignored. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:43.529 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16460): SOAC_cvart_vspsub:Specified subcircuit master `cvart' was not found. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:43.530 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16462): SOAC_cvart_vspsub:Error in specification of subcircuit master. Assert is ignored. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:43.530 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16460): SOAC_cvart_vbs:Specified subcircuit master `cvart' was not found.
+        Further occurrences of this warning will be suppressed. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:43.530 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16462): SOAC_cvart_vbs:Error in specification of subcircuit master. Assert is ignored.
+        Further occurrences of this warning will be suppressed. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:44.030 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during topology check.
+    Only one connection to the following 43 nodes:
+        I0.MN6.psub!
+        I0.MN5.psub!
+        I0.MN4.psub!
+        I0.MN3.psub!
+        I0.MN2.psub!
+        Further occurrences of this notice will be suppressed. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:44.031 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during initial setup.
+    Multithreading is disabled due to the size of the design being too small. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:44.031 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-592): Following parameters are disabled because they are ignored or redefined in Spectre X:
+        
+        
+        PSS Parameters:
+          errpreset {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:44.033 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] -               nodes 87 {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:44.033 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during initial setup.
+    Spectre X preset=cx enabled.
+    1 notice suppressed.
+    72 warnings suppressed. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:44.033 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 201 Mbytes. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:44.033 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] -    -   (Spectre X) Multi-threading. The recommended number of threads is 1, consider adding +mt=1 on command line. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:44.033 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during transient analysis `tran'.
+    No checklimit analysis defined for asserts. A default checklimit analysis 'SpectreChecklimitAnal' has been created with all asserts enabled. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:44.033 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during IC analysis, during transient analysis `tran'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:44.033 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:44.033 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<0>_turbo_m4.C1'. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:44.034 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C9<0>_turbo_m8.C1'. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:44.034 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C7<0>_turbo_m2.C1'. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:44.034 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:44.034 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during transient analysis `tran'.
+    Multithreading is disabled due to the size of the design being too small. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:44.034 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for tran analysis `tran': CPU = 160.334 ms, elapsed = 164.412 ms, util. = 97.5%. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:44.034 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 213 Mbytes. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:44.034 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre.
+    12 warnings suppressed. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:44.034 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] -     ERROR (SPCRTRF-15177): PSS analysis doesn't support behavioral module components with hidden states found in component 'cpoly_ahdl'.  Skipped.
+        
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 5156: Hidden state variable: vplusminus_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 5156: Hidden state variable: vpluspsub_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 5156: Hidden state variable: vminuspsub_ot
+        
+        Rewrit... {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:44.035 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] -     ERROR (SPCRTRF-15177): PSS analysis doesn't support behavioral module components with hidden states found in component 'modn_ahdl'.  Skipped.
+        
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 28: Hidden state variable: vgs_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 28: Hidden state variable: vds_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 28: Hidden state variable: vgb_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va,... {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:44.035 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] -     ERROR (SPCRTRF-15177): PSS analysis doesn't support behavioral module components with hidden states found in component 'modp_ahdl'.  Skipped.
+        
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 194: Hidden state variable: vgs_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 194: Hidden state variable: vds_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 194: Hidden state variable: vgb_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.... {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:44.035 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] -     ERROR (SPCRTRF-15177): PSS analysis doesn't support behavioral module components with hidden states found in component 'rpolyh_ahdl'.  Skipped.
+        
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 6560: Hidden state variable: vpluspsub_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 6560: Hidden state variable: vminuspsub_ot
+        
+        Rewrite the module to remove the hidden state or if you confirm this hidden state will not affect the simulation res... {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:44.035 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] - Analysis `pss' was terminated prematurely due to an error. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:44.036 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Time used: CPU = 633 ms, elapsed = 1.11 s, util. = 56.9%. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:44.036 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Time spent in licensing: elapsed = 73.5 ms, percentage of total = 6.62%. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:44.036 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak memory used = 214 Mbytes. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:44.037 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulation started at: 2:03:42 PM, Wed Apr 8, 2026, ended at: 2:03:43 PM, Wed Apr 8, 2026, with elapsed time (wall clock): 1.11 s. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:44.037 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - spectre completes with 4 errors, 24 warnings, and 13 notices. {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:44.538 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Finished simulating for one point {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0", "point": 22, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "simid": "5"}
+[2026-04-08 14:03:44.539 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] - While simulating run ExplorerRun.0, point 22, test VGA_VGA_1_pss_tb_1, received error:
+Simulation Error:
+ The simulator process returned a non-zero exit code, indicating failure.
+The simulator could have crashed or intentionally returned to indicate an error.
+Check the simulator log file for more information.  Common causes:
+1. Simulator may have crashed during exit even after reporting success in log file.
+2. Abrupt automatic simulator termination (e.g., SIGKILL) because the simulator process has
+   excee... {"history": "ExplorerRun.0", "point": 22, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0"}
+[2026-04-08 14:03:44.539 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Finished Simulation {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0", "point": 22, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "simid": "5"}
+[2026-04-08 14:03:46.552 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Point Finished {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0", "point": 22, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:03:46.554 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '7', Linger time '300', currentRunSyn '15', currentTestSyn '16' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0", "point": 22, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:03:47.554 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '7', Linger time '300', currentRunSyn '15', currentTestSyn '16' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0", "point": 22, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:03:48.554 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '7', Linger time '300', currentRunSyn '15', currentTestSyn '16' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0", "point": 22, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:03:49.555 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '7', Linger time '300', currentRunSyn '15', currentTestSyn '16' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0", "point": 22, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:03:50.555 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '7', Linger time '300', currentRunSyn '15', currentTestSyn '16' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0", "point": 22, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:03:51.556 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '7', Linger time '300', currentRunSyn '15', currentTestSyn '16' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0", "point": 22, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:03:52.557 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - HostInfo:
+Host name (type):	il2244vt26_davidevi (x86_64)
+Operating system:	Linux 5.15.0-164-generic #174-Ubuntu SMP Fri Nov 14 20:25:16 UTC 2025 {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0", "point": 22, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "nodename": "il2244vt26_davidevi", "domainname": "(none)", "machine": "x86_64", "sysname": "Linux", "release": "5.15.0-164-generic", "version": "#174-Ubuntu SMP Fri Nov 14 20:25:16 UTC 2025"}
+[2026-04-08 14:03:52.557 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - UsageInfo:
+pid=795409
+totalPhysicalMemory=3023.749672GB,Used=1539.480888GB,totalVirtualMemory=3031.749668GB,Used=1539.503838GB
+Cpu: Cores=48, Load average:10.700000,8.030000,9.190000 {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_0", "point": 22, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "pid": "795409", "totalPhysicalMemory": "3023.749672", "physicalMemoryUsed": "1539.480888", "totalVirtualMemory": "3031.749668", "virtualMemoryUsed": "1539.503838", "cpuCores": "48", "processes": "29619", "loadAverage1": "10.700000", "loadAverage5": "8.030000", "loadAverage15": "9.190000", "loadAverage1Percent": "0.222917"}
+[2026-04-08 14:03:52.558 Z] [EVENT] [cadence.virtuoso.ade.simulationMonitor] - NewPoint {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19", "event": "NewPoint", "EventSource": "Simulation Monitor", "HistoryName": "ExplorerRun.0", "logFile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "logFileSize": "132725"}
+[2026-04-08 14:03:52.660 Z] [EVENT] [cadence.virtuoso.ade.simulationMonitor] - NewPoint {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19", "event": "NewPoint", "EventSource": "spectre", "HistoryName": "ExplorerRun.0", "logFile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/41/VGA_VGA_1_pss_tb_1/psf/spectre.out", "logFileSize": "-1"}
+[2026-04-08 14:03:52.672 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulator launched {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19", "point": 41, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "simid": "6"}
+[2026-04-08 14:03:52.711 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Started Simulation {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19", "point": 41, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "event": "started", "task": "simulation"}
+[2026-04-08 14:03:53.712 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-691): This CPU processor does not support x86 advanced vector extensions instructions. This may affect math operations and slow down the simulation. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:53.712 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during circuit read-in.
+    Pre_Configuration file used: /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/configs/preset.precfg
+    Configuration file used: `/opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/configs/preset.cfg'. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:53.712 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-8360): line 1511: `ac' is an undefined primitive device. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:53.712 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-8360): line 1512: `ac' is an undefined primitive device. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:53.712 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-8360): line 1513: `ac' is an undefined primitive device. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:53.713 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-8360): line 1514: `ac' is an undefined primitive device. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:53.713 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-8360): line 1515: `ac' is an undefined primitive device.
+        Further occurrences of this warning will be suppressed. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:53.713 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (VACOMP-2435): The environment variable CDS_AHDLCMI_ENABLE is no longer supported. Therefore, the simulator will use the default compiled C code flow. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:53.713 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 183 Mbytes. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:53.713 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SFE-3016): The floating node net6 is removed. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:53.713 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 194 Mbytes. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:53.713 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during hierarchy flattening.
+    The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:53.713 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 196 Mbytes. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:53.714 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16460): SOAC_cvarm_vspsub:Specified subcircuit master `cvarm' was not found. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:53.714 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16462): SOAC_cvarm_vspsub:Error in specification of subcircuit master. Assert is ignored. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:53.714 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16460): SOAC_cvarm_vbs:Specified subcircuit master `cvarm' was not found. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:53.714 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16462): SOAC_cvarm_vbs:Error in specification of subcircuit master. Assert is ignored. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:53.714 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16460): SOAC_cvarm_vgb:Specified subcircuit master `cvarm' was not found. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:53.714 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16462): SOAC_cvarm_vgb:Error in specification of subcircuit master. Assert is ignored. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:53.714 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16460): SOAC_cvart_vspsub:Specified subcircuit master `cvart' was not found. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:53.714 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16462): SOAC_cvart_vspsub:Error in specification of subcircuit master. Assert is ignored. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:53.715 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16460): SOAC_cvart_vbs:Specified subcircuit master `cvart' was not found.
+        Further occurrences of this warning will be suppressed. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:53.715 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16462): SOAC_cvart_vbs:Error in specification of subcircuit master. Assert is ignored.
+        Further occurrences of this warning will be suppressed. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:54.215 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during topology check.
+    Only one connection to the following 43 nodes:
+        I0.MN6.psub!
+        I0.MN5.psub!
+        I0.MN4.psub!
+        I0.MN3.psub!
+        I0.MN2.psub!
+        Further occurrences of this notice will be suppressed. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:54.215 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during initial setup.
+    Multithreading is disabled due to the size of the design being too small. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:54.216 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-592): Following parameters are disabled because they are ignored or redefined in Spectre X:
+        
+        
+        PSS Parameters:
+          errpreset {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:54.217 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] -               nodes 87 {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:54.218 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during initial setup.
+    Spectre X preset=cx enabled.
+    1 notice suppressed.
+    72 warnings suppressed. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:54.218 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 202 Mbytes. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:54.218 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] -    -   (Spectre X) Multi-threading. The recommended number of threads is 1, consider adding +mt=1 on command line. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:54.218 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during transient analysis `tran'.
+    No checklimit analysis defined for asserts. A default checklimit analysis 'SpectreChecklimitAnal' has been created with all asserts enabled. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:54.218 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during IC analysis, during transient analysis `tran'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:54.219 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:54.219 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<0>_turbo_m4.C1'. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:54.219 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C9<0>_turbo_m8.C1'. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:54.219 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C7<0>_turbo_m2.C1'. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:54.219 Z] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+        Further occurrences of this warning will be suppressed. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:54.219 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during transient analysis `tran'.
+    Multithreading is disabled due to the size of the design being too small. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:54.720 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for tran analysis `tran': CPU = 167.71 ms, elapsed = 172.966 ms, util. = 97%. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:54.720 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 213 Mbytes. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:54.720 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre.
+    12 warnings suppressed. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:54.721 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] -     ERROR (SPCRTRF-15177): PSS analysis doesn't support behavioral module components with hidden states found in component 'cpoly_ahdl'.  Skipped.
+        
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 5156: Hidden state variable: vplusminus_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 5156: Hidden state variable: vpluspsub_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 5156: Hidden state variable: vminuspsub_ot
+        
+        Rewrit... {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:54.721 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] -     ERROR (SPCRTRF-15177): PSS analysis doesn't support behavioral module components with hidden states found in component 'modn_ahdl'.  Skipped.
+        
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 28: Hidden state variable: vgs_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 28: Hidden state variable: vds_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 28: Hidden state variable: vgb_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va,... {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:54.721 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] -     ERROR (SPCRTRF-15177): PSS analysis doesn't support behavioral module components with hidden states found in component 'modp_ahdl'.  Skipped.
+        
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 194: Hidden state variable: vgs_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 194: Hidden state variable: vds_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 194: Hidden state variable: vgb_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.... {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:54.722 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] -     ERROR (SPCRTRF-15177): PSS analysis doesn't support behavioral module components with hidden states found in component 'rpolyh_ahdl'.  Skipped.
+        
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 6560: Hidden state variable: vpluspsub_ot
+        /opt/pdk/ams/410/spectre/c35/soac/soac.va, declared in line 6560: Hidden state variable: vminuspsub_ot
+        
+        Rewrite the module to remove the hidden state or if you confirm this hidden state will not affect the simulation res... {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:54.722 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] - Analysis `pss' was terminated prematurely due to an error. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:54.722 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Time used: CPU = 664 ms, elapsed = 1.24 s, util. = 53.7%. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:54.722 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Time spent in licensing: elapsed = 137 ms, percentage of total = 11%. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:54.723 Z] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak memory used = 214 Mbytes. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:54.724 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulation started at: 2:03:52 PM, Wed Apr 8, 2026, ended at: 2:03:54 PM, Wed Apr 8, 2026, with elapsed time (wall clock): 1.24 s. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:54.724 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - spectre completes with 4 errors, 24 warnings, and 13 notices. {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:54.724 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Finished simulating for one point {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19", "point": 41, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "simid": "6"}
+[2026-04-08 14:03:54.724 Z] [ERROR] [cadence.virtuoso.ade.simulationMonitor] - While simulating run ExplorerRun.0, point 41, test VGA_VGA_1_pss_tb_1, received error:
+Simulation Error:
+ The simulator process returned a non-zero exit code, indicating failure.
+The simulator could have crashed or intentionally returned to indicate an error.
+Check the simulator log file for more information.  Common causes:
+1. Simulator may have crashed during exit even after reporting success in log file.
+2. Abrupt automatic simulator termination (e.g., SIGKILL) because the simulator process has
+   excee... {"history": "ExplorerRun.0", "point": 41, "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19"}
+[2026-04-08 14:03:54.725 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Finished Simulation {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19", "point": 41, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log", "simid": "6"}
+[2026-04-08 14:03:56.737 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Point Finished {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19", "point": 41, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:03:56.740 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '7', Linger time '300', currentRunSyn '15', currentTestSyn '16' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19", "point": 41, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:03:57.739 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '7', Linger time '300', currentRunSyn '15', currentTestSyn '16' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19", "point": 41, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:03:58.740 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '7', Linger time '300', currentRunSyn '15', currentTestSyn '16' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19", "point": 41, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:03:59.740 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '7', Linger time '300', currentRunSyn '15', currentTestSyn '16' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19", "point": 41, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:04:00.742 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '7', Linger time '300', currentRunSyn '15', currentTestSyn '16' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19", "point": 41, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:04:01.741 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '7', Linger time '300', currentRunSyn '15', currentTestSyn '16' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19", "point": 41, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:04:02.742 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '7', Linger time '300', currentRunSyn '15', currentTestSyn '16' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19", "point": 41, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:04:03.743 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '7', Linger time '300', currentRunSyn '15', currentTestSyn '16' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19", "point": 41, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:04:04.743 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '7', Linger time '300', currentRunSyn '15', currentTestSyn '16' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19", "point": 41, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:04:05.744 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '7', Linger time '300', currentRunSyn '15', currentTestSyn '16' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19", "point": 41, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:04:06.745 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '7', Linger time '300', currentRunSyn '15', currentTestSyn '16' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19", "point": 41, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:04:07.745 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Stay with the runId '7', Linger time '300', currentRunSyn '15', currentTestSyn '16' {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19", "point": 41, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:08:57.461 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Current memory used: 53.1133 MBytes, peak memory used: 53.1133 MBytes {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19", "point": 41, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}
+[2026-04-08 14:08:57.462 Z] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulation Monitor process exit. {"hostname": "il2244vt26_davidevi", "processid": 795409, "history": "ExplorerRun.0", "testname": "VGA_VGA_1_pss_tb_1", "cornername": "CMOS_CAP_VDD_TEMP_19", "point": 41, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job307.log"}

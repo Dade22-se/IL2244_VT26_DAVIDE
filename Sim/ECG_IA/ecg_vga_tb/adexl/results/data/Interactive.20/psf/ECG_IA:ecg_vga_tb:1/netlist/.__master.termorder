@@ -1,0 +1,2 @@
+"PRIMLIB.cpolyc.schematic.termorder" nil
+"ECG_IA.ecg_vga1.schematic.termorder" (("BIAS" "GNDA" "VDDA" "VIN" "VOUT") ("BIAS" "GNDA" "VDDA" "VIN" "VOUT"))

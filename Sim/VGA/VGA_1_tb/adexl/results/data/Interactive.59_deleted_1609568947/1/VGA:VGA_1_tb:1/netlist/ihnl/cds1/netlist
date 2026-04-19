@@ -1,0 +1,4 @@
+    C1 (MINUS SUB) capacitor c=pcap m=1
+    C0 (PLUS MINUS) cpoly area=area perimeter=perimeter m=1 mmw=mmw
+ends cpolyc
+// End of subcircuit definition.

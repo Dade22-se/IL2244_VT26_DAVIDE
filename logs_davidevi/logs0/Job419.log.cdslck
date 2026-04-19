@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      davidevi
+HostName                       il2244vt26_davidevi
+ProcessIdentifier              986700
+ProcessCreationTime_UTC        1776257436
+ProcessCreationTime_Readable   Wed Apr 15 12:50:36 2026 UTC
+AppIdentifier                  /opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       Set lock by hiiLockFile
+FilePathUsedToEditLock         /home/davidevi/Desktop/myproject/logs_davidevi/logs0/Job419.log
+TimeEditLocked                 Wed Apr 15 12:50:37 2026 UTC

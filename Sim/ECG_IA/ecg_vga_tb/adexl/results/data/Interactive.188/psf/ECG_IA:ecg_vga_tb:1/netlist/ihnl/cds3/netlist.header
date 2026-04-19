@@ -1,0 +1,5 @@
+
+// Library name: ECG_IA
+// Cell name: mux21
+// View name: schematic
+subckt mux21 A0 A1 C GNDA S VDDA

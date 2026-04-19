@@ -1,0 +1,1 @@
+{"hierarchy":{"top_level":1,"1":{"insts":{"V2":4,"V1":4,"MP0":5,"I2":3,"E1":2}}},"modelMap":{"modp":[5],"vsource":[4],"isource":[3],"vcvs":[2]},"cellviews":[["CHARACTERIZATION","GM_ID_PMOS","schematic"],["analogLib","vcvs","spectre"],["analogLib","idc","spectre"],["analogLib","vdc","spectre"],["PRIMLIB","pmos4","spectre"]]}

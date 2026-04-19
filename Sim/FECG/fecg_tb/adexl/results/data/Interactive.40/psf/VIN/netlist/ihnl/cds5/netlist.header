@@ -1,0 +1,5 @@
+
+// Library name: FECG
+// Cell name: gmc_5
+// View name: schematic
+subckt gmc_5 BIAS GNDA INN INP OUT S\<2\> S\<1\> S\<0\> VDDA

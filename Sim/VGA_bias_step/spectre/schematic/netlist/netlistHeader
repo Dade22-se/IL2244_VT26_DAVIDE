@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Mar 17 08:39:40 2026
+// Design library name: VGA
+// Design cell name: VGA_bias_step
+// Design view name: schematic
+simulator lang=spectre
+global 0

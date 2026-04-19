@@ -1,0 +1,150 @@
+\# Program start time:     UTC 2026.04.15 12:39:54.210
+\# Local time: UTC (UTC+00:00) 2026.04.15 12:39:54.210
+\o Program:		@(#)$CDS: vds version 6.1.8-64b 09/03/2024 19:05 (sjfhw317) $
+\o Hierarchy:		/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.36  (64-bit addresses)
+\# Command line:	/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/vds -axlSession fnxSession17 -configFile /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.4/13/VGA_VGA_1_pss_tb_1/netlist/toolArgs.ils -configlog /opt/tools/cadence/installs/IC618/share/cdssetup/dfII/swift/ade.exprEval.log4cxx.xml -dataDir /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.4/13/VGA_VGA_1_pss_tb_1/psf/ -davinciService DaVinciService_483270_1773683810 -exprEval -fenixMode assembler -historyName Interactive.4 -historyUUID  -jobId 417 -lingertimeout 300 -log /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.4/exprOutputs.log.417.16.13 -mappingFile /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.4/.mappingFile.417.16 -mode batchEvaluation -mpshost il2244vt26_davidevi -mpssession virtuoso483270 -netlistDir /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.4/13/VGA_VGA_1_pss_tb_1/netlist -noautostart -nocdsinit -nographE -point 13 -psRunMode Single_Run,_Sweeps_and_Corners -runId 16 -s3Prefix  -sdbCell VGA_1_pss_tb -sdbLib VGA -sdbView maestro -simReqId 65419 -testName VGA_VGA_1_pss_tb_1 -uuid ed145a35-ad88-4cd1-ace9-3a104b3edaef -logLevel configFile -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D74EF9D178A6FD82860E590078A72887903B69319D236867C66E38F1FFC06BC4D66E38F1FFC06BC4D0F3C08087B11D59200001DD7 -beanhost il2244vt26_davidevi -beanport 11300 -beanLogFile /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.4/amps_evaluator.log.417.16.13 -beanbinlog
+\# Host name (type):	il2244vt26_davidevi (x86_64)
+\# Operating system:	Linux 5.15.0-164-generic #174-Ubuntu SMP Fri Nov 14 20:25:16 UTC 2025
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:8418 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        511 MB
+\# Available memory:	  2,387,668 MB
+\# System memory:	  3,104,512 MB
+\# Maximum memory size:	  3,104,053 MB
+\# Max mem available:	  2,387,721 MB
+\# Initial memory used:	         53 MB
+\#        process size:	        762 MB
+\# Thread usage limits (effective/default):	maxthreads 4294967295/4294967295 maxload 48.00/48.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		davidevi
+\o Working Directory:	il2244vt26_davidevi:/home/davidevi/Desktop/myproject
+\# Process Id:		977876
+\o 
+\o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\w *WARNING* (intern): *hrAdjustNetPathName* different atom already in symbol table
+\o Loading ams.cxt 
+\o Loading auCore.cxt 
+\o Loading deBase.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading vdsil.cxt 
+\o Loading all ADEXL libs...
+\o Loading simui.cxt 
+\o loading vars from /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.4/13/VGA_VGA_1_pss_tb_1/netlist/.vdsenv.il for tool adexl
+\o loading vars from /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.4/13/VGA_VGA_1_pss_tb_1/netlist/.vdsenv.il for tool asimenv
+\o [2026-04-15 12:39:55.279 Z] [EVENT] [cadence.virtuoso.ade.expressionEvaluator] - NewPoint {"point": 13, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Expression Evaluator", "HistoryName": "Interactive.4", "logFile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.4/exprOutputs.log.417.16.13", "logFileSize": "3757"}
+\o [2026-04-15 12:39:55.281 Z] [PROCESS] [cadence.virtuoso.ade.expressionEvaluator] - Expression Evaluator has successfully started ... {"hostname": "il2244vt26_davidevi", "processid": 977876, "testname": "VGA_VGA_1_pss_tb_1", "point": 13, "logfile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.4/exprOutputs.log.417.16.13"}
+\o Loading vqp.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = VGA
+\o 	Cell         = VGA_1_pss_tb
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = Interactive.4
+\o 	Results DB   = /home/davidevi/Desktop/myproject/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.4.rdb
+\o 	Results Dir  = /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.4/13/VGA_VGA_1_pss_tb_1
+\o 	Results Loc  = /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro
+\o 	Project Dir  = /home/davidevi/Desktop/myproject/Sim
+\o 	Setup DB loc = /home/davidevi/Desktop/myproject/VGA/VGA_1_pss_tb/maestro
+\o 
+\o 
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\# Memory report: using         219 MB, process size 1,077 MB at UTC 2026.04.15 12:39:56.158
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.4/13/VGA_VGA_1_pss_tb_1/netlist
+\o 
+\o [2026-04-15 12:39:57.282 Z] [EVENT] [cadence.virtuoso.ade.expressionEvaluator] - NewPoint {"point": 13, "testname": "VGA_VGA_1_pss_tb_1", "event": "NewPoint", "EventSource": "Expression Evaluator", "HistoryName": "Interactive.4", "logFile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.4/exprOutputs.log.417.16.13", "logFileSize": "6285"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = VGA
+\o 	Cell         = VGA_1_pss_tb
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = Interactive.4
+\o 	Results DB   = /home/davidevi/Desktop/myproject/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.4.rdb
+\o 	Results Dir  = /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.4/13/VGA_VGA_1_pss_tb_1
+\o 	Results Loc  = /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro
+\o 	Project Dir  = /home/davidevi/Desktop/myproject/Sim
+\o 	Setup DB loc = /home/davidevi/Desktop/myproject/VGA/VGA_1_pss_tb/maestro
+\o 
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.4/13/VGA_VGA_1_pss_tb_1/netlist
+\o 
+\o [2026-04-15 12:39:57.963 Z] [PROCESS] [cadence.virtuoso.ade.expressionEvaluator] - [Started expression evaluation] Current memory used: 375.2656 MBytes, peak memory used: 375.2656 MBytes {"hostname": "il2244vt26_davidevi", "processid": 977876, "testname": "VGA_VGA_1_pss_tb_1", "point": 13, "logfile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.4/exprOutputs.log.417.16.13"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var S0 = "3.3"
+\o Setting var S1 = "3.3"
+\o Setting var S2 = "3.3"
+\o Setting var S3 = "3.3"
+\o Setting var VDD = "3.63"
+\o Setting var V_AMP = "20m"
+\o Setting var V_FREQ = "50"
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o Loading monte.cxt 
+\o [2026-04-15 12:39:59.264 Z] [PROCESS] [cadence.virtuoso.ade.expressionEvaluator] - [Finished expression evaluation] Current memory used: 406.9961 MBytes, peak memory used: 406.9961 MBytes {"hostname": "il2244vt26_davidevi", "processid": 977876, "testname": "VGA_VGA_1_pss_tb_1", "point": 13, "logfile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.4/exprOutputs.log.417.16.13"}
+\# Available memory:      2,387,184 MB at UTC 2026.04.15 12:40:06.968
+\# Memory report: Maximum memory size now 2,387,478 MB at UTC 2026.04.15 12:40:06.968
+\# Thread usage report: 53 active threads, active load 1.40 at UTC 2026.04.15 12:40:06.968
+\o [2026-04-15 12:44:59.773 Z] [PROCESS] [cadence.virtuoso.ade.expressionEvaluator] - Current memory used: 406.9961 MBytes, peak memory used: 406.9961 MBytes {"hostname": "il2244vt26_davidevi", "processid": 977876, "testname": "VGA_VGA_1_pss_tb_1", "point": 13, "logfile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.4/exprOutputs.log.417.16.13"}
+\o [2026-04-15 12:44:59.781 Z] [PROCESS] [cadence.virtuoso.ade.expressionEvaluator] - Exit Evaluator {"hostname": "il2244vt26_davidevi", "processid": 977876, "testname": "VGA_VGA_1_pss_tb_1", "point": 13, "logfile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.4/exprOutputs.log.417.16.13"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 

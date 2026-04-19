@@ -1,0 +1,20 @@
+CADENCE IHNL11140
+$model
+ECG_IA/mux21/schematic mux21
+ECG_IA/ecg_vga3/schematic ecg_vga3
+ECG_IA/ecg_vga1/schematic ecg_vga1
+PRIMLIB/cpolyc/schematic cpolyc
+ECG_IA/ecg_vga_tb/schematic ecg_vga_tb
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+VDD VDD
+S0 S0
+temperature temperature
+VIN_AMP VIN_AMP
+S1 S1
+S2 S2
+VIN_STEP VIN_STEP
+$endparam

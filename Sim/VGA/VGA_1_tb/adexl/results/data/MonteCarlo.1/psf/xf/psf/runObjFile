@@ -1,0 +1,772 @@
+HEADER
+"PSFversion" "1.00"
+"Run Generator" "drlRun rev. 1.0"
+"Run Time Stamp" "Apr 16 08:24:28 2026"
+"date" "Apr 16 08:24:28 2026"
+"simulator" "spectre"
+"netlistDir" "../netlist"
+"axlParamFlag" "true"
+ "externalSweepVariableCount" 1
+TYPE
+"runObject" STRUCT(
+"logName" ARRAY( * ) STRING *
+"parent" STRING *
+"sweepVariable" ARRAY( * ) STRING *
+) PROP( "key" "runObject" )
+VALUE
+"Root" "runObject" (
+("")
+""
+("mcparamset")
+)
+"mcparamset=1.0" "runObject" (
+(
+"../../../1/xf/psf/logFile"
+"../../../1/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 1
+"netlistDir" "../../../1/xf/netlist"
+"dataDir" "../../../1/xf"
+ "mcparamset" 1.000000e+00
+)
+
+"mcparamset=2.0" "runObject" (
+(
+"../../../2/xf/psf/logFile"
+"../../../2/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 2
+"netlistDir" "../../../2/xf/netlist"
+"dataDir" "../../../2/xf"
+ "mcparamset" 2.000000e+00
+)
+
+"mcparamset=3.0" "runObject" (
+(
+"../../../3/xf/psf/logFile"
+"../../../3/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 3
+"netlistDir" "../../../3/xf/netlist"
+"dataDir" "../../../3/xf"
+ "mcparamset" 3.000000e+00
+)
+
+"mcparamset=4.0" "runObject" (
+(
+"../../../4/xf/psf/logFile"
+"../../../4/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 4
+"netlistDir" "../../../4/xf/netlist"
+"dataDir" "../../../4/xf"
+ "mcparamset" 4.000000e+00
+)
+
+"mcparamset=5.0" "runObject" (
+(
+"../../../5/xf/psf/logFile"
+"../../../5/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 5
+"netlistDir" "../../../5/xf/netlist"
+"dataDir" "../../../5/xf"
+ "mcparamset" 5.000000e+00
+)
+
+"mcparamset=6.0" "runObject" (
+(
+"../../../6/xf/psf/logFile"
+"../../../6/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 6
+"netlistDir" "../../../6/xf/netlist"
+"dataDir" "../../../6/xf"
+ "mcparamset" 6.000000e+00
+)
+
+"mcparamset=7.0" "runObject" (
+(
+"../../../7/xf/psf/logFile"
+"../../../7/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 7
+"netlistDir" "../../../7/xf/netlist"
+"dataDir" "../../../7/xf"
+ "mcparamset" 7.000000e+00
+)
+
+"mcparamset=8.0" "runObject" (
+(
+"../../../8/xf/psf/logFile"
+"../../../8/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 8
+"netlistDir" "../../../8/xf/netlist"
+"dataDir" "../../../8/xf"
+ "mcparamset" 8.000000e+00
+)
+
+"mcparamset=9.0" "runObject" (
+(
+"../../../9/xf/psf/logFile"
+"../../../9/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 9
+"netlistDir" "../../../9/xf/netlist"
+"dataDir" "../../../9/xf"
+ "mcparamset" 9.000000e+00
+)
+
+"mcparamset=10.0" "runObject" (
+(
+"../../../10/xf/psf/logFile"
+"../../../10/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 10
+"netlistDir" "../../../10/xf/netlist"
+"dataDir" "../../../10/xf"
+ "mcparamset" 1.000000e+01
+)
+
+"mcparamset=11.0" "runObject" (
+(
+"../../../11/xf/psf/logFile"
+"../../../11/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 11
+"netlistDir" "../../../11/xf/netlist"
+"dataDir" "../../../11/xf"
+ "mcparamset" 1.100000e+01
+)
+
+"mcparamset=12.0" "runObject" (
+(
+"../../../12/xf/psf/logFile"
+"../../../12/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 12
+"netlistDir" "../../../12/xf/netlist"
+"dataDir" "../../../12/xf"
+ "mcparamset" 1.200000e+01
+)
+
+"mcparamset=13.0" "runObject" (
+(
+"../../../13/xf/psf/logFile"
+"../../../13/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 13
+"netlistDir" "../../../13/xf/netlist"
+"dataDir" "../../../13/xf"
+ "mcparamset" 1.300000e+01
+)
+
+"mcparamset=14.0" "runObject" (
+(
+"../../../14/xf/psf/logFile"
+"../../../14/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 14
+"netlistDir" "../../../14/xf/netlist"
+"dataDir" "../../../14/xf"
+ "mcparamset" 1.400000e+01
+)
+
+"mcparamset=15.0" "runObject" (
+(
+"../../../15/xf/psf/logFile"
+"../../../15/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 15
+"netlistDir" "../../../15/xf/netlist"
+"dataDir" "../../../15/xf"
+ "mcparamset" 1.500000e+01
+)
+
+"mcparamset=16.0" "runObject" (
+(
+"../../../16/xf/psf/logFile"
+"../../../16/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 16
+"netlistDir" "../../../16/xf/netlist"
+"dataDir" "../../../16/xf"
+ "mcparamset" 1.600000e+01
+)
+
+"mcparamset=17.0" "runObject" (
+(
+"../../../17/xf/psf/logFile"
+"../../../17/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 17
+"netlistDir" "../../../17/xf/netlist"
+"dataDir" "../../../17/xf"
+ "mcparamset" 1.700000e+01
+)
+
+"mcparamset=18.0" "runObject" (
+(
+"../../../18/xf/psf/logFile"
+"../../../18/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 18
+"netlistDir" "../../../18/xf/netlist"
+"dataDir" "../../../18/xf"
+ "mcparamset" 1.800000e+01
+)
+
+"mcparamset=19.0" "runObject" (
+(
+"../../../19/xf/psf/logFile"
+"../../../19/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 19
+"netlistDir" "../../../19/xf/netlist"
+"dataDir" "../../../19/xf"
+ "mcparamset" 1.900000e+01
+)
+
+"mcparamset=20.0" "runObject" (
+(
+"../../../20/xf/psf/logFile"
+"../../../20/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 20
+"netlistDir" "../../../20/xf/netlist"
+"dataDir" "../../../20/xf"
+ "mcparamset" 2.000000e+01
+)
+
+"mcparamset=21.0" "runObject" (
+(
+"../../../21/xf/psf/logFile"
+"../../../21/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 21
+"netlistDir" "../../../21/xf/netlist"
+"dataDir" "../../../21/xf"
+ "mcparamset" 2.100000e+01
+)
+
+"mcparamset=22.0" "runObject" (
+(
+"../../../22/xf/psf/logFile"
+"../../../22/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 22
+"netlistDir" "../../../22/xf/netlist"
+"dataDir" "../../../22/xf"
+ "mcparamset" 2.200000e+01
+)
+
+"mcparamset=23.0" "runObject" (
+(
+"../../../23/xf/psf/logFile"
+"../../../23/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 23
+"netlistDir" "../../../23/xf/netlist"
+"dataDir" "../../../23/xf"
+ "mcparamset" 2.300000e+01
+)
+
+"mcparamset=24.0" "runObject" (
+(
+"../../../24/xf/psf/logFile"
+"../../../24/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 24
+"netlistDir" "../../../24/xf/netlist"
+"dataDir" "../../../24/xf"
+ "mcparamset" 2.400000e+01
+)
+
+"mcparamset=25.0" "runObject" (
+(
+"../../../25/xf/psf/logFile"
+"../../../25/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 25
+"netlistDir" "../../../25/xf/netlist"
+"dataDir" "../../../25/xf"
+ "mcparamset" 2.500000e+01
+)
+
+"mcparamset=26.0" "runObject" (
+(
+"../../../26/xf/psf/logFile"
+"../../../26/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 26
+"netlistDir" "../../../26/xf/netlist"
+"dataDir" "../../../26/xf"
+ "mcparamset" 2.600000e+01
+)
+
+"mcparamset=27.0" "runObject" (
+(
+"../../../27/xf/psf/logFile"
+"../../../27/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 27
+"netlistDir" "../../../27/xf/netlist"
+"dataDir" "../../../27/xf"
+ "mcparamset" 2.700000e+01
+)
+
+"mcparamset=28.0" "runObject" (
+(
+"../../../28/xf/psf/logFile"
+"../../../28/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 28
+"netlistDir" "../../../28/xf/netlist"
+"dataDir" "../../../28/xf"
+ "mcparamset" 2.800000e+01
+)
+
+"mcparamset=29.0" "runObject" (
+(
+"../../../29/xf/psf/logFile"
+"../../../29/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 29
+"netlistDir" "../../../29/xf/netlist"
+"dataDir" "../../../29/xf"
+ "mcparamset" 2.900000e+01
+)
+
+"mcparamset=30.0" "runObject" (
+(
+"../../../30/xf/psf/logFile"
+"../../../30/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 30
+"netlistDir" "../../../30/xf/netlist"
+"dataDir" "../../../30/xf"
+ "mcparamset" 3.000000e+01
+)
+
+"mcparamset=31.0" "runObject" (
+(
+"../../../31/xf/psf/logFile"
+"../../../31/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 31
+"netlistDir" "../../../31/xf/netlist"
+"dataDir" "../../../31/xf"
+ "mcparamset" 3.100000e+01
+)
+
+"mcparamset=32.0" "runObject" (
+(
+"../../../32/xf/psf/logFile"
+"../../../32/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 32
+"netlistDir" "../../../32/xf/netlist"
+"dataDir" "../../../32/xf"
+ "mcparamset" 3.200000e+01
+)
+
+"mcparamset=33.0" "runObject" (
+(
+"../../../33/xf/psf/logFile"
+"../../../33/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 33
+"netlistDir" "../../../33/xf/netlist"
+"dataDir" "../../../33/xf"
+ "mcparamset" 3.300000e+01
+)
+
+"mcparamset=34.0" "runObject" (
+(
+"../../../34/xf/psf/logFile"
+"../../../34/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 34
+"netlistDir" "../../../34/xf/netlist"
+"dataDir" "../../../34/xf"
+ "mcparamset" 3.400000e+01
+)
+
+"mcparamset=35.0" "runObject" (
+(
+"../../../35/xf/psf/logFile"
+"../../../35/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 35
+"netlistDir" "../../../35/xf/netlist"
+"dataDir" "../../../35/xf"
+ "mcparamset" 3.500000e+01
+)
+
+"mcparamset=36.0" "runObject" (
+(
+"../../../36/xf/psf/logFile"
+"../../../36/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 36
+"netlistDir" "../../../36/xf/netlist"
+"dataDir" "../../../36/xf"
+ "mcparamset" 3.600000e+01
+)
+
+"mcparamset=37.0" "runObject" (
+(
+"../../../37/xf/psf/logFile"
+"../../../37/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 37
+"netlistDir" "../../../37/xf/netlist"
+"dataDir" "../../../37/xf"
+ "mcparamset" 3.700000e+01
+)
+
+"mcparamset=38.0" "runObject" (
+(
+"../../../38/xf/psf/logFile"
+"../../../38/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 38
+"netlistDir" "../../../38/xf/netlist"
+"dataDir" "../../../38/xf"
+ "mcparamset" 3.800000e+01
+)
+
+"mcparamset=39.0" "runObject" (
+(
+"../../../39/xf/psf/logFile"
+"../../../39/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 39
+"netlistDir" "../../../39/xf/netlist"
+"dataDir" "../../../39/xf"
+ "mcparamset" 3.900000e+01
+)
+
+"mcparamset=40.0" "runObject" (
+(
+"../../../40/xf/psf/logFile"
+"../../../40/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 40
+"netlistDir" "../../../40/xf/netlist"
+"dataDir" "../../../40/xf"
+ "mcparamset" 4.000000e+01
+)
+
+"mcparamset=41.0" "runObject" (
+(
+"../../../41/xf/psf/logFile"
+"../../../41/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 41
+"netlistDir" "../../../41/xf/netlist"
+"dataDir" "../../../41/xf"
+ "mcparamset" 4.100000e+01
+)
+
+"mcparamset=42.0" "runObject" (
+(
+"../../../42/xf/psf/logFile"
+"../../../42/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 42
+"netlistDir" "../../../42/xf/netlist"
+"dataDir" "../../../42/xf"
+ "mcparamset" 4.200000e+01
+)
+
+"mcparamset=43.0" "runObject" (
+(
+"../../../43/xf/psf/logFile"
+"../../../43/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 43
+"netlistDir" "../../../43/xf/netlist"
+"dataDir" "../../../43/xf"
+ "mcparamset" 4.300000e+01
+)
+
+"mcparamset=44.0" "runObject" (
+(
+"../../../44/xf/psf/logFile"
+"../../../44/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 44
+"netlistDir" "../../../44/xf/netlist"
+"dataDir" "../../../44/xf"
+ "mcparamset" 4.400000e+01
+)
+
+"mcparamset=45.0" "runObject" (
+(
+"../../../45/xf/psf/logFile"
+"../../../45/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 45
+"netlistDir" "../../../45/xf/netlist"
+"dataDir" "../../../45/xf"
+ "mcparamset" 4.500000e+01
+)
+
+"mcparamset=46.0" "runObject" (
+(
+"../../../46/xf/psf/logFile"
+"../../../46/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 46
+"netlistDir" "../../../46/xf/netlist"
+"dataDir" "../../../46/xf"
+ "mcparamset" 4.600000e+01
+)
+
+"mcparamset=47.0" "runObject" (
+(
+"../../../47/xf/psf/logFile"
+"../../../47/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 47
+"netlistDir" "../../../47/xf/netlist"
+"dataDir" "../../../47/xf"
+ "mcparamset" 4.700000e+01
+)
+
+"mcparamset=48.0" "runObject" (
+(
+"../../../48/xf/psf/logFile"
+"../../../48/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 48
+"netlistDir" "../../../48/xf/netlist"
+"dataDir" "../../../48/xf"
+ "mcparamset" 4.800000e+01
+)
+
+"mcparamset=49.0" "runObject" (
+(
+"../../../49/xf/psf/logFile"
+"../../../49/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 49
+"netlistDir" "../../../49/xf/netlist"
+"dataDir" "../../../49/xf"
+ "mcparamset" 4.900000e+01
+)
+
+"mcparamset=50.0" "runObject" (
+(
+"../../../50/xf/psf/logFile"
+"../../../50/xf/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 50
+"netlistDir" "../../../50/xf/netlist"
+"dataDir" "../../../50/xf"
+ "mcparamset" 5.000000e+01
+)
+
+END

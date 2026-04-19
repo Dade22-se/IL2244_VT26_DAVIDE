@@ -1,0 +1,54 @@
+    C1 (VDDA net1 GNDA) cvar w=686.4u l=0.65u row=4 col=26 m=1
+    MP11 (net5 net5 OUT OUT) modp w=0.4u l=0.35u as=3.4e-13 ad=3.4e-13 \
+        ps=2.1u pd=2.1u nrd=1.25 nrs=1.25 ng=1
+    MP10 (net3 net3 net5 net5) modp w=0.4u l=0.35u as=3.4e-13 ad=3.4e-13 \
+        ps=2.1u pd=2.1u nrd=1.25 nrs=1.25 ng=1
+    MP6 (net1 net1 VDDA VDDA) modp w=10u l=3u as=8.5e-12 ad=8.5e-12 \
+        ps=11.7u pd=11.7u nrd=0.05 nrs=0.05 ng=1
+    MP3 (OUT net1 VDDA VDDA) modp w=10u l=3u as=5.14e-12 ad=5.14e-12 \
+        ps=1.428u pd=1.428u nrd=0.05 nrs=0.05 ng=25
+    MP1 (net13 INP net10 net10) modp w=20u l=0.5u as=1.07e-11 ad=1e-11 \
+        ps=3.07u pd=1u nrd=0.025 nrs=0.025 ng=20
+    MP0 (net12 net4 net10 net10) modp w=20u l=0.5u as=1.07e-11 ad=1e-11 \
+        ps=3.07u pd=1u nrd=0.025 nrs=0.025 ng=20
+    MP5 (net10 net1 VDDA VDDA) modp w=10u l=3u as=6.75e-12 ad=5e-12 \
+        ps=6.35u pd=1u nrd=0.05 nrs=0.05 ng=4
+    MP9 (net4 net4 net3 net3) modp w=0.4u l=0.35u as=3.4e-13 ad=3.4e-13 \
+        ps=2.1u pd=2.1u nrd=1.25 nrs=1.25 ng=1
+    MN9 (net1 BIAS net32 GNDA) modn w=2u l=40u as=1.14e-12 ad=1e-12 \
+        ps=1.54u pd=1u nrd=0.25 nrs=0.25 ng=10
+    MN8 (net32 net16 GNDA GNDA) modn w=2u l=40u as=1.7e-12 ad=1e-12 \
+        ps=3.7u pd=1u nrd=0.25 nrs=0.25 ng=2
+    MN5 (BIAS BIAS net16 GNDA) modn w=2u l=40u as=1.14e-12 ad=1e-12 \
+        ps=1.54u pd=1u nrd=0.25 nrs=0.25 ng=10
+    MN4 (net16 net16 GNDA GNDA) modn w=2u l=40u as=1.7e-12 ad=1e-12 \
+        ps=3.7u pd=1u nrd=0.25 nrs=0.25 ng=2
+    MN2 (OUT net13 GNDA GNDA) modn w=10u l=2u as=6.75e-12 ad=5e-12 \
+        ps=6.35u pd=1u nrd=0.05 nrs=0.05 ng=4
+    MN6 (net13 net12 GNDA GNDA) modn w=10u l=8u as=6.75e-12 ad=5e-12 \
+        ps=6.35u pd=1u nrd=0.05 nrs=0.05 ng=4
+    MN7 (net12 net12 GNDA GNDA) modn w=10u l=8u as=6.75e-12 ad=5e-12 \
+        ps=6.35u pd=1u nrd=0.05 nrs=0.05 ng=4
+    R0 (net13 net2 GNDA) rpolyhc w=2u l=75u mult=1 mmw=0 cap=25.35f
+    C2 (GNDA net4 GNDA) cpolyc m=1 pcap=160.2817f area=1.15n \
+        perimeter=135.6u mmw=0
+    C0\<0\> (OUT net2 GNDA) cpolyc m=1 pcap=221.6f area=1.60n \
+        perimeter=160u mmw=0
+    C0\<1\> (OUT net2 GNDA) cpolyc m=1 pcap=221.6f area=1.60n \
+        perimeter=160u mmw=0
+    C0\<2\> (OUT net2 GNDA) cpolyc m=1 pcap=221.6f area=1.60n \
+        perimeter=160u mmw=0
+    C0\<3\> (OUT net2 GNDA) cpolyc m=1 pcap=221.6f area=1.60n \
+        perimeter=160u mmw=0
+    C0\<4\> (OUT net2 GNDA) cpolyc m=1 pcap=221.6f area=1.60n \
+        perimeter=160u mmw=0
+    C0\<5\> (OUT net2 GNDA) cpolyc m=1 pcap=221.6f area=1.60n \
+        perimeter=160u mmw=0
+    C0\<6\> (OUT net2 GNDA) cpolyc m=1 pcap=221.6f area=1.60n \
+        perimeter=160u mmw=0
+    C0\<7\> (OUT net2 GNDA) cpolyc m=1 pcap=221.6f area=1.60n \
+        perimeter=160u mmw=0
+    C3 (OUT net4 GNDA) cpolyc m=1 pcap=160.2817f area=1.15n \
+        perimeter=135.6u mmw=0
+ends buffer2
+// End of subcircuit definition.

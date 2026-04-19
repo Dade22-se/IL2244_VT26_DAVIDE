@@ -1,0 +1,12 @@
+CADENCE IHNL111410
+
+PRIMLIB cpolyc schematic cds0
+PRIMLIB rpolyhc schematic cds1
+FECG chopper schematic cds2
+FECG fecg_ia_3 schematic cds3
+CORELIBD INVX1 cmos_sch cds4
+FECG gmc_5 schematic cds5
+ECG_IA mux21 schematic cds6
+FECG fecg_vga1 schematic cds7
+FECG buffer2 schematic cds8
+FECG fecg_tb schematic cds9

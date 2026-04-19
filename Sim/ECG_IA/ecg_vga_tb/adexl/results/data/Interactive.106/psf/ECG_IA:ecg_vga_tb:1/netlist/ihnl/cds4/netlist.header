@@ -1,0 +1,5 @@
+
+// Library name: ECG_IA
+// Cell name: ecg_vga3
+// View name: schematic
+subckt ecg_vga3 BIAS GNDA S\<2\> S\<1\> S\<0\> VDDA VIN VOUT

@@ -1,0 +1,2 @@
+# NETLISTDIR_VERSION_1
+../../../netlist

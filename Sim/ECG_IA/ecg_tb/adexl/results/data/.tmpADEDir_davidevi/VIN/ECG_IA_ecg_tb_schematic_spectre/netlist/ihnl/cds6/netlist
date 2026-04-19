@@ -1,0 +1,21 @@
+
+// Library name: ECG_IA
+// Cell name: ecg_tb
+// View name: schematic
+V5 (S\<1\> 0) vsource dc=S1 type=dc
+V6 (S\<2\> 0) vsource dc=S2 type=dc
+V4 (S\<0\> 0) vsource dc=S0 type=dc
+V2 (VCM 0) vsource dc=VCM_DC mag=VCM_AC xfmag=1 type=dc
+V1 (VDDA 0) vsource dc=VDD type=dc
+V7 (VINP VCM) vsource dc=VIN_DC/2 mag=VIN_AC/2 type=sine xfmag=1 \
+        ampl=VIN_AMP/2 freq=VIN_FREQ
+V8 (VCM VINN) vsource dc=VIN_DC/2 mag=VIN_AC/2 type=sine xfmag=1 \
+        ampl=VIN_AMP/2 freq=VIN_FREQ
+V0 (CLK 0) vsource type=pulse val0=0 val1=3.3 period=1/FC rise=1n fall=1n \
+        width=1/(2*FC)
+I5 (0 net5) isource dc=200n type=dc
+I3 (0 net1) isource dc=200n type=dc
+C0 (VOUT 0) capacitor c=500p
+I4 (net5 0 S\<2\> S\<1\> S\<0\> VDDA VOUT1 VOUT2) ecg_vga4
+R0 (VOUT2 VOUT) resistor r=1200k
+I2 (net1 0 VDDA VINN VINP VOUT1 CLK) ecg_ia8

@@ -1,0 +1,5 @@
+
+// Library name: FECG
+// Cell name: fecg_vga1
+// View name: schematic
+subckt fecg_vga1 BIAS GNDA S\<2\> S\<1\> S\<0\> VDDA VIN VOUT

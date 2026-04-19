@@ -1,0 +1,18 @@
+
+// Library name: VGA
+// Cell name: VGA_1_wakeup_tb
+// View name: schematic
+I0 (net6 0 net5 S\<3\> S\<2\> S\<1\> S\<0\> vdd vin vout) VGA_1
+C1 (vout_filt 0) capacitor c=1n
+V5 (net1 net3) vsource dc=1.6 xfmag=1 type=dc
+V4 (S\<3\> 0) vsource dc=S3 type=dc
+V3 (S\<2\> 0) vsource dc=S2 type=dc
+V2 (S\<1\> 0) vsource dc=S1 type=dc
+V1 (S\<0\> 0) vsource dc=S0 type=dc
+I8 (0 net5) isource dc=200n type=dc
+V6 (vin net1) vsource mag=1 type=sine ampl=V_AMP freq=V_FREQ
+V7 (net3 0) vsource type=pulse val0=0 val1=VIN_PULSE period=1 delay=1u \
+        rise=tr fall=tf width=500m
+V8 (vdd 0) vsource dc=0 type=pulse val0=0 val1=3.3 period=100 delay=10u \
+        rise=TR fall=TF
+R0 (vout vout_filt) resistor r=100k

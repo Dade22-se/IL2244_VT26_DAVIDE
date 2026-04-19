@@ -1,0 +1,271 @@
+\# Program start time:     UTC 2026.04.10 12:39:03.185
+\# Local time: UTC (UTC+00:00) 2026.04.10 12:39:03.185
+\o Program:		@(#)$CDS: vds version 6.1.8-64b 09/03/2024 19:05 (sjfhw317) $
+\o Hierarchy:		/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.36  (64-bit addresses)
+\# Command line:	/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/vds -axlSession fnxSession17 -configFile /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/91/MC/groupRunDataDir/netlist/toolArgs.ils -configlog /opt/tools/cadence/installs/IC618/share/cdssetup/dfII/swift/ade.exprEval.log4cxx.xml -dataDir /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/91/MC/groupRunDataDir/psf/ -davinciService DaVinciService_483270_1773683810 -exprEval -fenixMode explorer -historyName ExplorerRun.0 -historyUUID  -jobId 374 -lingertimeout 300 -log /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.374.9.91 -mappingFile /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/.mappingFile.374.9 -mcMappingfile /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/91/MC/groupRunDataDir/psf/mc1.mapping -mcNumPoints 9 -mode mcEvaluation -mpshost il2244vt26_davidevi -mpssession virtuoso483270 -netlistDir /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/91/MC/groupRunDataDir/netlist -noautostart -nocdsinit -nographE -point 91 -psRunMode Monte_Carlo_Sampling -runId 9 -s3Prefix  -sdbCell VGA_1_pss_tb -sdbLib VGA -sdbView maestro -simReqId 2848 -testName MC -uuid e0733907-3268-48f5-ac3b-12a1e7d56516 -logLevel configFile -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D74EF9D178A6FD82860E590078A72887903B69319D236867C66E38F1FFC06BC4D66E38F1FFC06BC4D0F3B607A1363D59500001DD9 -beanhost il2244vt26_davidevi -beanport 11300 -beanLogFile /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/amps_evaluator.log.374.9.91 -beanbinlog
+\# Host name (type):	il2244vt26_davidevi (x86_64)
+\# Operating system:	Linux 5.15.0-164-generic #174-Ubuntu SMP Fri Nov 14 20:25:16 UTC 2025
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:1198 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        356 MB
+\# Available memory:	  2,374,629 MB
+\# System memory:	  3,104,512 MB
+\# Maximum memory size:	  3,104,208 MB
+\# Max mem available:	  2,374,682 MB
+\# Initial memory used:	         53 MB
+\#        process size:	        762 MB
+\# Thread usage limits (effective/default):	maxthreads 4294967295/4294967295 maxload 48.00/48.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		davidevi
+\o Working Directory:	il2244vt26_davidevi:/home/davidevi/Desktop/myproject
+\# Process Id:		863673
+\o 
+\o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\w *WARNING* (intern): *hrAdjustNetPathName* different atom already in symbol table
+\o Loading ams.cxt 
+\o Loading auCore.cxt 
+\o Loading deBase.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading vdsil.cxt 
+\o Loading all ADEXL libs...
+\o Loading simui.cxt 
+\o loading vars from /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/91/MC/groupRunDataDir/netlist/.vdsenv.il for tool adexl
+\o loading vars from /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/91/MC/groupRunDataDir/netlist/.vdsenv.il for tool asimenv
+\o [2026-04-10 12:39:03.966 Z] [EVENT] [cadence.virtuoso.ade.expressionEvaluator] - NewPoint {"point": 91, "testname": "MC", "event": "NewPoint", "EventSource": "Expression Evaluator", "HistoryName": "ExplorerRun.0", "logFile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.374.9.91", "logFileSize": "3882"}
+\o [2026-04-10 12:39:03.968 Z] [PROCESS] [cadence.virtuoso.ade.expressionEvaluator] - Expression Evaluator has successfully started ... {"hostname": "il2244vt26_davidevi", "processid": 863673, "testname": "MC", "point": 91, "logfile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.374.9.91"}
+\o Loading vqp.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = VGA
+\o 	Cell         = VGA_1_pss_tb
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = ExplorerRun.0
+\o 	Results DB   = /home/davidevi/Desktop/myproject/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0.rdb
+\o 	Results Dir  = /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/91/MC
+\o 	Results Loc  = /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro
+\o 	Project Dir  = /home/davidevi/Desktop/myproject/Sim
+\o 	Setup DB loc = /home/davidevi/Desktop/myproject/VGA/VGA_1_pss_tb/maestro
+\o 
+\o 
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\# Memory report: using         230 MB, process size 1,088 MB at UTC 2026.04.10 12:39:05.138
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/91/MC/groupRunDataDir/netlist
+\o 
+\o Loading monte.cxt 
+\o [2026-04-10 12:39:05.749 Z] [EVENT] [cadence.virtuoso.ade.expressionEvaluator] - NewPoint {"point": 91, "testname": "MC", "event": "NewPoint", "EventSource": "Expression Evaluator", "HistoryName": "ExplorerRun.0", "logFile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.374.9.91", "logFileSize": "6360"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = VGA
+\o 	Cell         = VGA_1_pss_tb
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = ExplorerRun.0
+\o 	Results DB   = /home/davidevi/Desktop/myproject/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0.rdb
+\o 	Results Dir  = /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/91/MC
+\o 	Results Loc  = /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro
+\o 	Project Dir  = /home/davidevi/Desktop/myproject/Sim
+\o 	Setup DB loc = /home/davidevi/Desktop/myproject/VGA/VGA_1_pss_tb/maestro
+\o 
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/91/MC/groupRunDataDir/netlist
+\o 
+\o [2026-04-10 12:39:06.506 Z] [PROCESS] [cadence.virtuoso.ade.expressionEvaluator] - Current memory used: 374.5078 MBytes, peak memory used: 374.5078 MBytes {"hostname": "il2244vt26_davidevi", "processid": 863673, "testname": "MC", "point": 91, "logfile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.374.9.91"}
+\o [2026-04-10 12:39:06.511 Z] [EVENT] [cadence.virtuoso.ade.expressionEvaluator] - NewPoint {"point": 91, "testname": "MC", "event": "NewPoint", "EventSource": "Expression Evaluator", "HistoryName": "ExplorerRun.0", "logFile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.374.9.91", "logFileSize": "6360"}
+\o [2026-04-10 12:39:06.512 Z] [PROCESS] [cadence.virtuoso.ade.expressionEvaluator] - [Started expression evaluation] Current memory used: 374.5078 MBytes, peak memory used: 374.5078 MBytes {"hostname": "il2244vt26_davidevi", "processid": 863673, "testname": "MC", "point": 91, "logfile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.374.9.91"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var S0 = "3.3"
+\o Setting var S1 = "3.3"
+\o Setting var S2 = "3.3"
+\o Setting var S3 = "3.3"
+\o Setting var VDD = "3.3"
+\o Setting var V_AMP = "20m"
+\o Setting var V_FREQ = "50"
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Run complete for Point ID (9 91) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o [2026-04-10 12:39:07.223 Z] [PROCESS] [cadence.virtuoso.ade.expressionEvaluator] - [Finished expression evaluation] Current memory used: 396.5078 MBytes, peak memory used: 396.5078 MBytes {"hostname": "il2244vt26_davidevi", "processid": 863673, "testname": "MC", "point": 91, "logfile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.374.9.91"}
+\o [2026-04-10 12:39:07.275 Z] [EVENT] [cadence.virtuoso.ade.expressionEvaluator] - NewPoint {"point": 92, "testname": "MC", "event": "NewPoint", "EventSource": "Expression Evaluator", "HistoryName": "ExplorerRun.0", "logFile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.374.9.91", "logFileSize": "10123"}
+\o [2026-04-10 12:39:07.276 Z] [PROCESS] [cadence.virtuoso.ade.expressionEvaluator] - [Started expression evaluation] Current memory used: 396.5078 MBytes, peak memory used: 396.5078 MBytes {"hostname": "il2244vt26_davidevi", "processid": 863673, "testname": "MC", "point": 92, "logfile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.374.9.91"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Run complete for Point ID (9 92) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o [2026-04-10 12:39:07.687 Z] [PROCESS] [cadence.virtuoso.ade.expressionEvaluator] - [Finished expression evaluation] Current memory used: 396.6680 MBytes, peak memory used: 396.6680 MBytes {"hostname": "il2244vt26_davidevi", "processid": 863673, "testname": "MC", "point": 92, "logfile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.374.9.91"}
+\o [2026-04-10 12:39:07.763 Z] [EVENT] [cadence.virtuoso.ade.expressionEvaluator] - NewPoint {"point": 93, "testname": "MC", "event": "NewPoint", "EventSource": "Expression Evaluator", "HistoryName": "ExplorerRun.0", "logFile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.374.9.91", "logFileSize": "11485"}
+\o [2026-04-10 12:39:07.763 Z] [PROCESS] [cadence.virtuoso.ade.expressionEvaluator] - [Started expression evaluation] Current memory used: 396.6680 MBytes, peak memory used: 396.6680 MBytes {"hostname": "il2244vt26_davidevi", "processid": 863673, "testname": "MC", "point": 93, "logfile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.374.9.91"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Run complete for Point ID (9 93) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o [2026-04-10 12:39:08.200 Z] [PROCESS] [cadence.virtuoso.ade.expressionEvaluator] - [Finished expression evaluation] Current memory used: 396.8359 MBytes, peak memory used: 396.8359 MBytes {"hostname": "il2244vt26_davidevi", "processid": 863673, "testname": "MC", "point": 93, "logfile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.374.9.91"}
+\o [2026-04-10 12:39:08.252 Z] [EVENT] [cadence.virtuoso.ade.expressionEvaluator] - NewPoint {"point": 94, "testname": "MC", "event": "NewPoint", "EventSource": "Expression Evaluator", "HistoryName": "ExplorerRun.0", "logFile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.374.9.91", "logFileSize": "12847"}
+\o [2026-04-10 12:39:08.253 Z] [PROCESS] [cadence.virtuoso.ade.expressionEvaluator] - [Started expression evaluation] Current memory used: 396.8359 MBytes, peak memory used: 396.8359 MBytes {"hostname": "il2244vt26_davidevi", "processid": 863673, "testname": "MC", "point": 94, "logfile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.374.9.91"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Run complete for Point ID (9 94) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o [2026-04-10 12:39:08.679 Z] [PROCESS] [cadence.virtuoso.ade.expressionEvaluator] - [Finished expression evaluation] Current memory used: 396.9727 MBytes, peak memory used: 396.9727 MBytes {"hostname": "il2244vt26_davidevi", "processid": 863673, "testname": "MC", "point": 94, "logfile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.374.9.91"}
+\o [2026-04-10 12:39:08.731 Z] [EVENT] [cadence.virtuoso.ade.expressionEvaluator] - NewPoint {"point": 95, "testname": "MC", "event": "NewPoint", "EventSource": "Expression Evaluator", "HistoryName": "ExplorerRun.0", "logFile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.374.9.91", "logFileSize": "14209"}
+\o [2026-04-10 12:39:08.732 Z] [PROCESS] [cadence.virtuoso.ade.expressionEvaluator] - [Started expression evaluation] Current memory used: 396.9727 MBytes, peak memory used: 396.9727 MBytes {"hostname": "il2244vt26_davidevi", "processid": 863673, "testname": "MC", "point": 95, "logfile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.374.9.91"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Run complete for Point ID (9 95) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o [2026-04-10 12:39:09.218 Z] [PROCESS] [cadence.virtuoso.ade.expressionEvaluator] - [Finished expression evaluation] Current memory used: 397.1719 MBytes, peak memory used: 397.1719 MBytes {"hostname": "il2244vt26_davidevi", "processid": 863673, "testname": "MC", "point": 95, "logfile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.374.9.91"}
+\o [2026-04-10 12:39:10.278 Z] [EVENT] [cadence.virtuoso.ade.expressionEvaluator] - NewPoint {"point": 96, "testname": "MC", "event": "NewPoint", "EventSource": "Expression Evaluator", "HistoryName": "ExplorerRun.0", "logFile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.374.9.91", "logFileSize": "15571"}
+\o [2026-04-10 12:39:10.278 Z] [PROCESS] [cadence.virtuoso.ade.expressionEvaluator] - [Started expression evaluation] Current memory used: 397.1719 MBytes, peak memory used: 397.1719 MBytes {"hostname": "il2244vt26_davidevi", "processid": 863673, "testname": "MC", "point": 96, "logfile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.374.9.91"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Run complete for Point ID (9 96) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o [2026-04-10 12:39:10.684 Z] [PROCESS] [cadence.virtuoso.ade.expressionEvaluator] - [Finished expression evaluation] Current memory used: 397.1758 MBytes, peak memory used: 397.1758 MBytes {"hostname": "il2244vt26_davidevi", "processid": 863673, "testname": "MC", "point": 96, "logfile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.374.9.91"}
+\o [2026-04-10 12:39:10.738 Z] [EVENT] [cadence.virtuoso.ade.expressionEvaluator] - NewPoint {"point": 97, "testname": "MC", "event": "NewPoint", "EventSource": "Expression Evaluator", "HistoryName": "ExplorerRun.0", "logFile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.374.9.91", "logFileSize": "16933"}
+\o [2026-04-10 12:39:10.738 Z] [PROCESS] [cadence.virtuoso.ade.expressionEvaluator] - [Started expression evaluation] Current memory used: 397.1758 MBytes, peak memory used: 397.1758 MBytes {"hostname": "il2244vt26_davidevi", "processid": 863673, "testname": "MC", "point": 97, "logfile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.374.9.91"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Run complete for Point ID (9 97) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o [2026-04-10 12:39:11.130 Z] [PROCESS] [cadence.virtuoso.ade.expressionEvaluator] - [Finished expression evaluation] Current memory used: 397.1758 MBytes, peak memory used: 397.1758 MBytes {"hostname": "il2244vt26_davidevi", "processid": 863673, "testname": "MC", "point": 97, "logfile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.374.9.91"}
+\o [2026-04-10 12:39:11.185 Z] [EVENT] [cadence.virtuoso.ade.expressionEvaluator] - NewPoint {"point": 98, "testname": "MC", "event": "NewPoint", "EventSource": "Expression Evaluator", "HistoryName": "ExplorerRun.0", "logFile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.374.9.91", "logFileSize": "18295"}
+\o [2026-04-10 12:39:11.186 Z] [PROCESS] [cadence.virtuoso.ade.expressionEvaluator] - [Started expression evaluation] Current memory used: 397.1758 MBytes, peak memory used: 397.1758 MBytes {"hostname": "il2244vt26_davidevi", "processid": 863673, "testname": "MC", "point": 98, "logfile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.374.9.91"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Run complete for Point ID (9 98) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o [2026-04-10 12:39:11.626 Z] [PROCESS] [cadence.virtuoso.ade.expressionEvaluator] - [Finished expression evaluation] Current memory used: 397.1758 MBytes, peak memory used: 397.1758 MBytes {"hostname": "il2244vt26_davidevi", "processid": 863673, "testname": "MC", "point": 98, "logfile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.374.9.91"}
+\o [2026-04-10 12:39:12.685 Z] [EVENT] [cadence.virtuoso.ade.expressionEvaluator] - NewPoint {"point": 99, "testname": "MC", "event": "NewPoint", "EventSource": "Expression Evaluator", "HistoryName": "ExplorerRun.0", "logFile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.374.9.91", "logFileSize": "19657"}
+\o [2026-04-10 12:39:12.685 Z] [PROCESS] [cadence.virtuoso.ade.expressionEvaluator] - [Started expression evaluation] Current memory used: 397.1758 MBytes, peak memory used: 397.1758 MBytes {"hostname": "il2244vt26_davidevi", "processid": 863673, "testname": "MC", "point": 99, "logfile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.374.9.91"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Run complete for Point ID (9 99) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o [2026-04-10 12:39:13.026 Z] [PROCESS] [cadence.virtuoso.ade.expressionEvaluator] - [Finished expression evaluation] Current memory used: 397.1758 MBytes, peak memory used: 397.1758 MBytes {"hostname": "il2244vt26_davidevi", "processid": 863673, "testname": "MC", "point": 99, "logfile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.374.9.91"}
+\# Available memory:      2,373,921 MB at UTC 2026.04.10 12:39:19.319
+\# Memory report: Maximum memory size now 2,374,217 MB at UTC 2026.04.10 12:39:19.319
+\# Thread usage report: 53 active threads, active load 1.40 at UTC 2026.04.10 12:39:19.319
+\o [2026-04-10 12:41:33.548 Z] [PROCESS] [cadence.virtuoso.ade.expressionEvaluator] - Current memory used: 397.1758 MBytes, peak memory used: 397.1758 MBytes {"hostname": "il2244vt26_davidevi", "processid": 863673, "testname": "MC", "point": 99, "logfile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.374.9.91"}
+\o [2026-04-10 12:41:33.549 Z] [PROCESS] [cadence.virtuoso.ade.expressionEvaluator] - Exit Evaluator {"hostname": "il2244vt26_davidevi", "processid": 863673, "testname": "MC", "point": 99, "logfile": "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.374.9.91"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 

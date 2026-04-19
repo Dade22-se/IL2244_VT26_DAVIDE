@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"design" "(\"VGA\" \"VGA_1_tb\" \"schematic\" \"\")"
+"simulator" "spectre"
+"temperature" "27"
+"host" ""
+"date" "Mar 21 16:00:01 2026"
+"title" ""
+"analysisList" "()"
+END

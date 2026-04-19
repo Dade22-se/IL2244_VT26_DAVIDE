@@ -1,0 +1,140 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Wed Apr  8 12:32:10 2026 
+Best design point: 1
+Design specs: 
+	VGA:VGA_1_tb:1	corner	VDD_0 - 
+	total noise		77.5u
+	VGA:VGA_1_tb:1	corner	VDD_1 - 
+	total noise		77.39u
+	VGA:VGA_1_tb:1	corner	VDD_2 - 
+	total noise		85.1u
+	VGA:VGA_1_tb:1	corner	VDD_3 - 
+	total noise		84.97u
+	VGA:VGA_1_tb:1	corner	VDD_4 - 
+	total noise		77.99u
+	VGA:VGA_1_tb:1	corner	VDD_5 - 
+	total noise		77.9u
+	VGA:VGA_1_tb:1	corner	VDD_6 - 
+	total noise		86.11u
+	VGA:VGA_1_tb:1	corner	VDD_7 - 
+	total noise		86.02u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_0 - 
+	total noise		77.56u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_1 - 
+	total noise		77.45u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_2 - 
+	total noise		86.62u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_3 - 
+	total noise		86.49u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_4 - 
+	total noise		78.05u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_5 - 
+	total noise		77.97u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_6 - 
+	total noise		87.67u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_7 - 
+	total noise		87.58u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_8 - 
+	total noise		77.45u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_9 - 
+	total noise		77.34u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_10 - 
+	total noise		83.54u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_11 - 
+	total noise		83.41u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_12 - 
+	total noise		77.93u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_13 - 
+	total noise		77.85u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_14 - 
+	total noise		84.5u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_15 - 
+	total noise		84.41u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_TEMP_0 - 
+	total noise		66.39u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_TEMP_1 - 
+	total noise		91.66u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_TEMP_2 - 
+	total noise		66.31u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_TEMP_3 - 
+	total noise		91.5u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_TEMP_4 - 
+	total noise		61.38u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_TEMP_5 - 
+	total noise		101.4u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_TEMP_6 - 
+	total noise		61.29u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_TEMP_7 - 
+	total noise		101.2u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_TEMP_8 - 
+	total noise		66.57u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_TEMP_9 - 
+	total noise		92.57u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_TEMP_10 - 
+	total noise		66.5u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_TEMP_11 - 
+	total noise		92.46u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_TEMP_12 - 
+	total noise		61.66u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_TEMP_13 - 
+	total noise		102.1u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_TEMP_14 - 
+	total noise		61.59u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_TEMP_15 - 
+	total noise		101.9u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_TEMP_16 - 
+	total noise		66.33u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_TEMP_17 - 
+	total noise		90.68u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_TEMP_18 - 
+	total noise		66.25u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_TEMP_19 - 
+	total noise		90.52u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_TEMP_20 - 
+	total noise		61.36u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_TEMP_21 - 
+	total noise		96.71u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_TEMP_22 - 
+	total noise		61.27u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_TEMP_23 - 
+	total noise		96.52u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_TEMP_24 - 
+	total noise		66.51u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_TEMP_25 - 
+	total noise		91.58u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_TEMP_26 - 
+	total noise		66.44u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_TEMP_27 - 
+	total noise		91.47u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_TEMP_28 - 
+	total noise		61.63u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_TEMP_29 - 
+	total noise		97.38u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_TEMP_30 - 
+	total noise		61.56u
+	VGA:VGA_1_tb:1	corner	CMOS_CAP_VDD_TEMP_31 - 
+	total noise		97.26u
+	VGA:VGA_1_tb:1	corner	CMOS_0 - 
+	total noise		77.46u
+	VGA:VGA_1_tb:1	corner	CMOS_1 - 
+	total noise		85.06u
+	VGA:VGA_1_tb:1	corner	CMOS_2 - 
+	total noise		77.95u
+	VGA:VGA_1_tb:1	corner	CMOS_3 - 
+	total noise		86.08u
+	VGA:VGA_1_tb:1	corner	Nominal - 
+	total noise		59.26u
+Design parameters: 
+	S0		3.3
+	S1		3.3
+	S2		3.3
+	S3		3.3
+	VDD		3.3
+	V_FREQ		1K
+
+Interactive.88
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.88 completed. 
+Current time: Wed Apr  8 12:33:24 2026 

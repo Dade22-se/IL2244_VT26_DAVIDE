@@ -1,0 +1,1737 @@
+
+Spectre (R) Circuit Simulator
+Version 24.1.0.288.isr5 64bit -- 3 Apr 2025
+Copyright (C) 1989-2025 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: davidevi   Host: il2244vt26_davidevi   HostID: 11AC2C00   PID: 1038162
+Memory  available: 3.0374 TB  physical: 3.2467 TB
+Linux   : Rocky Linux release 8.10 (Green Obsidian)
+CPU Type: Intel(R) Xeon(R) CPU E7-8857 v2 @ 3.00GHz
+        Socket: Processors [Frequency]
+        0:       0 [3600.0],  1 [2999.9],  2 [1200.0],  3 [1200.0],  4 [2999.9]
+                 5 [1200.0],  6 [2999.9],  7 [1200.0],  8 [1200.0],  9 [1200.0]
+                10 [1200.0], 11 [1200.0]
+        1:      12 [1200.0], 13 [2999.9], 14 [2500.0], 15 [2999.9], 16 [3600.0]
+                17 [1200.0], 18 [1200.0], 19 [2100.0], 20 [1200.0], 21 [2800.0]
+                22 [1200.0], 23 [3000.0]
+        2:      24 [2800.0], 25 [3600.0], 26 [1200.0], 27 [1200.0], 28 [2999.9]
+                29 [1200.0], 30 [1300.0], 31 [1200.0], 32 [1300.0], 33 [1200.0]
+                34 [2999.9], 35 [1200.0]
+        3:      36 [1200.0], 37 [2999.9], 38 [3400.0], 39 [1200.0], 40 [1200.0]
+                41 [3000.0], 42 [3600.0], 43 [2999.9], 44 [1200.0], 45 [1200.0]
+                46 [1200.0], 47 [2999.9]
+        
+System load averages (1min, 5min, 15min) : 13.9 %, 17.1 %, 16.2 %
+HPC is enabled
+
+
+Simulating `input.scs' on il2244vt26_davidevi at 8:27:58 AM, Thur Apr 16, 2026 (process id: 1038162).
+Current working directory: /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_tb/adexl/results/data/MonteCarlo.2/1/xf_MC/groupRunDataDir/netlist
+Command line:
+    /opt/tools/cadence/installs/SPECTRE241/tools/bin/spectre -64  \
+        input.scs +escchars +log ../psf/spectre.out -format psfbin  \
+        +rtsf -raw ../psf +aps +mt +lqtimeout 900 -maxw 5 -maxn 5  \
+        +param /opt/pdk/ams/410/spectre/ams_range.lmts -env ade  \
+        -ahdllibdir  \
+        /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_tb/adexl/results/data/MonteCarlo.2/sharedData/Job463/ahdl/input.ahdlSimDB  \
+        +logstatus  \
+        +adespetkn=0001089D13A302B663E41FB550AF0DF415A679A322D5069144BF588C12F604E07EF416DC01A319B562BB63D35BF91DB045A354DB0CBA10A17CF350E179C04F9272E279D15D9175FF34986BDD0AF002BA50FD7FD707E002A700AC1C861BF845E50EAB79D129F874D3349879D118F874D3349810318574E95F5D780000366D
+
+Simulation Id: icp0eaHkdrZyoJFz
+Licensing Information:
+[08:27:58.121842] Configured Lic search path (24.01-s002): 3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
+
+Licensing Information:
+[08:27:58.242339] Periodic Lic check successful
+
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libphilips_I_sh.so ...
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+
+Warning from spectre.
+    WARNING (SPECTRE-691): This CPU processor does not support x86 advanced vector extensions instructions. This may affect math operations and slow down the simulation.
+
+Reading file:  /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_tb/adexl/results/data/MonteCarlo.2/1/xf_MC/groupRunDataDir/netlist/input.scs
+Reading file:  /opt/pdk/ams/410/spectre/ams_range.lmts
+
+Warning from spectre during read of parameter soft limits file `/opt/pdk/ams/410/spectre/ams_range.lmts', during circuit read-in.
+    WARNING (SPECTRE-8360): line 1511: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1512: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1513: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1514: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1515: `ac' is an undefined primitive device.
+        Further occurrences of this warning will be suppressed.
+
+Reading file:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /opt/pdk/ams/410/spectre/c35/soac/soac.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/processOption.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/process.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/processOption/C35B4C3.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/cmos53.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/res.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/cap.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/bip.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/ind.scs
+Reading file:  /opt/pdk/ams/410/spectre/c35/esddiode.scs
+Time for NDB Parsing: CPU = 187.209 ms, elapsed = 308.583 ms.
+Time accumulated: CPU = 394.354 ms, elapsed = 308.586 ms.
+Peak resident memory used = 172 Mbytes.
+
+Reading link:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/discipline.h
+Reading file:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/disciplines.vams
+Reading link:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/constants.h
+Reading file:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/constants.vams
+
+Warning from spectre during AHDL read-in.
+    WARNING (VACOMP-2435): The environment variable CDS_AHDLCMI_ENABLE is no longer supported. Therefore, the simulator will use the default compiled C code flow.
+
+Existing shared object for module bsource_fcab9d is up to date.
+Installed compiled interface for bsource_fcab9d.
+Time for Elaboration: CPU = 55.433 ms, elapsed = 57.0438 ms.
+Time accumulated: CPU = 449.902 ms, elapsed = 365.745 ms.
+Peak resident memory used = 188 Mbytes.
+
+
+Notice from spectre during hierarchy flattening.
+    The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option.
+
+
+*****************************************************************************************
+* 
+* INFO: AMS_processOption = C35B4C3
+* 
+* INFO: Valid Modules  PIP VG5 HIRES
+* 
+*****************************************************************************************
+
+
+Time for EDB Visiting: CPU = 6.067 ms, elapsed = 6.06608 ms.
+Time accumulated: CPU = 456.091 ms, elapsed = 371.934 ms.
+Peak resident memory used = 190 Mbytes.
+
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/mdl/lib/64bit/libSpectreEH_sh.so ...
+
+Warning from spectre during initial setup.
+    WARNING (SPECTRE-17607): Assert `SOAC_rpolyh_vminuspsub' is ignored because it contains an expression which is invalid or not supported by native evaluator. 
+    WARNING (SPECTRE-17607): Assert `SOAC_rpolyh_vpluspsub' is ignored because it contains an expression which is invalid or not supported by native evaluator. 
+    WARNING (SPECTRE-16460): SOAC_cvarm_vspsub:Specified subcircuit master `cvarm' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvarm_vspsub:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvarm_vbs:Specified subcircuit master `cvarm' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvarm_vbs:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvarm_vgb:Specified subcircuit master `cvarm' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvarm_vgb:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvart_vspsub:Specified subcircuit master `cvart' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvart_vspsub:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvart_vbs:Specified subcircuit master `cvart' was not found.
+        Further occurrences of this warning will be suppressed.
+    WARNING (SPECTRE-16462): SOAC_cvart_vbs:Error in specification of subcircuit master. Assert is ignored.
+        Further occurrences of this warning will be suppressed.
+    WARNING (SPECTRE-17607): Assert `SOAC_cpoly_vminuspsub' is ignored because it contains an expression which is invalid or not supported by native evaluator. 
+    WARNING (SPECTRE-17607): Assert `SOAC_cpoly_vpluspsub' is ignored because it contains an expression which is invalid or not supported by native evaluator. 
+    WARNING (SPECTRE-17607): Assert `SOAC_modp_vbpsub' is ignored because it contains an expression which is invalid or not supported by native evaluator. 
+        Further occurrences of this warning will be suppressed.
+Notice from spectre during initial setup.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Netlist title:
+        // Point Netlist Generated on: Apr 16 08:27:58 2026
+
+
+Global user options:
+         psfversion = 1.4.0
+            vabstol = 1e-06
+            iabstol = 1e-12
+               temp = 27
+           homotopy = 5
+              limit = delta
+         compatible = spice2
+               gmin = 1e-12
+             rforce = 1
+           maxnotes = 5
+           maxwarns = 5
+             digits = 5
+               cols = 80
+             pivrel = 0.001
+           sensfile = ../psf/sens.output
+     checklimitdest = psf
+     enable_pre_ver = yes
+      ignorezerovar = yes
+               save = allpub
+             reltol = 0.0001
+               tnom = 27
+             scalem = 1
+              scale = 1
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 34
+            bsim3v3 35    
+     bsource_fcab9d 2     
+          capacitor 38    
+            isource 1     
+           resistor 1     
+            vsource 8     
+
+Analysis and control statement inventory:
+               info 6     
+         montecarlo 1     
+                 xf 1     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 0     
+
+Design checks inventory:
+          paramtest 55    
+             assert 175   
+
+
+Notice from spectre during initial setup.
+    APS enabled.
+    73 warnings suppressed.
+
+Time for parsing: CPU = 20.405 ms, elapsed = 605.1 ms.
+Time accumulated: CPU = 476.627 ms, elapsed = 977.165 ms.
+Peak resident memory used = 197 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+   -   (APS) Multi-threading. The recommended number of threads is 1, consider adding +mt=1 on command line.
+~~~~~~~~~~~~~~~~~~~~~~
+
+*************************************************
+Monte Carlo Analysis `mc1': iteration = (1 -> 13)
+*************************************************
+Important parameter values:
+    seed = 12345
+    sampling = lds
+    variations = all
+    firstrun = 1
+    numruns = 13
+    nullmfactorcorrelation = no
+    donominal = yes
+    method = standard
+
+**** Performing nominal run for `mc1'
+
+***********************************************************
+Transfer Function Analysis `xf': freq = (10 mHz -> 100 MHz)
+***********************************************************
+
+Notice from spectre during DC analysis, during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    No checklimit analysis defined for asserts. A default checklimit analysis 'SpectreChecklimitAnal' has been created with all asserts enabled.
+Notice from spectre during DC analysis, during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+Warning from spectre during check, during DC analysis, during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CS1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CS0'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<3>.C1'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 17 iterations.
+DC simulation time: CPU = 2.667 ms, elapsed = 2.66695 ms.
+
+Opening the PSF file ../psf/nom/xf.xf ...
+    xf: freq = 25.12 mHz      (4 %), step = 9.27 mHz        (2 %)
+    xf: freq = 39.81 mHz      (6 %), step = 14.69 mHz       (2 %)
+    xf: freq = 63.1 mHz       (8 %), step = 23.29 mHz       (2 %)
+    xf: freq = 100 mHz       (10 %), step = 36.9 mHz        (2 %)
+    xf: freq = 158.5 mHz     (12 %), step = 58.49 mHz       (2 %)
+    xf: freq = 251.2 mHz     (14 %), step = 92.7 mHz        (2 %)
+    xf: freq = 398.1 mHz     (16 %), step = 146.9 mHz       (2 %)
+    xf: freq = 631 mHz       (18 %), step = 232.9 mHz       (2 %)
+    xf: freq = 1 Hz          (20 %), step = 369 mHz         (2 %)
+    xf: freq = 1.585 Hz      (22 %), step = 584.9 mHz       (2 %)
+    xf: freq = 2.512 Hz      (24 %), step = 927 mHz         (2 %)
+    xf: freq = 3.981 Hz      (26 %), step = 1.469 Hz        (2 %)
+    xf: freq = 6.31 Hz       (28 %), step = 2.329 Hz        (2 %)
+    xf: freq = 10 Hz         (30 %), step = 3.69 Hz         (2 %)
+    xf: freq = 15.85 Hz      (32 %), step = 5.849 Hz        (2 %)
+    xf: freq = 25.12 Hz      (34 %), step = 9.27 Hz         (2 %)
+    xf: freq = 39.81 Hz      (36 %), step = 14.69 Hz        (2 %)
+    xf: freq = 63.1 Hz       (38 %), step = 23.29 Hz        (2 %)
+    xf: freq = 100 Hz        (40 %), step = 36.9 Hz         (2 %)
+    xf: freq = 158.5 Hz      (42 %), step = 58.49 Hz        (2 %)
+    xf: freq = 251.2 Hz      (44 %), step = 92.7 Hz         (2 %)
+    xf: freq = 398.1 Hz      (46 %), step = 146.9 Hz        (2 %)
+    xf: freq = 631 Hz        (48 %), step = 232.9 Hz        (2 %)
+    xf: freq = 1 kHz         (50 %), step = 369 Hz          (2 %)
+    xf: freq = 1.585 kHz     (52 %), step = 584.9 Hz        (2 %)
+    xf: freq = 2.512 kHz     (54 %), step = 927 Hz          (2 %)
+    xf: freq = 3.981 kHz     (56 %), step = 1.469 kHz       (2 %)
+    xf: freq = 6.31 kHz      (58 %), step = 2.329 kHz       (2 %)
+    xf: freq = 10 kHz        (60 %), step = 3.69 kHz        (2 %)
+    xf: freq = 15.85 kHz     (62 %), step = 5.849 kHz       (2 %)
+    xf: freq = 25.12 kHz     (64 %), step = 9.27 kHz        (2 %)
+    xf: freq = 39.81 kHz     (66 %), step = 14.69 kHz       (2 %)
+    xf: freq = 63.1 kHz      (68 %), step = 23.29 kHz       (2 %)
+    xf: freq = 100 kHz       (70 %), step = 36.9 kHz        (2 %)
+    xf: freq = 158.5 kHz     (72 %), step = 58.49 kHz       (2 %)
+    xf: freq = 251.2 kHz     (74 %), step = 92.7 kHz        (2 %)
+    xf: freq = 398.1 kHz     (76 %), step = 146.9 kHz       (2 %)
+    xf: freq = 631 kHz       (78 %), step = 232.9 kHz       (2 %)
+    xf: freq = 1 MHz         (80 %), step = 369 kHz         (2 %)
+    xf: freq = 1.585 MHz     (82 %), step = 584.9 kHz       (2 %)
+    xf: freq = 2.512 MHz     (84 %), step = 927 kHz         (2 %)
+    xf: freq = 3.981 MHz     (86 %), step = 1.469 MHz       (2 %)
+    xf: freq = 6.31 MHz      (88 %), step = 2.329 MHz       (2 %)
+    xf: freq = 10 MHz        (90 %), step = 3.69 MHz        (2 %)
+    xf: freq = 15.85 MHz     (92 %), step = 5.849 MHz       (2 %)
+    xf: freq = 25.12 MHz     (94 %), step = 9.27 MHz        (2 %)
+    xf: freq = 39.81 MHz     (96 %), step = 14.69 MHz       (2 %)
+    xf: freq = 63.1 MHz      (98 %), step = 23.29 MHz       (2 %)
+    xf: freq = 100 MHz      (100 %), step = 36.9 MHz        (2 %)
+Accumulated DC solution time =            2.75898 ms.
+Intrinsic xf analysis time =              7.59888 ms.
+Total time required for xf analysis `xf': CPU = 10.001 ms, elapsed = 11.3308 ms, util. = 88.3%.
+Time accumulated: CPU = 510.401 ms, elapsed = 1.01292 s.
+Peak resident memory used = 201 Mbytes.
+
+
+Notice from spectre during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    34 warnings suppressed.
+
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/nom/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/nom/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/nom/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/nom/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/nom/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/nom/subckts.info.subckts ...
+Opening iteration number and data-directory mapping file:  /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_tb/adexl/results/data/MonteCarlo.2/1/xf_MC/groupRunDataDir/netlist/../psf/mc1.mapping
+
+Statistical parameters:
+    Defined process parameters: 629
+    Defined mismatch parameters (subckt based): 86
+    Non-referenced mismatch parameters: 80
+    Number of random variables: 718
+    Gaussian truncation for process parameters: 4.00 sigma
+    Gaussian truncation for mismatch parameters: 4.00 sigma
+
+
+Opening the PSF file ../psf/mc1_xf.montecarlo ...
+
+Opening the PSF file ../psf/mc1_modelParameter.montecarlo ...
+
+Opening the PSF file ../psf/mc1_element.montecarlo ...
+
+Opening the PSF file ../psf/mc1_outputParameter.montecarlo ...
+
+Opening the PSF file ../psf/mc1_designParamVals.montecarlo ...
+
+Opening the PSF file ../psf/mc1_primitives.montecarlo ...
+
+Opening the PSF file ../psf/mc1_subckts.montecarlo ...
+
+**** Performing monte carlo loop for `mc1'
+
+1   0.00% 
+
+*****************************************************************************************
+* 
+* INFO: AMS_processOption = C35B4C3
+* 
+* INFO: Valid Modules  PIP VG5 HIRES
+* 
+*****************************************************************************************
+
+
+***********************************************************
+Transfer Function Analysis `xf': freq = (10 mHz -> 100 MHz)
+***********************************************************
+
+Opening the PSF file ../psf/mc1_separate/001/xf.xf ...
+
+Warning from spectre at freq = 0 Hz during check, during DC analysis, during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CS1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CS0'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<3>.C1'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 19 iterations.
+DC simulation time: CPU = 2.133 ms, elapsed = 2.141 ms.
+    xf: freq = 25.12 mHz      (4 %), step = 9.27 mHz        (2 %)
+    xf: freq = 39.81 mHz      (6 %), step = 14.69 mHz       (2 %)
+    xf: freq = 63.1 mHz       (8 %), step = 23.29 mHz       (2 %)
+    xf: freq = 100 mHz       (10 %), step = 36.9 mHz        (2 %)
+    xf: freq = 158.5 mHz     (12 %), step = 58.49 mHz       (2 %)
+    xf: freq = 251.2 mHz     (14 %), step = 92.7 mHz        (2 %)
+    xf: freq = 398.1 mHz     (16 %), step = 146.9 mHz       (2 %)
+    xf: freq = 631 mHz       (18 %), step = 232.9 mHz       (2 %)
+    xf: freq = 1 Hz          (20 %), step = 369 mHz         (2 %)
+    xf: freq = 1.585 Hz      (22 %), step = 584.9 mHz       (2 %)
+    xf: freq = 2.512 Hz      (24 %), step = 927 mHz         (2 %)
+    xf: freq = 3.981 Hz      (26 %), step = 1.469 Hz        (2 %)
+    xf: freq = 6.31 Hz       (28 %), step = 2.329 Hz        (2 %)
+    xf: freq = 10 Hz         (30 %), step = 3.69 Hz         (2 %)
+    xf: freq = 15.85 Hz      (32 %), step = 5.849 Hz        (2 %)
+    xf: freq = 25.12 Hz      (34 %), step = 9.27 Hz         (2 %)
+    xf: freq = 39.81 Hz      (36 %), step = 14.69 Hz        (2 %)
+    xf: freq = 63.1 Hz       (38 %), step = 23.29 Hz        (2 %)
+    xf: freq = 100 Hz        (40 %), step = 36.9 Hz         (2 %)
+    xf: freq = 158.5 Hz      (42 %), step = 58.49 Hz        (2 %)
+    xf: freq = 251.2 Hz      (44 %), step = 92.7 Hz         (2 %)
+    xf: freq = 398.1 Hz      (46 %), step = 146.9 Hz        (2 %)
+    xf: freq = 631 Hz        (48 %), step = 232.9 Hz        (2 %)
+    xf: freq = 1 kHz         (50 %), step = 369 Hz          (2 %)
+    xf: freq = 1.585 kHz     (52 %), step = 584.9 Hz        (2 %)
+    xf: freq = 2.512 kHz     (54 %), step = 927 Hz          (2 %)
+    xf: freq = 3.981 kHz     (56 %), step = 1.469 kHz       (2 %)
+    xf: freq = 6.31 kHz      (58 %), step = 2.329 kHz       (2 %)
+    xf: freq = 10 kHz        (60 %), step = 3.69 kHz        (2 %)
+    xf: freq = 15.85 kHz     (62 %), step = 5.849 kHz       (2 %)
+    xf: freq = 25.12 kHz     (64 %), step = 9.27 kHz        (2 %)
+    xf: freq = 39.81 kHz     (66 %), step = 14.69 kHz       (2 %)
+    xf: freq = 63.1 kHz      (68 %), step = 23.29 kHz       (2 %)
+    xf: freq = 100 kHz       (70 %), step = 36.9 kHz        (2 %)
+    xf: freq = 158.5 kHz     (72 %), step = 58.49 kHz       (2 %)
+    xf: freq = 251.2 kHz     (74 %), step = 92.7 kHz        (2 %)
+    xf: freq = 398.1 kHz     (76 %), step = 146.9 kHz       (2 %)
+    xf: freq = 631 kHz       (78 %), step = 232.9 kHz       (2 %)
+    xf: freq = 1 MHz         (80 %), step = 369 kHz         (2 %)
+    xf: freq = 1.585 MHz     (82 %), step = 584.9 kHz       (2 %)
+    xf: freq = 2.512 MHz     (84 %), step = 927 kHz         (2 %)
+    xf: freq = 3.981 MHz     (86 %), step = 1.469 MHz       (2 %)
+    xf: freq = 6.31 MHz      (88 %), step = 2.329 MHz       (2 %)
+    xf: freq = 10 MHz        (90 %), step = 3.69 MHz        (2 %)
+    xf: freq = 15.85 MHz     (92 %), step = 5.849 MHz       (2 %)
+    xf: freq = 25.12 MHz     (94 %), step = 9.27 MHz        (2 %)
+    xf: freq = 39.81 MHz     (96 %), step = 14.69 MHz       (2 %)
+    xf: freq = 63.1 MHz      (98 %), step = 23.29 MHz       (2 %)
+    xf: freq = 100 MHz      (100 %), step = 36.9 MHz        (2 %)
+Accumulated DC solution time =            0 s.
+Intrinsic xf analysis time =              8.06403 ms.
+Total time required for xf analysis `xf': CPU = 7.557 ms, elapsed = 8.31795 ms, util. = 90.9%.
+Time accumulated: CPU = 588.941 ms, elapsed = 1.1038 s.
+Peak resident memory used = 205 Mbytes.
+
+
+Notice from spectre during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    34 warnings suppressed.
+
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/001/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/001/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/001/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/001/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/001/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/001/subckts.info.subckts ...
+2   8.33% 
+
+*****************************************************************************************
+* 
+* INFO: AMS_processOption = C35B4C3
+* 
+* INFO: Valid Modules  PIP VG5 HIRES
+* 
+*****************************************************************************************
+
+
+***********************************************************
+Transfer Function Analysis `xf': freq = (10 mHz -> 100 MHz)
+***********************************************************
+
+Opening the PSF file ../psf/mc1_separate/002/xf.xf ...
+
+Warning from spectre at freq = 0 Hz during check, during DC analysis, during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CS1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CS0'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<3>.C1'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 19 iterations.
+DC simulation time: CPU = 1.958 ms, elapsed = 1.95909 ms.
+    xf: freq = 25.12 mHz      (4 %), step = 9.27 mHz        (2 %)
+    xf: freq = 39.81 mHz      (6 %), step = 14.69 mHz       (2 %)
+    xf: freq = 63.1 mHz       (8 %), step = 23.29 mHz       (2 %)
+    xf: freq = 100 mHz       (10 %), step = 36.9 mHz        (2 %)
+    xf: freq = 158.5 mHz     (12 %), step = 58.49 mHz       (2 %)
+    xf: freq = 251.2 mHz     (14 %), step = 92.7 mHz        (2 %)
+    xf: freq = 398.1 mHz     (16 %), step = 146.9 mHz       (2 %)
+    xf: freq = 631 mHz       (18 %), step = 232.9 mHz       (2 %)
+    xf: freq = 1 Hz          (20 %), step = 369 mHz         (2 %)
+    xf: freq = 1.585 Hz      (22 %), step = 584.9 mHz       (2 %)
+    xf: freq = 2.512 Hz      (24 %), step = 927 mHz         (2 %)
+    xf: freq = 3.981 Hz      (26 %), step = 1.469 Hz        (2 %)
+    xf: freq = 6.31 Hz       (28 %), step = 2.329 Hz        (2 %)
+    xf: freq = 10 Hz         (30 %), step = 3.69 Hz         (2 %)
+    xf: freq = 15.85 Hz      (32 %), step = 5.849 Hz        (2 %)
+    xf: freq = 25.12 Hz      (34 %), step = 9.27 Hz         (2 %)
+    xf: freq = 39.81 Hz      (36 %), step = 14.69 Hz        (2 %)
+    xf: freq = 63.1 Hz       (38 %), step = 23.29 Hz        (2 %)
+    xf: freq = 100 Hz        (40 %), step = 36.9 Hz         (2 %)
+    xf: freq = 158.5 Hz      (42 %), step = 58.49 Hz        (2 %)
+    xf: freq = 251.2 Hz      (44 %), step = 92.7 Hz         (2 %)
+    xf: freq = 398.1 Hz      (46 %), step = 146.9 Hz        (2 %)
+    xf: freq = 631 Hz        (48 %), step = 232.9 Hz        (2 %)
+    xf: freq = 1 kHz         (50 %), step = 369 Hz          (2 %)
+    xf: freq = 1.585 kHz     (52 %), step = 584.9 Hz        (2 %)
+    xf: freq = 2.512 kHz     (54 %), step = 927 Hz          (2 %)
+    xf: freq = 3.981 kHz     (56 %), step = 1.469 kHz       (2 %)
+    xf: freq = 6.31 kHz      (58 %), step = 2.329 kHz       (2 %)
+    xf: freq = 10 kHz        (60 %), step = 3.69 kHz        (2 %)
+    xf: freq = 15.85 kHz     (62 %), step = 5.849 kHz       (2 %)
+    xf: freq = 25.12 kHz     (64 %), step = 9.27 kHz        (2 %)
+    xf: freq = 39.81 kHz     (66 %), step = 14.69 kHz       (2 %)
+    xf: freq = 63.1 kHz      (68 %), step = 23.29 kHz       (2 %)
+    xf: freq = 100 kHz       (70 %), step = 36.9 kHz        (2 %)
+    xf: freq = 158.5 kHz     (72 %), step = 58.49 kHz       (2 %)
+    xf: freq = 251.2 kHz     (74 %), step = 92.7 kHz        (2 %)
+    xf: freq = 398.1 kHz     (76 %), step = 146.9 kHz       (2 %)
+    xf: freq = 631 kHz       (78 %), step = 232.9 kHz       (2 %)
+    xf: freq = 1 MHz         (80 %), step = 369 kHz         (2 %)
+    xf: freq = 1.585 MHz     (82 %), step = 584.9 kHz       (2 %)
+    xf: freq = 2.512 MHz     (84 %), step = 927 kHz         (2 %)
+    xf: freq = 3.981 MHz     (86 %), step = 1.469 MHz       (2 %)
+    xf: freq = 6.31 MHz      (88 %), step = 2.329 MHz       (2 %)
+    xf: freq = 10 MHz        (90 %), step = 3.69 MHz        (2 %)
+    xf: freq = 15.85 MHz     (92 %), step = 5.849 MHz       (2 %)
+    xf: freq = 25.12 MHz     (94 %), step = 9.27 MHz        (2 %)
+    xf: freq = 39.81 MHz     (96 %), step = 14.69 MHz       (2 %)
+    xf: freq = 63.1 MHz      (98 %), step = 23.29 MHz       (2 %)
+    xf: freq = 100 MHz      (100 %), step = 36.9 MHz        (2 %)
+Accumulated DC solution time =            0 s.
+Intrinsic xf analysis time =              7.6251 ms.
+Total time required for xf analysis `xf': CPU = 7.016 ms, elapsed = 7.81798 ms, util. = 89.7%.
+Time accumulated: CPU = 626.896 ms, elapsed = 1.15163 s.
+Peak resident memory used = 206 Mbytes.
+
+
+Notice from spectre during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    34 warnings suppressed.
+
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/002/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/002/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/002/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/002/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/002/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/002/subckts.info.subckts ...
+    mc1: iteration = 2           (8.33 %), step = 1            (8.33 %)
+3  16.67% 
+
+*****************************************************************************************
+* 
+* INFO: AMS_processOption = C35B4C3
+* 
+* INFO: Valid Modules  PIP VG5 HIRES
+* 
+*****************************************************************************************
+
+
+***********************************************************
+Transfer Function Analysis `xf': freq = (10 mHz -> 100 MHz)
+***********************************************************
+
+Opening the PSF file ../psf/mc1_separate/003/xf.xf ...
+
+Notice from spectre at freq = 0 Hz during DC analysis, during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+Warning from spectre at freq = 0 Hz during check, during DC analysis, during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CS1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CS0'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<3>.C1'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 28 iterations.
+DC simulation time: CPU = 2.576 ms, elapsed = 2.57587 ms.
+    xf: freq = 25.12 mHz      (4 %), step = 9.27 mHz        (2 %)
+    xf: freq = 39.81 mHz      (6 %), step = 14.69 mHz       (2 %)
+    xf: freq = 63.1 mHz       (8 %), step = 23.29 mHz       (2 %)
+    xf: freq = 100 mHz       (10 %), step = 36.9 mHz        (2 %)
+    xf: freq = 158.5 mHz     (12 %), step = 58.49 mHz       (2 %)
+    xf: freq = 251.2 mHz     (14 %), step = 92.7 mHz        (2 %)
+    xf: freq = 398.1 mHz     (16 %), step = 146.9 mHz       (2 %)
+    xf: freq = 631 mHz       (18 %), step = 232.9 mHz       (2 %)
+    xf: freq = 1 Hz          (20 %), step = 369 mHz         (2 %)
+    xf: freq = 1.585 Hz      (22 %), step = 584.9 mHz       (2 %)
+    xf: freq = 2.512 Hz      (24 %), step = 927 mHz         (2 %)
+    xf: freq = 3.981 Hz      (26 %), step = 1.469 Hz        (2 %)
+    xf: freq = 6.31 Hz       (28 %), step = 2.329 Hz        (2 %)
+    xf: freq = 10 Hz         (30 %), step = 3.69 Hz         (2 %)
+    xf: freq = 15.85 Hz      (32 %), step = 5.849 Hz        (2 %)
+    xf: freq = 25.12 Hz      (34 %), step = 9.27 Hz         (2 %)
+    xf: freq = 39.81 Hz      (36 %), step = 14.69 Hz        (2 %)
+    xf: freq = 63.1 Hz       (38 %), step = 23.29 Hz        (2 %)
+    xf: freq = 100 Hz        (40 %), step = 36.9 Hz         (2 %)
+    xf: freq = 158.5 Hz      (42 %), step = 58.49 Hz        (2 %)
+    xf: freq = 251.2 Hz      (44 %), step = 92.7 Hz         (2 %)
+    xf: freq = 398.1 Hz      (46 %), step = 146.9 Hz        (2 %)
+    xf: freq = 631 Hz        (48 %), step = 232.9 Hz        (2 %)
+    xf: freq = 1 kHz         (50 %), step = 369 Hz          (2 %)
+    xf: freq = 1.585 kHz     (52 %), step = 584.9 Hz        (2 %)
+    xf: freq = 2.512 kHz     (54 %), step = 927 Hz          (2 %)
+    xf: freq = 3.981 kHz     (56 %), step = 1.469 kHz       (2 %)
+    xf: freq = 6.31 kHz      (58 %), step = 2.329 kHz       (2 %)
+    xf: freq = 10 kHz        (60 %), step = 3.69 kHz        (2 %)
+    xf: freq = 15.85 kHz     (62 %), step = 5.849 kHz       (2 %)
+    xf: freq = 25.12 kHz     (64 %), step = 9.27 kHz        (2 %)
+    xf: freq = 39.81 kHz     (66 %), step = 14.69 kHz       (2 %)
+    xf: freq = 63.1 kHz      (68 %), step = 23.29 kHz       (2 %)
+    xf: freq = 100 kHz       (70 %), step = 36.9 kHz        (2 %)
+    xf: freq = 158.5 kHz     (72 %), step = 58.49 kHz       (2 %)
+    xf: freq = 251.2 kHz     (74 %), step = 92.7 kHz        (2 %)
+    xf: freq = 398.1 kHz     (76 %), step = 146.9 kHz       (2 %)
+    xf: freq = 631 kHz       (78 %), step = 232.9 kHz       (2 %)
+    xf: freq = 1 MHz         (80 %), step = 369 kHz         (2 %)
+    xf: freq = 1.585 MHz     (82 %), step = 584.9 kHz       (2 %)
+    xf: freq = 2.512 MHz     (84 %), step = 927 kHz         (2 %)
+    xf: freq = 3.981 MHz     (86 %), step = 1.469 MHz       (2 %)
+    xf: freq = 6.31 MHz      (88 %), step = 2.329 MHz       (2 %)
+    xf: freq = 10 MHz        (90 %), step = 3.69 MHz        (2 %)
+    xf: freq = 15.85 MHz     (92 %), step = 5.849 MHz       (2 %)
+    xf: freq = 25.12 MHz     (94 %), step = 9.27 MHz        (2 %)
+    xf: freq = 39.81 MHz     (96 %), step = 14.69 MHz       (2 %)
+    xf: freq = 63.1 MHz      (98 %), step = 23.29 MHz       (2 %)
+    xf: freq = 100 MHz      (100 %), step = 36.9 MHz        (2 %)
+Accumulated DC solution time =            953.674 ns.
+Intrinsic xf analysis time =              8.19016 ms.
+Total time required for xf analysis `xf': CPU = 7.661 ms, elapsed = 8.37994 ms, util. = 91.4%.
+Time accumulated: CPU = 665.091 ms, elapsed = 1.19901 s.
+Peak resident memory used = 206 Mbytes.
+
+
+Notice from spectre during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    34 warnings suppressed.
+
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/003/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/003/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/003/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/003/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/003/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/003/subckts.info.subckts ...
+    mc1: iteration = 3           (16.7 %), step = 1            (8.33 %)
+4  25.00% 
+
+*****************************************************************************************
+* 
+* INFO: AMS_processOption = C35B4C3
+* 
+* INFO: Valid Modules  PIP VG5 HIRES
+* 
+*****************************************************************************************
+
+
+***********************************************************
+Transfer Function Analysis `xf': freq = (10 mHz -> 100 MHz)
+***********************************************************
+
+Opening the PSF file ../psf/mc1_separate/004/xf.xf ...
+
+Notice from spectre at freq = 0 Hz during DC analysis, during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+Warning from spectre at freq = 0 Hz during check, during DC analysis, during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CS1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CS0'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<3>.C1'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 20 iterations.
+DC simulation time: CPU = 2.047 ms, elapsed = 2.04706 ms.
+    xf: freq = 25.12 mHz      (4 %), step = 9.27 mHz        (2 %)
+    xf: freq = 39.81 mHz      (6 %), step = 14.69 mHz       (2 %)
+    xf: freq = 63.1 mHz       (8 %), step = 23.29 mHz       (2 %)
+    xf: freq = 100 mHz       (10 %), step = 36.9 mHz        (2 %)
+    xf: freq = 158.5 mHz     (12 %), step = 58.49 mHz       (2 %)
+    xf: freq = 251.2 mHz     (14 %), step = 92.7 mHz        (2 %)
+    xf: freq = 398.1 mHz     (16 %), step = 146.9 mHz       (2 %)
+    xf: freq = 631 mHz       (18 %), step = 232.9 mHz       (2 %)
+    xf: freq = 1 Hz          (20 %), step = 369 mHz         (2 %)
+    xf: freq = 1.585 Hz      (22 %), step = 584.9 mHz       (2 %)
+    xf: freq = 2.512 Hz      (24 %), step = 927 mHz         (2 %)
+    xf: freq = 3.981 Hz      (26 %), step = 1.469 Hz        (2 %)
+    xf: freq = 6.31 Hz       (28 %), step = 2.329 Hz        (2 %)
+    xf: freq = 10 Hz         (30 %), step = 3.69 Hz         (2 %)
+    xf: freq = 15.85 Hz      (32 %), step = 5.849 Hz        (2 %)
+    xf: freq = 25.12 Hz      (34 %), step = 9.27 Hz         (2 %)
+    xf: freq = 39.81 Hz      (36 %), step = 14.69 Hz        (2 %)
+    xf: freq = 63.1 Hz       (38 %), step = 23.29 Hz        (2 %)
+    xf: freq = 100 Hz        (40 %), step = 36.9 Hz         (2 %)
+    xf: freq = 158.5 Hz      (42 %), step = 58.49 Hz        (2 %)
+    xf: freq = 251.2 Hz      (44 %), step = 92.7 Hz         (2 %)
+    xf: freq = 398.1 Hz      (46 %), step = 146.9 Hz        (2 %)
+    xf: freq = 631 Hz        (48 %), step = 232.9 Hz        (2 %)
+    xf: freq = 1 kHz         (50 %), step = 369 Hz          (2 %)
+    xf: freq = 1.585 kHz     (52 %), step = 584.9 Hz        (2 %)
+    xf: freq = 2.512 kHz     (54 %), step = 927 Hz          (2 %)
+    xf: freq = 3.981 kHz     (56 %), step = 1.469 kHz       (2 %)
+    xf: freq = 6.31 kHz      (58 %), step = 2.329 kHz       (2 %)
+    xf: freq = 10 kHz        (60 %), step = 3.69 kHz        (2 %)
+    xf: freq = 15.85 kHz     (62 %), step = 5.849 kHz       (2 %)
+    xf: freq = 25.12 kHz     (64 %), step = 9.27 kHz        (2 %)
+    xf: freq = 39.81 kHz     (66 %), step = 14.69 kHz       (2 %)
+    xf: freq = 63.1 kHz      (68 %), step = 23.29 kHz       (2 %)
+    xf: freq = 100 kHz       (70 %), step = 36.9 kHz        (2 %)
+    xf: freq = 158.5 kHz     (72 %), step = 58.49 kHz       (2 %)
+    xf: freq = 251.2 kHz     (74 %), step = 92.7 kHz        (2 %)
+    xf: freq = 398.1 kHz     (76 %), step = 146.9 kHz       (2 %)
+    xf: freq = 631 kHz       (78 %), step = 232.9 kHz       (2 %)
+    xf: freq = 1 MHz         (80 %), step = 369 kHz         (2 %)
+    xf: freq = 1.585 MHz     (82 %), step = 584.9 kHz       (2 %)
+    xf: freq = 2.512 MHz     (84 %), step = 927 kHz         (2 %)
+    xf: freq = 3.981 MHz     (86 %), step = 1.469 MHz       (2 %)
+    xf: freq = 6.31 MHz      (88 %), step = 2.329 MHz       (2 %)
+    xf: freq = 10 MHz        (90 %), step = 3.69 MHz        (2 %)
+    xf: freq = 15.85 MHz     (92 %), step = 5.849 MHz       (2 %)
+    xf: freq = 25.12 MHz     (94 %), step = 9.27 MHz        (2 %)
+    xf: freq = 39.81 MHz     (96 %), step = 14.69 MHz       (2 %)
+    xf: freq = 63.1 MHz      (98 %), step = 23.29 MHz       (2 %)
+    xf: freq = 100 MHz      (100 %), step = 36.9 MHz        (2 %)
+Accumulated DC solution time =            0 s.
+Intrinsic xf analysis time =              7.68709 ms.
+Total time required for xf analysis `xf': CPU = 7.137 ms, elapsed = 7.87687 ms, util. = 90.6%.
+Time accumulated: CPU = 702.747 ms, elapsed = 1.24683 s.
+Peak resident memory used = 206 Mbytes.
+
+
+Notice from spectre during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    34 warnings suppressed.
+
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/004/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/004/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/004/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/004/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/004/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/004/subckts.info.subckts ...
+    mc1: iteration = 4             (25 %), step = 1            (8.33 %)
+5  33.33% 
+
+*****************************************************************************************
+* 
+* INFO: AMS_processOption = C35B4C3
+* 
+* INFO: Valid Modules  PIP VG5 HIRES
+* 
+*****************************************************************************************
+
+
+***********************************************************
+Transfer Function Analysis `xf': freq = (10 mHz -> 100 MHz)
+***********************************************************
+
+Opening the PSF file ../psf/mc1_separate/005/xf.xf ...
+
+Warning from spectre at freq = 0 Hz during check, during DC analysis, during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CS1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CS0'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<3>.C1'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 19 iterations.
+DC simulation time: CPU = 1.942 ms, elapsed = 1.94216 ms.
+    xf: freq = 25.12 mHz      (4 %), step = 9.27 mHz        (2 %)
+    xf: freq = 39.81 mHz      (6 %), step = 14.69 mHz       (2 %)
+    xf: freq = 63.1 mHz       (8 %), step = 23.29 mHz       (2 %)
+    xf: freq = 100 mHz       (10 %), step = 36.9 mHz        (2 %)
+    xf: freq = 158.5 mHz     (12 %), step = 58.49 mHz       (2 %)
+    xf: freq = 251.2 mHz     (14 %), step = 92.7 mHz        (2 %)
+    xf: freq = 398.1 mHz     (16 %), step = 146.9 mHz       (2 %)
+    xf: freq = 631 mHz       (18 %), step = 232.9 mHz       (2 %)
+    xf: freq = 1 Hz          (20 %), step = 369 mHz         (2 %)
+    xf: freq = 1.585 Hz      (22 %), step = 584.9 mHz       (2 %)
+    xf: freq = 2.512 Hz      (24 %), step = 927 mHz         (2 %)
+    xf: freq = 3.981 Hz      (26 %), step = 1.469 Hz        (2 %)
+    xf: freq = 6.31 Hz       (28 %), step = 2.329 Hz        (2 %)
+    xf: freq = 10 Hz         (30 %), step = 3.69 Hz         (2 %)
+    xf: freq = 15.85 Hz      (32 %), step = 5.849 Hz        (2 %)
+    xf: freq = 25.12 Hz      (34 %), step = 9.27 Hz         (2 %)
+    xf: freq = 39.81 Hz      (36 %), step = 14.69 Hz        (2 %)
+    xf: freq = 63.1 Hz       (38 %), step = 23.29 Hz        (2 %)
+    xf: freq = 100 Hz        (40 %), step = 36.9 Hz         (2 %)
+    xf: freq = 158.5 Hz      (42 %), step = 58.49 Hz        (2 %)
+    xf: freq = 251.2 Hz      (44 %), step = 92.7 Hz         (2 %)
+    xf: freq = 398.1 Hz      (46 %), step = 146.9 Hz        (2 %)
+    xf: freq = 631 Hz        (48 %), step = 232.9 Hz        (2 %)
+    xf: freq = 1 kHz         (50 %), step = 369 Hz          (2 %)
+    xf: freq = 1.585 kHz     (52 %), step = 584.9 Hz        (2 %)
+    xf: freq = 2.512 kHz     (54 %), step = 927 Hz          (2 %)
+    xf: freq = 3.981 kHz     (56 %), step = 1.469 kHz       (2 %)
+    xf: freq = 6.31 kHz      (58 %), step = 2.329 kHz       (2 %)
+    xf: freq = 10 kHz        (60 %), step = 3.69 kHz        (2 %)
+    xf: freq = 15.85 kHz     (62 %), step = 5.849 kHz       (2 %)
+    xf: freq = 25.12 kHz     (64 %), step = 9.27 kHz        (2 %)
+    xf: freq = 39.81 kHz     (66 %), step = 14.69 kHz       (2 %)
+    xf: freq = 63.1 kHz      (68 %), step = 23.29 kHz       (2 %)
+    xf: freq = 100 kHz       (70 %), step = 36.9 kHz        (2 %)
+    xf: freq = 158.5 kHz     (72 %), step = 58.49 kHz       (2 %)
+    xf: freq = 251.2 kHz     (74 %), step = 92.7 kHz        (2 %)
+    xf: freq = 398.1 kHz     (76 %), step = 146.9 kHz       (2 %)
+    xf: freq = 631 kHz       (78 %), step = 232.9 kHz       (2 %)
+    xf: freq = 1 MHz         (80 %), step = 369 kHz         (2 %)
+    xf: freq = 1.585 MHz     (82 %), step = 584.9 kHz       (2 %)
+    xf: freq = 2.512 MHz     (84 %), step = 927 kHz         (2 %)
+    xf: freq = 3.981 MHz     (86 %), step = 1.469 MHz       (2 %)
+    xf: freq = 6.31 MHz      (88 %), step = 2.329 MHz       (2 %)
+    xf: freq = 10 MHz        (90 %), step = 3.69 MHz        (2 %)
+    xf: freq = 15.85 MHz     (92 %), step = 5.849 MHz       (2 %)
+    xf: freq = 25.12 MHz     (94 %), step = 9.27 MHz        (2 %)
+    xf: freq = 39.81 MHz     (96 %), step = 14.69 MHz       (2 %)
+    xf: freq = 63.1 MHz      (98 %), step = 23.29 MHz       (2 %)
+    xf: freq = 100 MHz      (100 %), step = 36.9 MHz        (2 %)
+Accumulated DC solution time =            0 s.
+Intrinsic xf analysis time =              7.67803 ms.
+Total time required for xf analysis `xf': CPU = 7.02 ms, elapsed = 7.86185 ms, util. = 89.3%.
+Time accumulated: CPU = 740.223 ms, elapsed = 1.29452 s.
+Peak resident memory used = 206 Mbytes.
+
+
+Notice from spectre during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    34 warnings suppressed.
+
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/005/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/005/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/005/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/005/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/005/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/005/subckts.info.subckts ...
+    mc1: iteration = 5           (33.3 %), step = 1            (8.33 %)
+6  41.67% 
+
+*****************************************************************************************
+* 
+* INFO: AMS_processOption = C35B4C3
+* 
+* INFO: Valid Modules  PIP VG5 HIRES
+* 
+*****************************************************************************************
+
+
+***********************************************************
+Transfer Function Analysis `xf': freq = (10 mHz -> 100 MHz)
+***********************************************************
+
+Opening the PSF file ../psf/mc1_separate/006/xf.xf ...
+
+Warning from spectre at freq = 0 Hz during check, during DC analysis, during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CS1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CS0'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<3>.C1'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 21 iterations.
+DC simulation time: CPU = 2.058 ms, elapsed = 2.05803 ms.
+    xf: freq = 25.12 mHz      (4 %), step = 9.27 mHz        (2 %)
+    xf: freq = 39.81 mHz      (6 %), step = 14.69 mHz       (2 %)
+    xf: freq = 63.1 mHz       (8 %), step = 23.29 mHz       (2 %)
+    xf: freq = 100 mHz       (10 %), step = 36.9 mHz        (2 %)
+    xf: freq = 158.5 mHz     (12 %), step = 58.49 mHz       (2 %)
+    xf: freq = 251.2 mHz     (14 %), step = 92.7 mHz        (2 %)
+    xf: freq = 398.1 mHz     (16 %), step = 146.9 mHz       (2 %)
+    xf: freq = 631 mHz       (18 %), step = 232.9 mHz       (2 %)
+    xf: freq = 1 Hz          (20 %), step = 369 mHz         (2 %)
+    xf: freq = 1.585 Hz      (22 %), step = 584.9 mHz       (2 %)
+    xf: freq = 2.512 Hz      (24 %), step = 927 mHz         (2 %)
+    xf: freq = 3.981 Hz      (26 %), step = 1.469 Hz        (2 %)
+    xf: freq = 6.31 Hz       (28 %), step = 2.329 Hz        (2 %)
+    xf: freq = 10 Hz         (30 %), step = 3.69 Hz         (2 %)
+    xf: freq = 15.85 Hz      (32 %), step = 5.849 Hz        (2 %)
+    xf: freq = 25.12 Hz      (34 %), step = 9.27 Hz         (2 %)
+    xf: freq = 39.81 Hz      (36 %), step = 14.69 Hz        (2 %)
+    xf: freq = 63.1 Hz       (38 %), step = 23.29 Hz        (2 %)
+    xf: freq = 100 Hz        (40 %), step = 36.9 Hz         (2 %)
+    xf: freq = 158.5 Hz      (42 %), step = 58.49 Hz        (2 %)
+    xf: freq = 251.2 Hz      (44 %), step = 92.7 Hz         (2 %)
+    xf: freq = 398.1 Hz      (46 %), step = 146.9 Hz        (2 %)
+    xf: freq = 631 Hz        (48 %), step = 232.9 Hz        (2 %)
+    xf: freq = 1 kHz         (50 %), step = 369 Hz          (2 %)
+    xf: freq = 1.585 kHz     (52 %), step = 584.9 Hz        (2 %)
+    xf: freq = 2.512 kHz     (54 %), step = 927 Hz          (2 %)
+    xf: freq = 3.981 kHz     (56 %), step = 1.469 kHz       (2 %)
+    xf: freq = 6.31 kHz      (58 %), step = 2.329 kHz       (2 %)
+    xf: freq = 10 kHz        (60 %), step = 3.69 kHz        (2 %)
+    xf: freq = 15.85 kHz     (62 %), step = 5.849 kHz       (2 %)
+    xf: freq = 25.12 kHz     (64 %), step = 9.27 kHz        (2 %)
+    xf: freq = 39.81 kHz     (66 %), step = 14.69 kHz       (2 %)
+    xf: freq = 63.1 kHz      (68 %), step = 23.29 kHz       (2 %)
+    xf: freq = 100 kHz       (70 %), step = 36.9 kHz        (2 %)
+    xf: freq = 158.5 kHz     (72 %), step = 58.49 kHz       (2 %)
+    xf: freq = 251.2 kHz     (74 %), step = 92.7 kHz        (2 %)
+    xf: freq = 398.1 kHz     (76 %), step = 146.9 kHz       (2 %)
+    xf: freq = 631 kHz       (78 %), step = 232.9 kHz       (2 %)
+    xf: freq = 1 MHz         (80 %), step = 369 kHz         (2 %)
+    xf: freq = 1.585 MHz     (82 %), step = 584.9 kHz       (2 %)
+    xf: freq = 2.512 MHz     (84 %), step = 927 kHz         (2 %)
+    xf: freq = 3.981 MHz     (86 %), step = 1.469 MHz       (2 %)
+    xf: freq = 6.31 MHz      (88 %), step = 2.329 MHz       (2 %)
+    xf: freq = 10 MHz        (90 %), step = 3.69 MHz        (2 %)
+    xf: freq = 15.85 MHz     (92 %), step = 5.849 MHz       (2 %)
+    xf: freq = 25.12 MHz     (94 %), step = 9.27 MHz        (2 %)
+    xf: freq = 39.81 MHz     (96 %), step = 14.69 MHz       (2 %)
+    xf: freq = 63.1 MHz      (98 %), step = 23.29 MHz       (2 %)
+    xf: freq = 100 MHz      (100 %), step = 36.9 MHz        (2 %)
+Accumulated DC solution time =            0 s.
+Intrinsic xf analysis time =              7.80416 ms.
+Total time required for xf analysis `xf': CPU = 7.165 ms, elapsed = 7.99012 ms, util. = 89.7%.
+Time accumulated: CPU = 777.833 ms, elapsed = 1.34209 s.
+Peak resident memory used = 206 Mbytes.
+
+
+Notice from spectre during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    34 warnings suppressed.
+
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/006/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/006/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/006/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/006/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/006/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/006/subckts.info.subckts ...
+    mc1: iteration = 6           (41.7 %), step = 1            (8.33 %)
+7  50.00% 
+
+*****************************************************************************************
+* 
+* INFO: AMS_processOption = C35B4C3
+* 
+* INFO: Valid Modules  PIP VG5 HIRES
+* 
+*****************************************************************************************
+
+
+***********************************************************
+Transfer Function Analysis `xf': freq = (10 mHz -> 100 MHz)
+***********************************************************
+
+Opening the PSF file ../psf/mc1_separate/007/xf.xf ...
+
+Warning from spectre at freq = 0 Hz during check, during DC analysis, during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CS1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CS0'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<3>.C1'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 17 iterations.
+DC simulation time: CPU = 1.866 ms, elapsed = 1.8661 ms.
+    xf: freq = 25.12 mHz      (4 %), step = 9.27 mHz        (2 %)
+    xf: freq = 39.81 mHz      (6 %), step = 14.69 mHz       (2 %)
+    xf: freq = 63.1 mHz       (8 %), step = 23.29 mHz       (2 %)
+    xf: freq = 100 mHz       (10 %), step = 36.9 mHz        (2 %)
+    xf: freq = 158.5 mHz     (12 %), step = 58.49 mHz       (2 %)
+    xf: freq = 251.2 mHz     (14 %), step = 92.7 mHz        (2 %)
+    xf: freq = 398.1 mHz     (16 %), step = 146.9 mHz       (2 %)
+    xf: freq = 631 mHz       (18 %), step = 232.9 mHz       (2 %)
+    xf: freq = 1 Hz          (20 %), step = 369 mHz         (2 %)
+    xf: freq = 1.585 Hz      (22 %), step = 584.9 mHz       (2 %)
+    xf: freq = 2.512 Hz      (24 %), step = 927 mHz         (2 %)
+    xf: freq = 3.981 Hz      (26 %), step = 1.469 Hz        (2 %)
+    xf: freq = 6.31 Hz       (28 %), step = 2.329 Hz        (2 %)
+    xf: freq = 10 Hz         (30 %), step = 3.69 Hz         (2 %)
+    xf: freq = 15.85 Hz      (32 %), step = 5.849 Hz        (2 %)
+    xf: freq = 25.12 Hz      (34 %), step = 9.27 Hz         (2 %)
+    xf: freq = 39.81 Hz      (36 %), step = 14.69 Hz        (2 %)
+    xf: freq = 63.1 Hz       (38 %), step = 23.29 Hz        (2 %)
+    xf: freq = 100 Hz        (40 %), step = 36.9 Hz         (2 %)
+    xf: freq = 158.5 Hz      (42 %), step = 58.49 Hz        (2 %)
+    xf: freq = 251.2 Hz      (44 %), step = 92.7 Hz         (2 %)
+    xf: freq = 398.1 Hz      (46 %), step = 146.9 Hz        (2 %)
+    xf: freq = 631 Hz        (48 %), step = 232.9 Hz        (2 %)
+    xf: freq = 1 kHz         (50 %), step = 369 Hz          (2 %)
+    xf: freq = 1.585 kHz     (52 %), step = 584.9 Hz        (2 %)
+    xf: freq = 2.512 kHz     (54 %), step = 927 Hz          (2 %)
+    xf: freq = 3.981 kHz     (56 %), step = 1.469 kHz       (2 %)
+    xf: freq = 6.31 kHz      (58 %), step = 2.329 kHz       (2 %)
+    xf: freq = 10 kHz        (60 %), step = 3.69 kHz        (2 %)
+    xf: freq = 15.85 kHz     (62 %), step = 5.849 kHz       (2 %)
+    xf: freq = 25.12 kHz     (64 %), step = 9.27 kHz        (2 %)
+    xf: freq = 39.81 kHz     (66 %), step = 14.69 kHz       (2 %)
+    xf: freq = 63.1 kHz      (68 %), step = 23.29 kHz       (2 %)
+    xf: freq = 100 kHz       (70 %), step = 36.9 kHz        (2 %)
+    xf: freq = 158.5 kHz     (72 %), step = 58.49 kHz       (2 %)
+    xf: freq = 251.2 kHz     (74 %), step = 92.7 kHz        (2 %)
+    xf: freq = 398.1 kHz     (76 %), step = 146.9 kHz       (2 %)
+    xf: freq = 631 kHz       (78 %), step = 232.9 kHz       (2 %)
+    xf: freq = 1 MHz         (80 %), step = 369 kHz         (2 %)
+    xf: freq = 1.585 MHz     (82 %), step = 584.9 kHz       (2 %)
+    xf: freq = 2.512 MHz     (84 %), step = 927 kHz         (2 %)
+    xf: freq = 3.981 MHz     (86 %), step = 1.469 MHz       (2 %)
+    xf: freq = 6.31 MHz      (88 %), step = 2.329 MHz       (2 %)
+    xf: freq = 10 MHz        (90 %), step = 3.69 MHz        (2 %)
+    xf: freq = 15.85 MHz     (92 %), step = 5.849 MHz       (2 %)
+    xf: freq = 25.12 MHz     (94 %), step = 9.27 MHz        (2 %)
+    xf: freq = 39.81 MHz     (96 %), step = 14.69 MHz       (2 %)
+    xf: freq = 63.1 MHz      (98 %), step = 23.29 MHz       (2 %)
+    xf: freq = 100 MHz      (100 %), step = 36.9 MHz        (2 %)
+Accumulated DC solution time =            953.674 ns.
+Intrinsic xf analysis time =              7.42912 ms.
+Total time required for xf analysis `xf': CPU = 6.98 ms, elapsed = 7.63702 ms, util. = 91.4%.
+Time accumulated: CPU = 815.46 ms, elapsed = 1.3891 s.
+Peak resident memory used = 206 Mbytes.
+
+
+Notice from spectre during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    34 warnings suppressed.
+
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/007/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/007/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/007/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/007/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/007/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/007/subckts.info.subckts ...
+    mc1: iteration = 7             (50 %), step = 1            (8.33 %)
+8  58.33% 
+
+*****************************************************************************************
+* 
+* INFO: AMS_processOption = C35B4C3
+* 
+* INFO: Valid Modules  PIP VG5 HIRES
+* 
+*****************************************************************************************
+
+
+***********************************************************
+Transfer Function Analysis `xf': freq = (10 mHz -> 100 MHz)
+***********************************************************
+
+Opening the PSF file ../psf/mc1_separate/008/xf.xf ...
+
+Warning from spectre at freq = 0 Hz during check, during DC analysis, during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CS1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CS0'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<3>.C1'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 18 iterations.
+DC simulation time: CPU = 1.9 ms, elapsed = 1.90115 ms.
+    xf: freq = 25.12 mHz      (4 %), step = 9.27 mHz        (2 %)
+    xf: freq = 39.81 mHz      (6 %), step = 14.69 mHz       (2 %)
+    xf: freq = 63.1 mHz       (8 %), step = 23.29 mHz       (2 %)
+    xf: freq = 100 mHz       (10 %), step = 36.9 mHz        (2 %)
+    xf: freq = 158.5 mHz     (12 %), step = 58.49 mHz       (2 %)
+    xf: freq = 251.2 mHz     (14 %), step = 92.7 mHz        (2 %)
+    xf: freq = 398.1 mHz     (16 %), step = 146.9 mHz       (2 %)
+    xf: freq = 631 mHz       (18 %), step = 232.9 mHz       (2 %)
+    xf: freq = 1 Hz          (20 %), step = 369 mHz         (2 %)
+    xf: freq = 1.585 Hz      (22 %), step = 584.9 mHz       (2 %)
+    xf: freq = 2.512 Hz      (24 %), step = 927 mHz         (2 %)
+    xf: freq = 3.981 Hz      (26 %), step = 1.469 Hz        (2 %)
+    xf: freq = 6.31 Hz       (28 %), step = 2.329 Hz        (2 %)
+    xf: freq = 10 Hz         (30 %), step = 3.69 Hz         (2 %)
+    xf: freq = 15.85 Hz      (32 %), step = 5.849 Hz        (2 %)
+    xf: freq = 25.12 Hz      (34 %), step = 9.27 Hz         (2 %)
+    xf: freq = 39.81 Hz      (36 %), step = 14.69 Hz        (2 %)
+    xf: freq = 63.1 Hz       (38 %), step = 23.29 Hz        (2 %)
+    xf: freq = 100 Hz        (40 %), step = 36.9 Hz         (2 %)
+    xf: freq = 158.5 Hz      (42 %), step = 58.49 Hz        (2 %)
+    xf: freq = 251.2 Hz      (44 %), step = 92.7 Hz         (2 %)
+    xf: freq = 398.1 Hz      (46 %), step = 146.9 Hz        (2 %)
+    xf: freq = 631 Hz        (48 %), step = 232.9 Hz        (2 %)
+    xf: freq = 1 kHz         (50 %), step = 369 Hz          (2 %)
+    xf: freq = 1.585 kHz     (52 %), step = 584.9 Hz        (2 %)
+    xf: freq = 2.512 kHz     (54 %), step = 927 Hz          (2 %)
+    xf: freq = 3.981 kHz     (56 %), step = 1.469 kHz       (2 %)
+    xf: freq = 6.31 kHz      (58 %), step = 2.329 kHz       (2 %)
+    xf: freq = 10 kHz        (60 %), step = 3.69 kHz        (2 %)
+    xf: freq = 15.85 kHz     (62 %), step = 5.849 kHz       (2 %)
+    xf: freq = 25.12 kHz     (64 %), step = 9.27 kHz        (2 %)
+    xf: freq = 39.81 kHz     (66 %), step = 14.69 kHz       (2 %)
+    xf: freq = 63.1 kHz      (68 %), step = 23.29 kHz       (2 %)
+    xf: freq = 100 kHz       (70 %), step = 36.9 kHz        (2 %)
+    xf: freq = 158.5 kHz     (72 %), step = 58.49 kHz       (2 %)
+    xf: freq = 251.2 kHz     (74 %), step = 92.7 kHz        (2 %)
+    xf: freq = 398.1 kHz     (76 %), step = 146.9 kHz       (2 %)
+    xf: freq = 631 kHz       (78 %), step = 232.9 kHz       (2 %)
+    xf: freq = 1 MHz         (80 %), step = 369 kHz         (2 %)
+    xf: freq = 1.585 MHz     (82 %), step = 584.9 kHz       (2 %)
+    xf: freq = 2.512 MHz     (84 %), step = 927 kHz         (2 %)
+    xf: freq = 3.981 MHz     (86 %), step = 1.469 MHz       (2 %)
+    xf: freq = 6.31 MHz      (88 %), step = 2.329 MHz       (2 %)
+    xf: freq = 10 MHz        (90 %), step = 3.69 MHz        (2 %)
+    xf: freq = 15.85 MHz     (92 %), step = 5.849 MHz       (2 %)
+    xf: freq = 25.12 MHz     (94 %), step = 9.27 MHz        (2 %)
+    xf: freq = 39.81 MHz     (96 %), step = 14.69 MHz       (2 %)
+    xf: freq = 63.1 MHz      (98 %), step = 23.29 MHz       (2 %)
+    xf: freq = 100 MHz      (100 %), step = 36.9 MHz        (2 %)
+Accumulated DC solution time =            0 s.
+Intrinsic xf analysis time =              7.65204 ms.
+Total time required for xf analysis `xf': CPU = 6.993 ms, elapsed = 7.84707 ms, util. = 89.1%.
+Time accumulated: CPU = 853.804 ms, elapsed = 1.43758 s.
+Peak resident memory used = 206 Mbytes.
+
+
+Notice from spectre during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    34 warnings suppressed.
+
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/008/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/008/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/008/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/008/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/008/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/008/subckts.info.subckts ...
+    mc1: iteration = 8           (58.3 %), step = 1            (8.33 %)
+9  66.67% 
+
+*****************************************************************************************
+* 
+* INFO: AMS_processOption = C35B4C3
+* 
+* INFO: Valid Modules  PIP VG5 HIRES
+* 
+*****************************************************************************************
+
+
+***********************************************************
+Transfer Function Analysis `xf': freq = (10 mHz -> 100 MHz)
+***********************************************************
+
+Opening the PSF file ../psf/mc1_separate/009/xf.xf ...
+
+Warning from spectre at freq = 0 Hz during check, during DC analysis, during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CS1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CS0'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<3>.C1'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 18 iterations.
+DC simulation time: CPU = 1.932 ms, elapsed = 1.93286 ms.
+    xf: freq = 25.12 mHz      (4 %), step = 9.27 mHz        (2 %)
+    xf: freq = 39.81 mHz      (6 %), step = 14.69 mHz       (2 %)
+    xf: freq = 63.1 mHz       (8 %), step = 23.29 mHz       (2 %)
+    xf: freq = 100 mHz       (10 %), step = 36.9 mHz        (2 %)
+    xf: freq = 158.5 mHz     (12 %), step = 58.49 mHz       (2 %)
+    xf: freq = 251.2 mHz     (14 %), step = 92.7 mHz        (2 %)
+    xf: freq = 398.1 mHz     (16 %), step = 146.9 mHz       (2 %)
+    xf: freq = 631 mHz       (18 %), step = 232.9 mHz       (2 %)
+    xf: freq = 1 Hz          (20 %), step = 369 mHz         (2 %)
+    xf: freq = 1.585 Hz      (22 %), step = 584.9 mHz       (2 %)
+    xf: freq = 2.512 Hz      (24 %), step = 927 mHz         (2 %)
+    xf: freq = 3.981 Hz      (26 %), step = 1.469 Hz        (2 %)
+    xf: freq = 6.31 Hz       (28 %), step = 2.329 Hz        (2 %)
+    xf: freq = 10 Hz         (30 %), step = 3.69 Hz         (2 %)
+    xf: freq = 15.85 Hz      (32 %), step = 5.849 Hz        (2 %)
+    xf: freq = 25.12 Hz      (34 %), step = 9.27 Hz         (2 %)
+    xf: freq = 39.81 Hz      (36 %), step = 14.69 Hz        (2 %)
+    xf: freq = 63.1 Hz       (38 %), step = 23.29 Hz        (2 %)
+    xf: freq = 100 Hz        (40 %), step = 36.9 Hz         (2 %)
+    xf: freq = 158.5 Hz      (42 %), step = 58.49 Hz        (2 %)
+    xf: freq = 251.2 Hz      (44 %), step = 92.7 Hz         (2 %)
+    xf: freq = 398.1 Hz      (46 %), step = 146.9 Hz        (2 %)
+    xf: freq = 631 Hz        (48 %), step = 232.9 Hz        (2 %)
+    xf: freq = 1 kHz         (50 %), step = 369 Hz          (2 %)
+    xf: freq = 1.585 kHz     (52 %), step = 584.9 Hz        (2 %)
+    xf: freq = 2.512 kHz     (54 %), step = 927 Hz          (2 %)
+    xf: freq = 3.981 kHz     (56 %), step = 1.469 kHz       (2 %)
+    xf: freq = 6.31 kHz      (58 %), step = 2.329 kHz       (2 %)
+    xf: freq = 10 kHz        (60 %), step = 3.69 kHz        (2 %)
+    xf: freq = 15.85 kHz     (62 %), step = 5.849 kHz       (2 %)
+    xf: freq = 25.12 kHz     (64 %), step = 9.27 kHz        (2 %)
+    xf: freq = 39.81 kHz     (66 %), step = 14.69 kHz       (2 %)
+    xf: freq = 63.1 kHz      (68 %), step = 23.29 kHz       (2 %)
+    xf: freq = 100 kHz       (70 %), step = 36.9 kHz        (2 %)
+    xf: freq = 158.5 kHz     (72 %), step = 58.49 kHz       (2 %)
+    xf: freq = 251.2 kHz     (74 %), step = 92.7 kHz        (2 %)
+    xf: freq = 398.1 kHz     (76 %), step = 146.9 kHz       (2 %)
+    xf: freq = 631 kHz       (78 %), step = 232.9 kHz       (2 %)
+    xf: freq = 1 MHz         (80 %), step = 369 kHz         (2 %)
+    xf: freq = 1.585 MHz     (82 %), step = 584.9 kHz       (2 %)
+    xf: freq = 2.512 MHz     (84 %), step = 927 kHz         (2 %)
+    xf: freq = 3.981 MHz     (86 %), step = 1.469 MHz       (2 %)
+    xf: freq = 6.31 MHz      (88 %), step = 2.329 MHz       (2 %)
+    xf: freq = 10 MHz        (90 %), step = 3.69 MHz        (2 %)
+    xf: freq = 15.85 MHz     (92 %), step = 5.849 MHz       (2 %)
+    xf: freq = 25.12 MHz     (94 %), step = 9.27 MHz        (2 %)
+    xf: freq = 39.81 MHz     (96 %), step = 14.69 MHz       (2 %)
+    xf: freq = 63.1 MHz      (98 %), step = 23.29 MHz       (2 %)
+    xf: freq = 100 MHz      (100 %), step = 36.9 MHz        (2 %)
+Accumulated DC solution time =            0 s.
+Intrinsic xf analysis time =              7.70593 ms.
+Total time required for xf analysis `xf': CPU = 7.133 ms, elapsed = 7.92003 ms, util. = 90.1%.
+Time accumulated: CPU = 892.029 ms, elapsed = 1.48498 s.
+Peak resident memory used = 206 Mbytes.
+
+
+Notice from spectre during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    34 warnings suppressed.
+
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/009/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/009/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/009/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/009/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/009/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/009/subckts.info.subckts ...
+    mc1: iteration = 9           (66.7 %), step = 1            (8.33 %)
+10  75.00% 
+
+*****************************************************************************************
+* 
+* INFO: AMS_processOption = C35B4C3
+* 
+* INFO: Valid Modules  PIP VG5 HIRES
+* 
+*****************************************************************************************
+
+
+***********************************************************
+Transfer Function Analysis `xf': freq = (10 mHz -> 100 MHz)
+***********************************************************
+
+Opening the PSF file ../psf/mc1_separate/010/xf.xf ...
+
+Notice from spectre at freq = 0 Hz during DC analysis, during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+Warning from spectre at freq = 0 Hz during check, during DC analysis, during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CS1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CS0'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<3>.C1'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 33 iterations.
+DC simulation time: CPU = 2.988 ms, elapsed = 2.98905 ms.
+    xf: freq = 25.12 mHz      (4 %), step = 9.27 mHz        (2 %)
+    xf: freq = 39.81 mHz      (6 %), step = 14.69 mHz       (2 %)
+    xf: freq = 63.1 mHz       (8 %), step = 23.29 mHz       (2 %)
+    xf: freq = 100 mHz       (10 %), step = 36.9 mHz        (2 %)
+    xf: freq = 158.5 mHz     (12 %), step = 58.49 mHz       (2 %)
+    xf: freq = 251.2 mHz     (14 %), step = 92.7 mHz        (2 %)
+    xf: freq = 398.1 mHz     (16 %), step = 146.9 mHz       (2 %)
+    xf: freq = 631 mHz       (18 %), step = 232.9 mHz       (2 %)
+    xf: freq = 1 Hz          (20 %), step = 369 mHz         (2 %)
+    xf: freq = 1.585 Hz      (22 %), step = 584.9 mHz       (2 %)
+    xf: freq = 2.512 Hz      (24 %), step = 927 mHz         (2 %)
+    xf: freq = 3.981 Hz      (26 %), step = 1.469 Hz        (2 %)
+    xf: freq = 6.31 Hz       (28 %), step = 2.329 Hz        (2 %)
+    xf: freq = 10 Hz         (30 %), step = 3.69 Hz         (2 %)
+    xf: freq = 15.85 Hz      (32 %), step = 5.849 Hz        (2 %)
+    xf: freq = 25.12 Hz      (34 %), step = 9.27 Hz         (2 %)
+    xf: freq = 39.81 Hz      (36 %), step = 14.69 Hz        (2 %)
+    xf: freq = 63.1 Hz       (38 %), step = 23.29 Hz        (2 %)
+    xf: freq = 100 Hz        (40 %), step = 36.9 Hz         (2 %)
+    xf: freq = 158.5 Hz      (42 %), step = 58.49 Hz        (2 %)
+    xf: freq = 251.2 Hz      (44 %), step = 92.7 Hz         (2 %)
+    xf: freq = 398.1 Hz      (46 %), step = 146.9 Hz        (2 %)
+    xf: freq = 631 Hz        (48 %), step = 232.9 Hz        (2 %)
+    xf: freq = 1 kHz         (50 %), step = 369 Hz          (2 %)
+    xf: freq = 1.585 kHz     (52 %), step = 584.9 Hz        (2 %)
+    xf: freq = 2.512 kHz     (54 %), step = 927 Hz          (2 %)
+    xf: freq = 3.981 kHz     (56 %), step = 1.469 kHz       (2 %)
+    xf: freq = 6.31 kHz      (58 %), step = 2.329 kHz       (2 %)
+    xf: freq = 10 kHz        (60 %), step = 3.69 kHz        (2 %)
+    xf: freq = 15.85 kHz     (62 %), step = 5.849 kHz       (2 %)
+    xf: freq = 25.12 kHz     (64 %), step = 9.27 kHz        (2 %)
+    xf: freq = 39.81 kHz     (66 %), step = 14.69 kHz       (2 %)
+    xf: freq = 63.1 kHz      (68 %), step = 23.29 kHz       (2 %)
+    xf: freq = 100 kHz       (70 %), step = 36.9 kHz        (2 %)
+    xf: freq = 158.5 kHz     (72 %), step = 58.49 kHz       (2 %)
+    xf: freq = 251.2 kHz     (74 %), step = 92.7 kHz        (2 %)
+    xf: freq = 398.1 kHz     (76 %), step = 146.9 kHz       (2 %)
+    xf: freq = 631 kHz       (78 %), step = 232.9 kHz       (2 %)
+    xf: freq = 1 MHz         (80 %), step = 369 kHz         (2 %)
+    xf: freq = 1.585 MHz     (82 %), step = 584.9 kHz       (2 %)
+    xf: freq = 2.512 MHz     (84 %), step = 927 kHz         (2 %)
+    xf: freq = 3.981 MHz     (86 %), step = 1.469 MHz       (2 %)
+    xf: freq = 6.31 MHz      (88 %), step = 2.329 MHz       (2 %)
+    xf: freq = 10 MHz        (90 %), step = 3.69 MHz        (2 %)
+    xf: freq = 15.85 MHz     (92 %), step = 5.849 MHz       (2 %)
+    xf: freq = 25.12 MHz     (94 %), step = 9.27 MHz        (2 %)
+    xf: freq = 39.81 MHz     (96 %), step = 14.69 MHz       (2 %)
+    xf: freq = 63.1 MHz      (98 %), step = 23.29 MHz       (2 %)
+    xf: freq = 100 MHz      (100 %), step = 36.9 MHz        (2 %)
+Accumulated DC solution time =            0 s.
+Intrinsic xf analysis time =              8.71181 ms.
+Total time required for xf analysis `xf': CPU = 8.276 ms, elapsed = 8.96001 ms, util. = 92.4%.
+Time accumulated: CPU = 932.819 ms, elapsed = 1.53479 s.
+Peak resident memory used = 206 Mbytes.
+
+
+Notice from spectre during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    34 warnings suppressed.
+
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/010/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/010/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/010/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/010/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/010/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/010/subckts.info.subckts ...
+    mc1: iteration = 10            (75 %), step = 1            (8.33 %)
+11  83.33% 
+
+*****************************************************************************************
+* 
+* INFO: AMS_processOption = C35B4C3
+* 
+* INFO: Valid Modules  PIP VG5 HIRES
+* 
+*****************************************************************************************
+
+
+***********************************************************
+Transfer Function Analysis `xf': freq = (10 mHz -> 100 MHz)
+***********************************************************
+
+Opening the PSF file ../psf/mc1_separate/011/xf.xf ...
+
+Warning from spectre at freq = 0 Hz during check, during DC analysis, during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CS1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CS0'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<3>.C1'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 19 iterations.
+DC simulation time: CPU = 2.03 ms, elapsed = 2.0299 ms.
+    xf: freq = 25.12 mHz      (4 %), step = 9.27 mHz        (2 %)
+    xf: freq = 39.81 mHz      (6 %), step = 14.69 mHz       (2 %)
+    xf: freq = 63.1 mHz       (8 %), step = 23.29 mHz       (2 %)
+    xf: freq = 100 mHz       (10 %), step = 36.9 mHz        (2 %)
+    xf: freq = 158.5 mHz     (12 %), step = 58.49 mHz       (2 %)
+    xf: freq = 251.2 mHz     (14 %), step = 92.7 mHz        (2 %)
+    xf: freq = 398.1 mHz     (16 %), step = 146.9 mHz       (2 %)
+    xf: freq = 631 mHz       (18 %), step = 232.9 mHz       (2 %)
+    xf: freq = 1 Hz          (20 %), step = 369 mHz         (2 %)
+    xf: freq = 1.585 Hz      (22 %), step = 584.9 mHz       (2 %)
+    xf: freq = 2.512 Hz      (24 %), step = 927 mHz         (2 %)
+    xf: freq = 3.981 Hz      (26 %), step = 1.469 Hz        (2 %)
+    xf: freq = 6.31 Hz       (28 %), step = 2.329 Hz        (2 %)
+    xf: freq = 10 Hz         (30 %), step = 3.69 Hz         (2 %)
+    xf: freq = 15.85 Hz      (32 %), step = 5.849 Hz        (2 %)
+    xf: freq = 25.12 Hz      (34 %), step = 9.27 Hz         (2 %)
+    xf: freq = 39.81 Hz      (36 %), step = 14.69 Hz        (2 %)
+    xf: freq = 63.1 Hz       (38 %), step = 23.29 Hz        (2 %)
+    xf: freq = 100 Hz        (40 %), step = 36.9 Hz         (2 %)
+    xf: freq = 158.5 Hz      (42 %), step = 58.49 Hz        (2 %)
+    xf: freq = 251.2 Hz      (44 %), step = 92.7 Hz         (2 %)
+    xf: freq = 398.1 Hz      (46 %), step = 146.9 Hz        (2 %)
+    xf: freq = 631 Hz        (48 %), step = 232.9 Hz        (2 %)
+    xf: freq = 1 kHz         (50 %), step = 369 Hz          (2 %)
+    xf: freq = 1.585 kHz     (52 %), step = 584.9 Hz        (2 %)
+    xf: freq = 2.512 kHz     (54 %), step = 927 Hz          (2 %)
+    xf: freq = 3.981 kHz     (56 %), step = 1.469 kHz       (2 %)
+    xf: freq = 6.31 kHz      (58 %), step = 2.329 kHz       (2 %)
+    xf: freq = 10 kHz        (60 %), step = 3.69 kHz        (2 %)
+    xf: freq = 15.85 kHz     (62 %), step = 5.849 kHz       (2 %)
+    xf: freq = 25.12 kHz     (64 %), step = 9.27 kHz        (2 %)
+    xf: freq = 39.81 kHz     (66 %), step = 14.69 kHz       (2 %)
+    xf: freq = 63.1 kHz      (68 %), step = 23.29 kHz       (2 %)
+    xf: freq = 100 kHz       (70 %), step = 36.9 kHz        (2 %)
+    xf: freq = 158.5 kHz     (72 %), step = 58.49 kHz       (2 %)
+    xf: freq = 251.2 kHz     (74 %), step = 92.7 kHz        (2 %)
+    xf: freq = 398.1 kHz     (76 %), step = 146.9 kHz       (2 %)
+    xf: freq = 631 kHz       (78 %), step = 232.9 kHz       (2 %)
+    xf: freq = 1 MHz         (80 %), step = 369 kHz         (2 %)
+    xf: freq = 1.585 MHz     (82 %), step = 584.9 kHz       (2 %)
+    xf: freq = 2.512 MHz     (84 %), step = 927 kHz         (2 %)
+    xf: freq = 3.981 MHz     (86 %), step = 1.469 MHz       (2 %)
+    xf: freq = 6.31 MHz      (88 %), step = 2.329 MHz       (2 %)
+    xf: freq = 10 MHz        (90 %), step = 3.69 MHz        (2 %)
+    xf: freq = 15.85 MHz     (92 %), step = 5.849 MHz       (2 %)
+    xf: freq = 25.12 MHz     (94 %), step = 9.27 MHz        (2 %)
+    xf: freq = 39.81 MHz     (96 %), step = 14.69 MHz       (2 %)
+    xf: freq = 63.1 MHz      (98 %), step = 23.29 MHz       (2 %)
+    xf: freq = 100 MHz      (100 %), step = 36.9 MHz        (2 %)
+Accumulated DC solution time =            0 s.
+Intrinsic xf analysis time =              7.792 ms.
+Total time required for xf analysis `xf': CPU = 7.306 ms, elapsed = 8.02708 ms, util. = 91%.
+Time accumulated: CPU = 972.174 ms, elapsed = 1.58333 s.
+Peak resident memory used = 206 Mbytes.
+
+
+Notice from spectre during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    34 warnings suppressed.
+
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/011/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/011/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/011/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/011/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/011/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/011/subckts.info.subckts ...
+    mc1: iteration = 11          (83.3 %), step = 1            (8.33 %)
+12  91.67% 
+
+*****************************************************************************************
+* 
+* INFO: AMS_processOption = C35B4C3
+* 
+* INFO: Valid Modules  PIP VG5 HIRES
+* 
+*****************************************************************************************
+
+
+***********************************************************
+Transfer Function Analysis `xf': freq = (10 mHz -> 100 MHz)
+***********************************************************
+
+Opening the PSF file ../psf/mc1_separate/012/xf.xf ...
+
+Warning from spectre at freq = 0 Hz during check, during DC analysis, during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CS1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CS0'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<3>.C1'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 19 iterations.
+DC simulation time: CPU = 2.441 ms, elapsed = 2.44212 ms.
+    xf: freq = 25.12 mHz      (4 %), step = 9.27 mHz        (2 %)
+    xf: freq = 39.81 mHz      (6 %), step = 14.69 mHz       (2 %)
+    xf: freq = 63.1 mHz       (8 %), step = 23.29 mHz       (2 %)
+    xf: freq = 100 mHz       (10 %), step = 36.9 mHz        (2 %)
+    xf: freq = 158.5 mHz     (12 %), step = 58.49 mHz       (2 %)
+    xf: freq = 251.2 mHz     (14 %), step = 92.7 mHz        (2 %)
+    xf: freq = 398.1 mHz     (16 %), step = 146.9 mHz       (2 %)
+    xf: freq = 631 mHz       (18 %), step = 232.9 mHz       (2 %)
+    xf: freq = 1 Hz          (20 %), step = 369 mHz         (2 %)
+    xf: freq = 1.585 Hz      (22 %), step = 584.9 mHz       (2 %)
+    xf: freq = 2.512 Hz      (24 %), step = 927 mHz         (2 %)
+    xf: freq = 3.981 Hz      (26 %), step = 1.469 Hz        (2 %)
+    xf: freq = 6.31 Hz       (28 %), step = 2.329 Hz        (2 %)
+    xf: freq = 10 Hz         (30 %), step = 3.69 Hz         (2 %)
+    xf: freq = 15.85 Hz      (32 %), step = 5.849 Hz        (2 %)
+    xf: freq = 25.12 Hz      (34 %), step = 9.27 Hz         (2 %)
+    xf: freq = 39.81 Hz      (36 %), step = 14.69 Hz        (2 %)
+    xf: freq = 63.1 Hz       (38 %), step = 23.29 Hz        (2 %)
+    xf: freq = 100 Hz        (40 %), step = 36.9 Hz         (2 %)
+    xf: freq = 158.5 Hz      (42 %), step = 58.49 Hz        (2 %)
+    xf: freq = 251.2 Hz      (44 %), step = 92.7 Hz         (2 %)
+    xf: freq = 398.1 Hz      (46 %), step = 146.9 Hz        (2 %)
+    xf: freq = 631 Hz        (48 %), step = 232.9 Hz        (2 %)
+    xf: freq = 1 kHz         (50 %), step = 369 Hz          (2 %)
+    xf: freq = 1.585 kHz     (52 %), step = 584.9 Hz        (2 %)
+    xf: freq = 2.512 kHz     (54 %), step = 927 Hz          (2 %)
+    xf: freq = 3.981 kHz     (56 %), step = 1.469 kHz       (2 %)
+    xf: freq = 6.31 kHz      (58 %), step = 2.329 kHz       (2 %)
+    xf: freq = 10 kHz        (60 %), step = 3.69 kHz        (2 %)
+    xf: freq = 15.85 kHz     (62 %), step = 5.849 kHz       (2 %)
+    xf: freq = 25.12 kHz     (64 %), step = 9.27 kHz        (2 %)
+    xf: freq = 39.81 kHz     (66 %), step = 14.69 kHz       (2 %)
+    xf: freq = 63.1 kHz      (68 %), step = 23.29 kHz       (2 %)
+    xf: freq = 100 kHz       (70 %), step = 36.9 kHz        (2 %)
+    xf: freq = 158.5 kHz     (72 %), step = 58.49 kHz       (2 %)
+    xf: freq = 251.2 kHz     (74 %), step = 92.7 kHz        (2 %)
+    xf: freq = 398.1 kHz     (76 %), step = 146.9 kHz       (2 %)
+    xf: freq = 631 kHz       (78 %), step = 232.9 kHz       (2 %)
+    xf: freq = 1 MHz         (80 %), step = 369 kHz         (2 %)
+    xf: freq = 1.585 MHz     (82 %), step = 584.9 kHz       (2 %)
+    xf: freq = 2.512 MHz     (84 %), step = 927 kHz         (2 %)
+    xf: freq = 3.981 MHz     (86 %), step = 1.469 MHz       (2 %)
+    xf: freq = 6.31 MHz      (88 %), step = 2.329 MHz       (2 %)
+    xf: freq = 10 MHz        (90 %), step = 3.69 MHz        (2 %)
+    xf: freq = 15.85 MHz     (92 %), step = 5.849 MHz       (2 %)
+    xf: freq = 25.12 MHz     (94 %), step = 9.27 MHz        (2 %)
+    xf: freq = 39.81 MHz     (96 %), step = 14.69 MHz       (2 %)
+    xf: freq = 63.1 MHz      (98 %), step = 23.29 MHz       (2 %)
+    xf: freq = 100 MHz      (100 %), step = 36.9 MHz        (2 %)
+Accumulated DC solution time =            0 s.
+Intrinsic xf analysis time =              8.83198 ms.
+Total time required for xf analysis `xf': CPU = 8.434 ms, elapsed = 9.25493 ms, util. = 91.1%.
+Time accumulated: CPU = 1.01672 s, elapsed = 1.63787 s.
+Peak resident memory used = 206 Mbytes.
+
+
+Notice from spectre during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    34 warnings suppressed.
+
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/012/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/012/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/012/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/012/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/012/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/012/subckts.info.subckts ...
+    mc1: iteration = 12          (91.7 %), step = 1            (8.33 %)
+13 100.00% 
+
+*****************************************************************************************
+* 
+* INFO: AMS_processOption = C35B4C3
+* 
+* INFO: Valid Modules  PIP VG5 HIRES
+* 
+*****************************************************************************************
+
+
+***********************************************************
+Transfer Function Analysis `xf': freq = (10 mHz -> 100 MHz)
+***********************************************************
+
+Opening the PSF file ../psf/mc1_separate/013/xf.xf ...
+
+Notice from spectre at freq = 0 Hz during DC analysis, during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+Warning from spectre at freq = 0 Hz during check, during DC analysis, during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CM'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CS1'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.R2.CS0'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'I0.C8<3>.C1'.
+        Further occurrences of this warning will be suppressed.
+
+Convergence achieved in 29 iterations.
+DC simulation time: CPU = 2.941 ms, elapsed = 2.94089 ms.
+    xf: freq = 25.12 mHz      (4 %), step = 9.27 mHz        (2 %)
+    xf: freq = 39.81 mHz      (6 %), step = 14.69 mHz       (2 %)
+    xf: freq = 63.1 mHz       (8 %), step = 23.29 mHz       (2 %)
+    xf: freq = 100 mHz       (10 %), step = 36.9 mHz        (2 %)
+    xf: freq = 158.5 mHz     (12 %), step = 58.49 mHz       (2 %)
+    xf: freq = 251.2 mHz     (14 %), step = 92.7 mHz        (2 %)
+    xf: freq = 398.1 mHz     (16 %), step = 146.9 mHz       (2 %)
+    xf: freq = 631 mHz       (18 %), step = 232.9 mHz       (2 %)
+    xf: freq = 1 Hz          (20 %), step = 369 mHz         (2 %)
+    xf: freq = 1.585 Hz      (22 %), step = 584.9 mHz       (2 %)
+    xf: freq = 2.512 Hz      (24 %), step = 927 mHz         (2 %)
+    xf: freq = 3.981 Hz      (26 %), step = 1.469 Hz        (2 %)
+    xf: freq = 6.31 Hz       (28 %), step = 2.329 Hz        (2 %)
+    xf: freq = 10 Hz         (30 %), step = 3.69 Hz         (2 %)
+    xf: freq = 15.85 Hz      (32 %), step = 5.849 Hz        (2 %)
+    xf: freq = 25.12 Hz      (34 %), step = 9.27 Hz         (2 %)
+    xf: freq = 39.81 Hz      (36 %), step = 14.69 Hz        (2 %)
+    xf: freq = 63.1 Hz       (38 %), step = 23.29 Hz        (2 %)
+    xf: freq = 100 Hz        (40 %), step = 36.9 Hz         (2 %)
+    xf: freq = 158.5 Hz      (42 %), step = 58.49 Hz        (2 %)
+    xf: freq = 251.2 Hz      (44 %), step = 92.7 Hz         (2 %)
+    xf: freq = 398.1 Hz      (46 %), step = 146.9 Hz        (2 %)
+    xf: freq = 631 Hz        (48 %), step = 232.9 Hz        (2 %)
+    xf: freq = 1 kHz         (50 %), step = 369 Hz          (2 %)
+    xf: freq = 1.585 kHz     (52 %), step = 584.9 Hz        (2 %)
+    xf: freq = 2.512 kHz     (54 %), step = 927 Hz          (2 %)
+    xf: freq = 3.981 kHz     (56 %), step = 1.469 kHz       (2 %)
+    xf: freq = 6.31 kHz      (58 %), step = 2.329 kHz       (2 %)
+    xf: freq = 10 kHz        (60 %), step = 3.69 kHz        (2 %)
+    xf: freq = 15.85 kHz     (62 %), step = 5.849 kHz       (2 %)
+    xf: freq = 25.12 kHz     (64 %), step = 9.27 kHz        (2 %)
+    xf: freq = 39.81 kHz     (66 %), step = 14.69 kHz       (2 %)
+    xf: freq = 63.1 kHz      (68 %), step = 23.29 kHz       (2 %)
+    xf: freq = 100 kHz       (70 %), step = 36.9 kHz        (2 %)
+    xf: freq = 158.5 kHz     (72 %), step = 58.49 kHz       (2 %)
+    xf: freq = 251.2 kHz     (74 %), step = 92.7 kHz        (2 %)
+    xf: freq = 398.1 kHz     (76 %), step = 146.9 kHz       (2 %)
+    xf: freq = 631 kHz       (78 %), step = 232.9 kHz       (2 %)
+    xf: freq = 1 MHz         (80 %), step = 369 kHz         (2 %)
+    xf: freq = 1.585 MHz     (82 %), step = 584.9 kHz       (2 %)
+    xf: freq = 2.512 MHz     (84 %), step = 927 kHz         (2 %)
+    xf: freq = 3.981 MHz     (86 %), step = 1.469 MHz       (2 %)
+    xf: freq = 6.31 MHz      (88 %), step = 2.329 MHz       (2 %)
+    xf: freq = 10 MHz        (90 %), step = 3.69 MHz        (2 %)
+    xf: freq = 15.85 MHz     (92 %), step = 5.849 MHz       (2 %)
+    xf: freq = 25.12 MHz     (94 %), step = 9.27 MHz        (2 %)
+    xf: freq = 39.81 MHz     (96 %), step = 14.69 MHz       (2 %)
+    xf: freq = 63.1 MHz      (98 %), step = 23.29 MHz       (2 %)
+    xf: freq = 100 MHz      (100 %), step = 36.9 MHz        (2 %)
+Accumulated DC solution time =            0 s.
+Intrinsic xf analysis time =              8.91304 ms.
+Total time required for xf analysis `xf': CPU = 8.513 ms, elapsed = 9.21702 ms, util. = 92.4%.
+Time accumulated: CPU = 1.06259 s, elapsed = 1.69464 s.
+Peak resident memory used = 206 Mbytes.
+
+
+Notice from spectre during XF analysis `xf', during Monte Carlo analysis `mc1'.
+    34 warnings suppressed.
+
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/013/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/013/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/mc1_separate/013/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/013/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/013/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/mc1_separate/013/subckts.info.subckts ...
+    mc1: iteration = 13           (100 %), step = 1            (8.33 %)
+Total time required for montecarlo analysis `mc1': CPU = 606.248 ms, elapsed = 748.53 ms, util. = 81%.
+Time accumulated: CPU = 1.08356 s, elapsed = 1.72638 s.
+Peak resident memory used = 206 Mbytes.
+
+Licensing Information:
+Lic Summary:
+[08:28:00.356712] Cdslmd servers:3000@lic08.ug.kth.se:29000@lic06.ug.kth.se
+[08:28:00.356770] Feature usage summary:
+[08:28:00.356771] Virtuoso_Multi_mode_Simulation
+
+
+Aggregate audit (8:28:00 AM, Thur Apr 16, 2026):
+Time used: CPU = 1.1 s, elapsed = 1.74 s, util. = 63%.
+Time spent in licensing: elapsed = 49.8 ms.
+Peak memory used = 207 Mbytes.
+Simulation started at: 8:27:58 AM, Thur Apr 16, 2026, ended at: 8:28:00 AM, Thur Apr 16, 2026, with elapsed time (wall clock): 1.74 s.
+spectre completes with 0 errors, 92 warnings, and 25 notices.

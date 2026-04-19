@@ -1,0 +1,36 @@
+Starting Monte Carlo Sampling...
+
+Current time: Wed Apr 15 13:17:49 2026 
+
+Variation: All
+Sampling Method: Low-Discrepancy Sequence
+Seed: 12345
+
+MonteCarlo.5
+Number of points completed: 100
+Number of simulation errors: 0
+MonteCarlo.5 completed. 
+Current time: Wed Apr 15 13:18:36 2026 
+Monte Carlo Sampling yield summary:
+Number of spec values are in this yield data: 5
+MC	Nominal - 
+	d2_db:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 0
+MC	Nominal - 
+	v /vout; pss (V):	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 0
+MC	Nominal - 
+	v /vout; pss dB20(V):	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 0
+MC	Nominal - 
+	v /vout_filt; pss (V):	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 0
+MC	Nominal - 
+	v /vout_filt; pss dB20(V):	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 0
+
+MC
+	Overall Yield	0%	Number of points passed	0	Total number of points	0
+
+Estimated yield = 0% (0/0), 0 errors
+Estimated yield (No opregions) = 0% (0/0)

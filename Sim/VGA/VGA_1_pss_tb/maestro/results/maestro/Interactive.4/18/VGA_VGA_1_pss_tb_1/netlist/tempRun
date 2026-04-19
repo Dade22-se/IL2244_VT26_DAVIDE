@@ -1,0 +1,1 @@
+ spectre  input.scs  +escchars +log ../psf/spectre.out  -format psfbin +rtsf -raw ../psf   +preset=cx +mt +lqtimeout 900 -maxw 5 -maxn 5 +param /opt/pdk/ams/410/spectre/ams_range.lmts -env ade +adespetkn=adespe  -ahdllibdir /home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.4/sharedData/Service406/ahdl/input.ahdlSimDB +logstatus  

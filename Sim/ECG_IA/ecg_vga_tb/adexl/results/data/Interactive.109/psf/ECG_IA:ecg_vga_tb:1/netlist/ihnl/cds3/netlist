@@ -1,0 +1,10 @@
+    MN2 (SN S GNDA GNDA) modn w=0.8u l=0.35u as=6.8e-13 ad=6.8e-13 ps=2.5u \
+        pd=2.5u nrd=0.625 nrs=0.625 ng=1
+    MN1 (A1 S C GNDA) modn w=4u l=0.35u as=3.4e-12 ad=3.4e-12 ps=5.7u \
+        pd=5.7u nrd=0.125 nrs=0.125 ng=1
+    MN0 (A0 SN C GNDA) modn w=4u l=0.35u as=3.4e-12 ad=3.4e-12 ps=5.7u \
+        pd=5.7u nrd=0.125 nrs=0.125 ng=1
+    MP0 (SN S VDDA VDDA) modp w=1.4u l=0.35u as=1.19e-12 ad=1.19e-12 \
+        ps=3.1u pd=3.1u nrd=0.3571429 nrs=0.3571429 ng=1
+ends mux21
+// End of subcircuit definition.

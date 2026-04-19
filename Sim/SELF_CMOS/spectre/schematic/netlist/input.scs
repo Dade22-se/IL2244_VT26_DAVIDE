@@ -1,0 +1,46 @@
+// Generated for: spectre
+// Generated on: Mar 16 17:42:47 2026
+// Design library name: CHARACTERIZATION
+// Design cell name: SELF_CMOS
+// Design view name: schematic
+simulator lang=spectre
+global 0
+include "/opt/pdk/ams/410/spectre/c35/soac/soac.scs"
+parameters W1=1e-05 L1=4e-06 NF1=10 VDS2=1.5 VDS1=1.5 IDS2=5e-07 \
+    IDS1=1e-06 W2=1e-05 L2=4e-06 NF2=10
+include "/opt/pdk/ams/410/spectre/c35/soac/processOption.scs"
+include "/opt/pdk/ams/410/spectre/c35/soac/cmos53.scs" section=cmostm
+include "/opt/pdk/ams/410/spectre/c35/soac/res.scs" section=restm
+include "/opt/pdk/ams/410/spectre/c35/soac/cap.scs" section=captm
+include "/opt/pdk/ams/410/spectre/c35/soac/bip.scs" section=biptm
+include "/opt/pdk/ams/410/spectre/c35/soac/ind.scs" section=indtm
+include "/opt/pdk/ams/410/spectre/c35/soac/esddiode.scs" section=esddiodetm
+
+// Library name: CHARACTERIZATION
+// Cell name: SELF_CMOS
+// View name: schematic
+MN0 (net2 net3 0 0) modn w=W1 l=L1 as=8.5e-12 ad=8.5e-12 ps=11.7u pd=11.7u \
+        nrd=0.05 nrs=0.05 ng=NF1
+V2 (net4 0) vsource dc=3.3 type=dc
+V1 (net4 net7) vsource dc=VDS2 type=dc
+V0 (net1 0) vsource dc=VDS1 type=dc
+E1 (net4 net6 net7 net5) vcvs gain=1000 min=0 max=3.3
+E0 (net3 0 net2 net1) vcvs gain=1000 min=0 max=3.3
+I2 (net5 net4) isource dc=IDS2 type=dc
+I1 (0 net2) isource dc=IDS1 type=dc
+MP0 (net5 net6 net4 net4) modp w=W2 l=L2 as=1.1e-11 ad=1.1e-11 ps=12.2u \
+        pd=12.2u nrd=0.06 nrs=0.06 ng=NF2
+simulatorOptions options psfversion="1.4.0" reltol=100e-6 vabstol=1e-6 \
+    iabstol=1e-12 temp=27 tnom=27 homotopy=all limit=delta scalem=1.0 \
+    scale=1.0 compatible=spice2 gmin=1e-12 rforce=1 maxnotes=5 maxwarns=5 \
+    digits=5 cols=80 pivrel=1e-3 sensfile="../psf/sens.output" \
+    checklimitdest=psf enable_pre_ver=yes ignorezerovar=yes 
+dcOp dc write="spectre.dc" maxiters=150 maxsteps=10000 annotate=status
+dcOpInfo info what=oppoint where=rawfile
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+saveOptions options save=allpub

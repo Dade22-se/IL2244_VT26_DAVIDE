@@ -1,0 +1,9 @@
+"PRIMLIB.rpolyhc.schematic.termorder" (("PLUS" "MINUS" "REF") ("MINUS" "PLUS" "REF"))
+"ECG_IA.mux21.schematic.termorder" (("A0" "A1" "C" "GNDA" "S" "VDDA") ("A0" "A1" "C" "GNDA" "S" "VDDA"))
+"FECG.gmc_5.schematic.termorder" (("BIAS" "GNDA" "INN" "INP" "OUT" "S<2>" "S<1>" "S<0>" "VDDA") ("BIAS" "GNDA" "INN" "INP" "OUT" "S<2>" "S<1>" "S<0>" "VDDA"))
+"CORELIBD.INVX1.cmos_sch.termorder" (("A" "Q" "gnd!" "vdd!") ("A" "Q" "gnd!" "vdd!"))
+"FECG.buffer2.schematic.termorder" (("BIAS" "GNDA" "INP" "OUT" "VDDA") ("BIAS" "GNDA" "INP" "OUT" "VDDA"))
+"FECG.fecg_ia_3.schematic.termorder" (("BIAS" "GNDA" "VDDA" "VINN" "VINP" "VOUT" "CLK") ("BIAS" "CLK" "GNDA" "VDDA" "VINN" "VINP" "VOUT"))
+"FECG.chopper.schematic.termorder" (("GNDA" "VDDA" "clk" "inn" "inp" "outn" "outp") ("GNDA" "VDDA" "clk" "inn" "inp" "outn" "outp"))
+"PRIMLIB.cpolyc.schematic.termorder" nil
+"FECG.fecg_vga1.schematic.termorder" (("BIAS" "GNDA" "S<2>" "S<1>" "S<0>" "VDDA" "VIN" "VOUT") ("BIAS" "GNDA" "S<2>" "S<1>" "S<0>" "VDDA" "VIN" "VOUT"))

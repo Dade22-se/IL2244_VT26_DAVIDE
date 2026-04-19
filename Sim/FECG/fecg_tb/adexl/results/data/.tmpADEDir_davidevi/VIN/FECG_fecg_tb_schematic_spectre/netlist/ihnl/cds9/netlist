@@ -1,0 +1,32 @@
+
+// Library name: FECG
+// Cell name: fecg_tb
+// View name: schematic
+V13 (F\<1\> 0) vsource dc=F1 type=dc
+V12 (F\<2\> 0) vsource dc=F2 type=dc
+V11 (F\<0\> 0) vsource dc=F0 type=dc
+V5 (S\<1\> 0) vsource dc=S1 type=dc
+V6 (S\<2\> 0) vsource dc=S2 type=dc
+V4 (S\<0\> 0) vsource dc=S0 type=dc
+V2 (VCM 0) vsource dc=VCM_DC mag=VCM_AC xfmag=1 type=dc
+V1 (VDDA 0) vsource dc=VDD type=dc
+V7 (VINP VCM) vsource dc=VIN_DC/2 mag=VIN_AC/2 type=sine xfmag=1 \
+        pacmag=VIN_AC/2 ampl=VIN_AMP/2 freq=VIN_FREQ
+V8 (VCM VINN) vsource dc=VIN_DC/2 mag=VIN_AC/2 type=sine xfmag=1 \
+        pacmag=VIN_AC/2 ampl=VIN_AMP/2 freq=VIN_FREQ
+V0 (CLK 0) vsource type=pulse val0=0 val1=3.3 period=1/FC rise=1n fall=1n \
+        width=1/(2*FC)
+I15 (0 net8) isource dc=200n type=dc
+I13 (0 net6) isource dc=200n type=dc
+I9 (0 net2) isource dc=200n type=dc
+I5 (0 net5) isource dc=200n type=dc
+I3 (0 net1) isource dc=200n type=dc
+I10 (0 net3) isource dc=200n type=dc
+C0 (VOUT 0) capacitor c=100p
+I2 (net1 0 VDDA VINN VINP VIA CLK) fecg_ia_3
+I12 (net6 0 VLF1 net4 VLF1 F\<2\> F\<1\> F\<0\> VDDA) gmc_5
+I8 (net2 0 VLF1 VIA net4 F\<2\> F\<1\> F\<0\> VDDA) gmc_5
+I11 (net3 0 VLF2 VGA VLF2 F\<2\> F\<1\> F\<0\> VDDA) gmc_5
+I4 (net5 0 S\<2\> S\<1\> S\<0\> VDDA VLF1 VGA) fecg_vga1
+R0 (VOUT 0) resistor r=1M
+I14 (net8 0 VLF2 VOUT VDDA) buffer2

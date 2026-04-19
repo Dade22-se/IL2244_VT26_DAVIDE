@@ -1,0 +1,79 @@
+    MN6 (net6 net6 GNDA GNDA) modn w=30u l=15u as=2.55e-11 ad=2.55e-11 \
+        ps=31.7u pd=31.7u nrd=0.01666667 nrs=0.01666667 ng=1
+    MN5 (net19 net6 GNDA GNDA) modn w=15u l=15u as=1.275e-11 ad=7.5e-12 \
+        ps=16.7u pd=1u nrd=0.03333333 nrs=0.03333333 ng=2
+    MN4 (net4 net3 GNDA GNDA) modn w=20u l=12u as=1.7e-11 ad=1.7e-11 \
+        ps=21.7u pd=21.7u nrd=0.025 nrs=0.025 ng=1
+    MN3 (net3 net3 GNDA GNDA) modn w=20u l=12u as=1.7e-11 ad=1.7e-11 \
+        ps=21.7u pd=21.7u nrd=0.025 nrs=0.025 ng=1
+    MN2 (net14 IBIAS net4 GNDA) modn w=40u l=8u as=3.4e-11 ad=3.4e-11 \
+        ps=41.7u pd=41.7u nrd=0.0125 nrs=0.0125 ng=1
+    MN1 (IBIAS IBIAS net3 GNDA) modn w=20u l=8u as=1.7e-11 ad=1.7e-11 \
+        ps=21.7u pd=21.7u nrd=0.025 nrs=0.025 ng=1
+    MN0 (VOUT net19 GNDA GNDA) modn w=10u l=1u as=8.5e-12 ad=5e-12 \
+        ps=11.7u pd=1u nrd=0.05 nrs=0.05 ng=2
+    MP4 (net14 net14 VDDA VDDA) modp w=20u l=15u as=1.7e-11 ad=1.7e-11 \
+        ps=21.7u pd=21.7u nrd=0.025 nrs=0.025 ng=1
+    MP11 (VOUT VOUT VOUT VOUT) modp w=1u l=0.35u as=8.5e-13 ad=8.5e-13 \
+        ps=2.7u pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MP10 (net17 net17 VOUT VOUT) modp w=1u l=0.35u as=8.5e-13 ad=8.5e-13 \
+        ps=2.7u pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MP9 (net16 net16 net17 net17) modp w=1u l=0.35u as=8.5e-13 ad=8.5e-13 \
+        ps=2.7u pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MP8 (net12 net12 net16 net16) modp w=1u l=0.35u as=8.5e-13 ad=8.5e-13 \
+        ps=2.7u pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MP7 (net15 net15 net12 net12) modp w=1u l=0.35u as=8.5e-13 ad=8.5e-13 \
+        ps=2.7u pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MP6 (GNDA net15 net2 net2) modp w=6.25u l=0.35u as=3.671875e-12 \
+        ad=3.125e-12 ps=2.7375u pd=1u nrd=0.08 nrs=0.08 ng=8
+    MP5 (net2 net14 VDDA VDDA) modp w=10u l=15u as=8.5e-12 ad=8.5e-12 \
+        ps=11.7u pd=11.7u nrd=0.05 nrs=0.05 ng=1
+    MP3 (VOUT net14 VDDA VDDA) modp w=50u l=15u as=2.85e-11 ad=2.5e-11 \
+        ps=11.14u pd=1u nrd=0.01 nrs=0.01 ng=10
+    MP2 (net5 net14 VDDA VDDA) modp w=100u l=15u as=8.5e-11 ad=8.5e-11 \
+        ps=101.7u pd=101.7u nrd=0.005 nrs=0.005 ng=1
+    MP1 (net19 VIN net5 net5) modp w=100u l=4u as=8.5e-11 ad=8.5e-11 \
+        ps=101.7u pd=101.7u nrd=0.005 nrs=0.005 ng=1
+    MP0 (net6 net15 net5 net5) modp w=100u l=4u as=8.5e-11 ad=8.5e-11 \
+        ps=101.7u pd=101.7u nrd=0.005 nrs=0.005 ng=1
+    I5 (net2 GNDA net1 GNDA S\<0\> VDDA) MUX
+    I3 (net2 GNDA net11 GNDA S\<3\> VDDA) MUX
+    I2 (net2 GNDA net10 GNDA S\<2\> VDDA) MUX
+    I1 (net2 GNDA net9 GNDA S\<1\> VDDA) MUX
+    C11 (VOUT net20 GNDA) cpolyc m=1 pcap=171.29f area=1.23n \
+        perimeter=140u mmw=0
+    C10 (VOUT net15 GNDA) cpolyc m=1 pcap=171.29f area=1.23n \
+        perimeter=140u mmw=0
+    C9\<0\> (net11 net15 GNDA) cpolyc m=1 pcap=171.29f area=1.23n \
+        perimeter=140u mmw=0
+    C9\<1\> (net11 net15 GNDA) cpolyc m=1 pcap=171.29f area=1.23n \
+        perimeter=140u mmw=0
+    C9\<2\> (net11 net15 GNDA) cpolyc m=1 pcap=171.29f area=1.23n \
+        perimeter=140u mmw=0
+    C9\<3\> (net11 net15 GNDA) cpolyc m=1 pcap=171.29f area=1.23n \
+        perimeter=140u mmw=0
+    C9\<4\> (net11 net15 GNDA) cpolyc m=1 pcap=171.29f area=1.23n \
+        perimeter=140u mmw=0
+    C9\<5\> (net11 net15 GNDA) cpolyc m=1 pcap=171.29f area=1.23n \
+        perimeter=140u mmw=0
+    C9\<6\> (net11 net15 GNDA) cpolyc m=1 pcap=171.29f area=1.23n \
+        perimeter=140u mmw=0
+    C9\<7\> (net11 net15 GNDA) cpolyc m=1 pcap=171.29f area=1.23n \
+        perimeter=140u mmw=0
+    C8\<0\> (net10 net15 GNDA) cpolyc m=1 pcap=171.29f area=1.23n \
+        perimeter=140u mmw=0
+    C8\<1\> (net10 net15 GNDA) cpolyc m=1 pcap=171.29f area=1.23n \
+        perimeter=140u mmw=0
+    C8\<2\> (net10 net15 GNDA) cpolyc m=1 pcap=171.29f area=1.23n \
+        perimeter=140u mmw=0
+    C8\<3\> (net10 net15 GNDA) cpolyc m=1 pcap=171.29f area=1.23n \
+        perimeter=140u mmw=0
+    C7\<0\> (net9 net15 GNDA) cpolyc m=1 pcap=171.29f area=1.23n \
+        perimeter=140u mmw=0
+    C7\<1\> (net9 net15 GNDA) cpolyc m=1 pcap=171.29f area=1.23n \
+        perimeter=140u mmw=0
+    C3 (net1 net15 GNDA) cpolyc m=1 pcap=171.29f area=1.23n perimeter=140u \
+        mmw=0
+    R2 (net19 net20 GNDA) rpolyhc w=2u l=150u mult=1 mmw=0 cap=50.7f
+ends VGA_1
+// End of subcircuit definition.

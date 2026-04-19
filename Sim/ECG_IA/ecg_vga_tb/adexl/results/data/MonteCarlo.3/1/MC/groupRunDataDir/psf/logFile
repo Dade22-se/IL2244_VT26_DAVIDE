@@ -1,0 +1,2437 @@
+HEADER
+"PSFversion" "1.00"
+"Log Generator" "drlLog rev. 1.0"
+"Log Time Stamp" "Mon Mar 23 10:58:12 2026"
+"psfversion" "1.4.0"
+"simulator" "spectre"
+"version" "24.1.0.288.isr5"
+"date" "10:58:12 AM, Mon Mar 23, 2026"
+"design" "// Point Netlist Generated on: Mar 23 10:58:08 2026"
+"signalNameType" "spectre"
+"simMode" "APS"
+"measdgt" 0
+"ingold" 2
+"sst2usecolon" 0
+TYPE
+"analysisInst" STRUCT(
+"analysisType" STRING *
+"dataFile" STRING *
+"format" STRING *
+"parent" STRING *
+"sweepVariable" ARRAY ( * ) STRING *
+"description" STRING *
+)
+VALUE
+"nom_dcOp-dc" "analysisInst" (
+"dc"
+"nom/dcOp.dc"
+"PSF"
+""
+()
+"DC Analysis `dcOp'"
+) PROP(
+"data_type" "scalar"
+)
+
+"nom_dcOpInfo-info" "analysisInst" (
+"info"
+"nom/dcOpInfo.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"nom_pz-pz" "analysisInst" (
+"pz"
+"nom/pz.pz"
+"PSF"
+""
+()
+"PZ Analysis `pz'"
+) PROP(
+"data_type" "struct"
+)
+
+"nom_tran-tran" "analysisInst" (
+"tran"
+"nom/tran.tran.tran"
+"PSF"
+""
+("time")
+"Transient Analysis `tran': time = (0 s -> 40 ms)"
+) PROP(
+"data_type" "swept_scalar"
+)
+
+"nom_finalTimeOP-info" "analysisInst" (
+"info"
+"nom/finalTimeOP.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"nom_ac-ac" "analysisInst" (
+"ac"
+"nom/ac.ac"
+"PSF"
+""
+("freq")
+"AC Analysis `ac': freq = (10 mHz -> 100 MHz)"
+) PROP(
+"data_type" "swept_scalar"
+)
+
+"nom_noise-noise" "analysisInst" (
+"noise"
+"nom/noise.noise"
+"PSF"
+""
+("freq")
+"Noise Analysis `noise': freq = (10 mHz -> 100 MHz)"
+) PROP(
+"data_type" "swept_struct"
+)
+
+"nom_modelParameter-info" "analysisInst" (
+"info"
+"nom/modelParameter.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"nom_element-info" "analysisInst" (
+"info"
+"nom/element.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"nom_outputParameter-info" "analysisInst" (
+"info"
+"nom/outputParameter.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"nom_designParamVals-info" "analysisInst" (
+"info"
+"nom/designParamVals.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"nom_primitives-info.primitives" "analysisInst" (
+"info.primitives"
+"nom/primitives.info.primitives"
+"PSF"
+""
+()
+"Circuit Information"
+)
+"nom_subckts-info.subckts" "analysisInst" (
+"info.subckts"
+"nom/subckts.info.subckts"
+"PSF"
+""
+()
+"Circuit Information"
+)
+"mc1_dcOp-montecarlo" "analysisInst" (
+"montecarlo"
+"mc1_dcOp.montecarlo"
+"PSF"
+""
+("iteration")
+"Monte Carlo parent"
+)
+"mc1_dcOpInfo-montecarlo" "analysisInst" (
+"montecarlo"
+"mc1_dcOpInfo.montecarlo"
+"PSF"
+""
+("iteration")
+"Monte Carlo parent"
+)
+"mc1_pz-montecarlo" "analysisInst" (
+"montecarlo"
+"mc1_pz.montecarlo"
+"PSF"
+""
+("iteration")
+"Monte Carlo parent"
+)
+"mc1_tran-montecarlo" "analysisInst" (
+"montecarlo"
+"mc1_tran.montecarlo"
+"PSF"
+""
+("iteration")
+"Monte Carlo parent"
+)
+"mc1_finalTimeOP-montecarlo" "analysisInst" (
+"montecarlo"
+"mc1_finalTimeOP.montecarlo"
+"PSF"
+""
+("iteration")
+"Monte Carlo parent"
+)
+"mc1_ac-montecarlo" "analysisInst" (
+"montecarlo"
+"mc1_ac.montecarlo"
+"PSF"
+""
+("iteration")
+"Monte Carlo parent"
+)
+"mc1_noise-montecarlo" "analysisInst" (
+"montecarlo"
+"mc1_noise.montecarlo"
+"PSF"
+""
+("iteration")
+"Monte Carlo parent"
+)
+"mc1_modelParameter-montecarlo" "analysisInst" (
+"montecarlo"
+"mc1_modelParameter.montecarlo"
+"PSF"
+""
+("iteration")
+"Monte Carlo parent"
+)
+"mc1_element-montecarlo" "analysisInst" (
+"montecarlo"
+"mc1_element.montecarlo"
+"PSF"
+""
+("iteration")
+"Monte Carlo parent"
+)
+"mc1_outputParameter-montecarlo" "analysisInst" (
+"montecarlo"
+"mc1_outputParameter.montecarlo"
+"PSF"
+""
+("iteration")
+"Monte Carlo parent"
+)
+"mc1_designParamVals-montecarlo" "analysisInst" (
+"montecarlo"
+"mc1_designParamVals.montecarlo"
+"PSF"
+""
+("iteration")
+"Monte Carlo parent"
+)
+"mc1_primitives-montecarlo" "analysisInst" (
+"montecarlo"
+"mc1_primitives.montecarlo"
+"PSF"
+""
+("iteration")
+"Monte Carlo parent"
+)
+"mc1_subckts-montecarlo" "analysisInst" (
+"montecarlo"
+"mc1_subckts.montecarlo"
+"PSF"
+""
+("iteration")
+"Monte Carlo parent"
+)
+"mc1_separate_001_dcOp-dc" "analysisInst" (
+"dc"
+"mc1_separate/001/dcOp.dc"
+"PSF"
+"mc1_dcOp-montecarlo"
+()
+"DC Analysis `dcOp'"
+) PROP(
+"data_type" "scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 1.00000
+)
+
+"mc1_separate_001_dcOpInfo-info" "analysisInst" (
+"info"
+"mc1_separate/001/dcOpInfo.info"
+"PSF"
+"mc1_dcOpInfo-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 1.00000
+)
+
+"mc1_separate_001_pz-pz" "analysisInst" (
+"pz"
+"mc1_separate/001/pz.pz"
+"PSF"
+"mc1_pz-montecarlo"
+()
+"PZ Analysis `pz'"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 1.00000
+)
+
+"mc1_separate_001_tran-tran" "analysisInst" (
+"tran"
+"mc1_separate/001/tran.tran.tran"
+"PSF"
+"mc1_tran-montecarlo"
+("time")
+"Transient Analysis `tran': time = (0 s -> 40 ms)"
+) PROP(
+"data_type" "swept_scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 1.00000
+)
+
+"mc1_separate_001_finalTimeOP-info" "analysisInst" (
+"info"
+"mc1_separate/001/finalTimeOP.info"
+"PSF"
+"mc1_finalTimeOP-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 1.00000
+)
+
+"mc1_separate_001_ac-ac" "analysisInst" (
+"ac"
+"mc1_separate/001/ac.ac"
+"PSF"
+"mc1_ac-montecarlo"
+("freq")
+"AC Analysis `ac': freq = (10 mHz -> 100 MHz)"
+) PROP(
+"data_type" "swept_scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 1.00000
+)
+
+"mc1_separate_001_noise-noise" "analysisInst" (
+"noise"
+"mc1_separate/001/noise.noise"
+"PSF"
+"mc1_noise-montecarlo"
+("freq")
+"Noise Analysis `noise': freq = (10 mHz -> 100 MHz)"
+) PROP(
+"data_type" "swept_struct"
+"sweep_tree_type" "leafNode"
+"iteration" 1.00000
+)
+
+"mc1_separate_001_modelParameter-info" "analysisInst" (
+"info"
+"mc1_separate/001/modelParameter.info"
+"PSF"
+"mc1_modelParameter-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 1.00000
+)
+
+"mc1_separate_001_element-info" "analysisInst" (
+"info"
+"mc1_separate/001/element.info"
+"PSF"
+"mc1_element-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 1.00000
+)
+
+"mc1_separate_001_outputParameter-info" "analysisInst" (
+"info"
+"mc1_separate/001/outputParameter.info"
+"PSF"
+"mc1_outputParameter-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 1.00000
+)
+
+"mc1_separate_001_designParamVals-info" "analysisInst" (
+"info"
+"mc1_separate/001/designParamVals.info"
+"PSF"
+"mc1_designParamVals-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 1.00000
+)
+
+"mc1_separate_001_primitives-info.primitives" "analysisInst" (
+"info.primitives"
+"mc1_separate/001/primitives.info.primitives"
+"PSF"
+"mc1_primitives-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"sweep_tree_type" "leafNode"
+"iteration" 1.00000
+)
+
+"mc1_separate_001_subckts-info.subckts" "analysisInst" (
+"info.subckts"
+"mc1_separate/001/subckts.info.subckts"
+"PSF"
+"mc1_subckts-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"sweep_tree_type" "leafNode"
+"iteration" 1.00000
+)
+
+"mc1_separate_002_dcOp-dc" "analysisInst" (
+"dc"
+"mc1_separate/002/dcOp.dc"
+"PSF"
+"mc1_dcOp-montecarlo"
+()
+"DC Analysis `dcOp'"
+) PROP(
+"data_type" "scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 2.00000
+)
+
+"mc1_separate_002_dcOpInfo-info" "analysisInst" (
+"info"
+"mc1_separate/002/dcOpInfo.info"
+"PSF"
+"mc1_dcOpInfo-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 2.00000
+)
+
+"mc1_separate_002_pz-pz" "analysisInst" (
+"pz"
+"mc1_separate/002/pz.pz"
+"PSF"
+"mc1_pz-montecarlo"
+()
+"PZ Analysis `pz'"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 2.00000
+)
+
+"mc1_separate_002_tran-tran" "analysisInst" (
+"tran"
+"mc1_separate/002/tran.tran.tran"
+"PSF"
+"mc1_tran-montecarlo"
+("time")
+"Transient Analysis `tran': time = (0 s -> 40 ms)"
+) PROP(
+"data_type" "swept_scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 2.00000
+)
+
+"mc1_separate_002_finalTimeOP-info" "analysisInst" (
+"info"
+"mc1_separate/002/finalTimeOP.info"
+"PSF"
+"mc1_finalTimeOP-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 2.00000
+)
+
+"mc1_separate_002_ac-ac" "analysisInst" (
+"ac"
+"mc1_separate/002/ac.ac"
+"PSF"
+"mc1_ac-montecarlo"
+("freq")
+"AC Analysis `ac': freq = (10 mHz -> 100 MHz)"
+) PROP(
+"data_type" "swept_scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 2.00000
+)
+
+"mc1_separate_002_noise-noise" "analysisInst" (
+"noise"
+"mc1_separate/002/noise.noise"
+"PSF"
+"mc1_noise-montecarlo"
+("freq")
+"Noise Analysis `noise': freq = (10 mHz -> 100 MHz)"
+) PROP(
+"data_type" "swept_struct"
+"sweep_tree_type" "leafNode"
+"iteration" 2.00000
+)
+
+"mc1_separate_002_modelParameter-info" "analysisInst" (
+"info"
+"mc1_separate/002/modelParameter.info"
+"PSF"
+"mc1_modelParameter-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 2.00000
+)
+
+"mc1_separate_002_element-info" "analysisInst" (
+"info"
+"mc1_separate/002/element.info"
+"PSF"
+"mc1_element-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 2.00000
+)
+
+"mc1_separate_002_outputParameter-info" "analysisInst" (
+"info"
+"mc1_separate/002/outputParameter.info"
+"PSF"
+"mc1_outputParameter-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 2.00000
+)
+
+"mc1_separate_002_designParamVals-info" "analysisInst" (
+"info"
+"mc1_separate/002/designParamVals.info"
+"PSF"
+"mc1_designParamVals-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 2.00000
+)
+
+"mc1_separate_002_primitives-info.primitives" "analysisInst" (
+"info.primitives"
+"mc1_separate/002/primitives.info.primitives"
+"PSF"
+"mc1_primitives-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"sweep_tree_type" "leafNode"
+"iteration" 2.00000
+)
+
+"mc1_separate_002_subckts-info.subckts" "analysisInst" (
+"info.subckts"
+"mc1_separate/002/subckts.info.subckts"
+"PSF"
+"mc1_subckts-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"sweep_tree_type" "leafNode"
+"iteration" 2.00000
+)
+
+"mc1_separate_003_dcOp-dc" "analysisInst" (
+"dc"
+"mc1_separate/003/dcOp.dc"
+"PSF"
+"mc1_dcOp-montecarlo"
+()
+"DC Analysis `dcOp'"
+) PROP(
+"data_type" "scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 3.00000
+)
+
+"mc1_separate_003_dcOpInfo-info" "analysisInst" (
+"info"
+"mc1_separate/003/dcOpInfo.info"
+"PSF"
+"mc1_dcOpInfo-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 3.00000
+)
+
+"mc1_separate_003_pz-pz" "analysisInst" (
+"pz"
+"mc1_separate/003/pz.pz"
+"PSF"
+"mc1_pz-montecarlo"
+()
+"PZ Analysis `pz'"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 3.00000
+)
+
+"mc1_separate_003_tran-tran" "analysisInst" (
+"tran"
+"mc1_separate/003/tran.tran.tran"
+"PSF"
+"mc1_tran-montecarlo"
+("time")
+"Transient Analysis `tran': time = (0 s -> 40 ms)"
+) PROP(
+"data_type" "swept_scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 3.00000
+)
+
+"mc1_separate_003_finalTimeOP-info" "analysisInst" (
+"info"
+"mc1_separate/003/finalTimeOP.info"
+"PSF"
+"mc1_finalTimeOP-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 3.00000
+)
+
+"mc1_separate_003_ac-ac" "analysisInst" (
+"ac"
+"mc1_separate/003/ac.ac"
+"PSF"
+"mc1_ac-montecarlo"
+("freq")
+"AC Analysis `ac': freq = (10 mHz -> 100 MHz)"
+) PROP(
+"data_type" "swept_scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 3.00000
+)
+
+"mc1_separate_003_noise-noise" "analysisInst" (
+"noise"
+"mc1_separate/003/noise.noise"
+"PSF"
+"mc1_noise-montecarlo"
+("freq")
+"Noise Analysis `noise': freq = (10 mHz -> 100 MHz)"
+) PROP(
+"data_type" "swept_struct"
+"sweep_tree_type" "leafNode"
+"iteration" 3.00000
+)
+
+"mc1_separate_003_modelParameter-info" "analysisInst" (
+"info"
+"mc1_separate/003/modelParameter.info"
+"PSF"
+"mc1_modelParameter-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 3.00000
+)
+
+"mc1_separate_003_element-info" "analysisInst" (
+"info"
+"mc1_separate/003/element.info"
+"PSF"
+"mc1_element-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 3.00000
+)
+
+"mc1_separate_003_outputParameter-info" "analysisInst" (
+"info"
+"mc1_separate/003/outputParameter.info"
+"PSF"
+"mc1_outputParameter-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 3.00000
+)
+
+"mc1_separate_003_designParamVals-info" "analysisInst" (
+"info"
+"mc1_separate/003/designParamVals.info"
+"PSF"
+"mc1_designParamVals-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 3.00000
+)
+
+"mc1_separate_003_primitives-info.primitives" "analysisInst" (
+"info.primitives"
+"mc1_separate/003/primitives.info.primitives"
+"PSF"
+"mc1_primitives-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"sweep_tree_type" "leafNode"
+"iteration" 3.00000
+)
+
+"mc1_separate_003_subckts-info.subckts" "analysisInst" (
+"info.subckts"
+"mc1_separate/003/subckts.info.subckts"
+"PSF"
+"mc1_subckts-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"sweep_tree_type" "leafNode"
+"iteration" 3.00000
+)
+
+"mc1_separate_004_dcOp-dc" "analysisInst" (
+"dc"
+"mc1_separate/004/dcOp.dc"
+"PSF"
+"mc1_dcOp-montecarlo"
+()
+"DC Analysis `dcOp'"
+) PROP(
+"data_type" "scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 4.00000
+)
+
+"mc1_separate_004_dcOpInfo-info" "analysisInst" (
+"info"
+"mc1_separate/004/dcOpInfo.info"
+"PSF"
+"mc1_dcOpInfo-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 4.00000
+)
+
+"mc1_separate_004_pz-pz" "analysisInst" (
+"pz"
+"mc1_separate/004/pz.pz"
+"PSF"
+"mc1_pz-montecarlo"
+()
+"PZ Analysis `pz'"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 4.00000
+)
+
+"mc1_separate_004_tran-tran" "analysisInst" (
+"tran"
+"mc1_separate/004/tran.tran.tran"
+"PSF"
+"mc1_tran-montecarlo"
+("time")
+"Transient Analysis `tran': time = (0 s -> 40 ms)"
+) PROP(
+"data_type" "swept_scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 4.00000
+)
+
+"mc1_separate_004_finalTimeOP-info" "analysisInst" (
+"info"
+"mc1_separate/004/finalTimeOP.info"
+"PSF"
+"mc1_finalTimeOP-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 4.00000
+)
+
+"mc1_separate_004_ac-ac" "analysisInst" (
+"ac"
+"mc1_separate/004/ac.ac"
+"PSF"
+"mc1_ac-montecarlo"
+("freq")
+"AC Analysis `ac': freq = (10 mHz -> 100 MHz)"
+) PROP(
+"data_type" "swept_scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 4.00000
+)
+
+"mc1_separate_004_noise-noise" "analysisInst" (
+"noise"
+"mc1_separate/004/noise.noise"
+"PSF"
+"mc1_noise-montecarlo"
+("freq")
+"Noise Analysis `noise': freq = (10 mHz -> 100 MHz)"
+) PROP(
+"data_type" "swept_struct"
+"sweep_tree_type" "leafNode"
+"iteration" 4.00000
+)
+
+"mc1_separate_004_modelParameter-info" "analysisInst" (
+"info"
+"mc1_separate/004/modelParameter.info"
+"PSF"
+"mc1_modelParameter-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 4.00000
+)
+
+"mc1_separate_004_element-info" "analysisInst" (
+"info"
+"mc1_separate/004/element.info"
+"PSF"
+"mc1_element-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 4.00000
+)
+
+"mc1_separate_004_outputParameter-info" "analysisInst" (
+"info"
+"mc1_separate/004/outputParameter.info"
+"PSF"
+"mc1_outputParameter-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 4.00000
+)
+
+"mc1_separate_004_designParamVals-info" "analysisInst" (
+"info"
+"mc1_separate/004/designParamVals.info"
+"PSF"
+"mc1_designParamVals-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 4.00000
+)
+
+"mc1_separate_004_primitives-info.primitives" "analysisInst" (
+"info.primitives"
+"mc1_separate/004/primitives.info.primitives"
+"PSF"
+"mc1_primitives-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"sweep_tree_type" "leafNode"
+"iteration" 4.00000
+)
+
+"mc1_separate_004_subckts-info.subckts" "analysisInst" (
+"info.subckts"
+"mc1_separate/004/subckts.info.subckts"
+"PSF"
+"mc1_subckts-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"sweep_tree_type" "leafNode"
+"iteration" 4.00000
+)
+
+"mc1_separate_005_dcOp-dc" "analysisInst" (
+"dc"
+"mc1_separate/005/dcOp.dc"
+"PSF"
+"mc1_dcOp-montecarlo"
+()
+"DC Analysis `dcOp'"
+) PROP(
+"data_type" "scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 5.00000
+)
+
+"mc1_separate_005_dcOpInfo-info" "analysisInst" (
+"info"
+"mc1_separate/005/dcOpInfo.info"
+"PSF"
+"mc1_dcOpInfo-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 5.00000
+)
+
+"mc1_separate_005_pz-pz" "analysisInst" (
+"pz"
+"mc1_separate/005/pz.pz"
+"PSF"
+"mc1_pz-montecarlo"
+()
+"PZ Analysis `pz'"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 5.00000
+)
+
+"mc1_separate_005_tran-tran" "analysisInst" (
+"tran"
+"mc1_separate/005/tran.tran.tran"
+"PSF"
+"mc1_tran-montecarlo"
+("time")
+"Transient Analysis `tran': time = (0 s -> 40 ms)"
+) PROP(
+"data_type" "swept_scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 5.00000
+)
+
+"mc1_separate_005_finalTimeOP-info" "analysisInst" (
+"info"
+"mc1_separate/005/finalTimeOP.info"
+"PSF"
+"mc1_finalTimeOP-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 5.00000
+)
+
+"mc1_separate_005_ac-ac" "analysisInst" (
+"ac"
+"mc1_separate/005/ac.ac"
+"PSF"
+"mc1_ac-montecarlo"
+("freq")
+"AC Analysis `ac': freq = (10 mHz -> 100 MHz)"
+) PROP(
+"data_type" "swept_scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 5.00000
+)
+
+"mc1_separate_005_noise-noise" "analysisInst" (
+"noise"
+"mc1_separate/005/noise.noise"
+"PSF"
+"mc1_noise-montecarlo"
+("freq")
+"Noise Analysis `noise': freq = (10 mHz -> 100 MHz)"
+) PROP(
+"data_type" "swept_struct"
+"sweep_tree_type" "leafNode"
+"iteration" 5.00000
+)
+
+"mc1_separate_005_modelParameter-info" "analysisInst" (
+"info"
+"mc1_separate/005/modelParameter.info"
+"PSF"
+"mc1_modelParameter-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 5.00000
+)
+
+"mc1_separate_005_element-info" "analysisInst" (
+"info"
+"mc1_separate/005/element.info"
+"PSF"
+"mc1_element-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 5.00000
+)
+
+"mc1_separate_005_outputParameter-info" "analysisInst" (
+"info"
+"mc1_separate/005/outputParameter.info"
+"PSF"
+"mc1_outputParameter-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 5.00000
+)
+
+"mc1_separate_005_designParamVals-info" "analysisInst" (
+"info"
+"mc1_separate/005/designParamVals.info"
+"PSF"
+"mc1_designParamVals-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 5.00000
+)
+
+"mc1_separate_005_primitives-info.primitives" "analysisInst" (
+"info.primitives"
+"mc1_separate/005/primitives.info.primitives"
+"PSF"
+"mc1_primitives-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"sweep_tree_type" "leafNode"
+"iteration" 5.00000
+)
+
+"mc1_separate_005_subckts-info.subckts" "analysisInst" (
+"info.subckts"
+"mc1_separate/005/subckts.info.subckts"
+"PSF"
+"mc1_subckts-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"sweep_tree_type" "leafNode"
+"iteration" 5.00000
+)
+
+"mc1_separate_006_dcOp-dc" "analysisInst" (
+"dc"
+"mc1_separate/006/dcOp.dc"
+"PSF"
+"mc1_dcOp-montecarlo"
+()
+"DC Analysis `dcOp'"
+) PROP(
+"data_type" "scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 6.00000
+)
+
+"mc1_separate_006_dcOpInfo-info" "analysisInst" (
+"info"
+"mc1_separate/006/dcOpInfo.info"
+"PSF"
+"mc1_dcOpInfo-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 6.00000
+)
+
+"mc1_separate_006_pz-pz" "analysisInst" (
+"pz"
+"mc1_separate/006/pz.pz"
+"PSF"
+"mc1_pz-montecarlo"
+()
+"PZ Analysis `pz'"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 6.00000
+)
+
+"mc1_separate_006_tran-tran" "analysisInst" (
+"tran"
+"mc1_separate/006/tran.tran.tran"
+"PSF"
+"mc1_tran-montecarlo"
+("time")
+"Transient Analysis `tran': time = (0 s -> 40 ms)"
+) PROP(
+"data_type" "swept_scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 6.00000
+)
+
+"mc1_separate_006_finalTimeOP-info" "analysisInst" (
+"info"
+"mc1_separate/006/finalTimeOP.info"
+"PSF"
+"mc1_finalTimeOP-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 6.00000
+)
+
+"mc1_separate_006_ac-ac" "analysisInst" (
+"ac"
+"mc1_separate/006/ac.ac"
+"PSF"
+"mc1_ac-montecarlo"
+("freq")
+"AC Analysis `ac': freq = (10 mHz -> 100 MHz)"
+) PROP(
+"data_type" "swept_scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 6.00000
+)
+
+"mc1_separate_006_noise-noise" "analysisInst" (
+"noise"
+"mc1_separate/006/noise.noise"
+"PSF"
+"mc1_noise-montecarlo"
+("freq")
+"Noise Analysis `noise': freq = (10 mHz -> 100 MHz)"
+) PROP(
+"data_type" "swept_struct"
+"sweep_tree_type" "leafNode"
+"iteration" 6.00000
+)
+
+"mc1_separate_006_modelParameter-info" "analysisInst" (
+"info"
+"mc1_separate/006/modelParameter.info"
+"PSF"
+"mc1_modelParameter-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 6.00000
+)
+
+"mc1_separate_006_element-info" "analysisInst" (
+"info"
+"mc1_separate/006/element.info"
+"PSF"
+"mc1_element-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 6.00000
+)
+
+"mc1_separate_006_outputParameter-info" "analysisInst" (
+"info"
+"mc1_separate/006/outputParameter.info"
+"PSF"
+"mc1_outputParameter-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 6.00000
+)
+
+"mc1_separate_006_designParamVals-info" "analysisInst" (
+"info"
+"mc1_separate/006/designParamVals.info"
+"PSF"
+"mc1_designParamVals-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 6.00000
+)
+
+"mc1_separate_006_primitives-info.primitives" "analysisInst" (
+"info.primitives"
+"mc1_separate/006/primitives.info.primitives"
+"PSF"
+"mc1_primitives-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"sweep_tree_type" "leafNode"
+"iteration" 6.00000
+)
+
+"mc1_separate_006_subckts-info.subckts" "analysisInst" (
+"info.subckts"
+"mc1_separate/006/subckts.info.subckts"
+"PSF"
+"mc1_subckts-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"sweep_tree_type" "leafNode"
+"iteration" 6.00000
+)
+
+"mc1_separate_007_dcOp-dc" "analysisInst" (
+"dc"
+"mc1_separate/007/dcOp.dc"
+"PSF"
+"mc1_dcOp-montecarlo"
+()
+"DC Analysis `dcOp'"
+) PROP(
+"data_type" "scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 7.00000
+)
+
+"mc1_separate_007_dcOpInfo-info" "analysisInst" (
+"info"
+"mc1_separate/007/dcOpInfo.info"
+"PSF"
+"mc1_dcOpInfo-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 7.00000
+)
+
+"mc1_separate_007_pz-pz" "analysisInst" (
+"pz"
+"mc1_separate/007/pz.pz"
+"PSF"
+"mc1_pz-montecarlo"
+()
+"PZ Analysis `pz'"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 7.00000
+)
+
+"mc1_separate_007_tran-tran" "analysisInst" (
+"tran"
+"mc1_separate/007/tran.tran.tran"
+"PSF"
+"mc1_tran-montecarlo"
+("time")
+"Transient Analysis `tran': time = (0 s -> 40 ms)"
+) PROP(
+"data_type" "swept_scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 7.00000
+)
+
+"mc1_separate_007_finalTimeOP-info" "analysisInst" (
+"info"
+"mc1_separate/007/finalTimeOP.info"
+"PSF"
+"mc1_finalTimeOP-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 7.00000
+)
+
+"mc1_separate_007_ac-ac" "analysisInst" (
+"ac"
+"mc1_separate/007/ac.ac"
+"PSF"
+"mc1_ac-montecarlo"
+("freq")
+"AC Analysis `ac': freq = (10 mHz -> 100 MHz)"
+) PROP(
+"data_type" "swept_scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 7.00000
+)
+
+"mc1_separate_007_noise-noise" "analysisInst" (
+"noise"
+"mc1_separate/007/noise.noise"
+"PSF"
+"mc1_noise-montecarlo"
+("freq")
+"Noise Analysis `noise': freq = (10 mHz -> 100 MHz)"
+) PROP(
+"data_type" "swept_struct"
+"sweep_tree_type" "leafNode"
+"iteration" 7.00000
+)
+
+"mc1_separate_007_modelParameter-info" "analysisInst" (
+"info"
+"mc1_separate/007/modelParameter.info"
+"PSF"
+"mc1_modelParameter-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 7.00000
+)
+
+"mc1_separate_007_element-info" "analysisInst" (
+"info"
+"mc1_separate/007/element.info"
+"PSF"
+"mc1_element-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 7.00000
+)
+
+"mc1_separate_007_outputParameter-info" "analysisInst" (
+"info"
+"mc1_separate/007/outputParameter.info"
+"PSF"
+"mc1_outputParameter-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 7.00000
+)
+
+"mc1_separate_007_designParamVals-info" "analysisInst" (
+"info"
+"mc1_separate/007/designParamVals.info"
+"PSF"
+"mc1_designParamVals-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 7.00000
+)
+
+"mc1_separate_007_primitives-info.primitives" "analysisInst" (
+"info.primitives"
+"mc1_separate/007/primitives.info.primitives"
+"PSF"
+"mc1_primitives-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"sweep_tree_type" "leafNode"
+"iteration" 7.00000
+)
+
+"mc1_separate_007_subckts-info.subckts" "analysisInst" (
+"info.subckts"
+"mc1_separate/007/subckts.info.subckts"
+"PSF"
+"mc1_subckts-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"sweep_tree_type" "leafNode"
+"iteration" 7.00000
+)
+
+"mc1_separate_008_dcOp-dc" "analysisInst" (
+"dc"
+"mc1_separate/008/dcOp.dc"
+"PSF"
+"mc1_dcOp-montecarlo"
+()
+"DC Analysis `dcOp'"
+) PROP(
+"data_type" "scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 8.00000
+)
+
+"mc1_separate_008_dcOpInfo-info" "analysisInst" (
+"info"
+"mc1_separate/008/dcOpInfo.info"
+"PSF"
+"mc1_dcOpInfo-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 8.00000
+)
+
+"mc1_separate_008_pz-pz" "analysisInst" (
+"pz"
+"mc1_separate/008/pz.pz"
+"PSF"
+"mc1_pz-montecarlo"
+()
+"PZ Analysis `pz'"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 8.00000
+)
+
+"mc1_separate_008_tran-tran" "analysisInst" (
+"tran"
+"mc1_separate/008/tran.tran.tran"
+"PSF"
+"mc1_tran-montecarlo"
+("time")
+"Transient Analysis `tran': time = (0 s -> 40 ms)"
+) PROP(
+"data_type" "swept_scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 8.00000
+)
+
+"mc1_separate_008_finalTimeOP-info" "analysisInst" (
+"info"
+"mc1_separate/008/finalTimeOP.info"
+"PSF"
+"mc1_finalTimeOP-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 8.00000
+)
+
+"mc1_separate_008_ac-ac" "analysisInst" (
+"ac"
+"mc1_separate/008/ac.ac"
+"PSF"
+"mc1_ac-montecarlo"
+("freq")
+"AC Analysis `ac': freq = (10 mHz -> 100 MHz)"
+) PROP(
+"data_type" "swept_scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 8.00000
+)
+
+"mc1_separate_008_noise-noise" "analysisInst" (
+"noise"
+"mc1_separate/008/noise.noise"
+"PSF"
+"mc1_noise-montecarlo"
+("freq")
+"Noise Analysis `noise': freq = (10 mHz -> 100 MHz)"
+) PROP(
+"data_type" "swept_struct"
+"sweep_tree_type" "leafNode"
+"iteration" 8.00000
+)
+
+"mc1_separate_008_modelParameter-info" "analysisInst" (
+"info"
+"mc1_separate/008/modelParameter.info"
+"PSF"
+"mc1_modelParameter-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 8.00000
+)
+
+"mc1_separate_008_element-info" "analysisInst" (
+"info"
+"mc1_separate/008/element.info"
+"PSF"
+"mc1_element-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 8.00000
+)
+
+"mc1_separate_008_outputParameter-info" "analysisInst" (
+"info"
+"mc1_separate/008/outputParameter.info"
+"PSF"
+"mc1_outputParameter-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 8.00000
+)
+
+"mc1_separate_008_designParamVals-info" "analysisInst" (
+"info"
+"mc1_separate/008/designParamVals.info"
+"PSF"
+"mc1_designParamVals-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 8.00000
+)
+
+"mc1_separate_008_primitives-info.primitives" "analysisInst" (
+"info.primitives"
+"mc1_separate/008/primitives.info.primitives"
+"PSF"
+"mc1_primitives-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"sweep_tree_type" "leafNode"
+"iteration" 8.00000
+)
+
+"mc1_separate_008_subckts-info.subckts" "analysisInst" (
+"info.subckts"
+"mc1_separate/008/subckts.info.subckts"
+"PSF"
+"mc1_subckts-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"sweep_tree_type" "leafNode"
+"iteration" 8.00000
+)
+
+"mc1_separate_009_dcOp-dc" "analysisInst" (
+"dc"
+"mc1_separate/009/dcOp.dc"
+"PSF"
+"mc1_dcOp-montecarlo"
+()
+"DC Analysis `dcOp'"
+) PROP(
+"data_type" "scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 9.00000
+)
+
+"mc1_separate_009_dcOpInfo-info" "analysisInst" (
+"info"
+"mc1_separate/009/dcOpInfo.info"
+"PSF"
+"mc1_dcOpInfo-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 9.00000
+)
+
+"mc1_separate_009_pz-pz" "analysisInst" (
+"pz"
+"mc1_separate/009/pz.pz"
+"PSF"
+"mc1_pz-montecarlo"
+()
+"PZ Analysis `pz'"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 9.00000
+)
+
+"mc1_separate_009_tran-tran" "analysisInst" (
+"tran"
+"mc1_separate/009/tran.tran.tran"
+"PSF"
+"mc1_tran-montecarlo"
+("time")
+"Transient Analysis `tran': time = (0 s -> 40 ms)"
+) PROP(
+"data_type" "swept_scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 9.00000
+)
+
+"mc1_separate_009_finalTimeOP-info" "analysisInst" (
+"info"
+"mc1_separate/009/finalTimeOP.info"
+"PSF"
+"mc1_finalTimeOP-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 9.00000
+)
+
+"mc1_separate_009_ac-ac" "analysisInst" (
+"ac"
+"mc1_separate/009/ac.ac"
+"PSF"
+"mc1_ac-montecarlo"
+("freq")
+"AC Analysis `ac': freq = (10 mHz -> 100 MHz)"
+) PROP(
+"data_type" "swept_scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 9.00000
+)
+
+"mc1_separate_009_noise-noise" "analysisInst" (
+"noise"
+"mc1_separate/009/noise.noise"
+"PSF"
+"mc1_noise-montecarlo"
+("freq")
+"Noise Analysis `noise': freq = (10 mHz -> 100 MHz)"
+) PROP(
+"data_type" "swept_struct"
+"sweep_tree_type" "leafNode"
+"iteration" 9.00000
+)
+
+"mc1_separate_009_modelParameter-info" "analysisInst" (
+"info"
+"mc1_separate/009/modelParameter.info"
+"PSF"
+"mc1_modelParameter-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 9.00000
+)
+
+"mc1_separate_009_element-info" "analysisInst" (
+"info"
+"mc1_separate/009/element.info"
+"PSF"
+"mc1_element-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 9.00000
+)
+
+"mc1_separate_009_outputParameter-info" "analysisInst" (
+"info"
+"mc1_separate/009/outputParameter.info"
+"PSF"
+"mc1_outputParameter-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 9.00000
+)
+
+"mc1_separate_009_designParamVals-info" "analysisInst" (
+"info"
+"mc1_separate/009/designParamVals.info"
+"PSF"
+"mc1_designParamVals-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 9.00000
+)
+
+"mc1_separate_009_primitives-info.primitives" "analysisInst" (
+"info.primitives"
+"mc1_separate/009/primitives.info.primitives"
+"PSF"
+"mc1_primitives-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"sweep_tree_type" "leafNode"
+"iteration" 9.00000
+)
+
+"mc1_separate_009_subckts-info.subckts" "analysisInst" (
+"info.subckts"
+"mc1_separate/009/subckts.info.subckts"
+"PSF"
+"mc1_subckts-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"sweep_tree_type" "leafNode"
+"iteration" 9.00000
+)
+
+"mc1_separate_010_dcOp-dc" "analysisInst" (
+"dc"
+"mc1_separate/010/dcOp.dc"
+"PSF"
+"mc1_dcOp-montecarlo"
+()
+"DC Analysis `dcOp'"
+) PROP(
+"data_type" "scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 10.0000
+)
+
+"mc1_separate_010_dcOpInfo-info" "analysisInst" (
+"info"
+"mc1_separate/010/dcOpInfo.info"
+"PSF"
+"mc1_dcOpInfo-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 10.0000
+)
+
+"mc1_separate_010_pz-pz" "analysisInst" (
+"pz"
+"mc1_separate/010/pz.pz"
+"PSF"
+"mc1_pz-montecarlo"
+()
+"PZ Analysis `pz'"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 10.0000
+)
+
+"mc1_separate_010_tran-tran" "analysisInst" (
+"tran"
+"mc1_separate/010/tran.tran.tran"
+"PSF"
+"mc1_tran-montecarlo"
+("time")
+"Transient Analysis `tran': time = (0 s -> 40 ms)"
+) PROP(
+"data_type" "swept_scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 10.0000
+)
+
+"mc1_separate_010_finalTimeOP-info" "analysisInst" (
+"info"
+"mc1_separate/010/finalTimeOP.info"
+"PSF"
+"mc1_finalTimeOP-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 10.0000
+)
+
+"mc1_separate_010_ac-ac" "analysisInst" (
+"ac"
+"mc1_separate/010/ac.ac"
+"PSF"
+"mc1_ac-montecarlo"
+("freq")
+"AC Analysis `ac': freq = (10 mHz -> 100 MHz)"
+) PROP(
+"data_type" "swept_scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 10.0000
+)
+
+"mc1_separate_010_noise-noise" "analysisInst" (
+"noise"
+"mc1_separate/010/noise.noise"
+"PSF"
+"mc1_noise-montecarlo"
+("freq")
+"Noise Analysis `noise': freq = (10 mHz -> 100 MHz)"
+) PROP(
+"data_type" "swept_struct"
+"sweep_tree_type" "leafNode"
+"iteration" 10.0000
+)
+
+"mc1_separate_010_modelParameter-info" "analysisInst" (
+"info"
+"mc1_separate/010/modelParameter.info"
+"PSF"
+"mc1_modelParameter-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 10.0000
+)
+
+"mc1_separate_010_element-info" "analysisInst" (
+"info"
+"mc1_separate/010/element.info"
+"PSF"
+"mc1_element-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 10.0000
+)
+
+"mc1_separate_010_outputParameter-info" "analysisInst" (
+"info"
+"mc1_separate/010/outputParameter.info"
+"PSF"
+"mc1_outputParameter-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 10.0000
+)
+
+"mc1_separate_010_designParamVals-info" "analysisInst" (
+"info"
+"mc1_separate/010/designParamVals.info"
+"PSF"
+"mc1_designParamVals-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 10.0000
+)
+
+"mc1_separate_010_primitives-info.primitives" "analysisInst" (
+"info.primitives"
+"mc1_separate/010/primitives.info.primitives"
+"PSF"
+"mc1_primitives-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"sweep_tree_type" "leafNode"
+"iteration" 10.0000
+)
+
+"mc1_separate_010_subckts-info.subckts" "analysisInst" (
+"info.subckts"
+"mc1_separate/010/subckts.info.subckts"
+"PSF"
+"mc1_subckts-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"sweep_tree_type" "leafNode"
+"iteration" 10.0000
+)
+
+"mc1_separate_011_dcOp-dc" "analysisInst" (
+"dc"
+"mc1_separate/011/dcOp.dc"
+"PSF"
+"mc1_dcOp-montecarlo"
+()
+"DC Analysis `dcOp'"
+) PROP(
+"data_type" "scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 11.0000
+)
+
+"mc1_separate_011_dcOpInfo-info" "analysisInst" (
+"info"
+"mc1_separate/011/dcOpInfo.info"
+"PSF"
+"mc1_dcOpInfo-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 11.0000
+)
+
+"mc1_separate_011_pz-pz" "analysisInst" (
+"pz"
+"mc1_separate/011/pz.pz"
+"PSF"
+"mc1_pz-montecarlo"
+()
+"PZ Analysis `pz'"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 11.0000
+)
+
+"mc1_separate_011_tran-tran" "analysisInst" (
+"tran"
+"mc1_separate/011/tran.tran.tran"
+"PSF"
+"mc1_tran-montecarlo"
+("time")
+"Transient Analysis `tran': time = (0 s -> 40 ms)"
+) PROP(
+"data_type" "swept_scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 11.0000
+)
+
+"mc1_separate_011_finalTimeOP-info" "analysisInst" (
+"info"
+"mc1_separate/011/finalTimeOP.info"
+"PSF"
+"mc1_finalTimeOP-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 11.0000
+)
+
+"mc1_separate_011_ac-ac" "analysisInst" (
+"ac"
+"mc1_separate/011/ac.ac"
+"PSF"
+"mc1_ac-montecarlo"
+("freq")
+"AC Analysis `ac': freq = (10 mHz -> 100 MHz)"
+) PROP(
+"data_type" "swept_scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 11.0000
+)
+
+"mc1_separate_011_noise-noise" "analysisInst" (
+"noise"
+"mc1_separate/011/noise.noise"
+"PSF"
+"mc1_noise-montecarlo"
+("freq")
+"Noise Analysis `noise': freq = (10 mHz -> 100 MHz)"
+) PROP(
+"data_type" "swept_struct"
+"sweep_tree_type" "leafNode"
+"iteration" 11.0000
+)
+
+"mc1_separate_011_modelParameter-info" "analysisInst" (
+"info"
+"mc1_separate/011/modelParameter.info"
+"PSF"
+"mc1_modelParameter-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 11.0000
+)
+
+"mc1_separate_011_element-info" "analysisInst" (
+"info"
+"mc1_separate/011/element.info"
+"PSF"
+"mc1_element-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 11.0000
+)
+
+"mc1_separate_011_outputParameter-info" "analysisInst" (
+"info"
+"mc1_separate/011/outputParameter.info"
+"PSF"
+"mc1_outputParameter-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 11.0000
+)
+
+"mc1_separate_011_designParamVals-info" "analysisInst" (
+"info"
+"mc1_separate/011/designParamVals.info"
+"PSF"
+"mc1_designParamVals-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 11.0000
+)
+
+"mc1_separate_011_primitives-info.primitives" "analysisInst" (
+"info.primitives"
+"mc1_separate/011/primitives.info.primitives"
+"PSF"
+"mc1_primitives-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"sweep_tree_type" "leafNode"
+"iteration" 11.0000
+)
+
+"mc1_separate_011_subckts-info.subckts" "analysisInst" (
+"info.subckts"
+"mc1_separate/011/subckts.info.subckts"
+"PSF"
+"mc1_subckts-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"sweep_tree_type" "leafNode"
+"iteration" 11.0000
+)
+
+"mc1_separate_012_dcOp-dc" "analysisInst" (
+"dc"
+"mc1_separate/012/dcOp.dc"
+"PSF"
+"mc1_dcOp-montecarlo"
+()
+"DC Analysis `dcOp'"
+) PROP(
+"data_type" "scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 12.0000
+)
+
+"mc1_separate_012_dcOpInfo-info" "analysisInst" (
+"info"
+"mc1_separate/012/dcOpInfo.info"
+"PSF"
+"mc1_dcOpInfo-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 12.0000
+)
+
+"mc1_separate_012_pz-pz" "analysisInst" (
+"pz"
+"mc1_separate/012/pz.pz"
+"PSF"
+"mc1_pz-montecarlo"
+()
+"PZ Analysis `pz'"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 12.0000
+)
+
+"mc1_separate_012_tran-tran" "analysisInst" (
+"tran"
+"mc1_separate/012/tran.tran.tran"
+"PSF"
+"mc1_tran-montecarlo"
+("time")
+"Transient Analysis `tran': time = (0 s -> 40 ms)"
+) PROP(
+"data_type" "swept_scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 12.0000
+)
+
+"mc1_separate_012_finalTimeOP-info" "analysisInst" (
+"info"
+"mc1_separate/012/finalTimeOP.info"
+"PSF"
+"mc1_finalTimeOP-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 12.0000
+)
+
+"mc1_separate_012_ac-ac" "analysisInst" (
+"ac"
+"mc1_separate/012/ac.ac"
+"PSF"
+"mc1_ac-montecarlo"
+("freq")
+"AC Analysis `ac': freq = (10 mHz -> 100 MHz)"
+) PROP(
+"data_type" "swept_scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 12.0000
+)
+
+"mc1_separate_012_noise-noise" "analysisInst" (
+"noise"
+"mc1_separate/012/noise.noise"
+"PSF"
+"mc1_noise-montecarlo"
+("freq")
+"Noise Analysis `noise': freq = (10 mHz -> 100 MHz)"
+) PROP(
+"data_type" "swept_struct"
+"sweep_tree_type" "leafNode"
+"iteration" 12.0000
+)
+
+"mc1_separate_012_modelParameter-info" "analysisInst" (
+"info"
+"mc1_separate/012/modelParameter.info"
+"PSF"
+"mc1_modelParameter-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 12.0000
+)
+
+"mc1_separate_012_element-info" "analysisInst" (
+"info"
+"mc1_separate/012/element.info"
+"PSF"
+"mc1_element-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 12.0000
+)
+
+"mc1_separate_012_outputParameter-info" "analysisInst" (
+"info"
+"mc1_separate/012/outputParameter.info"
+"PSF"
+"mc1_outputParameter-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 12.0000
+)
+
+"mc1_separate_012_designParamVals-info" "analysisInst" (
+"info"
+"mc1_separate/012/designParamVals.info"
+"PSF"
+"mc1_designParamVals-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 12.0000
+)
+
+"mc1_separate_012_primitives-info.primitives" "analysisInst" (
+"info.primitives"
+"mc1_separate/012/primitives.info.primitives"
+"PSF"
+"mc1_primitives-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"sweep_tree_type" "leafNode"
+"iteration" 12.0000
+)
+
+"mc1_separate_012_subckts-info.subckts" "analysisInst" (
+"info.subckts"
+"mc1_separate/012/subckts.info.subckts"
+"PSF"
+"mc1_subckts-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"sweep_tree_type" "leafNode"
+"iteration" 12.0000
+)
+
+"mc1_separate_013_dcOp-dc" "analysisInst" (
+"dc"
+"mc1_separate/013/dcOp.dc"
+"PSF"
+"mc1_dcOp-montecarlo"
+()
+"DC Analysis `dcOp'"
+) PROP(
+"data_type" "scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 13.0000
+)
+
+"mc1_separate_013_dcOpInfo-info" "analysisInst" (
+"info"
+"mc1_separate/013/dcOpInfo.info"
+"PSF"
+"mc1_dcOpInfo-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 13.0000
+)
+
+"mc1_separate_013_pz-pz" "analysisInst" (
+"pz"
+"mc1_separate/013/pz.pz"
+"PSF"
+"mc1_pz-montecarlo"
+()
+"PZ Analysis `pz'"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 13.0000
+)
+
+"mc1_separate_013_tran-tran" "analysisInst" (
+"tran"
+"mc1_separate/013/tran.tran.tran"
+"PSF"
+"mc1_tran-montecarlo"
+("time")
+"Transient Analysis `tran': time = (0 s -> 40 ms)"
+) PROP(
+"data_type" "swept_scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 13.0000
+)
+
+"mc1_separate_013_finalTimeOP-info" "analysisInst" (
+"info"
+"mc1_separate/013/finalTimeOP.info"
+"PSF"
+"mc1_finalTimeOP-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 13.0000
+)
+
+"mc1_separate_013_ac-ac" "analysisInst" (
+"ac"
+"mc1_separate/013/ac.ac"
+"PSF"
+"mc1_ac-montecarlo"
+("freq")
+"AC Analysis `ac': freq = (10 mHz -> 100 MHz)"
+) PROP(
+"data_type" "swept_scalar"
+"sweep_tree_type" "leafNode"
+"iteration" 13.0000
+)
+
+"mc1_separate_013_noise-noise" "analysisInst" (
+"noise"
+"mc1_separate/013/noise.noise"
+"PSF"
+"mc1_noise-montecarlo"
+("freq")
+"Noise Analysis `noise': freq = (10 mHz -> 100 MHz)"
+) PROP(
+"data_type" "swept_struct"
+"sweep_tree_type" "leafNode"
+"iteration" 13.0000
+)
+
+"mc1_separate_013_modelParameter-info" "analysisInst" (
+"info"
+"mc1_separate/013/modelParameter.info"
+"PSF"
+"mc1_modelParameter-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 13.0000
+)
+
+"mc1_separate_013_element-info" "analysisInst" (
+"info"
+"mc1_separate/013/element.info"
+"PSF"
+"mc1_element-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 13.0000
+)
+
+"mc1_separate_013_outputParameter-info" "analysisInst" (
+"info"
+"mc1_separate/013/outputParameter.info"
+"PSF"
+"mc1_outputParameter-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 13.0000
+)
+
+"mc1_separate_013_designParamVals-info" "analysisInst" (
+"info"
+"mc1_separate/013/designParamVals.info"
+"PSF"
+"mc1_designParamVals-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+"sweep_tree_type" "leafNode"
+"iteration" 13.0000
+)
+
+"mc1_separate_013_primitives-info.primitives" "analysisInst" (
+"info.primitives"
+"mc1_separate/013/primitives.info.primitives"
+"PSF"
+"mc1_primitives-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"sweep_tree_type" "leafNode"
+"iteration" 13.0000
+)
+
+"mc1_separate_013_subckts-info.subckts" "analysisInst" (
+"info.subckts"
+"mc1_separate/013/subckts.info.subckts"
+"PSF"
+"mc1_subckts-montecarlo"
+()
+"Circuit Information"
+) PROP(
+"sweep_tree_type" "leafNode"
+"iteration" 13.0000
+)
+
+END

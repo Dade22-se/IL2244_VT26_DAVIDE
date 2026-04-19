@@ -1,0 +1,22 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Wed Apr 15 12:55:42 2026 
+Best design point: 1
+Design specs: 
+	wakeup	corner	Nominal - 
+	OUT NOISE		Error	No
+	total noise		Error	No
+Design parameters: 
+	S0		3.3
+	S1		3.3
+	S2		3.3
+	S3		3.3
+	VIN_PULSE		0
+	TF		1u
+	TR		1u
+
+Interactive.105
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.105 completed. 
+Current time: Wed Apr 15 12:55:52 2026 

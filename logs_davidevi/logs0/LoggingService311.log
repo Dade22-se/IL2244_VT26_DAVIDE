@@ -1,0 +1,6 @@
+[Logging Service: 311]
+[2026-04-08 16:37:03.851 Z] [INFO] [cadence.virtuoso.ade.loggingservice] - HistoryRecorderManager init {"dbBasePath": "/home/davidevi/Desktop/myproject/VGA/VGA_1_pss_tb/maestro/results/maestro"}
+[2026-04-08 16:37:03.852 Z] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Logging Service has successfully started. Waiting for incoming messages ... {"hostname": "il2244vt26_davidevi", "processid": 821640, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/LoggingService311.log"}
+[2026-04-08 16:52:18.669 Z] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Current memory used: 57.8320 MBytes, peak memory used: 57.8320 MBytes {"hostname": "il2244vt26_davidevi", "processid": 821640, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/LoggingService311.log"}
+[2026-04-08 16:52:18.670 Z] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Stopping Logging Service process. {"hostname": "il2244vt26_davidevi", "processid": 821640, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/LoggingService311.log"}
+[2026-04-08 16:52:18.670 Z] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Logging Service stop!!!! {"hostname": "il2244vt26_davidevi", "processid": 821640, "logfile": "/home/davidevi/Desktop/myproject/logs_davidevi/logs0/LoggingService311.log"}

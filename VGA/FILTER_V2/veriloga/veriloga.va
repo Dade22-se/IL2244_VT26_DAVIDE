@@ -1,0 +1,50 @@
+// VerilogA for VGA, FILTER_V2, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module filter(VDDA, GNDA, VIN, VOUT, EN, IBIAS,VCTRL);
+inout VDDA, GNDA, VIN, VOUT, EN, IBIAS;
+electrical VDDA, GNDA, VIN, VOUT, EN, IBIAS;
+
+input [1:0] VCTRL;
+electrical [1:0] VCTRL;
+
+parameter real freq_ecg=150;
+parameter real freq_emg=1.5e3;
+
+integer sel = -1;
+
+
+real v_filtered;
+real vin;
+analog begin
+
+
+
+if(V(VCTRL[0],GNDA) > V(VDDA,GNDA)/2)
+    sel = 1;
+else if(V(VCTRL[1],GNDA) > V(VDDA,GNDA)/2)
+    sel = 2;
+else sel = -1;
+
+//Filter selection here we will do the low pass filter with the correct frequency
+case (sel)
+    1: v_filtered = laplace_nd(
+                V(VIN,GNDA),
+                {2*`M_PI*freq_ecg},
+                {2*`M_PI*freq_ecg, 1}
+              ); 
+    2: v_filtered = laplace_nd(
+                V(VIN,GNDA),
+                {2*`M_PI*freq_emg},
+                {2*`M_PI*freq_emg,1}
+              );
+default: v_filtered = V(VIN,GNDA);
+endcase
+
+//OUTPUT OF THE FILTER
+
+V(VOUT,GNDA) <+ v_filtered;
+end
+endmodule 

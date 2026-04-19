@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Design Netlist Generated on: Apr 15 17:22:37 2026
+// Design library name: VGA
+// Design cell name: VGA_1_pss_tb
+// Design view name: schematic
+simulator lang=spectre
+global 0

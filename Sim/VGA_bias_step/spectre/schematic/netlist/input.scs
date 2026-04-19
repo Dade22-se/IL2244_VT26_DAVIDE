@@ -1,0 +1,47 @@
+// Generated for: spectre
+// Generated on: Mar 17 08:39:40 2026
+// Design library name: VGA
+// Design cell name: VGA_bias_step
+// Design view name: schematic
+simulator lang=spectre
+global 0
+include "/opt/pdk/ams/410/spectre/c35/soac/soac.scs"
+include "/opt/pdk/ams/410/spectre/c35/soac/processOption.scs"
+include "/opt/pdk/ams/410/spectre/c35/soac/cmos53.scs" section=cmostm
+include "/opt/pdk/ams/410/spectre/c35/soac/res.scs" section=restm
+include "/opt/pdk/ams/410/spectre/c35/soac/cap.scs" section=captm
+include "/opt/pdk/ams/410/spectre/c35/soac/bip.scs" section=biptm
+include "/opt/pdk/ams/410/spectre/c35/soac/ind.scs" section=indtm
+include "/opt/pdk/ams/410/spectre/c35/soac/esddiode.scs" section=esddiodetm
+
+// Library name: VGA
+// Cell name: VGA_bias_step
+// View name: schematic
+MP1 (0 net6 net1 net1) modp w=10u l=0.35u as=1.1e-11 ad=1.1e-11 ps=12.2u \
+        pd=12.2u nrd=0.06 nrs=0.06 ng=1
+MP0 (net2 net5 net1 net1) modp w=10u l=0.35u as=1.1e-11 ad=1.1e-11 \
+        ps=12.2u pd=12.2u nrd=0.06 nrs=0.06 ng=1
+MN0 (out net2 net3 net3) modn w=10u l=0.35u as=1.1e-11 ad=1.1e-11 ps=12.2u \
+        pd=12.2u nrd=0.06 nrs=0.06 ng=1
+V1 (net5 0) vsource dc=1.6 type=dc
+V0 (net4 0) vsource dc=3.3 type=dc
+I8 (net3 0) isource dc=100n type=dc
+I7 (0 net2) isource dc=100n type=dc
+I6 (net1 net4) isource dc=200n type=dc
+C2 (out 0) capacitor c=150f
+C1 (net6 0) capacitor c=500.0f
+C0 (net6 out) capacitor c=39.5p
+simulatorOptions options psfversion="1.4.0" reltol=100e-6 vabstol=1e-6 \
+    iabstol=1e-12 temp=27 tnom=27 homotopy=all limit=delta scalem=1.0 \
+    scale=1.0 compatible=spice2 gmin=1e-12 rforce=1 maxnotes=5 maxwarns=5 \
+    digits=5 cols=80 pivrel=1e-3 sensfile="../psf/sens.output" \
+    checklimitdest=psf enable_pre_ver=yes ignorezerovar=yes 
+dcOp dc write="spectre.dc" maxiters=150 maxsteps=10000 annotate=status
+dcOpInfo info what=oppoint where=rawfile
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+saveOptions options save=allpub

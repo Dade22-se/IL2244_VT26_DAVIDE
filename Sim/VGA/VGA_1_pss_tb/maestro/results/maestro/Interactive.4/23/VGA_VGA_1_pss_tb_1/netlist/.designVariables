@@ -1,0 +1,2 @@
+parameters temperature=85 S0=3.3 S1=3.3 S2=3.3 S3=3.3 V_AMP=20m V_FREQ=50 \
+    VDD=2.97

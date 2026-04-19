@@ -1,0 +1,5 @@
+
+// Library name: FECG
+// Cell name: chopper
+// View name: schematic
+subckt chopper GNDA VDDA clk inn inp outn outp

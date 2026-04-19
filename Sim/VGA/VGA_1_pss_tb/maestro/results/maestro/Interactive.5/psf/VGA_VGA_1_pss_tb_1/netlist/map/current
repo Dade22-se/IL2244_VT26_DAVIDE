@@ -1,0 +1,26 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "VGA_1_pss_tb"
+  repList "spectre cmos_sch schematic"
+  stopList "spectre"
+  globalList "gnd!"
+  hierDelim "."
+  netlistDir "/home/davidevi/Desktop/myproject/Sim/VGA/VGA_1_pss_tb/maestro/results/maestro/Interactive.5/1/VGA_VGA_1_pss_tb_1/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "VGA/VGA_1/schematic" "VGA_1" )
+( "PRIMLIB/cpolyc/schematic" "cpolyc" )
+( "PRIMLIB/rpolyhc/schematic" "rpolyhc" )
+( "VGA/VGA_1_pss_tb/schematic" "VGA_1_pss_tb" )
+( "VGA/MUX/schematic" "MUX" )
+ )
+( "MUX" "ihnl/cds0/map" )
+( "VGA_1" "ihnl/cds3/map" )
+( "cpolyc" "ihnl/cds1/map" )
+( "VGA_1_pss_tb" "ihnl/cds4/map" )
+( "rpolyhc" "ihnl/cds2/map" )
+ )
